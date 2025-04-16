@@ -1,0 +1,47 @@
+title: "UR. Cristiano FC"
+email: UR.CristianoFC@gmail.com
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/ur-cristiano-logo.png'
+favicon: 'assets/images/favicon.ico'
+author: IshowSpeed
+paginate: 30
+disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Authors
+authors:
+  IshowSpeed:
+    name: IshowSpeed
+    display_name: IshowSpeed
+    avatar: 'assets/images/Author-IshowSpeed.webp'
+    email: IshowSpeedSui@gmail.com
+    web: https://www.urcristianofc.com
+    twitter: https://x.com/IshowSpeedSui
+    description: "Hi, I am  IShowSpeed, the author of this article, If you had to choose between ronaldo and messi, who would you choose? Kindly Choose Ronaldo, or i will smash your nuts."
+
+# Social
+social:
+  instagram: https://www.instagram.com/bootstrapstarter/
+  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  twitter: https://twitter.com/bstartercom
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
