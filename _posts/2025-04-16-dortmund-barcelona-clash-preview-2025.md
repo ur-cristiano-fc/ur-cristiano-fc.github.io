@@ -5,7 +5,7 @@ description: "Full match preview of Dortmund - Barcelona: Lineups, tactics, inju
 keywords: ["Dortmund - Barcelona", "Barcelona", "Dortmund", "Champions League"]
 categories: [Football, Sports News, Champions League]
 tags: ["Dortmund - Barcelona", "Barcelona match", "Dortmund preview", "football 2025"]
-author: "IShowSpeed"
+author: IShowSpeed
 image: assets/images/featured_dortmund-barcelona-clash-preview-2025.webp
 ---
 
