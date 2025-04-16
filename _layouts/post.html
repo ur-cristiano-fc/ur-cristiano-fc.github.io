@@ -20,6 +20,7 @@ post_class: post-template
 			<!-- End Featured Image -->
 			<div class="mainheading">             
                 
+                
                 <!-- Post Categories -->
                 <div class="after-post-tags">
                     <ul class="tags">
@@ -32,6 +33,14 @@ post_class: post-template
                     </ul>
                 </div>
                 <!-- End Categories -->
+                <div class="row post-top-meta">
+					<div class="col-md-2">
+						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+					</div>
+					<div class="col-md-10">
+						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>					
+					</div>
+				</div>	
                 
                 <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1> 
