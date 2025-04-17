@@ -611,7 +611,9 @@ span.navigation:before {
         padding:10px;
     }
 }
-
+.hover-opacity {
+    max-width: 300px;
+}
 .hover-opacity:hover {
     transition: all .3s;
     opacity: .8;
