@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 comments: false
 ---
 
-Welcome to (**ur-cristiano-fc**)[https://ur-cristiano-fc.github.io/]. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
+Welcome to **[ur-cristiano-fc](https://ur-cristiano-fc.github.io/)**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
 
 ---
 
@@ -92,5 +92,5 @@ If you have any questions about this Privacy Policy, you can contact us:
 
 **Email**: [ur.cristiano.help@gmail.com]
 
-Thank you for trusting (**ur-cristiano-fc**)[https://ur-cristiano-fc.github.io/] – your home for football passion and CR7 news!
+Thank you for trusting **[ur-cristiano-fc](https://ur-cristiano-fc.github.io/)** – your home for football passion and CR7 news!
 
