@@ -6,10 +6,6 @@ permalink: /privacy-policy/
 comments: false
 ---
 
-# Privacy Policy
-
-_Last updated: April 10, 2025_
-
 Welcome to **ur-cristiano-fc.github.io**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
 
 ---
