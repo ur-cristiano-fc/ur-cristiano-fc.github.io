@@ -1,37 +1,100 @@
 ---
 layout: page
-title: Privacy Policy
+title: "Privacy Policy"
+description: "Read the privacy policy of ur-cristiano-fc.github.io, your source for football news and updates including Cristiano Ronaldo, CR7, and more."
 permalink: /privacy-policy/
 comments: false
 ---
 
-### Information that is gathered from visitors
-In common with other websites, log files are stored on the web server saving details such as the visitor's IP address, browser type, referring page and time of visit.
+# Privacy Policy
 
-Cookies may be used to remember visitor preferences when interacting with the website.
+_Last updated: April 10, 2025_
 
-Where registration is required, the visitor's email and a username will be stored on the server.
+Welcome to **ur-cristiano-fc.github.io**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
 
-### How the Information is used
-The information is used to enhance the vistor's experience when using the website to display personalised content and possibly advertising.
+---
 
-E-mail addresses will not be sold, rented or leased to 3rd parties.
+## 🔍 Information We Collect
 
-E-mail may be sent to inform you of news of our services or offers by us or our affiliates.
+We may collect non-personal identification information about users whenever they interact with our site. This includes:
 
-### Visitor Options
-If you have subscribed to one of our services, you may unsubscribe by following the instructions which are included in e-mail that you receive.
+- Browser name
+- IP address
+- Type of device
+- Operating system
+- Internet service provider
+- Pages visited and time spent
 
-You may be able to block cookies via your browser settings but this may prevent you from access to certain features of the website.
+If you subscribe to our newsletter or leave comments (if enabled), we may collect your name and email address.
 
-### Cookies
-Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. Also they may be used to track your return visits to the website.
+---
 
-3rd party advertising companies may also use cookies for tracking purposes.
+## 🍪 Cookies
 
-### Google Ads
-Google, as a third party vendor, uses cookies to serve ads.
+Our site uses cookies to improve your experience. Cookies may be used to:
 
-Google's use of the DART cookie enables it to serve ads to visitors based on their visit to sites they visit on the Internet.
+- Understand user preferences
+- Analyze traffic and site performance
+- Serve relevant content and ads (e.g., via Google Analytics or AdSense)
 
-Website visitors may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.
+You can disable cookies through your browser settings.
+
+---
+
+## 📩 How We Use Collected Information
+
+We use the collected information to:
+
+- Improve our website experience
+- Personalize content
+- Monitor analytics and user behavior
+- Send periodic emails or updates (only if you opt-in)
+
+We **do not sell**, trade, or rent user personal information.
+
+---
+
+## 🔐 How We Protect Your Information
+
+We use industry-standard security tools and best practices to ensure your data is safe. However, please note that no method of transmission over the Internet is 100% secure.
+
+---
+
+## 👥 Third-Party Services
+
+We may use third-party services like:
+
+- Google Analytics
+- Google AdSense
+- Social sharing tools (e.g., Twitter, Facebook)
+
+These services may use cookies or tracking technologies. Please refer to their individual privacy policies for more details.
+
+---
+
+## 🚫 Children's Privacy
+
+Our site is not intended for children under the age of 13. We do not knowingly collect any information from children.
+
+---
+
+## 🌍 Your Consent
+
+By using our site, you consent to our Privacy Policy.
+
+---
+
+## 🔁 Changes to This Policy
+
+We may update this policy from time to time. When we do, we will revise the "Last updated" date at the top of this page.
+
+---
+
+## 📞 Contact Us
+
+If you have any questions about this Privacy Policy, you can contact us:
+
+**Email**: [ur.cristiano.help@gmail.com]
+
+Thank you for trusting **ur-cristiano-fc.github.io** – your home for football passion and CR7 news!
+
