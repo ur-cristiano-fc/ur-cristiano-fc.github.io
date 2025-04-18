@@ -6,7 +6,7 @@ description: "Learn more about ur-cristiano-fc.github.io, your ultimate destinat
 image: assets/images/screenshot.png
 ---
 
-Welcome to **ur-cristiano-fc.github.io** – your ultimate hub for everything **Cristiano Ronaldo** and world football 🌍⚽
+Welcome to (**ur-cristiano-fc**)[https://ur-cristiano-fc.github.io/] – your ultimate hub for everything **Cristiano Ronaldo** and world football 🌍⚽
 
 Whether you're a die-hard CR7 fan, a Premier League follower, or just someone who lives for the thrill of the game, this is the place for you.
 
@@ -43,4 +43,4 @@ _#ForTheFans #CR7Forever_
 
 ---
 
-*Thank you for visiting ur-cristiano-fc.github.io — powered by passion, backed by football love.* ❤️⚽
+*Thank you for visiting (**ur-cristiano-fc**)[https://ur-cristiano-fc.github.io/] — powered by passion, backed by football love.* ❤️⚽
