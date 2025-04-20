@@ -160,6 +160,18 @@ small, .small {
     .page-header.big {
         font-size:2.5em;
     }
+    body {
+    padding-top:0;
+
+    }
+    .navigation-wrap {
+        position: static;
+    }
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        width:100%;
+        max-width:100%;
+        padding:0 25px;
+    }
 }
 .google-auto-placed {
     margin-bottom:2rem;
