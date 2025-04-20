@@ -86,7 +86,7 @@ As **Cristiano Ronaldo** enters his 40s, he’s not just playing football—he�
 
 In a world of fleeting fame, **Cristiano Ronaldo** is timeless. His journey reminds us that greatness isn’t gifted—it’s earned. As he told *The Highlights App*, “Don’t let small obstacles get in the way of being victorious. You are stronger than the challenges you face.” At 40, Ronaldo isn’t just dominating football; he’s inspiring millions to chase their own impossible dreams.
 
-# FAQ
+## FAQ
 
 ### How does Cristiano Ronaldo stay fit at 40?
 **Cristiano Ronaldo** maintains fitness through a strict diet of lean proteins, vegetables, and six small meals daily. He trains daily, focusing on strength and agility, and uses cryotherapy and sleep (including naps) for recovery.
