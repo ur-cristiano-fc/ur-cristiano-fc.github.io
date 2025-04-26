@@ -26,6 +26,8 @@ His mornings are **laser-focused**, but never chaotic. After hydrating, it's str
 
 Inside his luxury home gym — equipped with state-of-the-art machines, treadmills, and even a cryotherapy chamber — Ronaldo begins his **core training**.
 
+![Morning Workout: Strength, Core, and Conditioning]({{ site.baseurl }}/assets/images/Morning-Workout-Strength.webp)
+
 - **Planks**
 - **Push-ups and pull-ups**
 - **Resistance training**
@@ -79,6 +81,8 @@ He hops on Zoom calls with marketing teams, creative directors, and business par
 # ⚽️ 12:00 PM – Club Training or Personal Coaching
 
 Depending on the season, Ronaldo heads out for training with **Al-Nassr** or his national team. On off days, he trains solo with his private coach.
+
+![Club Training or Personal Coaching]({{ site.baseurl }}/assets/images/Club-Training-or-Personal-Coaching.webp)
 
 These sessions are intense and competitive, typically including:
 
