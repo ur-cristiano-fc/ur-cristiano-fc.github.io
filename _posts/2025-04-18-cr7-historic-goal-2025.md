@@ -15,7 +15,7 @@ Then, it happened.
 
 With a glint in his eyes and that unmistakable stride, CR7 fired a curling shot past the goalkeeper. The net rippled. The scoreboard changed. And just like that, history was made.
 
-## ⚽ The Goal Heard Around the World
+## The Goal Heard Around the World
 
 Cristiano Ronaldo's goal wasn’t just another point on the board—it was the goal that shattered the all-time international scoring record. With that strike, CR7 reached his **900th career goal**, a feat no one in modern football had ever achieved.
 
@@ -25,7 +25,7 @@ To understand the significance of this moment, we have to rewind the tape and fo
 
 ---
 
-## 🧒 Humble Beginnings in Madeira
+## Humble Beginnings in Madeira
 
 Born in 1985 on the small Portuguese island of Madeira, Ronaldo’s story is one of grit and dreams. From kicking makeshift balls through narrow streets to catching the eye of Sporting CP’s youth academy, young Cristiano always had one thing on his side—relentless ambition.
 
@@ -37,7 +37,7 @@ And it paid off.
 
 ---
 
-## 🌟 The Rise to Global Stardom
+## The Rise to Global Stardom
 
 After a breakout performance against Manchester United in 2003 during a preseason friendly, Sir Alex Ferguson brought the teenage sensation to Old Trafford. Ronaldo became the first Portuguese player to sign with the club.
 
@@ -51,7 +51,7 @@ In the years that followed, CR7 transformed from a flashy winger into a clinical
 
 ---
 
-## 🥇 The Record-Breaking Goal
+## The Record-Breaking Goal
 
 It was Gameweek 27 of the Saudi Pro League. Al-Nassr faced their fierce rivals, Al-Hilal. The match was tied. The stakes were high. Ronaldo had been relatively quiet all game—until the 88th minute.
 
@@ -67,7 +67,7 @@ Even his long-time rival Lionel Messi tweeted, *“Records are made to be broken
 
 ---
 
-## 💪 What Makes CR7 Legendary?
+## What Makes CR7 Legendary?
 
 Cristiano Ronaldo is not just a footballer—he’s a phenomenon. His longevity in the game can be attributed to:
 
@@ -77,7 +77,7 @@ Cristiano Ronaldo is not just a footballer—he’s a phenomenon. His longevity 
 
 ---
 
-## 📈 Career Milestones
+## Career Milestones
 
 | Milestone | Number |
 |----------|--------|
@@ -89,7 +89,7 @@ Cristiano Ronaldo is not just a footballer—he’s a phenomenon. His longevity 
 
 ---
 
-## 🌍 Global Reactions to CR7’s Record
+## Global Reactions to CR7’s Record
 
 ### Social Media Buzz:
 
@@ -104,7 +104,7 @@ Cristiano Ronaldo is not just a footballer—he’s a phenomenon. His longevity 
 
 ---
 
-## 🏟️ Behind the Scenes: Ronaldo’s Preparation
+## Behind the Scenes: Ronaldo’s Preparation
 
 Ronaldo credits his performance to a meticulous routine:
 
@@ -118,7 +118,7 @@ His coach said, *“Cristiano is the blueprint of professionalism. Our younger p
 
 ---
 
-## 🔮 What’s Next for CR7?
+## What’s Next for CR7?
 
 Ronaldo’s ambition shows no sign of slowing. In a recent interview, he said:
 
@@ -130,7 +130,7 @@ Regardless of where he goes next, one thing is certain: Cristiano Ronaldo’s le
 
 ---
 
-## 📸 CR7’s Most Iconic Moments
+## CR7’s Most Iconic Moments
 
 - **2008 CL Final Goal** – Manchester United vs Chelsea
 - **Bicycle Kick** – Real Madrid vs Juventus (2018)
@@ -141,7 +141,7 @@ Each moment is a chapter in a story still being written.
 
 ---
 
-## 💬 FAQ
+## FAQ
 
 ### 1. How many goals has Cristiano Ronaldo scored in total?
 Over 900 career goals as of April 2025.
@@ -160,7 +160,7 @@ You can find it on Al-Nassr’s official channels, YouTube, and sports streaming
 
 ---
 
-## 🏁 Final Thoughts
+## Final Thoughts
 
 Cristiano Ronaldo's latest record is not just about numbers. It's about perseverance, dedication, and the unyielding spirit of a boy from Madeira who dared to dream.
 

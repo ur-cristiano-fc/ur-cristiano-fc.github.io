@@ -13,12 +13,12 @@ image: assets/images/featured_cristiano-ronaldo-childhood-success.webp
 
 ---
 
-## ✨ Article Summary
+## Article Summary
 Cristiano Ronaldo's tough childhood in Madeira taught him resilience and ambition. This blog uncovers the early struggles and pivotal moments that molded him into the football icon we admire today.
 
 ---
 
-## 🧒 Humble Beginnings in Madeira
+## Humble Beginnings in Madeira
 
 Cristiano Ronaldo dos Santos Aveiro was born on February 5, 1985, in Funchal, Madeira—a small island off Portugal’s coast. The youngest of four children in a working-class family, Ronaldo’s childhood was far from easy. His mother, Maria Dolores, worked as a cook, and his father, José Dinis Aveiro, was a municipal gardener and part-time kit man for a local football club.
 
@@ -28,7 +28,7 @@ Ronaldo’s mother once shared, *“We didn’t have much, but he always had a b
 
 ---
 
-## ⚽ Obsession with the Ball
+## Obsession with the Ball
 
 From the moment he could walk, Ronaldo was kicking anything round he could find—whether it was a ball, a rolled-up sock, or even fruit. Football wasn’t just a pastime. It was his escape.
 
@@ -40,7 +40,7 @@ This passion led him to join Andorinha, a local club where his father worked. Ev
 
 ---
 
-## 🛫 A Bold Move to Lisbon
+## A Bold Move to Lisbon
 
 At 12, Ronaldo’s talent caught the attention of Sporting CP, one of Portugal’s premier clubs. But there was a catch—he’d have to move to Lisbon, hundreds of miles away from home.
 
@@ -52,7 +52,7 @@ At Sporting’s academy, the training was intense. Ronaldo was mocked for his Ma
 
 ---
 
-## 🏋️‍♂️ Work Ethic That Stood Out
+## Work Ethic That Stood Out
 
 While other boys partied or relaxed, Ronaldo trained. He ran laps after practice, stayed behind to shoot on goal, and even snuck into the gym at night.
 
@@ -64,7 +64,7 @@ By 16, he was playing with Sporting CP’s senior team. By 18, he signed with Ma
 
 ---
 
-## 🌍 Climbing to Global Stardom
+## Climbing to Global Stardom
 
 When Sir Alex Ferguson brought Ronaldo to Manchester United in 2003, many doubted the young winger’s ability to handle Premier League pressure.
 
@@ -74,7 +74,7 @@ The rest is history—Real Madrid, Juventus, and now Al-Nassr. Every step forwar
 
 ---
 
-## 🧠 Lessons from Ronaldo’s Childhood
+## Lessons from Ronaldo’s Childhood
 
 | Lesson | Example |
 |--------|---------|
@@ -86,7 +86,7 @@ The rest is history—Real Madrid, Juventus, and now Al-Nassr. Every step forwar
 
 ---
 
-## 🔄 Ronaldo’s Daily Routine (Then vs. Now)
+## Ronaldo’s Daily Routine (Then vs. Now)
 
 | Age 12 (Lisbon)         | Age 39 (Pro Athlete)               |
 |------------------------|------------------------------------|
@@ -99,7 +99,7 @@ He’s never stopped improving—because he knows there’s always more to give.
 
 ---
 
-## 👨‍👩‍👦 His Family’s Role in His Drive
+## His Family’s Role in His Drive
 
 Even today, Ronaldo credits his mother for pushing him forward. She sacrificed meals so he could eat, worked extra shifts, and believed in his dream before anyone else did.
 
@@ -109,7 +109,7 @@ Ronaldo once said, *“My family is my foundation. I play for them. I fight for 
 
 ---
 
-## 🧾 FAQ
+## FAQ
 
 ### 1. Where was Cristiano Ronaldo born?
 He was born in Funchal, Madeira, Portugal.
@@ -128,7 +128,7 @@ He signed with Manchester United in 2003 at the age of 18.
 
 ---
 
-## 🏁 Final Word: From Humble Roots to Global Greatness
+## Final Word: From Humble Roots to Global Greatness
 
 Cristiano Ronaldo’s story proves that where you start doesn’t define where you’ll end up. His childhood gave him the fuel to become not just a football legend but a symbol of hope for millions.
 
@@ -139,7 +139,7 @@ So next time you see him score a goal or raise a trophy, remember the boy from M
 ---
 
 Let me know if you'd like:
-- Featured image suggestions 📸
+- Featured image suggestions
 - Social post to promote this
 - Shorter version for Discover or Google Web Stories
 

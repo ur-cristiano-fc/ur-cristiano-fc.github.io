@@ -15,7 +15,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## 🕒 Match Details
+## Match Details
 
 - **Fixture:** Borussia Dortmund vs FC Barcelona  
 - **Competition:** UEFA Champions League  
@@ -26,7 +26,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## 🔥 Recent Form & Head-to-Head
+## Recent Form & Head-to-Head
 
 ### Borussia Dortmund - Last 5 Matches
 
@@ -36,7 +36,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 4. Bayern Munich 2-2 Dortmund  
 5. Dortmund 4-0 Mainz  
 
-**Form:** 🟩🟨🟩🟨🟩  
+**Form:**  
 
 ### FC Barcelona - Last 5 Matches
 
@@ -46,7 +46,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 4. Valencia 0-2 Barcelona  
 5. Barcelona 3-1 Girona  
 
-**Form:** 🟩🟩🟨🟩🟩
+**Form:** 
 
 ### Head-to-Head (Last 3 Meetings)
 
@@ -58,7 +58,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## ⚽️ Predicted Lineups
+## Predicted Lineups
 
 ### Borussia Dortmund (4-2-3-1)
 
@@ -77,7 +77,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## 🔍 Tactical Breakdown
+## Tactical Breakdown
 
 ### Dortmund’s Game Plan
 
@@ -95,7 +95,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## 🧠 Key Players to Watch
+## Key Players to Watch
 
 - **Lewandowski (Barcelona):** Facing former club; always clinical
 - **Brandt (Dortmund):** Creative force in the final third
@@ -104,14 +104,14 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## 🤕 Injury Report
+## Injury Report
 
 - **Dortmund:** Malen (doubtful), Süle (out)  
 - **Barcelona:** Gavi (long-term injury), Ferran Torres (doubtful)
 
 ---
 
-## 📈 What the Stats Say
+## What the Stats Say
 
 - Dortmund averages **2.1 goals per game at home**
 - Barcelona is unbeaten in their last **6 away games**
@@ -120,7 +120,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 ---
 
-## 🔮 Score Prediction
+## Score Prediction
 
 This has all the ingredients for a close match. Dortmund’s home advantage is real, but Barcelona’s form and experience might just edge it.
 
@@ -128,7 +128,7 @@ This has all the ingredients for a close match. Dortmund’s home advantage is r
 
 ---
 
-## 🎉 Fan Expectations & Social Buzz
+## Fan Expectations & Social Buzz
 
 Fans across Europe are buzzing on X (formerly Twitter), TikTok, and Reddit. Some expect a tactical masterclass, others hope for a goal-fest.
 
@@ -136,13 +136,13 @@ Top hashtags trending: **#DortmundBarcelona**, **#UCL2025**, **#LewandowskiRetur
 
 ---
 
-## ✍️ Final Thoughts
+## Final Thoughts
 
 Whether you're cheering from Dortmund, Barcelona, or anywhere around the world, tonight’s game promises drama, passion, and elite football quality. Be ready for high stakes, world-class goals, and unforgettable moments in this thrilling **Dortmund - Barcelona** face-off.
 
 ---
 
-## 🙋‍♂️ FAQs
+## FAQs
 
 ### 1. Where can I watch the Dortmund - Barcelona match live?
 The match will be broadcast on ESPN, DAZN, and Paramount+ depending on your region.
@@ -161,5 +161,5 @@ Barcelona has slightly better form, but Dortmund has a strong home advantage.
 
 ---
 
-**Stay tuned for live updates, post-match reactions, and exclusive insights! ⚽🔥**
+**Stay tuned for live updates, post-match reactions, and exclusive insights!**
 
