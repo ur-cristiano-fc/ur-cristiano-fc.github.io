@@ -3,7 +3,6 @@ layout: page
 title: "About Us"
 permalink: /about/
 description: "Learn more about ur-cristiano-fc.github.io, your ultimate destination for football news, CR7 updates, and match highlights."
-image: assets/images/screenshot.png
 ---
 
 Welcome to **[ur-cristiano-fc](https://ur-cristiano-fc.github.io/)** – your ultimate hub for everything **Cristiano Ronaldo** and world football 🌍⚽
