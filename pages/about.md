@@ -26,7 +26,7 @@ To deliver the latest football news, matchday highlights, transfer updates, and 
 - 📅 **Fixtures, results, and performance stats**
 - 💬 **Fan reactions and trending football moments**
 
-We aim to make football news **engaging, easy-to-understand, and always up-to-date**.
+UR Cristiano FC aims to make football news **engaging, easy-to-understand, and always up-to-date**.
 
 ---
 

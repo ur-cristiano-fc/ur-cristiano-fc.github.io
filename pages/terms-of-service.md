@@ -17,11 +17,11 @@ All content, trademarks, logos, and designs on this site are the intellectual pr
 
 ## 3. External Links
 
-Our website may contain links to third-party websites. We are not responsible for the content, accuracy, or policies of those websites. Visiting external sites is at your own risk.
+Our website may contain links to third-party websites. UR Cristiano FC is not responsible for the content, accuracy, or policies of those websites. Visiting external sites is at your own risk.
 
 ## 4. Changes to Terms
 
-We may update these Terms of Service at any time without notice. Please review this page periodically to stay informed of any changes.
+UR Cristiano FC may update these Terms of Service at any time without notice. Please review this page periodically to stay informed of any changes.
 
 ## 5. Contact Us
 

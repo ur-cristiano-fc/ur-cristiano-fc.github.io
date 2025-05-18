@@ -6,13 +6,13 @@ permalink: /privacy-policy/
 comments: false
 ---
 
-Welcome to **[ur-cristiano-fc](https://ur-cristiano-fc.github.io/)**. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
+Welcome to **[ur-cristiano-fc](https://ur-cristiano-fc.github.io/)**. Your privacy is important to us. This Privacy Policy explains how Ur Cristiano FC collects, use, and protect your information when you visit our website.
 
 ---
 
-## 🔍 Information We Collect
+## 🔍 Information Ur Cristiano FC Collects
 
-We may collect non-personal identification information about users whenever they interact with our site. This includes:
+Ur Cristiano FC may collect non-personal identification information about users whenever they interact with our site. This includes:
 
 - Browser name
 - IP address
@@ -21,7 +21,7 @@ We may collect non-personal identification information about users whenever they
 - Internet service provider
 - Pages visited and time spent
 
-If you subscribe to our newsletter or leave comments (if enabled), we may collect your name and email address.
+If you subscribe to our newsletter or leave comments (if enabled), Ur Cristiano FC may collect your name and email address.
 
 ---
 
@@ -37,28 +37,28 @@ You can disable cookies through your browser settings.
 
 ---
 
-## 📩 How We Use Collected Information
+## 📩 How Ur Cristiano FC Uses Collected Information
 
-We use the collected information to:
+Ur Cristiano FC uses the collected information to:
 
 - Improve our website experience
 - Personalize content
 - Monitor analytics and user behavior
 - Send periodic emails or updates (only if you opt-in)
 
-We **do not sell**, trade, or rent user personal information.
+Ur Cristiano FC **does not sell**, trade, or rent user personal information.
 
 ---
 
-## 🔐 How We Protect Your Information
+## 🔐 How Ur Cristiano FC Protects Your Information
 
-We use industry-standard security tools and best practices to ensure your data is safe. However, please note that no method of transmission over the Internet is 100% secure.
+Ur Cristiano FC uses industry-standard security tools and best practices to ensure your data is safe. However, please note that no method of transmission over the Internet is 100% secure.
 
 ---
 
 ## 👥 Third-Party Services
 
-We may use third-party services like:
+Ur Cristiano FC may use third-party services like:
 
 - Google Analytics
 - Google AdSense
@@ -70,7 +70,7 @@ These services may use cookies or tracking technologies. Please refer to their i
 
 ## 🚫 Children's Privacy
 
-Our site is not intended for children under the age of 13. We do not knowingly collect any information from children.
+Our site is not intended for children under the age of 13. Ur Cristiano FC does not knowingly collect any information from children.
 
 ---
 
@@ -82,7 +82,7 @@ By using our site, you consent to our Privacy Policy.
 
 ## 🔁 Changes to This Policy
 
-We may update this policy from time to time. When we do, we will revise the "Last updated" date at the top of this page.
+Ur Cristiano FC may update this policy from time to time. When Ur Cristiano FC does, it will revise the "Last updated" date at the top of this page.
 
 ---
 

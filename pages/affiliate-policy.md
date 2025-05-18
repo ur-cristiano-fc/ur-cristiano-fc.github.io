@@ -6,7 +6,7 @@ comments: false
 ---
 
 
-**UR Cristiano FC** may contain affiliate links, which means we may earn a small commission if you click on a product link and make a purchase — at **no additional cost to you**.
+**UR Cristiano FC** may contain affiliate links, which means UR Cristiano FC may earn a small commission if you click on a product link and make a purchase — at **no additional cost to you**.
 
 ## Why Affiliate Links?
 
@@ -14,11 +14,11 @@ Affiliate partnerships help us maintain and grow this blog, allowing us to conti
 
 ## Honesty & Integrity
 
-We only recommend products or services we personally believe in. Our reviews and recommendations are unbiased and based on our own research or experience.
+UR Cristiano FC only recommends products or services UR Cristiano FC personally believes in. Our reviews and recommendations are unbiased and based on our own research or experience.
 
 ## Amazon & Other Affiliates
 
-Some links may direct you to Amazon and other affiliate platforms. As an Amazon Associate, we earn from qualifying purchases.
+Some links may direct you to Amazon and other affiliate platforms. As an Amazon Associate, UR Cristiano FC earns from qualifying purchases.
 
 ## Your Trust Matters
 

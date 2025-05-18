@@ -11,7 +11,7 @@ All the information on this website â€” **https://ur-cristiano-fc.github.io/** â
 
 ## Not an Official Source
 
-We are a fan-run website and are **not officially affiliated** with Cristiano Ronaldo, his management, or any football club or institution. This is a fan site intended for entertainment and informational purposes.
+UR Cristiano FC is a fan-run website and are **not officially affiliated** with Cristiano Ronaldo, his management, or any football club or institution. This is a fan site intended for entertainment and informational purposes.
 
 ## No Professional Advice
 
@@ -19,7 +19,7 @@ The content on this site should not be considered professional advice (legal, fi
 
 ## External Links
 
-We may include links to external websites. While we strive to link to reputable sources, we are not responsible for their content or practices.
+UR Cristiano FC may include links to external websites. While UR Cristiano FC strives to link to reputable sources, UR Cristiano FC is not responsible for their content or practices.
 
 If you have any questions about this disclaimer, please contact us at **[Contact Us](/contact/)**
 
