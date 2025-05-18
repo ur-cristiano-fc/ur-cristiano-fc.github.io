@@ -27,6 +27,15 @@ footermenu:
 - title: Contact
   url: "contact/"
 
-- title: Download
-  url: "#"  
-  external: true
+- title: Affiliate Policy
+  url: "affiliate-policy/"
+
+- title: Disclaimer
+  url: "disclaimer/"
+
+- title: Terms of Service
+  url: "terms-of-service/"
+
+# - title: Download
+#   url: "#"  
+#   external: true
