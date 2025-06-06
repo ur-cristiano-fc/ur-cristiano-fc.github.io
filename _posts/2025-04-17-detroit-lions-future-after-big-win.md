@@ -58,6 +58,8 @@ These aren't your same old Lions. There's a shift — and it's strategic.
 
 With the trade deadline approaching and offseason scouting always in motion, here are possible developments:
 
+![Cristiano Ronaldo in action, demonstrating resilience and focus on the soccer field]({{ site.baseurl }}/assets/images/Roster-Developments-to-Watch.webp)
+
 ### Offensive Line
 One of the best in the NFL, but injuries could require reinforcements.
 
