@@ -113,6 +113,8 @@ Ronaldo’s family, particularly his mother and siblings, provide emotional supp
 
 ## The Role of Media and Public Perception
 
+![Cristiano Ronaldo in action, demonstrating resilience and focus on the soccer field]({{ site.baseurl }}/assets/images/The-Role-of-Media-and-Public-Perception.webp)
+
 The media plays a significant role in shaping public perception of Cristiano Ronaldo. While he has a massive fan base, he also faces intense scrutiny from journalists and analysts.
 
 ### Navigating Media Criticism
