@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Cristiano Ronaldo in eFootball: Skills, Stats & Gameplay"
-permalink: "/cristiano-ronaldo-efootball-guide"
 description: "Explore Cristiano Ronaldo's eFootball profile, including gameplay skills, stats, and how he performs in Konami’s top football simulation."
 category: "CristianoRonaldo"
 author: ishowspeed
