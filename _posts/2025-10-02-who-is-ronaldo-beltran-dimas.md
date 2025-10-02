@@ -16,14 +16,14 @@ As of 2025, he has started making waves as a potential first-team contender in L
 
 ## Early Life and Background
 
-- **Full Name**: Ronaldo Beltrán Dimas :contentReference[oaicite:0]{index=0}  
-- **Date of Birth**: March 28, 2002 :contentReference[oaicite:1]{index=1}  
-- **Place of Birth**: Ahome, Sinaloa, Mexico :contentReference[oaicite:2]{index=2}  
-- **Height & Physical Profile**: Around 1.83 m (183 cm), approx. 81 kg. :contentReference[oaicite:3]{index=3}  
+- **Full Name**: Ronaldo Beltrán Dimas :contentReference  
+- **Date of Birth**: March 28, 2002 :contentReference
+- **Place of Birth**: Ahome, Sinaloa, Mexico :contentReference 
+- **Height & Physical Profile**: Around 1.83 m (183 cm), approx. 81 kg. :contentReference
 
-Ronaldo started playing in youth categories early. One of his early youth associations was with **Dorados de Sinaloa** — he played with their Sub-13 squad in about 2014. :contentReference[oaicite:4]{index=4}
+Ronaldo started playing in youth categories early. One of his early youth associations was with **Dorados de Sinaloa** — he played with their Sub-13 squad in about 2014. :contentReference
 
-Later, he joined the youth system (various age levels: U-15, U-17, U-20, U-23) of **Deportivo Toluca FC**, which is one of the established clubs in Liga MX. :contentReference[oaicite:5]{index=5}
+Later, he joined the youth system (various age levels: U-15, U-17, U-20, U-23) of **Deportivo Toluca FC**, which is one of the established clubs in Liga MX. :contentReference
 
 ---
 
@@ -31,21 +31,20 @@ Later, he joined the youth system (various age levels: U-15, U-17, U-20, U-23) o
 
 ### Youth & Reserve Stages
 
-- With Toluca’s youth teams (U-17, U-20, U-23), Ronaldo has played many matches in Liga MX U23 and age-group competitions. :contentReference[oaicite:6]{index=6}  
-- He has accumulated substantial playing time in the U23 squad, especially during seasons like the 2024-25 Clausura, where he played ~990 minutes in 11 matches. :contentReference[oaicite:7]{index=7}  
+- With Toluca’s youth teams (U-17, U-20, U-23), Ronaldo has played many matches in Liga MX U23 and age-group competitions. :contentReference
+- He has accumulated substantial playing time in the U23 squad, especially during seasons like the 2024-25 Clausura, where he played ~990 minutes in 11 matches. :contentReference
 
 ### Breaking into First Team Environment
 
-- Though he has not yet become a regular starter for Toluca’s first team, Ronaldo has been on the bench for Liga MX matches. One example: in the Apertura 2023, he was on the bench in a Toluca vs Necaxa match. :contentReference[oaicite:8]{index=8}  
-- He has been seen as a possible answer within the squad when first-team goalkeepers have made errors. As the current Toluca coach searches for stability in their goalkeeping department, Ronaldo Beltrán is beginning to “raise his hand” for more responsibility. :contentReference[oaicite:9]{index=9}  
+- Though he has not yet become a regular starter for Toluca’s first team, Ronaldo has been on the bench for Liga MX matches. One example: in the Apertura 2023, he was on the bench in a Toluca vs Necaxa match. :contentReference 
+- He has been seen as a possible answer within the squad when first-team goalkeepers have made errors. As the current Toluca coach searches for stability in their goalkeeping department, Ronaldo Beltrán is beginning to “raise his hand” for more responsibility. :contentReference
 
 ---
 
 ## Recent Performance & Updates (2024-2025)
 
-- In **Clausura 2025**, with Toluca U23, he has had good minutes and has drawn attention because of his consistency. :contentReference[oaicite:10]{index=10}  
-- The coaching staff at Toluca appears to be considering him more seriously, especially as errors in senior goalkeepers (like Pau López or Luis García) have created openings. Ronaldo has shown temperament to be considered for backup or possibly more. :contentReference[oaicite:11]{index=11}  
-
+- In **Clausura 2025**, with Toluca U23, he has had good minutes and has drawn attention because of his consistency. :contentReference  
+- The coaching staff at Toluca appears to be considering him more seriously, especially as errors in senior goalkeepers (like Pau López or Luis García) have created openings. Ronaldo has shown temperament to be considered for backup or possibly more. :contentReference
 ---
 
 ## Style of Play, Strengths and Weaknesses
@@ -68,8 +67,8 @@ Based on available match data, reports, and observations:
 
 ## Achievements & Milestones
 
-- Represented Toluca at various youth levels (U-17, U-20, U-23) and has significant playing time in reserve or developmental tournaments. :contentReference[oaicite:12]{index=12}  
-- Was part of the squad as a bench option in Liga MX matches, showing trust from the club to include him in matchday squads. :contentReference[oaicite:13]{index=13}  
+- Represented Toluca at various youth levels (U-17, U-20, U-23) and has significant playing time in reserve or developmental tournaments. :contentReference  
+- Was part of the squad as a bench option in Liga MX matches, showing trust from the club to include him in matchday squads. :contentReference
 
 ---
 
@@ -84,19 +83,19 @@ Based on available match data, reports, and observations:
 ## FAQs
 
 **1. How old is Ronaldo Beltrán Dimas?**  
-He was born on March 28, 2002 — making him 23 years old as of mid-2025. :contentReference[oaicite:14]{index=14}
+He was born on March 28, 2002 — making him 23 years old as of mid-2025. :contentReference
 
 **2. What club does he currently play for?**  
-He is part of Deportivo Toluca FC in Mexico. Mostly involved in their U23 / reserve squads, but also a bench option for the first team in some Liga MX matches. :contentReference[oaicite:15]{index=15}
+He is part of Deportivo Toluca FC in Mexico. Mostly involved in their U23 / reserve squads, but also a bench option for the first team in some Liga MX matches. :contentReference
 
 **3. Has he played any official matches for Toluca first team?**  
-As of 2025, there are no records of him starting many first-team Liga MX matches; more appearances seem to come from U23 / reserve competitions. :contentReference[oaicite:16]{index=16}
+As of 2025, there are no records of him starting many first-team Liga MX matches; more appearances seem to come from U23 / reserve competitions. :contentReference
 
 **4. What are his physical attributes?**  
-Height approx. 1.83 m, about 81 kg. Born in Ahome, Sinaloa. :contentReference[oaicite:17]{index=17}
+Height approx. 1.83 m, about 81 kg. Born in Ahome, Sinaloa. :contentReference
 
 **5. Why is he being talked about now?**  
-Due to errors by senior goalkeepers at Toluca, there’s a chance for Ronaldo Beltrán to earn more responsibility. Also, his solid performances with the U23 squad have caught attention. :contentReference[oaicite:18]{index=18}
+Due to errors by senior goalkeepers at Toluca, there’s a chance for Ronaldo Beltrán to earn more responsibility. Also, his solid performances with the U23 squad have caught attention. :contentReference
 
 ---
 
