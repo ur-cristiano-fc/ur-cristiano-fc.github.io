@@ -23,6 +23,17 @@ Mods allow for customization, and with Ronaldo's huge fanbase, it's no surprise 
 
 ## 1. Cristiano Ronaldo Mods for GTA V
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ### Top Features:
 
 * Realistic facial and body textures
@@ -71,6 +82,17 @@ Some players also recreate Ronaldo’s mansions or football stadiums like Old Tr
 
 ## 3. Cristiano Ronaldo Mods for FIFA (PC Version)
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 FIFA already includes Ronaldo by default, but mods can enhance realism or introduce legacy versions of him.
 
 ### Types of Mods:
@@ -116,15 +138,18 @@ If you’re a Ronaldo enthusiast and gamer, these mods are a must-try.
 
 ---
 
-## External Resources
-
-* [GTA5-Mods - Cristiano Ronaldo](https://www.gta5-mods.com/search/cristiano%20ronaldo)
-* [Minecraft Skins - Ronaldo](https://www.minecraftskins.com/search/skin/cristiano-ronaldo/1/)
-* [FIFA Mods - Ronaldo](https://www.fifainfinity.com/tag/ronaldo/)
-
----
-
 ## Frequently Asked Questions
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### Are Cristiano Ronaldo mods free?
 

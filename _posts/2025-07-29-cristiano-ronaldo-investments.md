@@ -16,6 +16,17 @@ Whether you’re a fan, an aspiring entrepreneur, or someone curious about celeb
 
 ## Introduction: The Rise of a Footballer-Turned-Mogul
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Cristiano Ronaldo has transcended sports to become a global brand. While his on-field achievements are legendary, his off-field investments showcase his foresight and business acumen. With a net worth estimated at over \$500 million, Ronaldo’s investments span across multiple industries.
 
 ## 1. Pestana CR7 Hotels: Hospitality Meets Heritage
@@ -58,6 +69,17 @@ The brand reflects Ronaldo’s signature style—sleek, confident, and contempor
 > External link: [CR7 Underwear](https://www.cr7underwear.com/)
 
 ## 4. Real Estate: Ronaldo's Brick-and-Mortar Fortunes
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Ronaldo owns luxury homes and apartments in:
 
@@ -102,6 +124,17 @@ He often receives long-term incentives or shares, aligning his brand with busine
 
 ## 8. Ronaldo's Investment Philosophy
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Cristiano’s investments are:
 
 * **Brand-aligned** (fitness, fashion, luxury)
@@ -129,12 +162,3 @@ With retirement possibly on the horizon in the next few years, Ronaldo is expect
 Cristiano Ronaldo is crafting a legacy that goes far beyond football. His strategic investments showcase discipline, timing, and deep market knowledge. Whether you’re tracking celebrity ventures or planning your own business journey, the "cristiano ronaldo investments" roadmap is worth studying.
 
 ---
-
-**Sources**
-
-* [Pestana CR7 Official Website](https://www.pestanacr7.com/)
-* [Crunch Fitness - CR7 Gym](https://www.crunch.com/)
-* [CR7 Underwear](https://www.cr7underwear.com/)
-* [Insparya Hair Clinic](https://www.insparya.com/)
-* [Tatel Restaurants](https://www.tatelrestaurants.com/)
-* [Forbes Ronaldo Business Coverage](https://www.forbes.com/)

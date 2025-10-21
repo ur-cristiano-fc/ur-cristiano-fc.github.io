@@ -22,6 +22,17 @@ Fans of Ronaldo don’t just admire his skill on the pitch. They want to replica
 
 Let’s explore five major games that let you experience the world of football as Cristiano Ronaldo.
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ## 1. FIFA Series (EA Sports)
 
 ### Overview
@@ -61,6 +72,17 @@ Formerly known as Pro Evolution Soccer (PES), eFootball offers another major pla
 
 ## 3. FIFA Mobile
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ### Overview
 
 FIFA Mobile brings Ronaldo’s magic to your smartphone. Ideal for on-the-go players who want quick matches.
@@ -91,6 +113,17 @@ This is an endless runner mobile game featuring Cristiano Ronaldo dodging obstac
 
 ### What Makes It Fun:
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 * Unlike other titles, this one centers completely around CR7
 
 **External Link:** [Kick’n’Run on Google Play](https://play.google.com/store/apps/details?id=com.hedgehog.cristianoronaldo)
@@ -114,6 +147,17 @@ Dream League Soccer (DLS) is a popular mobile football game that lets you sign t
 **External Link:** [Dream League Soccer](https://www.ftgames.com/games/dream-league-soccer)
 
 ## Honorable Mentions
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="3760872290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 * **Football Manager** (you can buy Ronaldo as a manager)
 * **UFL** (new title with Ronaldo endorsement)

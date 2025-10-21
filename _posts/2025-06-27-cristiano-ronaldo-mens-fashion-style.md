@@ -302,10 +302,3 @@ No, CR7 covers underwear, denim, casual wear, and even fragrances.
 Yes, many athletes and influencers have acknowledged taking style cues from Ronaldo.
 
 ---
-
-## Suggested Reading
-
-- [Cristiano Ronaldo’s Daily Routine](/cristiano-ronaldo-daily-routine)
-- [Cristiano Ronaldo’s Son Joins Portugal U-15](/cristiano-ronaldo-son-u15)
-- [Is CR7 a Profitable Brand? Fashion Business Breakdown](/cr7-brand-analysis)
-
