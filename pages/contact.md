@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: "/contact/"
+description: "Get in touch with the UR Cristiano FC team. Whether you have questions, feedback, or collaboration inquiries, we’re here to connect with fellow Cristiano Ronaldo fans and readers worldwide."
 comments: false
 ---
 <form action="https://formspree.io/f/mvgknkwd" method="POST">    

@@ -2,6 +2,7 @@
 layout: page
 title: Disclaimer
 permalink: /disclaimer/
+description: “Read the official disclaimer of UR Cristiano FC. All content on this site is for informational and entertainment purposes only. We do not claim official association with Cristiano Ronaldo or his management.”
 comments: false
 ---
 

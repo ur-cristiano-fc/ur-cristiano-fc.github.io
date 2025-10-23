@@ -2,6 +2,7 @@
 layout: page
 title: Affiliate Policy
 permalink: /affiliate-policy/
+description: Learn about the affiliate policy of UR Cristiano FC. Our site may include affiliate links that help support our content at no extra cost to you. We ensure transparency, honesty, and fairness in every product recommendation and partnership.
 comments: false
 ---
 

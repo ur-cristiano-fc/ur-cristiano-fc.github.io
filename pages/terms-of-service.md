@@ -2,6 +2,7 @@
 layout: page
 title: Terms of Service
 permalink: /terms-of-service/
+description: "Review the Terms of Service for UR Cristiano FC. By accessing our site, you agree to our guidelines on content usage, user conduct, and privacy practices designed to ensure a safe browsing experience."
 comments: false
 ---
 
