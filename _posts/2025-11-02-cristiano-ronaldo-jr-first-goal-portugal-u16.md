@@ -150,8 +150,3 @@ At just 15, he has already demonstrated the poise, technique, and vision of a fu
 As fans around the world celebrate this milestone, the football community eagerly awaits the next chapter in the journey of **Cristiano Ronaldo Jr** — the boy who may one day become the man who carries the torch from one legend to the next.
 
 ---
-
-### **Meta Description**
-Cristiano Ronaldo Jr scores his first goal for Portugal U-16 at just 15 years old. Discover how his training, mindset, and family support shaped this historic moment — and what it means for the future of the Ronaldo legacy.
-
----
