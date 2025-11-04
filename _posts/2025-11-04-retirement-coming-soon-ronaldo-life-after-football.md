@@ -2,7 +2,7 @@
 layout: post
 title: "Retirement Is Coming Soon: Ronaldo’s Honest Admission on Life After Football"
 description: "Cristiano Ronaldo opens up about his retirement plans, life beyond football, and what he envisions for his post-playing career. Explore his emotional reflections and future ambitions."
-category: "RonaldoJr"
+category: "RonaldoInterview"
 author: ishowspeed
 image: assets/images/featured_retirement-coming-soon-ronaldo-life-after-football.webp
 ---

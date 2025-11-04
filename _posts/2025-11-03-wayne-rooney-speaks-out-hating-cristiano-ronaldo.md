@@ -2,7 +2,7 @@
 layout: post
 title: "Wayne Rooney Speaks Out on 'Hating' Cristiano Ronaldo as Lionel Messi Claim Made"
 description: "Wayne Rooney opens up about his alleged 'hate' for Cristiano Ronaldo and his views on Lionel Messi, clarifying the truth behind their football rivalry and friendship."
-category: "RonaldoJr"
+category: "RonaldoInterview"
 author: ishowspeed
 image: assets/images/featured_wayne-rooney-speaks-out-hating-cristiano-ronaldo.webp
 ---
