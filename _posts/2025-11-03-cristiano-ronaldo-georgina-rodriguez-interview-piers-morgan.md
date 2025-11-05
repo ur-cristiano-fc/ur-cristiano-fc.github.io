@@ -17,7 +17,7 @@ This article explores every facet of that emotional conversation—from how Rona
 
 When Cristiano Ronaldo sat down with Piers Morgan, fans expected fireworks about football controversies and club politics. What they didn’t anticipate was a raw, emotional dive into his personal life—his relationship with Georgina Rodríguez, the pain of losing a child, and the lessons learned through love and tragedy. 
 
-<iframe width="1340" height="754" src="https://www.youtube.com/embed/3xxW-tUQdGI" title="We Did It Again..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/3xxW-tUQdGI" title="We Did It Again..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The conversation revealed a man far removed from the headlines of fame, showing vulnerability and depth beyond the football field.
 

@@ -38,7 +38,7 @@ Cristiano Ronaldo’s moments are special because he performs at the highest lev
 
 ## Top 10 Cristiano Ronaldo Moments You Can’t Miss
 
-<iframe width="956" height="538" src="https://www.youtube.com/embed/XWWM4jycABI" title="LEGENDARY Moments By Cristiano Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/XWWM4jycABI" title="LEGENDARY Moments By Cristiano Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 1. First Champions League Title with Manchester United (2008)
 

@@ -48,7 +48,7 @@ This article aims to:
 
 ## Why Cristiano Ronaldo’s Speeches Inspire Millions
 
-<iframe width="768" height="432" src="https://www.youtube.com/embed/eVP1J5JfN_E" title="THE MINDSET OF A WINNER | Cristiano Ronaldo Motivation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/eVP1J5JfN_E" title="THE MINDSET OF A WINNER | Cristiano Ronaldo Motivation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Cristiano Ronaldo’s words matter because they come from a man who has consistently proven his greatness through action. His speeches inspire because:
 
@@ -118,7 +118,7 @@ Ronaldo’s leadership for Portugal is evident in his speeches during internatio
 
 Ronaldo frequently emphasizes that talent alone is not enough. His speeches often remind young players that dedication and discipline are the keys to success.
 
-<iframe width="768" height="432" src="https://www.youtube.com/embed/k7uZMp09UFE" title="Cristiano Ronaldo: The Art of Discipline" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/k7uZMp09UFE" title="Cristiano Ronaldo: The Art of Discipline" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### 2. Overcoming Adversity

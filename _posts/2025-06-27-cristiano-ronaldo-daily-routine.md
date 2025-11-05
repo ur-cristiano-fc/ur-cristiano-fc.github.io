@@ -29,7 +29,7 @@ Before diving into his daily schedule, it’s important to understand who Cristi
 
 ## Morning: The Foundation of Greatness
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/jTOWZaSYTtk" title="A Day in THE Life With Cristiano Ronaldo 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/jTOWZaSYTtk" title="A Day in THE Life With Cristiano Ronaldo 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Wakes Up Around 6:00 AM
 

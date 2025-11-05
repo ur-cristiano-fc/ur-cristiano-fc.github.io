@@ -31,7 +31,7 @@ This simple yet powerful statement quickly went viral. Fans who have followed th
 
 > “People like to compare us, but at the end of the day, we’ve both achieved things no one thought possible. Football is better because of what we both brought to it.”
 
-<iframe width="1340" height="754" src="https://www.youtube.com/embed/3xxW-tUQdGI" title="We Did It Again..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/3xxW-tUQdGI" title="We Did It Again..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 These words show not competition but **recognition** — acknowledgment of the mutual drive that has made both players legendary.
 

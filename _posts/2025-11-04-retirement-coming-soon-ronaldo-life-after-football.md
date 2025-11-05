@@ -17,7 +17,7 @@ From his mindset about leaving the game to his vision for life beyond the pitch,
 
 Cristiano Ronaldo has built a career defined by relentless ambition, record-breaking performances, and unmatched professionalism. But even the greatest must one day face the final whistle. In his latest interview with Piers Morgan, Ronaldo admitted, “Retirement is coming soon. I feel it.” For millions of fans worldwide, those words struck deeply. The statement confirmed what many had long speculated — the football world is slowly approaching the end of the Ronaldo era.
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/H3m1HmfXY3A" title="Everything Revealed - ⁠My Most Personal Interview 1/2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/H3m1HmfXY3A" title="Everything Revealed - ⁠My Most Personal Interview 1/2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The five-time Ballon d’Or winner, now in his late 30s, continues to perform at a high level for Al Nassr in Saudi Arabia. Yet, his reflections during the interview showed a man increasingly aware of time’s passing. Ronaldo acknowledged that maintaining elite performance gets harder with each passing year. He said, “The body changes, the recovery is different. I can still play, but not forever.”
 

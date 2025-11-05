@@ -24,7 +24,7 @@ You’ll discover the types of videos Ronaldo shares, why his channel stands out
 
 ## What is Cristiano Ronaldo’s UR YouTube Channel?
 
-<iframe width="956" height="538" src="https://www.youtube.com/embed/35S7zTBFRhQ" title="Are you ready to discover my new channel?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/35S7zTBFRhQ" title="Are you ready to discover my new channel?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### The Big Idea Behind "UR"
 
