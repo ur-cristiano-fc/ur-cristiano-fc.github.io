@@ -27,6 +27,9 @@ To understand the importance of the engagement ring, one must first appreciate t
 
 Cristiano Ronaldo and Georgina Rodríguez’s love story began in Madrid, where Georgina was reportedly working at a luxury fashion store. Their first encounter is described in interviews as unexpected yet deeply impactful for both. Over the years, the pair has grown into one of the most admired couples in the world.
 
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/H3m1HmfXY3A" title="Everything Revealed - ⁠My Most Personal Interview 1/2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 Georgina has transitioned from working retail to becoming a global public figure in her own right. She is known for her modeling work, brand collaborations, documentary series, and charitable activities.
 
 But beyond the public image, Ronaldo describes her support, loyalty, and presence as fundamental pillars in his life. This is especially significant given his demanding career, frequent travel, and constant media scrutiny.
