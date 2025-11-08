@@ -2,7 +2,7 @@
 layout: post
 title: "Cristiano Ronaldo Hilariously Teases LeBron James For His Looks"
 description: "A detailed look at the viral moment when Cristiano Ronaldo teased LeBron James about his looks, exploring the context, fan reactions, and the friendly relationship between two global sports icons."
-category: "RonaldoTwins"
+category: "RonaldoTrump"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-teases-lebron-james.webp
 ---
