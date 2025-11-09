@@ -54,8 +54,7 @@ This structure supports constant nutrient delivery, helps maintain metabolism, a
 ---
 
 ## Macronutrient Breakdown
-Ronaldo's nutritional balance is intentional and refined:
-
+Ronaldo's nutritional balance is intentional and refined. His focus on **lean proteins**, complex carbs, and healthy fats is supported by principles commonly recommended in sports nutrition research and credible sources like [Healthline](https://www.healthline.com/nutrition/high-protein-diet).
 - **Protein (30–35%)**  
   Critical for muscle repair and growth.  
   Sources include chicken, turkey, eggs, Greek yogurt, and **lean fish** like sea bass and swordfish.
