@@ -3,7 +3,7 @@ layout: post
 title: "Cristiano Ronaldo’s High Protein Diet: Daily Meals, Avocado Toast Breakfasts, and Lean Fish Dinners"
 description: "Discover Cristiano Ronaldo's diet plan including his daily meals, hydration strategy, lean protein sources, sea bass, avocado toast, protein shakes, and how he maintains energy levels for elite training sessions."
 keywords: ["cristiano ronaldo diet", "ronaldo nutrition", "ronaldo meal plan", "cristiano ronaldo eating habits"]
-category: "CristianoRonaldo"
+category: "CristianoDiet"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-diet-plan.webp
 ---

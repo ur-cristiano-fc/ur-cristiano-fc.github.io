@@ -2,7 +2,7 @@
 layout: post
 title: "Fans React as Cristiano Ronaldo Mentions Donald Trump in Piers Morgan Interview"
 description: "A detailed look at fan reactions and global discussions after Cristiano Ronaldo mentioned Donald Trump in his conversation with Piers Morgan. Understand the context, public response, and media impact."
-category: "RonaldoTrump"
+category: "RonaldoInterview"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-donald-trump-piers-morgan-reaction.webp
 ---

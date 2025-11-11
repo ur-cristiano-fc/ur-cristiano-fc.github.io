@@ -2,7 +2,7 @@
 layout: post
 title: "How Ronaldo Maintains a Biological Age of Just 28.9"
 description: "A detailed look into Ronaldo’s daily routine, diet, training strategies, sleep habits, and recovery practices that help him maintain a biological age of just 28.9. Learn how Cristiano Ronaldo stays in elite athletic condition even in his late 30s."
-category: "RonaldoRetirement"
+category: "RonaldoAge"
 author: ishowspeed
 image: assets/images/featured_how-ronaldo-maintains-biological-age-28.webp
 ---
