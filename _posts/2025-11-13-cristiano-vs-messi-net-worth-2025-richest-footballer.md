@@ -22,7 +22,7 @@ Before diving into the details, here’s a quick comparison of their estimated f
 
 ---
 
-## Featured Snippet: Who Is the Richest Footballer in 2025?
+## Who Is the Richest Footballer in 2025?
 
 **Cristiano Ronaldo** remains one of the richest footballers in the world in 2025, with an estimated net worth exceeding **$630 million**, surpassing his long-time rival **Lionel Messi**, whose fortune stands around **$580 million**. However, **Faiq Bolkiah**, the Bruneian royal and footballer, still tops the list of the **world’s richest footballers**, with an estimated net worth of over **$20 billion**.
 
@@ -155,3 +155,9 @@ Their rivalry — once measured in goals — is now a reflection of global legac
 **In short:** Ronaldo may have the edge in numbers, but both remain the benchmark for wealth, dedication, and football greatness.
 
 ---
+
+**Summary:**
+
+* **Who is the richest footballer in 2025?** Faiq Bolkiah, with a net worth exceeding $20 billion.
+* **Who is richer, Messi or Ronaldo 2025?** Cristiano Ronaldo leads with over $630 million.
+* **Top 5 richest footballers in 2025:** Faiq Bolkiah, Ronaldo, Messi, Beckham, Neymar.
