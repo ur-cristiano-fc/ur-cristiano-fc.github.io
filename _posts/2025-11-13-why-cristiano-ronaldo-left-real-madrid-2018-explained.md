@@ -32,6 +32,8 @@ His partnership with Karim Benzema and Gareth Bale (the famous **BBC trio**) dom
 ## The Contract Dispute and Feeling Undervalued
 After winning the 2017 Champions League, Ronaldo expected a new contract reflecting his superstar status — especially since **Lionel Messi** had signed a massive renewal with Barcelona.
 
+<iframe width="1276" height="718" src="https://www.youtube.com/embed/PI4Blbhm6M4" title="The REAL Reason Ronaldo Left Real Madrid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### What Happened:
 - Ronaldo reportedly wanted **salary parity with Messi and Neymar**.  
 - Real Madrid president Florentino Pérez was **reluctant to meet his demands**, citing the club’s long-term financial structure.  
