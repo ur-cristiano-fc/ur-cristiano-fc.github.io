@@ -2,7 +2,7 @@
 layout: post
 title: "Cristiano Ronaldo Website Explained: How to Contact Him, His Wife, His Kids, and His Global CR7 Ventures"
 description: "A complete guide to the official Cristiano Ronaldo website, how to contact him, details about his wife and children, and a full breakdown of his global CR7 ventures and business empire."
-category: "RonaldoIrina"
+category: "RonaldoWebsite"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-website-explained-contact-wife-kids-cr7-ventures.webp
 ---

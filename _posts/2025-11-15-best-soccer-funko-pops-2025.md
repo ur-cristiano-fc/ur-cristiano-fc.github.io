@@ -2,7 +2,7 @@
 layout: post
 title: "Best Soccer Funko Pops in 2025: Messi, Neymar, and Why CR7 Still Has No Official Release"
 description: "Discover the best soccer Funko Pops in 2025, including Messi, Neymar, iconic football collectibles, and why Cristiano Ronaldo still has no official Funko Pop release. Compare designs, prices, and fan demand."
-category: "RonaldoIrina"
+category: "RonaldoFunkoApp"
 author: ishowspeed
 image: assets/images/featured_best-soccer-funko-pops-2025.webp
 ---
