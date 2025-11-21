@@ -26,7 +26,7 @@ By exploring his favorite getaways, fans can understand his personality off the 
 
 ## Cristiano Ronaldo’s Vacation Philosophy
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -34,7 +34,7 @@ By exploring his favorite getaways, fans can understand his personality off the 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Ronaldo is a family man who values privacy. Unlike many celebrities who seek public attention during holidays, Ronaldo often chooses secluded destinations. His vacation style is shaped by three main elements:  
@@ -79,7 +79,7 @@ Dubai has become a favorite among global athletes, and Ronaldo is no exception. 
 
 ---
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -87,7 +87,7 @@ Dubai has become a favorite among global athletes, and Ronaldo is no exception. 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ### 4. Ibiza, Spain – Party Meets Relaxation
@@ -135,7 +135,7 @@ These hotels and villas not only ensure privacy but also offer the finest dining
 
 ## How Much Do Cristiano Ronaldo Vacations Cost?
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -143,7 +143,7 @@ These hotels and villas not only ensure privacy but also offer the finest dining
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 While most fans can only dream of such luxury, here’s an estimate of how much his vacations might cost:  

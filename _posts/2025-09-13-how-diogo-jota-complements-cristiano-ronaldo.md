@@ -27,7 +27,7 @@ In this blog, we will cover:
 
 ## Cristiano Ronaldo: Portugal’s Timeless Icon 
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -35,7 +35,7 @@ In this blog, we will cover:
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 No discussion of Portugal’s attack is complete without acknowledging **Cristiano Ronaldo**. Even at nearly 40, he continues to score at an incredible rate, leading Portugal in goals and appearances.  
@@ -84,7 +84,7 @@ The Ronaldo-Jota partnership works because their strengths and weaknesses balanc
 
 ## Tactical Examples of Their Partnership  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -92,7 +92,7 @@ The Ronaldo-Jota partnership works because their strengths and weaknesses balanc
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ### 1. High-Press Systems  
@@ -123,7 +123,7 @@ The data shows how Jota brings intensity that complements Ronaldo’s efficiency
 
 ## Impact on Portugal’s Attack  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -131,7 +131,7 @@ The data shows how Jota brings intensity that complements Ronaldo’s efficiency
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 When both players start, Portugal benefits from:  
@@ -160,7 +160,7 @@ Ronaldo’s mentality inspires younger players, but Jota’s humility and work e
 
 ## Conclusion  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -168,7 +168,7 @@ Ronaldo’s mentality inspires younger players, but Jota’s humility and work e
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 The partnership between **Diogo Jota and Cristiano Ronaldo** represents the perfect blend of old and new. Ronaldo’s legendary finishing and leadership are irreplaceable, but Jota’s pressing, versatility, and energy create the conditions for Ronaldo to thrive.  

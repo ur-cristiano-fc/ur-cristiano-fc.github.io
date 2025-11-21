@@ -23,7 +23,7 @@ CR7 is the official fashion brand of football legend Cristiano Ronaldo. Original
 
 Each piece carries Ronaldo’s signature sleek and modern style, and the name “CR7” itself stems from his initials and jersey number.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -31,7 +31,7 @@ Each piece carries Ronaldo’s signature sleek and modern style, and the name �
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ## Who is CR7 Clothing For?
@@ -68,7 +68,7 @@ CR7 clothing typically features a **slim fit**. That’s ideal for those with at
 
 **Fit Tips:**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -76,7 +76,7 @@ CR7 clothing typically features a **slim fit**. That’s ideal for those with at
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 - Size up if you prefer a relaxed fit
@@ -121,7 +121,7 @@ Compared to other celebrity clothing brands, CR7 clothing is priced **in the mid
 
 ## Where to Buy CR7 Clothing
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -129,7 +129,7 @@ Compared to other celebrity clothing brands, CR7 clothing is priced **in the mid
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 You can purchase CR7 clothing from:
@@ -174,7 +174,7 @@ If you value Cristiano Ronaldo’s fashion aesthetic and don’t mind spending a
 
 ## What Customers Are Saying
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -182,7 +182,7 @@ If you value Cristiano Ronaldo’s fashion aesthetic and don’t mind spending a
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Many online reviews praise the brand for its fit and design, especially among athletic wearers. Common themes include:

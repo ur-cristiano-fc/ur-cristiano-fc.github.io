@@ -11,7 +11,7 @@ image: assets/images/featured_dortmund-barcelona-clash-preview-2025.webp
 
 The anticipation is electric as Borussia Dortmund prepares to face FC Barcelona in what promises to be a blockbuster encounter. This is more than just a Champions League clash — it's a tactical battle, a test of nerves, and a showcase of elite European football.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -19,7 +19,7 @@ The anticipation is electric as Borussia Dortmund prepares to face FC Barcelona 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 In this extensive match preview, we'll cover everything you need to know: team news, player matchups, tactical breakdowns, form analysis, fan expectations, and expert predictions for tonight’s **Dortmund - Barcelona** clash.
 
@@ -66,7 +66,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 
 **Tight historical battles expected to continue.**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -74,7 +74,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -122,7 +122,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
 - **Pedri (Barcelona):** Orchestrator in midfield
 - **Adeyemi (Dortmund):** Speedster who can break lines
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -130,7 +130,7 @@ In this extensive match preview, we'll cover everything you need to know: team n
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -164,7 +164,7 @@ Fans across Europe are buzzing on X (formerly Twitter), TikTok, and Reddit. Some
 
 Top hashtags trending: **#DortmundBarcelona**, **#UCL2025**, **#LewandowskiReturns**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -172,7 +172,7 @@ Top hashtags trending: **#DortmundBarcelona**, **#UCL2025**, **#LewandowskiRetur
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -196,7 +196,7 @@ Kickoff is scheduled for **8:00 PM CET (2:00 PM EST)**.
 ### 4. Are there any key injuries?
 Barcelona is missing Gavi, while Dortmund will be without Süle.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -204,7 +204,7 @@ Barcelona is missing Gavi, while Dortmund will be without Süle.
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### 5. Who has the better recent form?
 Barcelona has slightly better form, but Dortmund has a strong home advantage.

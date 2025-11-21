@@ -16,7 +16,7 @@ Cristiano Ronaldo is not just one of the greatest footballers of all time—he i
 
 Cristiano Ronaldo is a global football icon whose extraordinary career is built not just on talent, but on relentless discipline. His daily routine reflects his commitment to fitness, performance, and family balance. Millions of fans search online to know how Cristiano Ronaldo spends his day, and this blog breaks it down hour by hour to give you a complete picture.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -24,7 +24,7 @@ Cristiano Ronaldo is a global football icon whose extraordinary career is built 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -45,7 +45,7 @@ Now, let’s dive into a typical 24 hours in the life of Cristiano Ronaldo.
 ### 6:00 AM – Waking Up Refreshed  
 Ronaldo prioritizes quality sleep. He is known to use polyphasic sleep cycles, taking short naps throughout the day to maintain energy and recovery. His day typically begins early with hydration and light stretching.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -53,7 +53,7 @@ Ronaldo prioritizes quality sleep. He is known to use polyphasic sleep cycles, t
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### 6:30 AM – First Training Session  
 His mornings usually kick off with a workout, which may include:  
@@ -86,7 +86,7 @@ Depending on his match schedule, Ronaldo often trains twice a day. These session
 - **Strength and conditioning** (weights, resistance training)  
 - **Flexibility work** (yoga and Pilates exercises)  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -94,7 +94,7 @@ Depending on his match schedule, Ronaldo often trains twice a day. These session
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### 12:00 PM – Recovery and Lunch  
 After training, recovery is critical. Ronaldo might use ice baths, cryotherapy, or massages. His lunch usually features:  
@@ -124,7 +124,7 @@ As a global brand ambassador, Ronaldo dedicates time to:
 
 ## Evening: More Training and Dinner
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -132,7 +132,7 @@ As a global brand ambassador, Ronaldo dedicates time to:
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### 5:00 PM – Third Training Session (Optional)  
 If he has no matches scheduled, Ronaldo may add an evening workout, focusing on agility and tactical drills.
@@ -183,7 +183,7 @@ Even if you’re not a professional athlete, you can apply Ronaldo’s disciplin
 4. **Rest and recover**: Sleep is as important as exercise.  
 5. **Stay mentally strong**: A winning mindset drives lasting success.  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -191,7 +191,7 @@ Even if you’re not a professional athlete, you can apply Ronaldo’s disciplin
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 

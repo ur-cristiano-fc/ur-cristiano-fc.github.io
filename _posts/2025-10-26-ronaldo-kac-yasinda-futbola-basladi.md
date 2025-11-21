@@ -9,7 +9,7 @@ image: assets/images/featured_ronaldo-kac-yasinda-futbola-basladi.webp
 
 Cristiano Ronaldo, dünyanın en tanınmış futbolcularından biri olarak tarihe geçti. Ancak pek çok futbolseverin merak ettiği bir soru var: *Ronaldo kaç yaşında futbola başladı?* Bu makale, onun çocukluk döneminden profesyonel kariyerine kadar uzanan yolculuğunu detaylı biçimde ele alıyor. 
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -17,7 +17,7 @@ Cristiano Ronaldo, dünyanın en tanınmış futbolcularından biri olarak tarih
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Ronaldo’nun spora başlama yaşı, azmi, karşılaştığı zorluklar ve nasıl dünyanın zirvesine ulaştığı adım adım anlatılıyor.
 
@@ -37,7 +37,7 @@ Ronaldo, Andorinha’daki performansıyla kısa sürede dikkat çekti. O dönemd
 
 Cristiano Ronaldo, 10 yaşında *Nacional* takımına transfer oldu. Bu transfer, Madeira’da büyük yankı uyandırdı. Çünkü Ronaldo, ada dışına çıkmadan önce bile “geleceğin yıldızı” olarak anılıyordu. Nacional’de geçirdiği iki yıl boyunca inanılmaz bir performans sergiledi.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -45,7 +45,7 @@ Cristiano Ronaldo, 10 yaşında *Nacional* takımına transfer oldu. Bu transfer
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 12 yaşına geldiğinde ise, Portekiz’in en büyük kulüplerinden biri olan *Sporting Lisbon*’un dikkatini çekti. Ailesinden uzakta, başkent Lizbon’a taşınmak onun için büyük bir adım oldu. Henüz bir çocuktu ama hayalleri büyüktü. Ailesi onun futbol tutkusuna destek verdi ve bu destek Ronaldo’nun kariyerinde belirleyici bir rol oynadı.
 
@@ -73,7 +73,7 @@ Aynı yıl içinde, Sporting Lizbon’un Manchester United’a karşı oynadığ
 
 2009 yılında Real Madrid’e rekor bir transfer ücretiyle geçti. Burada geçirdiği 9 yıl boyunca Ronaldo, dünya futbol tarihine adını altın harflerle yazdırdı. 450’den fazla gol atarak kulüp tarihinin en golcü oyuncusu oldu.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -81,7 +81,7 @@ Aynı yıl içinde, Sporting Lizbon’un Manchester United’a karşı oynadığ
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Bu dönemde 4 UEFA Şampiyonlar Ligi, 2 La Liga ve birçok bireysel ödül kazandı. Ancak tüm bu başarıların kökeni, 7 yaşında Madeira’da başlayan futbol sevgisiydi.
 
@@ -99,7 +99,7 @@ Her ne kadar kariyerinin son dönemine yaklaşmış olsa da, Ronaldo hâlâ prof
 
 Cristiano Ronaldo’nun başarısının ardında yalnızca yetenek değil, aynı zamanda olağanüstü bir çalışma disiplini yatıyor. O, her antrenmanı bir final maçı gibi yaşadı. Defalarca kez “Yetenek seni bir yere kadar taşır, ama çalışmak seni zirveye çıkarır” sözünü yineledi.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -107,7 +107,7 @@ Cristiano Ronaldo’nun başarısının ardında yalnızca yetenek değil, aynı
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ## Ronaldo Kaç Yaşında Futbola Başladı? Sonuç
 
@@ -129,7 +129,7 @@ Profesyonel kariyerine 17 yaşında, Sporting Lizbon’da başladı.
 
 Real Madrid, Ronaldo’nun en çok gol attığı takımdır. 450 golle kulüp tarihine geçti.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -137,7 +137,7 @@ Real Madrid, Ronaldo’nun en çok gol attığı takımdır. 450 golle kulüp ta
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### Ronaldo’nun Başarı Sırrı Nedir?
 

@@ -22,7 +22,7 @@ The value of signed Ronaldo items has steadily risen, especially after his key c
 
 ## Top Cristiano Ronaldo Signed Memorabilia to Collect
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -30,7 +30,7 @@ The value of signed Ronaldo items has steadily risen, especially after his key c
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ### 1. **Signed Jerseys**
@@ -59,7 +59,7 @@ Some listings come with inscriptions that highlight significant match performanc
 
 ### 4. **Photographs and Posters**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -67,7 +67,7 @@ Some listings come with inscriptions that highlight significant match performanc
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 High-quality signed photographs from legendary matches or training sessions also make affordable and meaningful collectibles.
@@ -104,7 +104,7 @@ Avoid purchasing from unverified sources, especially social media sellers, to re
 
 ## Caring for Your Signed Items
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -112,7 +112,7 @@ Avoid purchasing from unverified sources, especially social media sellers, to re
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Preserve the value and condition of your memorabilia by:

@@ -16,7 +16,7 @@ Whether you’re a fan, an aspiring entrepreneur, or someone curious about celeb
 
 ## Introduction: The Rise of a Footballer-Turned-Mogul
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -24,7 +24,7 @@ Whether you’re a fan, an aspiring entrepreneur, or someone curious about celeb
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Cristiano Ronaldo has transcended sports to become a global brand. While his on-field achievements are legendary, his off-field investments showcase his foresight and business acumen. With a net worth estimated at over \$500 million, Ronaldo’s investments span across multiple industries.
@@ -70,7 +70,7 @@ The brand reflects Ronaldo’s signature style—sleek, confident, and contempor
 
 ## 4. Real Estate: Ronaldo's Brick-and-Mortar Fortunes
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -78,7 +78,7 @@ The brand reflects Ronaldo’s signature style—sleek, confident, and contempor
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Ronaldo owns luxury homes and apartments in:
@@ -124,7 +124,7 @@ He often receives long-term incentives or shares, aligning his brand with busine
 
 ## 8. Ronaldo's Investment Philosophy
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -132,7 +132,7 @@ He often receives long-term incentives or shares, aligning his brand with busine
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Cristiano’s investments are:

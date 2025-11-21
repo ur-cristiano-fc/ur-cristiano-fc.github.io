@@ -11,7 +11,7 @@ Cristiano Ronaldo’s legacy on the football pitch may soon be matched by his ow
 
 This development has sparked global attention as fans and analysts eagerly watch to see if Ronaldo Jr. can carry the torch forward. 
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -19,7 +19,7 @@ This development has sparked global attention as fans and analysts eagerly watch
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 In this article, we explore everything you need to know about this major step in the Ronaldo legacy—from training background, youth football dynamics, to expert opinions and fan expectations.
 
@@ -54,7 +54,7 @@ Cristiano Ronaldo Jr., often referred to by fans as **Ronaldo Jr.**, was born on
 
 ## Portugal U-15 Call-Up: A Big Step
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -62,7 +62,7 @@ Cristiano Ronaldo Jr., often referred to by fans as **Ronaldo Jr.**, was born on
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Portugal’s national football system is known for nurturing world-class talent, including **Cristiano Ronaldo** himself. The news of Jr. joining the U-15 squad is more than ceremonial. It means he’s shown merit and promise on a national scale. U-15 is often the first formal stage of a player’s journey toward representing their country on the global stage.
 
@@ -89,7 +89,7 @@ Being a direct descendant of Cristiano Ronaldo means every move will be scrutini
 
 ## Expert Opinions: What Coaches Are Saying
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -97,7 +97,7 @@ Being a direct descendant of Cristiano Ronaldo means every move will be scrutini
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### Coach from Juventus Youth
 
@@ -126,7 +126,7 @@ While comparisons are inevitable, their paths differ. Sr. came from humble begin
 
 ## Challenges Ahead: Talent vs Expectation
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -134,7 +134,7 @@ While comparisons are inevitable, their paths differ. Sr. came from humble begin
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 As he climbs the ranks, Ronaldo Jr. must face:
 - **Media pressure**
@@ -154,7 +154,7 @@ This is the central question. Fans hope to see him flourish, while critics urge 
 
 ## Conclusion: A Legacy in Motion
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -162,7 +162,7 @@ This is the central question. Fans hope to see him flourish, while critics urge 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Cristiano Ronaldo’s journey from Madeira to football greatness is the stuff of legend. Now, his son embarks on his own path—different, yet equally fascinating. The Portugal U-15 call-up is both a **milestone and a responsibility**. Whether he becomes a world-class player or charts a different course, one thing is certain: the world will be watching.
 

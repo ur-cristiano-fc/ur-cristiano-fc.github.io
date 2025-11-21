@@ -22,7 +22,7 @@ Cristiano Ronaldo’s career has spanned over two decades, with record-breaking 
 
 His move to Saudi Arabia in late 2022 marked a new chapter in his career, and since then, Ronaldo has not only brought international attention to the league but also inspired several top players to join Middle Eastern clubs.  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -30,7 +30,7 @@ His move to Saudi Arabia in late 2022 marked a new chapter in his career, and si
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ---
@@ -70,7 +70,7 @@ In the **2024–2025 season**, Cristiano Ronaldo continues to play a crucial rol
 - **Leadership**: He captains Al Nassr, motivating younger players.  
 - **Fitness**: His strict training and lifestyle habits ensure his longevity.  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -78,7 +78,7 @@ In the **2024–2025 season**, Cristiano Ronaldo continues to play a crucial rol
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ---
@@ -130,7 +130,7 @@ Some reports suggest he may consider retirement after the **2026 FIFA World Cup*
 
 ## Cristiano Ronaldo vs. Lionel Messi in 2025  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -138,7 +138,7 @@ Some reports suggest he may consider retirement after the **2026 FIFA World Cup*
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 The Ronaldo-Messi rivalry continues into 2025. While Messi has moved to Inter Miami in Major League Soccer (MLS), Ronaldo dominates in Saudi Arabia. Both players are ambassadors of football, but Ronaldo’s presence in Asia gives him a unique influence in a rapidly growing football region.  

@@ -10,7 +10,7 @@ image: assets/images/featured_how-ur-cristiano-youtube-channel-broke-records.web
 
 Are you wondering how Cristiano Ronaldo’s "UR" YouTube channel became a global sensation and broke records in 2024? This article gives you a simple, detailed look at the explosive growth of "UR Cristiano," the records it shattered, and why millions of fans are flocking to the channel.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -18,7 +18,7 @@ Are you wondering how Cristiano Ronaldo’s "UR" YouTube channel became a global
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 You’ll also see how Ronaldo’s strategy compares to other top influencers and what makes his content so appealing.
 
@@ -48,7 +48,7 @@ The channel’s name, "UR," stands for "You Are." Ronaldo chose this name to mak
 
 ### Comparison to Other Influencers
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -56,7 +56,7 @@ The channel’s name, "UR," stands for "You Are." Ronaldo chose this name to mak
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 | Channel/Influencer         | 1M Subscribers | 10M Subscribers | Current Subscribers (2025) |
 |----------------------------|----------------|-----------------|---------------------------|
@@ -108,7 +108,7 @@ Despite having millions of subscribers, "UR Cristiano" maintains a high engageme
 
 ## How Does "UR Cristiano" Compare to Other Athlete Channels?
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -116,7 +116,7 @@ Despite having millions of subscribers, "UR Cristiano" maintains a high engageme
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### Setting New Standards
 
@@ -164,7 +164,7 @@ Fans around the world have praised "UR Cristiano" for its authenticity and varie
 
 ## Frequently Asked Questions
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -172,7 +172,7 @@ Fans around the world have praised "UR Cristiano" for its authenticity and varie
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### How often does Ronaldo post on "UR Cristiano"?
 

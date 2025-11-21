@@ -22,7 +22,7 @@ Fans of Ronaldo don’t just admire his skill on the pitch. They want to replica
 
 Let’s explore five major games that let you experience the world of football as Cristiano Ronaldo.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -30,7 +30,7 @@ Let’s explore five major games that let you experience the world of football a
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ## 1. FIFA Series (EA Sports)
@@ -72,7 +72,7 @@ Formerly known as Pro Evolution Soccer (PES), eFootball offers another major pla
 
 ## 3. FIFA Mobile
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -80,7 +80,7 @@ Formerly known as Pro Evolution Soccer (PES), eFootball offers another major pla
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ### Overview
@@ -113,7 +113,7 @@ This is an endless runner mobile game featuring Cristiano Ronaldo dodging obstac
 
 ### What Makes It Fun:
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -121,7 +121,7 @@ This is an endless runner mobile game featuring Cristiano Ronaldo dodging obstac
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 * Unlike other titles, this one centers completely around CR7
@@ -148,7 +148,7 @@ Dream League Soccer (DLS) is a popular mobile football game that lets you sign t
 
 ## Honorable Mentions
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -156,7 +156,7 @@ Dream League Soccer (DLS) is a popular mobile football game that lets you sign t
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 * **Football Manager** (you can buy Ronaldo as a manager)

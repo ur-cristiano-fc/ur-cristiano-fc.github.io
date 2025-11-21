@@ -10,7 +10,7 @@ image: assets/images/featured_cristiano-ronaldo-jr-first-goal-portugal-u16.webp
 
 At just **15 years old**, **Cristiano Ronaldo Jr** has scored his **first-ever goal** for the **Portugal U-16 national team**, marking a proud milestone for the son of football legend **Cristiano Ronaldo**. This moment not only celebrates the young player’s growing talent but also sparks global excitement about the continuation of the **Ronaldo legacy**. 
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -18,7 +18,7 @@ At just **15 years old**, **Cristiano Ronaldo Jr** has scored his **first-ever g
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 In this article, we’ll explore Cristiano Jr’s early football journey, his development under his father’s guidance, and what this achievement means for Portugal’s future in international football.
 
@@ -50,7 +50,7 @@ Each step in his development has prepared him for the defining moment — repres
 ## **The Big Moment: Ronaldo Jr’s First Goal for Portugal U-16**
 Cristiano Ronaldo Jr’s first goal for Portugal U-16 came in an international youth match that caught the attention of fans worldwide. Displaying impressive composure, the young striker converted a clinical finish reminiscent of his father’s early days.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -58,7 +58,7 @@ Cristiano Ronaldo Jr’s first goal for Portugal U-16 came in an international y
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### **Match Highlights**
 - **Opponent:** Spain U-16 (friendly)
@@ -100,7 +100,7 @@ Cristiano Ronaldo Jr shares many attributes with his father:
 - **Strong right foot**
 - **Excellent positioning inside the box**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -108,7 +108,7 @@ Cristiano Ronaldo Jr shares many attributes with his father:
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 However, he’s also developing his own unique identity as a **team-oriented forward**, showing creativity and awareness beyond his age.
 
@@ -142,7 +142,7 @@ However, with the support of his father, family, and the Portuguese football com
 ## **Global Reaction: The Football World Takes Notice**
 Cristiano Ronaldo Jr’s first goal quickly became a trending topic on social media. Fans, analysts, and even professional players celebrated the young star’s milestone.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -150,7 +150,7 @@ Cristiano Ronaldo Jr’s first goal quickly became a trending topic on social me
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 **Sports Headlines Across Europe:**
 - *“A New Ronaldo Rises — Cristiano Jr’s First International Goal”* — Marca  
@@ -178,7 +178,7 @@ Cristiano Ronaldo Sr has often shared his thoughts about guiding his son’s car
 
 > “I want him to be whatever makes him happy. Football, business, anything — as long as he works hard and respects others.”
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -186,7 +186,7 @@ Cristiano Ronaldo Sr has often shared his thoughts about guiding his son’s car
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 This grounded perspective ensures that Cristiano Jr’s journey remains authentic, focused on passion rather than pressure.
 

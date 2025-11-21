@@ -25,7 +25,7 @@ When people search for “Cristiano Ronaldo private jet,” they are usually cur
 
 By addressing these points, we’ll give fans a complete understanding of Ronaldo’s high-flying lifestyle.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -33,7 +33,7 @@ By addressing these points, we’ll give fans a complete understanding of Ronald
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ---
@@ -76,7 +76,7 @@ The Gulfstream G200 originally costs around **$20 million to $25 million**. Repo
 
 For Ronaldo, with his estimated net worth exceeding $500 million, such expenses are easily manageable.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -84,7 +84,7 @@ For Ronaldo, with his estimated net worth exceeding $500 million, such expenses 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ---
@@ -143,7 +143,7 @@ This also emphasizes his balance between his superstar lifestyle and his role as
 
 ## Cristiano Ronaldo Private Jet and His Lifestyle
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -151,7 +151,7 @@ This also emphasizes his balance between his superstar lifestyle and his role as
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 The private jet is more than just a travel accessory—it represents Ronaldo’s philosophy:  

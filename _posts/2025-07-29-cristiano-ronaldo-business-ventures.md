@@ -30,7 +30,7 @@ One of Ronaldo’s most prominent ventures is his hotel partnership with the **P
 - Rooftop pools and lounges
 - Fitness-inspired interiors
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -38,7 +38,7 @@ One of Ronaldo’s most prominent ventures is his hotel partnership with the **P
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 **Official Website**: [Pestana CR7 Hotels](https://www.pestanacr7.com/)
@@ -79,7 +79,7 @@ These scents are marketed to young, active, confident individuals and are often 
 
 ## 4. **CR7 Fashion – More Than Just Underwear**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -87,7 +87,7 @@ These scents are marketed to young, active, confident individuals and are often 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Initially launched as a **premium underwear brand**, CR7 Fashion has expanded into loungewear, shirts, denim, and accessories. It combines athletic aesthetics with high-end fashion sensibilities.
@@ -141,7 +141,7 @@ According to Forbes, a single post by Ronaldo can be worth up to **$2 million** 
 
 ## 8. **What Makes Cristiano Ronaldo’s Business Strategy So Successful?**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -149,7 +149,7 @@ According to Forbes, a single post by Ronaldo can be worth up to **$2 million** 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Here are key principles behind Ronaldo’s business empire:
@@ -179,7 +179,7 @@ His ventures aren’t just marketing gimmicks—they're sustainable businesses w
 
 ## Frequently Asked Questions
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -187,7 +187,7 @@ His ventures aren’t just marketing gimmicks—they're sustainable businesses w
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ### Is Cristiano Ronaldo a billionaire?

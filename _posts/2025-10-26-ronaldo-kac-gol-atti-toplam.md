@@ -11,7 +11,7 @@ Cristiano Ronaldo, modern futbolun en büyük golcülerinden biri olarak anılı
 
 Ayrıca, onun oyun tarzı, rekorları, ve futbol tarihine geçen golleri hakkında detaylı bilgiler bulacaksınız.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -19,7 +19,7 @@ Ayrıca, onun oyun tarzı, rekorları, ve futbol tarihine geçen golleri hakkın
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -53,7 +53,7 @@ Cristiano Ronaldo, profesyonel futbol kariyerine Sporting Lizbon’da başladı.
 
 ### 2. Manchester United (2003–2009 ve 2021–2022)
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -61,7 +61,7 @@ Cristiano Ronaldo, profesyonel futbol kariyerine Sporting Lizbon’da başladı.
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Ronaldo’nun asıl çıkış yaptığı dönem Manchester United yıllarıdır. 2003’te takıma katıldığında henüz 18 yaşındaydı. Sir Alex Ferguson’un rehberliğinde, kısa sürede Premier League’in en etkili oyuncularından biri haline geldi.
 
@@ -110,7 +110,7 @@ Ronaldo’nun 2025 itibarıyla Al Nassr’da gösterdiği performans, onun hâl�
 Cristiano Ronaldo, Portekiz Milli Takımı tarihinin en golcü futbolcusudur. 2003 yılında milli formayı ilk kez giydiğinden bu yana rekorları alt üst etti.
 
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -118,7 +118,7 @@ Cristiano Ronaldo, Portekiz Milli Takımı tarihinin en golcü futbolcusudur. 20
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 * **Toplam maç:** 210+
 * **Toplam gol:** 130+
@@ -162,7 +162,7 @@ Ronaldo, 5 kez Şampiyonlar Ligi şampiyonluğu yaşadı (1 Manchester United, 4
 
 ## Cristiano Ronaldo’nun Gol Rekorları
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -170,7 +170,7 @@ Ronaldo, 5 kez Şampiyonlar Ligi şampiyonluğu yaşadı (1 Manchester United, 4
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Cristiano Ronaldo’nun kariyeri boyunca kırdığı bazı önemli rekorlar:
 
@@ -228,7 +228,7 @@ Ronaldo’nun istatistikleri yalnızca sayısal başarılar değildir. Onun her 
 
 Cristiano Ronaldo’nun futbol kariyeri, tarihe adını altın harflerle yazdırmış bir başarı öyküsüdür. Onun toplam gol sayısı 880’in üzerinde olsa da, bu rakamın ötesinde bir anlam vardır: *her gol, azmin ve inancın sembolüdür.*
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -236,7 +236,7 @@ Cristiano Ronaldo’nun futbol kariyeri, tarihe adını altın harflerle yazdır
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Cristiano Ronaldo’nun hikayesi, yalnızca futbolseverlere değil, hayatında hedefleri olan herkese ilham verir. Bugün hâlâ sahaya çıktığında gol atma isteğiyle doluysa, bunun nedeni sadece yeteneği değil, hiç bitmeyen tutkusu ve çalışma azmidir.
 

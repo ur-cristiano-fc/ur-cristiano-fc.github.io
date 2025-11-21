@@ -13,7 +13,7 @@ image: assets/images/featured_cristiano-ronaldo-georgina-love-story.webp
 
 ## Article Summary
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -21,7 +21,7 @@ image: assets/images/featured_cristiano-ronaldo-georgina-love-story.webp
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Explore the relationship journey between Cristiano Ronaldo and Georgina Rodríguez — how they met, fell in love, became parents, and handle life in the public eye. It's an emotional, inspiring, and intimate look at one of football's most talked-about power couples.
 
@@ -39,7 +39,7 @@ They met in the most ordinary of places — through a casual shopping experience
 
 When you're Cristiano Ronaldo, nothing stays private for long. Rumors of a new relationship began swirling in late 2016. Georgina and Cristiano were seen vacationing together, attending events, and supporting each other publicly.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -47,7 +47,7 @@ When you're Cristiano Ronaldo, nothing stays private for long. Rumors of a new r
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Despite the media frenzy, the couple remained low-key in the early months. They prioritized getting to know each other over making headlines. But as their bond deepened, they started showing up together more openly — whether at FIFA awards, red carpets, or on social media.
 
@@ -65,7 +65,7 @@ Georgina Rodríguez’s transformation is nothing short of phenomenal. Once work
 
 The documentary offers a raw, behind-the-scenes look into her life — not just as Ronaldo’s partner, but as a woman with her own dreams, ambitions, and past struggles.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -73,7 +73,7 @@ The documentary offers a raw, behind-the-scenes look into her life — not just 
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Her humility, emotional depth, and work ethic shine through. She’s not just Ronaldo’s girlfriend — she’s a powerful personality in her own right.
 
@@ -93,7 +93,7 @@ Both Cristiano and Georgina shared their pain with the world — and received an
 
 They leaned on each other. They grieved together, healed together, and continued loving their children and family with renewed strength.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -101,7 +101,7 @@ They leaned on each other. They grieved together, healed together, and continued
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ## Public Displays of Affection
 
@@ -125,7 +125,7 @@ Though they’re not legally married, their relationship is grounded in deep res
 
 Marriage may or may not be on the cards — but what’s clear is their unwavering support and connection.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -133,7 +133,7 @@ Marriage may or may not be on the cards — but what’s clear is their unwaveri
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ## Favorite Moments Together
 
@@ -162,7 +162,7 @@ They met at a Gucci store in Madrid where Georgina was working as a shop assista
 ### 3. Do Ronaldo and Georgina have children?
 Yes, they share children together, and Georgina also embraces a motherly role to Ronaldo’s older children.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -170,7 +170,7 @@ Yes, they share children together, and Georgina also embraces a motherly role to
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ### 4. Are Cristiano Ronaldo and Georgina Rodríguez married?
 As of now, the couple is not legally married, though they have expressed deep commitment and love for one another.

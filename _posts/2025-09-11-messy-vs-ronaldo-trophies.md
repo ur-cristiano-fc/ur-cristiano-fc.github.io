@@ -21,7 +21,7 @@ As of **2025**, Lionel Messi has slightly more career trophies than Cristiano Ro
 
 ## Cristiano Ronaldo’s Trophy Count  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -29,7 +29,7 @@ As of **2025**, Lionel Messi has slightly more career trophies than Cristiano Ro
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 Cristiano Ronaldo has built his career across five major clubs: Sporting CP, Manchester United, Real Madrid, Juventus, and Al Nassr, in addition to his legendary international career with Portugal.  
@@ -78,7 +78,7 @@ Lionel Messi spent most of his career at Barcelona before moving to Paris Saint-
 
 ### **Club Trophies**  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -86,7 +86,7 @@ Lionel Messi spent most of his career at Barcelona before moving to Paris Saint-
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 - **Barcelona (Spain)**: 35  
   - La Liga: 10  
@@ -141,7 +141,7 @@ Lionel Messi’s journey is defined by **natural talent, creativity, and vision*
 
 ## Beyond Trophies: Cristiano Ronaldo vs Messi Legacy  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -149,7 +149,7 @@ Lionel Messi’s journey is defined by **natural talent, creativity, and vision*
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 While trophies are important, the comparison between Ronaldo and Messi goes deeper:  

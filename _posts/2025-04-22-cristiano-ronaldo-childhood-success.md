@@ -11,7 +11,7 @@ image: assets/images/featured_cristiano-ronaldo-childhood-success.webp
 
 **From a small island in Portugal to becoming one of the world’s greatest athletes—Cristiano Ronaldo's story begins with grit, sacrifice, and unshakable ambition.**
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -19,7 +19,7 @@ image: assets/images/featured_cristiano-ronaldo-childhood-success.webp
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -36,7 +36,7 @@ Money was tight. The family lived in a modest home with limited resources, but w
 
 Ronaldo’s mother once shared, *“We didn’t have much, but he always had a ball at his feet. That was all he needed.”*
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -44,7 +44,7 @@ Ronaldo’s mother once shared, *“We didn’t have much, but he always had a b
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
@@ -76,7 +76,7 @@ At Sporting’s academy, the training was intense. Ronaldo was mocked for his Ma
 
 While other boys partied or relaxed, Ronaldo trained. He ran laps after practice, stayed behind to shoot on goal, and even snuck into the gym at night.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -84,7 +84,7 @@ While other boys partied or relaxed, Ronaldo trained. He ran laps after practice
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 > “He was obsessed with being the best,” said one of his academy coaches.
 
@@ -118,7 +118,7 @@ The rest is history—Real Madrid, Juventus, and now Al-Nassr. Every step forwar
 
 ## Ronaldo’s Daily Routine (Then vs. Now)
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -126,7 +126,7 @@ The rest is history—Real Madrid, Juventus, and now Al-Nassr. Every step forwar
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 | Age 12 (Lisbon)         | Age 39 (Pro Athlete)               |
 |------------------------|------------------------------------|
@@ -170,7 +170,7 @@ He signed with Manchester United in 2003 at the age of 18.
 
 ## Final Word: From Humble Roots to Global Greatness
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -178,7 +178,7 @@ He signed with Manchester United in 2003 at the age of 18.
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Cristiano Ronaldo’s story proves that where you start doesn’t define where you’ll end up. His childhood gave him the fuel to become not just a football legend but a symbol of hope for millions.
 

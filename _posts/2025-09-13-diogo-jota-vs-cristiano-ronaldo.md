@@ -22,7 +22,7 @@ In this blog, we’ll explore:
 - Public attention, including lifestyle factors such as the much-talked-about **Cristiano Ronaldo fiancé ring**.  
 - What the future looks like for Portugal’s attack.  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -30,7 +30,7 @@ In this blog, we’ll explore:
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ---
@@ -87,7 +87,7 @@ Diogo Jota rose from Porto’s academy before moving to Wolves in the Premier Le
 
 ## Who Shines Brighter for Portugal Right Now?  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -95,7 +95,7 @@ Diogo Jota rose from Porto’s academy before moving to Wolves in the Premier Le
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 ### Cristiano Ronaldo’s Case  
@@ -136,7 +136,7 @@ The comparison between **Diogo Jota and Cristiano Ronaldo** is not about rivalry
 
 ## Final Thoughts  
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -144,7 +144,7 @@ The comparison between **Diogo Jota and Cristiano Ronaldo** is not about rivalry
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 
 - **Cristiano Ronaldo** = Legacy, Leadership, Global Icon.  

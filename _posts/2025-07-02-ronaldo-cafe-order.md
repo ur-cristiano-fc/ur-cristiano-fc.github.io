@@ -11,7 +11,7 @@ image: assets/images/featured_ronaldo-cafe-order.webp
 
 Cristiano Ronaldo is known for his unmatched discipline and strict dietary habits, but have you ever wondered 
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -19,7 +19,7 @@ Cristiano Ronaldo is known for his unmatched discipline and strict dietary habit
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 what he would order at your local café? This article dives into Ronaldo’s nutritional choices, fitness-driven eating habits, and what he might select from a typical café menu—whether it’s a chain like Starbucks or a health-focused artisan coffee house. From his favorite drinks to snack alternatives, we break it all down in a simple, easy-to-understand guide.
 
@@ -42,7 +42,7 @@ He reportedly eats **six small meals a day**, spaced out every 3–4 hours to ma
 
 ## Common Foods Ronaldo Eats
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -50,7 +50,7 @@ He reportedly eats **six small meals a day**, spaced out every 3–4 hours to ma
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 Before speculating on his café order, here’s what we know about his daily food habits:
 
@@ -95,7 +95,7 @@ Let’s imagine he walks into a café—what would he drink?
 
 ### 2. Grilled Chicken or Tuna Sandwich (No Mayo)
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -103,7 +103,7 @@ Let’s imagine he walks into a café—what would he drink?
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 * Lean protein
 * Wholegrain bread
@@ -151,7 +151,7 @@ These would attract health-conscious customers and fitness fans.
 
 Though incredibly disciplined, Ronaldo has admitted to occasionally enjoying:
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -159,7 +159,7 @@ Though incredibly disciplined, Ronaldo has admitted to occasionally enjoying:
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 * Pizza (as a family treat)
 * Chocolate (in moderation)
@@ -210,7 +210,7 @@ Even without access to a gourmet chef, you can:
 
 If Cristiano Ronaldo walked into your café, you could bet on a clean, protein-rich, and performance-boosting order. His diet isn’t about restrictions—it’s about fueling a legacy. By understanding his dietary mindset, we not only admire the athlete but learn to make better choices ourselves.
 
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2784742237479601"
      data-ad-slot="3760872290"
@@ -218,7 +218,7 @@ If Cristiano Ronaldo walked into your café, you could bet on a clean, protein-r
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ---
 
