@@ -639,3 +639,12 @@ span.navigation:before {
     transition: all .3s;
     opacity: .8;
 }
+
+.first-row-article {
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+    .first-row-article {
+        margin-top: 10px;
+    }
+}
