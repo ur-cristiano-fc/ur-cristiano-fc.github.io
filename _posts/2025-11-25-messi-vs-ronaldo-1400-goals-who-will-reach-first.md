@@ -9,6 +9,8 @@ image: assets/images/featured_messi-vs-ronaldo-1400-goals-race.webp
 
 The legendary debate of **Messi vs Ronaldo** has entered a new chapter: who will be the first footballer in history to reach **1,400 career goal contributions**? With both players continuing to score and assist well into the later stages of their careers, fans are analyzing statistics, projections, and career longevity to determine who has the highest chance of reaching this incredible milestone.
 
+<div data-tf-live="01KAXH1R7ZH36DBFYX8TDFTD5D"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
 This detailed guide explores:
 
 * Ronaldo total goals
