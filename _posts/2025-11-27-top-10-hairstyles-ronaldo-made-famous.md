@@ -67,6 +67,8 @@ This article contains **over 2000 words** and is formatted in Jekyll for your bl
 
 This is widely regarded as the **Ronaldo best haircut** ever created.
 
+![The Spiky Fade with Razor Line]({{ site.baseurl }}/images/The-Spiky-Fade-with-Razor-Line.webp)
+
 ### Why It Became Famous
 During the peak of his Real Madrid career, Ronaldo experimented with a sharp, modern fade featuring:
 
@@ -90,6 +92,9 @@ This haircut dominated global searches as millions tried to replicate it.
 ## 2. Samurai Top Knot (Juventus, 2018)
 
 The **Ronaldo haircut Juventus** era introduced a fresh and bold fashion statement: the samurai-style top knot.
+
+![ Samurai Top Knot ]({{ site.baseurl }}/images/Ronaldo-haircut-Juventus.webp)
+
 
 ### Why This Hairstyle Went Viral
 During his Juventus matches, especially Champions League appearances, Ronaldo’s top knot stood out because:
