@@ -8,6 +8,7 @@ post_class: post-template
 <!-- Begin Article
 ================================================== -->
 <style>
+    .related-affiliate-product {text-align: center;margin-top:20px}
     .card-affiliate{width:360px;background:#fff;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.1);transition:.3s;font-family:'Segoe UI',sans-serif;margin:20px auto;overflow:hidden;position:relative;cursor:pointer}
     .card-affiliate:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(0,0,0,.15)}
     .badge{position:absolute;top:10px;right:10px;background: linear-gradient(to right,  rgba(169,3,41,1) 0%,rgba(196,72,72,1) 44%,rgba(170,34,56,1) 100%);color:#fff;padding:5px 10px;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,.2);z-index:10}
@@ -35,7 +36,8 @@ post_class: post-template
     .rating{display:flex;align-items:center;gap:2px}
     .rcount{margin-left:6px;font-size:11px;color:#71717A}
     .stock{font-size:11px;font-weight:600;color:#22C55E}
-    @media (max-width:400px){.card-affiliate{width:90%}.title{font-size:16px}.img{height:180px}.bottom{flex-direction:column;align-items:flex-start;gap:10px}.price{margin-bottom:5px}.btn{width:100%;justify-content:center}}
+    @media (max-width:400px){.card-affiliate{width:90%}.title{font-size:16px}.img{height:180px}.bottom{flex-direction:column;align-items:flex-start;gap:10px}.price{margin-bottom:5px}.btn{width:100%;justify-content:center}.related-affiliate-product {text-align: center;margin-top:10px}
+}
 </style>
 
 	<div class="row first-row-article">
@@ -87,7 +89,7 @@ post_class: post-template
 			</div>
             {% if page.afflink %}
             <!-- Affiliate Card -->
-                <h2>Check Cristiano Ronaldo Brand Products</h2>
+                <h2 class="related-affiliate-product">Check Cristiano Ronaldo Brand Products</h2>
                 {% include affiliate-card.html %}
             {% endif %}
             <!-- Post Date -->
