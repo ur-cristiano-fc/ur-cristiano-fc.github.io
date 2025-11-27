@@ -5,7 +5,7 @@ description: "Explore Cristiano Ronaldo's most iconic hairstyles from 2002 to 20
 author: ishowspeed
 image: assets/images/featured_top-10-hairstyles-ronaldo-made-famous.webp
 afflink: https://amzn.to/43SktO5
-affimage: assets/images/affiliate/Ronaldo-Original-Men-Fragrance.webp
+affimage: /assets/images/affiliate/Ronaldo-Original-Men-Fragrance.webp
 affname: "Ronaldo's Original Men's Fragrance 5.1 oz"
 affdesc: "A CLASSIC, COOL BLEND. A casual, vibrant scent for the effortlessly self-confident and energetic man."
 currentprice: $9.0
