@@ -85,33 +85,36 @@ post_class: post-template
 				{{content}}
                 <div class="clearfix"></div>
 			</div>
+            {% if page.afflink %}
             <div class="card-affiliate">
                     <div class="badge">HOT SALE</div>
                     <div class="tilt">
-                    <div class="img"><img src="https://images.unsplash.com/photo-1544237526-cae15a57ed1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwNDY5NjB8&ixlib=rb-4.1.0&q=85" alt="Premium Laptop"></div>
+                    <div class="img"><img src="{{ page.afflimage }}" alt="{{ page.afflname }}"></div>
                     </div>
                     <div class="info">
-                    <div class="cat">High-Performance Laptop</div>
-                    <h2 class="title">UltraBook Pro X</h2>
-                    <p class="desc">Cutting-edge performance with Intel Core i9, 32GB RAM, and a 1TB SSD in a sleek, lightweight design.</p>
+                    <!-- <div class="cat">High-Performance Laptop</div> -->
+                    <h2 class="title">{{ page.afflname }}</h2>
+                    <p class="desc">{{ page.affldesc }}</p>
                     <div class="feats">
-                    <span class="feat">4K Display</span>
-                    <span class="feat">16-Hour Battery</span>
-                    <span class="feat">Thunderbolt 4</span>
+                    <span class="feat">{{ page.brand }}</span>
+                    <span class="feat">{{ page.item }}</span>
+                    <span class="feat">{{ page.specialfeature }}</span>
                     </div>
                     <div class="bottom">
                     <div class="price">
-                        <span class="old">$2,499</span>
-                        <span class="new">$1,999</span>
+                        <!-- <span class="old">$2,499</span> -->
+                        <span class="new">{{ page.currentprice }}</span>
                     </div>
+                    <a href="{{ page.afflink }}" target="_blank">
                     <button class="btn">
-                        <span>Add to Cart</span>
+                        <span>Buy Now</span>
                         <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4"/>
                         <line x1="3" y1="6" x2="21" y2="6"/>
                         <path d="M16 10a4 4 0 01-8 0"/>
                         </svg>
                     </button>
+                    </a>
                     </div>
                     <div class="meta">
                     <div class="rating">
@@ -120,13 +123,13 @@ post_class: post-template
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <span class="rcount">245 Reviews</span>
+                        <span class="rcount">{{ page.reviewnum }} Reviews</span>
                     </div>
                     <div class="stock">In Stock</div>
                     </div>
                     </div>
                     </div>
-
+            {% endif %}
             <!-- Post Date -->
             <p>
             <small>
