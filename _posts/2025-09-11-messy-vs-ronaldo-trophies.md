@@ -5,6 +5,15 @@ description: "A complete comparison of Cristiano Ronaldo and Lionel Messi's trop
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_messy-vs-ronaldo-trophie.webp
+afflink: https://amzn.to/3LXQzlz
+affimage: assets/images/affiliate/Messi-and-Ronaldo-Who-Is-The-Greatest.webp
+affname: "Messi and Ronaldo: Who Is The Greatest? (World Soccer Legends)"
+affdesc: "One with six Ballons d’Or, and the other with five. There’s no doubt about it―Lionel Messi and Cristiano Ronaldo are the best. But which one is better?"
+currentprice: $11.70
+reviewnum: 383
+brand: Cristiano Ronaldo
+item: Book
+specialfeature: Best Selling
 ---
 
 Football fans have debated for over 15 years about who is greater: Cristiano Ronaldo or Lionel Messi. While skill, style, and influence are subjective, one measurable factor is **trophies won**. As of 2025, the question remains: *who has more trophies, Messi or Ronaldo?* This article provides a detailed breakdown of their club and international achievements, comparing Cristiano Ronaldo and Lionel Messi in numbers, titles, and legacy.  
