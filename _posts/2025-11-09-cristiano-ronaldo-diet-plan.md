@@ -44,38 +44,6 @@ His diet contains balanced portions of:
 - Healthy fats for joint and hormone support
 - Plenty of water to maintain hydration and performance
 
----
-
-## Daily Eating Schedule: Six Meals a Day
-One of the defining features of the **Ronaldo diet** is meal frequency. Instead of three large meals, he consumes **six smaller meals a day**. This strategy prevents energy crashes, stabilizes blood sugar, and optimizes training performance.
-
-| Time | Meal Type | Example Foods |
-|------|-----------|---------------|
-| 7:00 AM | **Breakfast** | Egg whites, **avocado toast**, whole-grain bread, black coffee |
-| 10:00 AM | **Snack** | Seasonal fruit, Greek yogurt, or oatmeal |
-| 1:00 PM | **Lunch #1** | Grilled chicken or **sea bass**, quinoa, steamed vegetables |
-| 4:00 PM | **Lunch #2 / Snack** | Tuna sandwich on whole grain or cottage cheese and fruit |
-| 7:00 PM | **Dinner** | Grilled fish (often **sea bass** or salmon) with salad and legumes |
-| 9:00 PM | **Pre-Bed** | Low-fat yogurt or whey **protein shakes** |
-
-This structure supports constant nutrient delivery, helps maintain metabolism, and aids in recovery throughout the day.
-
----
-
-## Macronutrient Breakdown
-Ronaldo's nutritional balance is intentional and refined. His focus on **lean proteins**, complex carbs, and healthy fats is supported by principles commonly recommended in sports nutrition research and credible sources like [Healthline](https://www.healthline.com/nutrition/high-protein-diet).
-- **Protein (30–35%)**  
-  Critical for muscle repair and growth.  
-  Sources include chicken, turkey, eggs, Greek yogurt, and **lean fish** like sea bass and swordfish.
-
-- **Carbohydrates (40–45%)**  
-  Primarily whole-grain and fiber-rich choices.  
-  Brown rice, quinoa, oats, whole grain pasta, potatoes, and legumes support sustained **energy levels** through long **training sessions**.
-
-- **Healthy Fats (20–25%)**  
-  Necessary for hormone stability and joint health.  
-  Avocados, almonds, olive oil, and nuts ensure optimal cell function.
-
 <div class="card-affiliate">
 <div class="badge">HOT SALE</div>
 <div class="tilt">
@@ -119,6 +87,39 @@ Ronaldo's nutritional balance is intentional and refined. His focus on **lean pr
 </div>
 </div>
 </div>
+
+
+---
+
+## Daily Eating Schedule: Six Meals a Day
+One of the defining features of the **Ronaldo diet** is meal frequency. Instead of three large meals, he consumes **six smaller meals a day**. This strategy prevents energy crashes, stabilizes blood sugar, and optimizes training performance.
+
+| Time | Meal Type | Example Foods |
+|------|-----------|---------------|
+| 7:00 AM | **Breakfast** | Egg whites, **avocado toast**, whole-grain bread, black coffee |
+| 10:00 AM | **Snack** | Seasonal fruit, Greek yogurt, or oatmeal |
+| 1:00 PM | **Lunch #1** | Grilled chicken or **sea bass**, quinoa, steamed vegetables |
+| 4:00 PM | **Lunch #2 / Snack** | Tuna sandwich on whole grain or cottage cheese and fruit |
+| 7:00 PM | **Dinner** | Grilled fish (often **sea bass** or salmon) with salad and legumes |
+| 9:00 PM | **Pre-Bed** | Low-fat yogurt or whey **protein shakes** |
+
+This structure supports constant nutrient delivery, helps maintain metabolism, and aids in recovery throughout the day.
+
+---
+
+## Macronutrient Breakdown
+Ronaldo's nutritional balance is intentional and refined. His focus on **lean proteins**, complex carbs, and healthy fats is supported by principles commonly recommended in sports nutrition research and credible sources like [Healthline](https://www.healthline.com/nutrition/high-protein-diet).
+- **Protein (30–35%)**  
+  Critical for muscle repair and growth.  
+  Sources include chicken, turkey, eggs, Greek yogurt, and **lean fish** like sea bass and swordfish.
+
+- **Carbohydrates (40–45%)**  
+  Primarily whole-grain and fiber-rich choices.  
+  Brown rice, quinoa, oats, whole grain pasta, potatoes, and legumes support sustained **energy levels** through long **training sessions**.
+
+- **Healthy Fats (20–25%)**  
+  Necessary for hormone stability and joint health.  
+  Avocados, almonds, olive oil, and nuts ensure optimal cell function.
 
 This macronutrient structure aligns with sports nutrition guidelines for high-performance athletes.
 
