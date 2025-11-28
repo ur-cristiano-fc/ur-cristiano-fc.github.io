@@ -76,7 +76,7 @@ Ronaldo's nutritional balance is intentional and refined. His focus on **lean pr
   Necessary for hormone stability and joint health.  
   Avocados, almonds, olive oil, and nuts ensure optimal cell function.
 
-  <div class="card-affiliate">
+<div class="card-affiliate">
 <div class="badge">HOT SALE</div>
 <div class="tilt">
 <div class="img"><img src="{{ site.baseurl }}/{{ page.affimage }}" alt="{{ page.affname }}"></div>
