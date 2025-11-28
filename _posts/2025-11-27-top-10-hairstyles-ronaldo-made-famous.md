@@ -40,6 +40,12 @@ Fans frequently search for:
 - Ronaldo hairstyle Al Nassr  
 - Ronaldo haircut for kids  
 
+{% if page.afflink %}
+<!-- Affiliate Card -->
+<!-- <h2 class="related-affiliate-product">Check Cristiano Ronaldo Brand Products</h2> -->
+{% include affiliate-card.html %}
+{% endif %}
+
 This detailed guide covers each of these search intents with a Google Discover–optimized structure, expert hair tips, and a full analysis of Ronaldo’s evolving grooming style.
 
 This article contains **over 2000 words** and is formatted in Jekyll for your blog.
