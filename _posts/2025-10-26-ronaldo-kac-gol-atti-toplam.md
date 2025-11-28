@@ -8,7 +8,7 @@ image: assets/images/featured_ronaldo-kac-gol-atti-toplam.webp
 afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
-affdesc: "GThe soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99
 reviewnum: 294
 brand: Cristiano Ronaldo
