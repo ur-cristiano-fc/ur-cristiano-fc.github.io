@@ -43,7 +43,7 @@ Fans frequently search for:
 {% if page.afflink %}
 <!-- Affiliate Card -->
 <!-- <h2 class="related-affiliate-product">Check Cristiano Ronaldo Brand Products</h2> -->
-{% include affiliate-card.html %}
+{% include_relative affiliate-card.html %}
 {% endif %}
 
 This detailed guide covers each of these search intents with a Google Discover–optimized structure, expert hair tips, and a full analysis of Ronaldo’s evolving grooming style.
