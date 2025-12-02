@@ -113,6 +113,7 @@ Mbappe doing so at Real Madrid — the same club where Ronaldo dominated — mak
 ## Messi vs Ronaldo vs Mbappe – 60 Goal Seasons Compared
 
 ### Comparison Table: 60-Goal Seasons
+
 | Player | Peak Goals in a Calendar Year | Total Career Goals | International Goals | Champions League Goals |
 |-------|--------------------------------|---------------------|----------------------|-------------------------|
 | Cristiano Ronaldo | 69 (2013) | 890+ | 128+ | 140 |
