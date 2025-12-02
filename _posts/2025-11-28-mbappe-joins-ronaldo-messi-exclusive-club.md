@@ -113,11 +113,11 @@ Mbappe doing so at Real Madrid — the same club where Ronaldo dominated — mak
 ## Messi vs Ronaldo vs Mbappe – 60 Goal Seasons Compared
 
 ### Comparison Table: 60-Goal Seasons
-| Player | Years Achieved | Highest Annual Goal Count | Age During Peak | Notable Club |
-|--------|----------------|---------------------------|-----------------|---------------|
-| **Cristiano Ronaldo** | Multiple (2011–2015) | 69 goals (2013) | 28 | Real Madrid |
-| **Lionel Messi** | 2012 | 91 goals | 25 | Barcelona |
-| **Kylian Mbappe** | 2025 | 60 goals | 26 | Real Madrid |
+| Player | Peak Goals in a Calendar Year | Total Career Goals | International Goals | Champions League Goals |
+|-------|--------------------------------|---------------------|----------------------|-------------------------|
+| Cristiano Ronaldo | 69 (2013) | 890+ | 128+ | 140 |
+| Lionel Messi | 91 (2012) | 830+ | 106+ | 129 |
+| Kylian Mbappe | 60 (2025) | 350+ | 50+ | 45+ |
 
 #### Analysis  
 - Ronaldo performed multiple 60+ seasons.  
