@@ -8,7 +8,7 @@ afflink: https://amzn.to/4rwVgTH
 affimage: assets/images/affiliate/Paris-Soccer-Jersey-Set.webp
 affname: "Paris Soccer Jersey Set, #7 Mbappe, Youth Sizes, PSG Blue Jersey with Shorts & Socks"
 affdesc: "Sports Performance: Professional-grade soccer uniform set suitable for matches, practice, and training sessions"
-currentprice: $31.99
+currentprice: $56.00
 reviewnum: 18
 brand: Mbappe
 item: 100% Cotton 
