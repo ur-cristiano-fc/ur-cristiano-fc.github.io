@@ -16,7 +16,7 @@ specialfeature: Jersey, Shorts
 ---
 
 Cristiano Ronaldo is one of the greatest footballers of all time, and fans often wonder: **What Age Did Ronaldo Start Playing?** This detailed guide explores Ronaldo’s early years, the influences that shaped his development, and how he turned raw childhood passion into a legendary global career.
----
+
 
 **What age did Ronaldo start playing football?**
 Cristiano Ronaldo started playing football at **age 7**, when he joined the local club **CF Andorinha** in Madeira. His father worked at the club as a kit man, and this early exposure to football helped shape Ronaldo’s interest, discipline, and commitment to the sport.
