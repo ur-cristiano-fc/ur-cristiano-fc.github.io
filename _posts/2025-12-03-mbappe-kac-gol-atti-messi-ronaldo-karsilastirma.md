@@ -45,6 +45,52 @@ Bu sayılar “Mbappé bu sezon kaç gol attı” sorusuna net bir yanıt sunuyo
 
 Ancak, bu 60 gol rakamı her zaman resmi veri tabanalarında doğrulanmış olmayabilir; bu nedenle “resmî lig + resmi turnuva + milli takım” kombinasyonuna göre değişebileceğini göz önünde bulundurmak gerekir.
 
+<div class="Affiliated-product-List">
+<div class="card-affiliate">
+<div class="badge">HOT SALE</div>
+<div class="tilt">
+<div class="img"><img src="{{ site.baseurl }}/{{ page.affimage }}" alt="{{ page.affname }}"></div>
+</div>
+<div class="info">
+<!-- <div class="cat">High-Performance Laptop</div> -->
+<h2 class="title">{{ page.affname }}</h2>
+<p class="desc">{{ page.affdesc }}</p>
+<div class="feats">
+<span class="feat">{{ page.brand }}</span>
+<span class="feat">{{ page.item }}</span>
+<span class="feat">{{ page.specialfeature }}</span>
+</div>
+<div class="bottom">
+<div class="price">
+<!-- <span class="old">$2,499</span> -->
+<span class="new">{{ page.currentprice }}</span>
+</div>
+<a href="{{ page.afflink }}" class="affiliate-link" target="_blank">
+<button class="btn-affiliate">
+<span>Check Now</span>
+<svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4"/>
+<line x1="3" y1="6" x2="21" y2="6"/>
+<path d="M16 10a4 4 0 01-8 0"/>
+</svg>
+</button>
+</a>
+</div>
+<div class="meta">
+<div class="rating">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+<span class="rcount">{{ page.reviewnum }} Reviews</span>
+</div>
+<div class="stock">In Stock</div>
+</div>
+</div>
+</div>
+</div>
+
 ---
 
 ## Mbappé: Kariyer Toplamı ve Diğer Rekorlar
