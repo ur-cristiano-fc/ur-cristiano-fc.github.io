@@ -5,7 +5,7 @@ description: "Discover what age Cristiano Ronaldo started playing football, how 
 author: ishowspeed
 image: assets/images/featured_what-age-did-ronaldo-start-playing.webp
 afflink: https://amzn.to/4iAgmfx
-affimage: assets/images/affiliate/Kylian-Mbappe-Poster-Canvas-Poster.webp
+affimage: assets/images/affiliate/Kids-Soccer-Jersey-Uniform-Set.webp
 affname: "Kids Soccer Jersey Uniform Set #7 | Complete Kit with Jersey, Shorts, Socks & Player Necklace"
 affdesc: "THE ULTIMATE YOUTH SOCCER KIT: Get game-ready instantly! This complete #7 uniform set includes a breathable soccer jersey, comfortable shorts, grippy socks, AND a steel necklace."
 currentprice: $31.99
