@@ -6,6 +6,13 @@ keywords: ["cristiano ronaldo in games", "cristiano ronaldo video games", "ronal
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_top-games-to-play-as-cristiano-ronaldo.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo isn’t just a name that echoes through football stadiums — it’s one that resonates across gaming consoles, mobile screens, and esports arenas. 

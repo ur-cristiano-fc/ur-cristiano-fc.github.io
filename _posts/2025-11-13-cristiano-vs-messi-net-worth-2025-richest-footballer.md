@@ -5,6 +5,13 @@ description: "Discover the detailed comparison of Cristiano Ronaldo and Lionel M
 category: "RonaldoVsMessi"
 author: ishowspeed
 image: assets/images/featured_cristiano-vs-messi-net-worth-2025-richest-footballer.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 In 2025, the debate over who is richer — **Cristiano Ronaldo** or **Lionel Messi** — continues to captivate football fans around the world. Beyond their legendary rivalry on the field, their business ventures, endorsements, and investments have helped them build extraordinary fortunes. This in-depth comparison breaks down their latest earnings, total net worth, sponsorship deals, and their positions among the **Top 10 richest footballers in the world 2025**.

@@ -5,6 +5,13 @@ description: "A detailed look at the viral moment when Cristiano Ronaldo teased 
 category: "RonaldoLeBronJames"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-teases-lebron-james.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 

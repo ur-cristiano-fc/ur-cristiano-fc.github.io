@@ -5,6 +5,13 @@ description: "Detailed analysis of Cristiano Ronaldo's red card incident, potent
 category: "RonaldoFunkoApp"
 author: ishowspeed
 image: assets/images/featured_ronaldo-risks-ban-world-cup-red-card.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo is one of the greatest footballers in history, but even legends face moments of controversy. A red card at the World Cup can drastically change a team's journey, and when the player involved is the face of Portugal, the world pays attention. 

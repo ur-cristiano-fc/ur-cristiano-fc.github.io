@@ -6,6 +6,13 @@ keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo, football legacy, father and 
 category: "RonaldoJr"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-jr-both-scored-on-same-day.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 On an extraordinary day for football fans worldwide, Cristiano Ronaldo and his son Cristiano Ronaldo Jr. both found the back of the net — on the very same day. This rare moment captured the hearts of millions and stood as a touching symbol of football’s generational legacy.

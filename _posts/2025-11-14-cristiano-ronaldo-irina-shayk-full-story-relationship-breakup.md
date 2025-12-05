@@ -5,6 +5,13 @@ description: "Explore the complete story of Cristiano Ronaldo and Irina Shayk’
 category: "RonaldoIrina"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-irina-shayk-full-story-relationship-breakup.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 The relationship between **Cristiano Ronaldo** and **Irina Shayk** remains one of the most talked-about celebrity romances of the last decade. Their stunning appearances, global fame, and powerful careers made them a “super couple” between **2010 and 2015**. However, their breakup generated even more attention, leading to intense media speculation, rumored conflicts, and personal revelations.

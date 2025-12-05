@@ -5,6 +5,13 @@ description: "Ruben Amorim responds forcefully to Cristiano Ronaldo's recent cri
 category: "Ronaldo"
 author: ishowspeed
 image: assets/images/featured_ruben-amorim-response-to-cristiano-ronaldo-criticism.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo’s recent comments about Manchester United have set the football world talking again. In a candid interview, the Al Nassr forward — a club legend — said Manchester United were "not on a good path" and suggested Ruben Amorim could not perform miracles with the current squad. The remarks prompted a swift media reaction and a measured but firm response from United’s manager, Ruben Amorim.

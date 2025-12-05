@@ -6,6 +6,13 @@ categories: "cristianoronaldo"
 tags: [cristiano ronaldo, youtube, ur cristiano, football, influencer, social media]
 author: ishowspeed
 image: assets/images/featured_inside-content-ur-cristiano-channel.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Are you curious about what really happens on Cristiano Ronaldo’s "UR" YouTube channel? This article gives you a clear, detailed look inside the content that’s drawing millions of fans to subscribe. 

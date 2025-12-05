@@ -5,6 +5,13 @@ description: "Explore Cristiano Ronaldo's net worth in 2025, his earnings from f
 category: "NetWorth"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-net-worth.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 

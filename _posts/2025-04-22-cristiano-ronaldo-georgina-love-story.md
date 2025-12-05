@@ -7,6 +7,13 @@ categories: [Celebrity, Lifestyle, Cristiano Ronaldo, Love Story]
 tags: [cristiano ronaldo, georgina rodriguez, football love story, celebrity couple, football family]
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-georgina-love-story.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 **From a humble encounter in Madrid to raising children together under the spotlight, Cristiano Ronaldo and Georgina Rodríguez’s love story is a tale of fate, fame, and family.**

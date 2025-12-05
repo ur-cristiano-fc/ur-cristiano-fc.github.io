@@ -5,6 +5,13 @@ description: "A detailed analysis of Italy's World Cup danger, Ireland's playoff
 category: "RonaldoFunkoApp"
 author: ishowspeed
 image: assets/images/featured_italy-ireland-ronaldo-world-cup-6.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 World Cup qualification is heating up once again. Italy risk missing another major tournament, Ireland have pushed their way into the playoffs, and Cristiano Ronaldo is on course to make history by appearing in a **record 6th World Cup**. This in-depth analysis breaks down the standings, drama, match insights, and what this historic moment means for football fans worldwide.

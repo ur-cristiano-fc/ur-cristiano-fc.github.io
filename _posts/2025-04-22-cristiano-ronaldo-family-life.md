@@ -7,6 +7,13 @@ categories: [Celebrity, Lifestyle, Family, Football]
 tags: [cristiano ronaldo, football star, celebrity family, fatherhood, lifestyle]
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-family-life.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 **Ever wondered what life is like for the world’s most followed footballer when the cameras turn off? Dive into Cristiano Ronaldo's family life and discover the man beyond the football pitch.**

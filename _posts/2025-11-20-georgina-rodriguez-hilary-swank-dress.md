@@ -5,6 +5,13 @@ description: "Explore how Georgina Rodríguez recreated Hilary Swank’s iconic 
 category: "RonaldoTrump"
 author: ishowspeed
 image: assets/images/featured_georgina-rodriguez-hilary-swank-dress.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Georgina Rodríguez captured global attention after arriving at a prestigious White House event alongside Cristiano Ronaldo wearing a gown inspired by Hilary Swank’s legendary 2005 Oscar dress. Fashion critics, fans, and media outlets quickly praised Georgina for reviving one of Hollywood’s most iconic red-carpet moments. This detailed fashion analysis explains the dress, the inspiration, the comparisons, and why her look became one of the most discussed outfits of the year.

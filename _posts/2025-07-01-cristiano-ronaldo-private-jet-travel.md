@@ -6,6 +6,13 @@ keywords: ["Cristiano Ronaldo", "Cristiano Ronaldo travel", "Cristiano Ronaldo p
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-private-jet-travel.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo is not just one of the greatest footballers of all time—he is also a global style icon and symbol of luxury. 

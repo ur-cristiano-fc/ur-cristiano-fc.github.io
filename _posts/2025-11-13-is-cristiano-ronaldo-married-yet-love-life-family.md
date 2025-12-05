@@ -5,6 +5,13 @@ description: "Is Cristiano Ronaldo married? Discover the truth about Ronaldo’s
 category: "RonaldoRealMadrid"
 author: ishowspeed
 image: assets/images/featured_is-cristiano-ronaldo-married-yet-love-life-family.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Is **Cristiano Ronaldo married yet**? This is one of the most searched questions about the football legend in 2025. Fans have long followed his incredible career, but they’re equally fascinated by his personal life — especially his relationship with **Georgina Rodríguez**, the mother of some of his children.  

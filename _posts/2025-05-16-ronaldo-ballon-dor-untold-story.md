@@ -5,6 +5,13 @@ description: "Discover the untold journey of Cristiano Ronaldo's five Ballon d'O
 categories: [Sports, Celebrity]
 author: ishowspeed
 image: assets/images/featured_ronaldo-ballon-dor-untold-story.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo is a name synonymous with football greatness, and his five Ballon d’Or awards stand as a testament to his enduring legacy. 

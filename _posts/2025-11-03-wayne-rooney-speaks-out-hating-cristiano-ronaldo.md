@@ -5,6 +5,13 @@ description: "Wayne Rooney opens up about his alleged 'hate' for Cristiano Ronal
 category: "RonaldoInterview"
 author: ishowspeed
 image: assets/images/featured_wayne-rooney-speaks-out-hating-cristiano-ronaldo.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Wayne Rooney has once again made headlines after commenting on his past relationship with Cristiano Ronaldo and addressing claims that he 'hated' his former Manchester United teammate. In the same breath, Rooney’s remarks about Lionel Messi have reignited the eternal GOAT debate. 

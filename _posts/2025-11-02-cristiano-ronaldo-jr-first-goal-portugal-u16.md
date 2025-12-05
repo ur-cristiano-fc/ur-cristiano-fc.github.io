@@ -6,6 +6,13 @@ keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo Jr first goal, Cristiano Rona
 category: "RonaldoJr"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-jr-first-goal-portugal-u16.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 At just **15 years old**, **Cristiano Ronaldo Jr** has scored his **first-ever goal** for the **Portugal U-16 national team**, marking a proud milestone for the son of football legend **Cristiano Ronaldo**. This moment not only celebrates the young player’s growing talent but also sparks global excitement about the continuation of the **Ronaldo legacy**. 

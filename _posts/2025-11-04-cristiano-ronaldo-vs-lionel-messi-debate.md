@@ -5,6 +5,13 @@ description: "Cristiano Ronaldo reignites the age-old debate with Lionel Messi, 
 category: "RonaldoInterview"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-vs-lionel-messi-debate.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 In a new and fiery interview with Piers Morgan, Cristiano Ronaldo once again addressed football’s most polarizing debate — who is better, him or Lionel Messi? Ronaldo made it clear: he doesn’t believe Messi is the superior player. This bold statement has reignited one of sport’s greatest rivalries. 

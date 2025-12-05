@@ -6,6 +6,13 @@ keywords: ["cristiano ronaldo signed items", "ronaldo autographed memorabilia", 
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-signed-items.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo is one of the most iconic athletes in the world, making memorabilia signed by him highly valuable and desirable. From jerseys to footballs, owning an item signed by Ronaldo is a dream for many fans and collectors. 

@@ -5,6 +5,13 @@ description: "A detailed breakdown of Ronaldo’s private jet expenses, includin
 category: "RonaldoJet"
 author: ishowspeed
 image: assets/images/featured_ronaldo-private-jet-expenses.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo is one of the most recognizable athletes on the planet. His lifestyle reflects his global fame, and one of its most iconic symbols is **Ronaldo’s private jet**. Fans often wonder:

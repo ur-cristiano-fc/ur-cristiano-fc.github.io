@@ -6,6 +6,13 @@ description: "Discover Ronaldo Beltrán Dimas: his early life, professional jour
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_who-is-ronaldo-beltran-dimas.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
  
 Ronaldo Beltrán Dimas is a young Mexican goalkeeper from Ahome, Sinaloa. Born in 2002, he rose through the youth ranks of Dorados de Sinaloa and then Toluca, gradually building his career in their underage squads and reserves. 

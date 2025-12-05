@@ -6,6 +6,13 @@ keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo Jr car, Lamborghini Urus, Cri
 category: "RonaldoJr"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-jr-first-car-lamborghini-urus.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo Jr., the son of football legend Cristiano Ronaldo, recently made headlines after reportedly receiving his first car — a Lamborghini Urus. As the teenage prodigy steps further into the spotlight, this moment not only reflects his growing independence but also symbolizes the incredible lifestyle surrounding the Ronaldo family. 

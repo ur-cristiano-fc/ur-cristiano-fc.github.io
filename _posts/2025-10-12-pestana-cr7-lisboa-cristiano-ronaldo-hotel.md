@@ -6,6 +6,13 @@ keywords: ["CR7", "Pestana CR7 Lisboa", "Cristiano Ronaldo hotel", "Lisbon hotel
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_pestana-cr7-lisboa-cristiano-ronaldo-hotel.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
  
 The **Pestana CR7 Lisboa** is more than just a hotel—it’s a lifestyle experience inspired by Cristiano Ronaldo himself. Located in the heart of Lisbon, this stylish boutique hotel combines modern luxury with football-inspired design, offering travelers the perfect mix of comfort, elegance, and sporty energy. 

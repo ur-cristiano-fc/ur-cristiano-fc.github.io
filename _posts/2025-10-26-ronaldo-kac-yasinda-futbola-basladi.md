@@ -5,6 +5,13 @@ description: "Cristiano Ronaldo kaç yaşında futbola başladı? Bu detaylı re
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_ronaldo-kac-yasinda-futbola-basladi.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo, dünyanın en tanınmış futbolcularından biri olarak tarihe geçti. Ancak pek çok futbolseverin merak ettiği bir soru var: *Ronaldo kaç yaşında futbola başladı?* Bu makale, onun çocukluk döneminden profesyonel kariyerine kadar uzanan yolculuğunu detaylı biçimde ele alıyor. 

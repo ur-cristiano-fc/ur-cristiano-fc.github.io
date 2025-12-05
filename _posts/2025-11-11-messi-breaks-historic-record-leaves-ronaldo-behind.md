@@ -5,6 +5,13 @@ description: "An in-depth look at whether Lionel Messi broke a historic record a
 category: "RonaldoAge"
 author: ishowspeed
 image: assets/images/featured_messi-breaks-historic-record-leaves-ronaldo-behind.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 The global football conversation often centers around Lionel Messi and Ronaldo, two of the most iconic players in the modern era. When Messi breaks a new record, discussions quickly arise about how it affects Ronaldo's standing in football history. 

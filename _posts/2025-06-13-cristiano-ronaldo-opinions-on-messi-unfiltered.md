@@ -6,6 +6,13 @@ categories: [Sports, Football, News]
 tags: [Cristiano Ronaldo, Lionel Messi, football rivalry, opinions]
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-opinions-on-messi-unfiltered.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo and Lionel Messi have defined football’s modern era, captivating the world with their rivalry and mutual brilliance. But beyond the headlines and debate, what does Cristiano Ronaldo truly think of Messi? 

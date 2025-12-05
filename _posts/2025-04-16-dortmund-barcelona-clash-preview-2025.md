@@ -7,6 +7,13 @@ categories: [Football, Sports News, Champions League]
 tags: ["Dortmund - Barcelona", "Barcelona match", "Dortmund preview", "football 2025"]
 author: ishowspeed
 image: assets/images/featured_dortmund-barcelona-clash-preview-2025.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 The anticipation is electric as Borussia Dortmund prepares to face FC Barcelona in what promises to be a blockbuster encounter. This is more than just a Champions League clash — it's a tactical battle, a test of nerves, and a showcase of elite European football.

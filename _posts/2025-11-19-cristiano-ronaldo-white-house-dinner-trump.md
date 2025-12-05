@@ -5,6 +5,13 @@ description: "Cristiano Ronaldo’s high-profile appearance at the White House d
 category: "RonaldoTrump"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-white-house-dinner-trump.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo, one of the world’s most iconic soccer stars, made headlines by attending a **White House dinner** hosted by **Donald Trump** in honor of Saudi Crown Prince Mohammed bin Salman. The event, attended by global business leaders, political figures, and sports icons, marked Ronaldo’s return to the U.S. after years away. 

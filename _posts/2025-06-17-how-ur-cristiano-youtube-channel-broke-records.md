@@ -6,6 +6,13 @@ categories: sports
 tags: [cristiano ronaldo, youtube, ur cristiano, football, influencer, social media]
 author: ishowspeed
 image: assets/images/featured_how-ur-cristiano-youtube-channel-broke-records.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Are you wondering how Cristiano Ronaldo’s "UR" YouTube channel became a global sensation and broke records in 2024? This article gives you a simple, detailed look at the explosive growth of "UR Cristiano," the records it shattered, and why millions of fans are flocking to the channel.

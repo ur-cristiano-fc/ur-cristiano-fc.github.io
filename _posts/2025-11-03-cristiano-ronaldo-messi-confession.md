@@ -5,6 +5,13 @@ description: "Cristiano Ronaldo’s latest confession about Lionel Messi has sho
 category: "RonaldoInterview"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-messi-confession.webp
+affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
+affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
+currentprice: $19.99
+reviewnum: 294
+brand: Cristiano Ronaldo
+item: Decorations Gift
+specialfeature: Dimmable Lamp
 ---
 
 Cristiano Ronaldo has finally opened up about his true feelings toward Lionel Messi — a revelation that has taken the football world by surprise. For years, fans have debated who deserves the title of the GOAT (Greatest of All Time), but Ronaldo’s recent confession adds a new dimension to this legendary rivalry. 
