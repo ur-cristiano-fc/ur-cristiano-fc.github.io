@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo is not only one of the greatest footballers in history but also one of the most impactful humanitarians in the sports world. For years, he has donated millions to hospitals, children’s charities, disaster victims and medical causes. This detailed guide explains every major Cristiano Ronaldo charity initiative, how much he contributes annually, how his foundation works, and how he compares with other top athletes like Lionel Messi.
 
 ---

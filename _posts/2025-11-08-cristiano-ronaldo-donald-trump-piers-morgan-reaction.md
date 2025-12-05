@@ -13,8 +13,7 @@ reviewnum: 294
 brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
----
- 
+--- 
 Cristiano Ronaldo’s interviews have always attracted worldwide attention, especially when he opens up on topics beyond football. Recently, during a conversation with Piers Morgan, Ronaldo mentioned Donald Trump, leading to an unexpected wave of reactions across social media platforms. 
 
 

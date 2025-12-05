@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo is one of the most recognizable athletes on the planet. His lifestyle reflects his global fame, and one of its most iconic symbols is **Ronaldo’s private jet**. Fans often wonder:
 
 - How much does Ronaldo’s private jet cost?

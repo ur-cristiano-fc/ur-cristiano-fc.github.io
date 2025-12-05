@@ -13,7 +13,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo and Georgina Rodríguez are finally stepping closer to their dream wedding, and fans everywhere want to know one thing: what is the Cristiano Ronaldo wedding date and what will the celebration look like? 
 
 Cristiano Ronaldo’s wedding to Georgina Rodríguez is planned for the summer of 2026 on his home island of Madeira, Portugal, shortly after the 2026 FIFA World Cup, with a Christian ceremony at Funchal Cathedral followed by a luxury hotel reception. The couple are engaged but not officially married yet, and no exact calendar date has been publicly confirmed as of late 2025.

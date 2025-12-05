@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 World Cup qualification is heating up once again. Italy risk missing another major tournament, Ireland have pushed their way into the playoffs, and Cristiano Ronaldo is on course to make history by appearing in a **record 6th World Cup**. This in-depth analysis breaks down the standings, drama, match insights, and what this historic moment means for football fans worldwide.
 
 ---

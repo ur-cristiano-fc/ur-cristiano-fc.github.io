@@ -15,7 +15,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 In the summer of 1996, a scrawny kid from Madeira named **Cristiano Ronaldo** stepped onto the pitch in Lisbon for a trial with Sporting CP. Barely 11 years old, he dazzled coaches with his speed, dribbling, and an almost unnatural confidence. 
 
 <!-- <ins class="adsbygoogle"

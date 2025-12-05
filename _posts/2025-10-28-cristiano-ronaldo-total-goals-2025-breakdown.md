@@ -15,7 +15,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 This article provides an in-depth, updated breakdown of **Cristiano Ronaldo’s total goals** through 2025. We cover his goals by club, goals for Portugal, competition-level tallies (league, continental cups, and international tournaments), and calendar-year and season splits. 
 
 Whether you’re a fan tracking milestones or a researcher compiling stats, this guide answers the key question: **How many goals has Cristiano Ronaldo scored so far — and where did they come from?**

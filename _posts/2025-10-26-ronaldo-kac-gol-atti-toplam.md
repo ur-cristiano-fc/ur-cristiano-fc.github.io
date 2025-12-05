@@ -15,7 +15,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo, modern futbolun en büyük golcülerinden biri olarak anılıyor. Peki, futbolseverlerin en çok merak ettiği soru: *Ronaldo toplam kaç gol attı?* Bu yazıda, Cristiano Ronaldo’nun kariyerinin her döneminde attığı golleri kulüp kulüp, sezon sezon inceleyeceğiz. 
 
 Ayrıca, onun oyun tarzı, rekorları, ve futbol tarihine geçen golleri hakkında detaylı bilgiler bulacaksınız.

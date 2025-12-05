@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo’s recent comments about Manchester United have set the football world talking again. In a candid interview, the Al Nassr forward — a club legend — said Manchester United were "not on a good path" and suggested Ruben Amorim could not perform miracles with the current squad. The remarks prompted a swift media reaction and a measured but firm response from United’s manager, Ruben Amorim.
 
 ## The Background: Ronaldo’s Critique and Why It Matters

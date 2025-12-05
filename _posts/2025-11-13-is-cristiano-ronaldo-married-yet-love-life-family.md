@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Is **Cristiano Ronaldo married yet**? This is one of the most searched questions about the football legend in 2025. Fans have long followed his incredible career, but they’re equally fascinated by his personal life — especially his relationship with **Georgina Rodríguez**, the mother of some of his children.  
 This in-depth feature explores Ronaldo’s love life, family, and whether marriage is finally on the horizon.
 

@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 In 2025, the debate over who is richer — **Cristiano Ronaldo** or **Lionel Messi** — continues to captivate football fans around the world. Beyond their legendary rivalry on the field, their business ventures, endorsements, and investments have helped them build extraordinary fortunes. This in-depth comparison breaks down their latest earnings, total net worth, sponsorship deals, and their positions among the **Top 10 richest footballers in the world 2025**.
 
 ---

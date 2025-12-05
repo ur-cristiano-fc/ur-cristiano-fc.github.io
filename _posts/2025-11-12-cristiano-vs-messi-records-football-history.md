@@ -15,7 +15,6 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
-
 The debate of **Cristiano vs Messi** continues to captivate football fans around the world. Both players have redefined what it means to be great, setting and breaking countless records throughout their careers. From club success and international achievements to goal-scoring milestones and individual awards, this detailed comparison uncovers who stands taller in football history.
 
 ---

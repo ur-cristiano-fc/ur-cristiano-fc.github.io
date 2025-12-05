@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo has finally opened up about his true feelings toward Lionel Messi — a revelation that has taken the football world by surprise. For years, fans have debated who deserves the title of the GOAT (Greatest of All Time), but Ronaldo’s recent confession adds a new dimension to this legendary rivalry. 
 
 In this post, we explore what he said, the reactions from fans and media, and what this moment means for football history.

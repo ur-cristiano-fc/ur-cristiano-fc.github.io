@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 The soccer Funko Pop market has exploded in 2025 as global football fandom continues to grow. Lionel Messi, Neymar Jr, and other football icons have their own collectible vinyl figures — yet the biggest shock remains that **Cristiano Ronaldo still has no official Funko Pop release**. This guide compares the best soccer Funko Pops of 2025, explains why a CR7 version doesn't exist, and helps fans find the top collectibles this year.
 
 ## Funko App Link

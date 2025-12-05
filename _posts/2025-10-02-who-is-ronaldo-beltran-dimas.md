@@ -14,8 +14,7 @@ reviewnum: 294
 brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
----
- 
+--- 
 Ronaldo Beltrán Dimas is a young Mexican goalkeeper from Ahome, Sinaloa. Born in 2002, he rose through the youth ranks of Dorados de Sinaloa and then Toluca, gradually building his career in their underage squads and reserves. 
 
 <!-- <ins class="adsbygoogle"

@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Wayne Rooney has once again made headlines after commenting on his past relationship with Cristiano Ronaldo and addressing claims that he 'hated' his former Manchester United teammate. In the same breath, Rooney’s remarks about Lionel Messi have reignited the eternal GOAT debate. 
 
 This in-depth article explores the history between Rooney and Ronaldo, the origins of the “hate” rumors, and what these new statements reveal about mutual respect, rivalry, and football legacy.

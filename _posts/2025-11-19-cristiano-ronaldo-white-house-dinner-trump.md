@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo, one of the world’s most iconic soccer stars, made headlines by attending a **White House dinner** hosted by **Donald Trump** in honor of Saudi Crown Prince Mohammed bin Salman. The event, attended by global business leaders, political figures, and sports icons, marked Ronaldo’s return to the U.S. after years away. 
 This post explores why he attended, what he said, the broader political significance, and how it affects his image on and off the field.
 

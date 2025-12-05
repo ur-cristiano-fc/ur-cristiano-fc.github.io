@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 The relationship between **Cristiano Ronaldo** and **Irina Shayk** remains one of the most talked-about celebrity romances of the last decade. Their stunning appearances, global fame, and powerful careers made them a “super couple” between **2010 and 2015**. However, their breakup generated even more attention, leading to intense media speculation, rumored conflicts, and personal revelations.
 
 This detailed feature explains their full story — how they met, their life together, why they ultimately separated, and what happened afterward.

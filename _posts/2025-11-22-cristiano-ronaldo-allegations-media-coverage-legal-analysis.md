@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo allegations refer to the legal dispute involving Kathryn Mayorga, who accused Ronaldo of sexual assault dating back to 2009. 
 
 The case has involved media outlets such as Der Spiegel, discussions about a reported **$375,000 settlement**, questions about a possible **NDA**, and ongoing public debate across platforms including Reddit. 

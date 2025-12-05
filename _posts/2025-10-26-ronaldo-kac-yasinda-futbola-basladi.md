@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo, dünyanın en tanınmış futbolcularından biri olarak tarihe geçti. Ancak pek çok futbolseverin merak ettiği bir soru var: *Ronaldo kaç yaşında futbola başladı?* Bu makale, onun çocukluk döneminden profesyonel kariyerine kadar uzanan yolculuğunu detaylı biçimde ele alıyor. 
 
 <!-- <ins class="adsbygoogle"

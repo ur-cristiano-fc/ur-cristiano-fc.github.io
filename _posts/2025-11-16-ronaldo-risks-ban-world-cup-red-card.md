@@ -14,7 +14,6 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
-
 Cristiano Ronaldo is one of the greatest footballers in history, but even legends face moments of controversy. A red card at the World Cup can drastically change a team's journey, and when the player involved is the face of Portugal, the world pays attention. 
 
 This article breaks down Ronaldo’s red card incident, what the rules say, the likelihood of a ban, and how it impacts Portugal’s World Cup campaign. It also answers trending fan questions related to **Ronaldo Portugal soccer**, **Ronaldo suspension**, **Ronaldo children**, and more.
