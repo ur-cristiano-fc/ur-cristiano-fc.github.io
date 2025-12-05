@@ -4,7 +4,8 @@ title: "Cristiano vs Messi Net Worth 2025: Who Is the Richest Footballer Today?"
 description: "Discover the detailed comparison of Cristiano Ronaldo and Lionel Messi's net worth in 2025. Learn who tops the list of richest footballers, including Faiq Bolkiah and other global stars."
 category: "RonaldoVsMessi"
 author: ishowspeed
-image: assets/images/featured_cristiano-vs-messi-net-worth-2025-richest-footballer.webp
+image: assets/images/featured_cristiano-vs-messi-net-worth-2025-richest-footballerafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

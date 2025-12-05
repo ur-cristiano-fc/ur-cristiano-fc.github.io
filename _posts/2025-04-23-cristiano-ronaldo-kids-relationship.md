@@ -5,7 +5,8 @@ categories: [Celebrity, Lifestyle, Family]
 tags: [Cristiano Ronaldo, Ronaldo kids, Cristiano Ronaldo fatherhood, Ronaldo family]
 description: "Discover Cristiano Ronaldo’s tender bond with his children, showcasing his softer side beyond football through love, devotion, and fatherhood moments."
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-kids-relationship.webp
+image: assets/images/featured_cristiano-ronaldo-kids-relationshipafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

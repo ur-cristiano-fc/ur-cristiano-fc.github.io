@@ -4,7 +4,8 @@ title: "US Investors in Saudi Football: What Harburg Group’s Purchase of Al-Kh
 description: "Explore how Harburg Group’s US investment in Al-Kholood affects Cristiano Ronaldo’s competition and the broader growth of the Saudi Pro League."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_harburg-group-al-kholood-ronaldo.webp
+image: assets/images/featured_harburg-group-al-kholood-ronaldoafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

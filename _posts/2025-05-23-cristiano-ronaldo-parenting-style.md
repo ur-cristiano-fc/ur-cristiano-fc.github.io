@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo’s Parenting Style: Raising the Next Generation"
 description: "Explore Cristiano Ronaldo’s unique parenting style, values, and lessons as he raises his children in the global spotlight."
 categories: [Sports, Celebrity]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-parenting-style.webp
+image: assets/images/featured_cristiano-ronaldo-parenting-styleafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

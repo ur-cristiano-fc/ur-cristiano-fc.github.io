@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo’s Most Inspiring Speeches of All Time"
 description: "Discover Cristiano Ronaldo’s most inspiring speeches of all time. Learn how his words motivate fans, players, and aspiring athletes around the world."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-inspiring-speeches.webp
+image: assets/images/featured_cristiano-ronaldo-inspiring-speechesafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

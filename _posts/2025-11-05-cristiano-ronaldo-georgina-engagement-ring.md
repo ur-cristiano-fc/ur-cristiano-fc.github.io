@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo Shares Details in Interview with Piers Morgan On Fianc
 description: "Cristiano Ronaldo recently opened up in his interview with Piers Morgan about his fiancée Georgina Rodríguez’s engagement ring. Learn what makes the ring special, why it symbolizes their relationship, and what the interview revealed about their private life."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-georgina-engagement-ring.webp
+image: assets/images/featured_cristiano-ronaldo-georgina-engagement-ringafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

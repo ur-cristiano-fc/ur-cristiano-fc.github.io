@@ -5,7 +5,8 @@ description: "Explore Cristiano Ronaldo grooming secrets—from hair and skincar
 keywords: ["cristiano ronaldo grooming", "ronaldo hair tips", "ronaldo skincare routine", "cristiano ronaldo beauty secrets"]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-grooming-tips.webp
+image: assets/images/featured_cristiano-ronaldo-grooming-tipsafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

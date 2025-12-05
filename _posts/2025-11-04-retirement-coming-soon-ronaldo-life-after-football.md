@@ -4,7 +4,8 @@ title: "Retirement Is Coming Soon: Ronaldo’s Honest Admission on Life After Fo
 description: "Cristiano Ronaldo opens up about his retirement plans, life beyond football, and what he envisions for his post-playing career. Explore his emotional reflections and future ambitions."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_retirement-coming-soon-ronaldo-life-after-football.webp
+image: assets/images/featured_retirement-coming-soon-ronaldo-life-after-footballafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

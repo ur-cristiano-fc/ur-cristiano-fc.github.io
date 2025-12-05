@@ -6,7 +6,8 @@ keywords: "cristiano ronaldo"
 categories: [Celebrity, Lifestyle, Cristiano Ronaldo, Love Story]
 tags: [cristiano ronaldo, georgina rodriguez, football love story, celebrity couple, football family]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-georgina-love-story.webp
+image: assets/images/featured_cristiano-ronaldo-georgina-love-storyafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

@@ -5,7 +5,8 @@ description: "Discover why Caleçon CR7 stands out as the perfect mix of comfort
 keywords: [Caleçon CR7, CR7 underwear, Cristiano Ronaldo fashion, men's luxury underwear, CR7 comfort]
 category: "CaleçonCR7"
 author: ishowspeed
-image: assets/images/featured_calecon-cr7-comfort-luxury.webp
+image: assets/images/featured_calecon-cr7-comfort-luxuryafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

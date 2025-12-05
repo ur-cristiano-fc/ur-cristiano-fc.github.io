@@ -5,7 +5,8 @@ description: "Discover the best places to shop for authentic Cristiano Ronaldo m
 keywords: [cristiano ronaldo shop, buy cristiano ronaldo merchandise, authentic cristiano ronaldo store, where to buy ronaldo products online]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-shop.webp
+image: assets/images/featured_cristiano-ronaldo-shopafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

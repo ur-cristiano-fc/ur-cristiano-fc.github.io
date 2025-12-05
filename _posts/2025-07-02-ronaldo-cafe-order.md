@@ -5,7 +5,8 @@ description: "Curious what Cristiano Ronaldo would eat or drink at your favorite
 keywords: ["Cristiano Ronaldo", "Cristiano Ronaldo diet", "Cristiano Ronaldo café", "Cristiano Ronaldo food"]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_ronaldo-cafe-order.webp
+image: assets/images/featured_ronaldo-cafe-orderafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

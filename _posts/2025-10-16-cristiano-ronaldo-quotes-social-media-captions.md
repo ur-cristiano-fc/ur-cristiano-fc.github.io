@@ -4,7 +4,8 @@ title: "Top Cristiano Ronaldo Quotes for Social Media Captions"
 description: "Discover the top Cristiano Ronaldo quotes perfect for social media captions. Inspire your followers with powerful words from one of the greatest footballers of all time."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-quotes-social-media-captions.webp
+image: assets/images/featured_cristiano-ronaldo-quotes-social-media-captionsafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

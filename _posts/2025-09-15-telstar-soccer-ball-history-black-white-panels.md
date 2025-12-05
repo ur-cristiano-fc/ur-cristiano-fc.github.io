@@ -4,7 +4,8 @@ title: "Why Soccer Balls Have Black & White Panels: The Telstar Story Explained"
 description: "Discover the fascinating history of the Telstar soccer ball and why black and white panels became the iconic design during the 1960s World Cup."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_telstar-soccer-ball-history-black-white-panels.webp
+image: assets/images/featured_telstar-soccer-ball-history-black-white-panelsafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

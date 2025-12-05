@@ -4,7 +4,8 @@ title: "Are Cristiano and Georgina's Assets Truly Spectacular? Their Luxury Home
 description: "Explore Cristiano Ronaldo's and Georgina's luxurious assets: stunning homes, incredible cars, and a lifestyle that will leave you amazed."
 keywords: "Cristiano Ronaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-georgina-spectacular-assets.webp
+image: assets/images/featured_cristiano-georgina-spectacular-assetsafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

@@ -5,7 +5,8 @@ description: "Explore Cristiano Ronaldo private jet in detail. Learn about its l
 keywords: "cristiano ronaldo private jet, cristiano ronaldo jet, cristiano ronaldo plane, cristiano ronaldo lifestyle"
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-private-jet.webp
+image: assets/images/featured_cristiano-ronaldo-private-jetafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

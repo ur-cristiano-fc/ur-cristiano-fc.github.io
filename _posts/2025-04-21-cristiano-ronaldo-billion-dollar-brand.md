@@ -6,7 +6,8 @@ keywords: "Cristiano Ronaldo"
 categories: [Business, Celebrity Brands, Cristiano Ronaldo, Sports Marketing]
 tags: [Cristiano Ronaldo, brand empire, football business, CR7, endorsements, athlete entrepreneurs, sports business]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-billion-dollar-brand.webp
+image: assets/images/featured_cristiano-ronaldo-billion-dollar-brandafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

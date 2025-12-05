@@ -4,7 +4,8 @@ title: "Cristiano vs Messi: Who Has Broken More Records in Football History?"
 description: "Explore the ultimate comparison of Cristiano Ronaldo and Lionel Messi — who has broken more records in football history? Dive deep into their goals, trophies, and achievements that define their legendary rivalry."
 category: "RonaldoVsMessi"
 author: ishowspeed
-image: assets/images/featured_cristiano-vs-messi-records-football-history.webp
+image: assets/images/featured_cristiano-vs-messi-records-football-historyafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

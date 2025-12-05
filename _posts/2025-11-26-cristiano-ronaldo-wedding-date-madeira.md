@@ -3,7 +3,8 @@ layout: post
 title: "Cristiano Ronaldo & Georgina Rodríguez’s Long‑Awaited Wedding Date: What We Know So Far"
 description: "Cristiano Ronaldo wedding latest updates – confirmed Madeira venue, expected wedding date after the 2026 World Cup, engagement ring price, guest list rumours, photos and videos, all explained in simple language."
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-wedding-date-madeira.webp
+image: assets/images/featured_cristiano-ronaldo-wedding-date-madeiraafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

@@ -4,7 +4,8 @@ title: "Al-Nassr vs Al-Kholood: Cristiano Ronaldo’s Match Performances & What 
 description: "Detailed analysis of Al-Nassr vs Al-Kholood, focusing on Cristiano Ronaldo’s goals, match performances, and what US viewers can expect from this Saudi Pro League clash."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_al-nassr-vs-al-kholood-cristiano-ronaldo-match-preview.webp
+image: assets/images/featured_al-nassr-vs-al-kholood-cristiano-ronaldo-match-previewafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

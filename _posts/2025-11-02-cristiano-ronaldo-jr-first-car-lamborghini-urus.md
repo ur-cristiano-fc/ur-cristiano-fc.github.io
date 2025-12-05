@@ -5,7 +5,8 @@ meta_description: "Cristiano Ronaldo Jr. receives his first car, a Lamborghini U
 keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo Jr car, Lamborghini Urus, Cristiano Ronaldo family, Ronaldo Jr lifestyle"
 category: "RonaldoJr"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-jr-first-car-lamborghini-urus.webp
+image: assets/images/featured_cristiano-ronaldo-jr-first-car-lamborghini-urusafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

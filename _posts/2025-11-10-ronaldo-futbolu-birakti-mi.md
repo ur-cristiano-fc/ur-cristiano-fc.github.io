@@ -4,7 +4,8 @@ title: "Ronaldo Futbolu Bıraktı mı? İşte Cristiano Ronaldo’nun Kariyer Du
 description: "Ronaldo futbolu bıraktı mı? Cristiano Ronaldo'nun kariyer durumu, son açıklamaları, gelecekteki planları ve taraftarların tepkileri hakkında güncel ve detaylı bilgi."
 category: "RonaldoRetirement"
 author: ishowspeed
-image: assets/images/featured_ronaldo-futbolu-birakti-mi.webp
+image: assets/images/featured_ronaldo-futbolu-birakti-miafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

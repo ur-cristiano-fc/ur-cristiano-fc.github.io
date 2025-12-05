@@ -4,7 +4,8 @@ title: "Wayne Rooney Speaks Out on 'Hating' Cristiano Ronaldo as Lionel Messi Cl
 description: "Wayne Rooney opens up about his alleged 'hate' for Cristiano Ronaldo and his views on Lionel Messi, clarifying the truth behind their football rivalry and friendship."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_wayne-rooney-speaks-out-hating-cristiano-ronaldo.webp
+image: assets/images/featured_wayne-rooney-speaks-out-hating-cristiano-ronaldoafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

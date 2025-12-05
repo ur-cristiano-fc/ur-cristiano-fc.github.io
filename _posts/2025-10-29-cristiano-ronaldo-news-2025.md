@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo News: Latest Updates on His Career, Goals, and Life in
 description: "Stay updated with the latest Cristiano Ronaldo news in 2025 — including his career highlights, goals, club updates, family life, and off-field ventures. A complete roundup for fans and football followers."
 category: "totalgoals"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-news-2025.webp
+image: assets/images/featured_cristiano-ronaldo-news-2025afflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

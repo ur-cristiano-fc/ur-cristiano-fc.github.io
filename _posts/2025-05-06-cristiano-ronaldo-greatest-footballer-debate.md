@@ -5,7 +5,8 @@ description: "A detailed look at the global debate on whether Cristiano Ronaldo 
 keywords: ["Cristiano Ronaldo", "Cristiano Ronaldo GOAT debate", "Greatest footballer of all time"]
 categories: [Sports, Celebrity, Biography]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-greatest-footballer-debate.webp
+image: assets/images/featured_cristiano-ronaldo-greatest-footballer-debateafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

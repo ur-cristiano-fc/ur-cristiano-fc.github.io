@@ -5,7 +5,8 @@ description: "Discover the heartwarming story of Cristiano Ronaldo and his son C
 keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo, football legacy, father and son goals, Portugal football, Al-Nassr, youth football"
 category: "RonaldoJr"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-jr-both-scored-on-same-day.webp
+image: assets/images/featured_cristiano-ronaldo-jr-both-scored-on-same-dayafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo Says He Feels “Perfect” Compared to David Beckham 
 description: "Cristiano Ronaldo spoke about confidence, legacy, and comparisons to David Beckham during his conversation with Piers Morgan. Explore the context, reaction, and meaning behind the statement."
 category: "RonaldoBeckham"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-talks-about-david.webp
+image: assets/images/featured_cristiano-ronaldo-talks-about-davidafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

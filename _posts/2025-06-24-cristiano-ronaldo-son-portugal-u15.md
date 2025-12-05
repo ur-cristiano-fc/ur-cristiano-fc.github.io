@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo’s Son Joins Portugal U-15: The Next Generation of Fo
 description: "Cristiano Ronaldo’s son joins Portugal U-15, raising expectations about his future in football. Learn all about the next generation of Ronaldo legacy."
 tags: [Cristiano Ronaldo, Portugal U-15, Cristiano Ronaldo Jr, football news, youth football, football legacy]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-son-portugal-u15.webp
+image: assets/images/featured_cristiano-ronaldo-son-portugal-u15afflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

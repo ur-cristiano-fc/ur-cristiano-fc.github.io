@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo Attends White House Dinner with U.S. President Donald 
 description: "Cristiano Ronaldo’s high-profile appearance at the White House dinner with Donald Trump and Saudi Crown Prince Mohammed bin Salman — the full story, implications, and public reaction."  
 category: "RonaldoTrump"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-white-house-dinner-trump.webp
+image: assets/images/featured_cristiano-ronaldo-white-house-dinner-trumpafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99

@@ -4,7 +4,8 @@ title: "Is Cristiano Ronaldo Married Yet? The Truth About His Love Life and Fami
 description: "Is Cristiano Ronaldo married? Discover the truth about Ronaldo’s relationship with Georgina Rodríguez, his children, family life, and marriage plans in 2025."
 category: "RonaldoRealMadrid"
 author: ishowspeed
-image: assets/images/featured_is-cristiano-ronaldo-married-yet-love-life-family.webp
+image: assets/images/featured_is-cristiano-ronaldo-married-yet-love-life-familyafflink: https://amzn.to/43Xm4Ci
+affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
 currentprice: $19.99
