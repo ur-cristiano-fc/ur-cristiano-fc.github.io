@@ -5,7 +5,8 @@ description: "Explore how Cristiano Ronaldo transformed men’s fashion with his
 categories: [Fashion, Celebrity Style, Cristiano Ronaldo]
 tags: [Cristiano Ronaldo, Men’s Fashion, Celebrity Style, CR7, Fashion Icons]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-mens-fashion-styleafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-mens-fashion-style.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

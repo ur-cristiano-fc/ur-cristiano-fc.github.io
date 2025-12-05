@@ -4,7 +4,8 @@ title: "Italy in Danger Again, Ireland Make Playoffs, and Cristiano Ronaldo Set 
 description: "A detailed analysis of Italy's World Cup danger, Ireland's playoff qualification, and Cristiano Ronaldo's record-breaking path to a sixth World Cup. Updated for Google Discover readers."
 category: "RonaldoFunkoApp"
 author: ishowspeed
-image: assets/images/featured_italy-ireland-ronaldo-world-cup-6afflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_italy-ireland-ronaldo-world-cup-6.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

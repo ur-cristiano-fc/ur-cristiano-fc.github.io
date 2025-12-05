@@ -4,7 +4,8 @@ title: "Best Cristiano Ronaldo Mods for GTA, Minecraft & FIFA"
 description: "Explore the best Cristiano Ronaldo mods for GTA, Minecraft, and FIFA. Download top-rated custom mods to enhance your gaming experience."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-modsafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-mods.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

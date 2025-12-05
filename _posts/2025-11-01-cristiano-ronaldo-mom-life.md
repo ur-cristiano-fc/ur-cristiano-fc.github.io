@@ -4,7 +4,8 @@ title: "Inside Maria Dolores’ Life: Cristiano Ronaldo’s Strongest Supporter"
 description: "Discover the inspiring story of Cristiano Ronaldo’s mom, Maria Dolores Aveiro — her life, struggles, and unwavering support that shaped the football legend’s success."
 category: "ronaldomom"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-mom-lifeafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-mom-life.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

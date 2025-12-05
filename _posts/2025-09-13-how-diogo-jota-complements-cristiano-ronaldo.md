@@ -4,7 +4,8 @@ title: "How Diogo Jota Complements Cristiano Ronaldo in Portugal’s Attack"
 description: "A detailed analysis of how Diogo Jota complements Cristiano Ronaldo in Portugal’s attack, exploring their playing styles, partnership, tactics, and impact on the national team."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_how-diogo-jota-complements-cristiano-ronaldoafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_how-diogo-jota-complements-cristiano-ronaldo.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

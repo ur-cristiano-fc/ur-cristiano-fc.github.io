@@ -3,7 +3,8 @@ layout: post
 title: "40 Year-Old Cristiano Ronaldo Scores Jaw-Dropping Bicycle Kick Goal"
 description: "A detailed breakdown of the incredible bicycle kick goal scored by 40 year-old Cristiano Ronaldo, including match analysis, timeline, stats, comparison tables, and career insights for fans searching about Cristiano Ronaldo."
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-bicycle-kick-goal-40-years-oldafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-bicycle-kick-goal-40-years-old.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

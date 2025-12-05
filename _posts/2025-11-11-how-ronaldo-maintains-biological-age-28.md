@@ -4,7 +4,8 @@ title: "How Ronaldo Maintains a Biological Age of Just 28.9"
 description: "Learn how Cristiano Ronaldo maintains a biological age of just 28.9 through Ronaldo's daily routine, training intensity, diet habits, recovery methods, and lifestyle discipline."
 category: "RonaldoAge"
 author: ishowspeed
-image: assets/images/featured_how-ronaldo-maintains-biological-age-28afflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_how-ronaldo-maintains-biological-age-28.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

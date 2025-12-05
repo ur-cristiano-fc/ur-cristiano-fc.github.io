@@ -5,7 +5,8 @@ description: "Discover 10 powerful Cristiano Ronaldo fitness tips that reveal ho
 keywords: ["cristiano ronaldo fitness tips", "ronaldo workout", "ronaldo training routine", "fitness lessons from cristiano ronaldo"]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-fitness-tipsafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-fitness-tips.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

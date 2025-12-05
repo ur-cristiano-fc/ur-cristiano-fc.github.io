@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo vs. Lionel Messi — Again: 'I Don’t Agree That He�
 description: "Cristiano Ronaldo reignites the age-old debate with Lionel Messi, sharing his honest views on their rivalry, achievements, and who deserves the GOAT title. Read a detailed breakdown of Ronaldo's remarks and the global reaction."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-vs-lionel-messi-debateafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-vs-lionel-messi-debate.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

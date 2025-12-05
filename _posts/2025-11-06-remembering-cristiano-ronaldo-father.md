@@ -4,7 +4,8 @@ title: "Remembering José Dinis Aveiro: Cristiano Ronaldo’s Father and His Las
 description: "A detailed look at the life, struggles, and lasting influence of José Dinis Aveiro, Cristiano Ronaldo's father, and how his story shaped the football legend's journey."
 category: "RonaldoFather"
 author: ishowspeed
-image: assets/images/featured_remembering-cristiano-ronaldo-fatherafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_remembering-cristiano-ronaldo-father.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

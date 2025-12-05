@@ -4,7 +4,8 @@ title: "Where Cristiano Ronaldo Donates His Money: All CR7 Charity Acts Explaine
 description: "A detailed breakdown of Cristiano Ronaldo's charity work, donations, foundation projects, and global impact. Learn how much Ronaldo donates, who he helps, and how his philanthropy compares to Messi."
 category: "RonaldoTrump"
 author: ishowspeed
-image: assets/images/featured_cr7-charity-how-ronaldo-donates-his-moneyafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cr7-charity-how-ronaldo-donates-his-money.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

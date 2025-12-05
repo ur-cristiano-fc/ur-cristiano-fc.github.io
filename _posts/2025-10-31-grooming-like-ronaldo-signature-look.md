@@ -5,7 +5,8 @@ description: "Learn how to achieve Cristiano Ronaldo’s signature grooming styl
 keywords: "Cristiano Ronaldo, Cristiano Ronaldo grooming, Ronaldo hairstyle, Ronaldo skincare, Cristiano Ronaldo look"
 category: "RedCarpet"
 author: ishowspeed
-image: assets/images/featured_grooming-like-ronaldo-signature-lookafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_grooming-like-ronaldo-signature-look.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

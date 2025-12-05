@@ -5,7 +5,8 @@ description: "A complete, up-to-date breakdown of Cristiano Ronaldo's total goal
 keywords: "cristiano ronaldo total goals, cristiano ronaldo goals 2025, ronaldo goals by club, ronaldo international goals, cr7 goals"
 category: "totalgoals"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-total-goals-2025-breakdownafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-total-goals-2025-breakdown.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

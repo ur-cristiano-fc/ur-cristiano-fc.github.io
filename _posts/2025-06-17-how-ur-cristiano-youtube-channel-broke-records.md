@@ -5,7 +5,8 @@ description: "Discover how Cristiano Ronaldo’s 'UR' YouTube channel broke reco
 categories: sports
 tags: [cristiano ronaldo, youtube, ur cristiano, football, influencer, social media]
 author: ishowspeed
-image: assets/images/featured_how-ur-cristiano-youtube-channel-broke-recordsafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_how-ur-cristiano-youtube-channel-broke-records.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

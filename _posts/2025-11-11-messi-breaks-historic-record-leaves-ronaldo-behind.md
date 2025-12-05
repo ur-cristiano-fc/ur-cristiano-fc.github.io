@@ -4,7 +4,8 @@ title: "Did Lionel Messi Break a Historic Record, Leaving Cristiano Ronaldo Behi
 description: "An in-depth look at whether Lionel Messi broke a historic record and how it compares to Ronaldo's achievements, legacy, and career influence. Explore context, performance, and fan reaction."
 category: "RonaldoAge"
 author: ishowspeed
-image: assets/images/featured_messi-breaks-historic-record-leaves-ronaldo-behindafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_messi-breaks-historic-record-leaves-ronaldo-behind.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

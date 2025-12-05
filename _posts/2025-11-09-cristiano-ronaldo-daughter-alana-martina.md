@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo’s Daughter Alana Martina: Family Life and Sweet Mome
 description: "A detailed and heartwarming look at Cristiano Ronaldo’s daughter Alana Martina, her early life, family environment, and the role she plays within the Ronaldo family. Includes background, personal insights, and public moments shared with fans."
 category: "RonaldoDaughter"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-daughter-alana-martinaafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-daughter-alana-martina.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

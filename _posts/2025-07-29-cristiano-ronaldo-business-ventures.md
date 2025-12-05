@@ -5,7 +5,8 @@ description: "Explore Cristiano Ronaldo's global business ventures, from hotels 
 keywords: ["cristiano ronaldo business ventures", "CR7 hotels", "Cristiano Ronaldo brands", "CR7 Gym", "Ronaldo businesses"]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-business-venturesafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-business-ventures.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

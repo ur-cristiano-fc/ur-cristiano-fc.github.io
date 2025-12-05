@@ -4,7 +4,8 @@ title: "Best Soccer Funko Pops in 2025: Messi, Neymar, and Why CR7 Still Has No 
 description: "Discover the best soccer Funko Pops in 2025, including Messi, Neymar, iconic football collectibles, and why Cristiano Ronaldo still has no official Funko Pop release. Compare designs, prices, and fan demand."
 category: "RonaldoFunkoApp"
 author: ishowspeed
-image: assets/images/featured_best-soccer-funko-pops-2025afflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_best-soccer-funko-pops-2025.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

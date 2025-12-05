@@ -5,7 +5,8 @@ categories: [Sports, Celebrity, Biography]
 tags: [Cristiano Ronaldo, Ronaldo Biography, Cristiano Ronaldo life story]
 description: "Discover Cristiano Ronaldo’s incredible journey from a small boy in Madeira to a global football legend and millionaire. An inspiring life story of triumph."
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-personal-journeyafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-personal-journey.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

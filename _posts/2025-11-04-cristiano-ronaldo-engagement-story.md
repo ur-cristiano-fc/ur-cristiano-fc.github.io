@@ -4,7 +4,8 @@ title: "The Kids Asked, So He Proposed: Ronaldo’s Story Behind the Engagement"
 description: "Cristiano Ronaldo reveals the heartfelt story behind his engagement to Georgina Rodríguez — a decision inspired by his children. Discover how family, love, and legacy shaped Ronaldo’s romantic journey."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-engagement-storyafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-engagement-story.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

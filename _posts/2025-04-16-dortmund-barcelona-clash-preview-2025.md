@@ -6,7 +6,8 @@ keywords: ["Dortmund - Barcelona", "Barcelona", "Dortmund", "Champions League"]
 categories: [Football, Sports News, Champions League]
 tags: ["Dortmund - Barcelona", "Barcelona match", "Dortmund preview", "football 2025"]
 author: ishowspeed
-image: assets/images/featured_dortmund-barcelona-clash-preview-2025afflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_dortmund-barcelona-clash-preview-2025.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

@@ -5,7 +5,8 @@ description: "Explore the top 5 video games where Cristiano Ronaldo appears as a
 keywords: ["cristiano ronaldo in games", "cristiano ronaldo video games", "ronaldo fifa games", "cristiano ronaldo mobile games"]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_top-games-to-play-as-cristiano-ronaldoafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_top-games-to-play-as-cristiano-ronaldo.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

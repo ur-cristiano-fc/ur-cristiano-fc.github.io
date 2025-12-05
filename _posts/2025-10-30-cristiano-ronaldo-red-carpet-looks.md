@@ -5,7 +5,8 @@ description: "Explore Cristiano Ronaldo’s most iconic red carpet looks, from e
 keywords: [Cristiano Ronaldo, Cristiano Ronaldo red carpet, Cristiano Ronaldo style, Cristiano Ronaldo fashion, Cristiano Ronaldo outfits]
 category: "RedCarpet"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-red-carpet-looksafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-red-carpet-looks.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

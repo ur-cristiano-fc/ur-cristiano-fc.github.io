@@ -4,7 +4,8 @@ title: "Ruben Amorim delivers brutally honest response to Cristiano Ronaldo's sa
 description: "Ruben Amorim responds forcefully to Cristiano Ronaldo's recent criticism of Manchester United. This article analyses Amorim's comments, Ronaldo's original claims, the wider context, and what it means for Man United's future."
 category: "Ronaldo"
 author: ishowspeed
-image: assets/images/featured_ruben-amorim-response-to-cristiano-ronaldo-criticismafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_ruben-amorim-response-to-cristiano-ronaldo-criticism.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

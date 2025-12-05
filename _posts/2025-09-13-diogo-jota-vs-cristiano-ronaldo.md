@@ -4,7 +4,8 @@ title: "Diogo Jota vs Cristiano Ronaldo: Who Shines Brighter for Portugal?"
 description: "A detailed comparison of Diogo Jota and Cristiano Ronaldo, analyzing their impact, playing style, and future with Portugal. Includes insights into Cristiano Ronaldo fiancé ring keyword trend."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_diogo-jota-vs-cristiano-ronaldoafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_diogo-jota-vs-cristiano-ronaldo.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

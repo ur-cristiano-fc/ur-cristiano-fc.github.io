@@ -4,7 +4,8 @@ title: "Ronaldo Breaks Silence on Missing Diogo Jota’s Funeral"
 description: "Cristiano Ronaldo addresses the emotional circumstances behind missing Diogo Jota’s funeral. This article explains the context, reactions, and the deeper meaning behind Ronaldo’s response."
 category: "Ronaldo"
 author: ishowspeed
-image: assets/images/featured_ronaldo-breaks-silence-missing-diogo-jota-funeralafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_ronaldo-breaks-silence-missing-diogo-jota-funeral.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

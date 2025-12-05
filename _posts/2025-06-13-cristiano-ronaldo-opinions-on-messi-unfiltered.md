@@ -5,7 +5,8 @@ description: "Explore Cristiano Ronaldo's honest opinions on Lionel Messi, from 
 categories: [Sports, Football, News]
 tags: [Cristiano Ronaldo, Lionel Messi, football rivalry, opinions]
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-opinions-on-messi-unfilteredafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-opinions-on-messi-unfiltered.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

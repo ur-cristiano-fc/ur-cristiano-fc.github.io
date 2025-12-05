@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo vs Lionel Messi: How Far Are the Legends from Their 10
 description: "A detailed comparison of Cristiano Ronaldo and Lionel Messi's journey toward the 1000-goal milestone. Explore career statistics, goal-scoring trends, achievements, and what lies ahead for the football legends."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-vs-lionel-messi-1000-goal-milestoneafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-vs-lionel-messi-1000-goal-milestone.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

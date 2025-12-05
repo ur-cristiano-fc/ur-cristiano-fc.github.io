@@ -4,7 +4,8 @@ title: "Georgina Rodríguez Stuns in Hilary Swank’s 2005 Oscar-Style Gown at W
 description: "Explore how Georgina Rodríguez recreated Hilary Swank’s iconic 2005 Oscar gown at a White House event with Cristiano Ronaldo. Full style breakdown, comparisons, and fashion insights."
 category: "RonaldoTrump"
 author: ishowspeed
-image: assets/images/featured_georgina-rodriguez-hilary-swank-dressafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_georgina-rodriguez-hilary-swank-dress.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

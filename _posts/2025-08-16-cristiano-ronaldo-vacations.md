@@ -5,7 +5,8 @@ description: "Discover Cristiano Ronaldo vacations, from luxury Mediterranean re
 keywords: "cristiano ronaldo vacations, cristiano ronaldo holiday, cristiano ronaldo travel, cristiano ronaldo lifestyle"
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-vacationsafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-vacations.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

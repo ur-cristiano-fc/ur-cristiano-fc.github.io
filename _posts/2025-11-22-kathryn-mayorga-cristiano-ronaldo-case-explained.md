@@ -3,7 +3,8 @@ layout: post
 title: "Kathryn Mayorga and Cristiano Ronaldo Case Explained: Legal Proceedings, Timeline, and Key Questions"
 description: "A detailed, SEO-optimized breakdown of the Kathryn Mayorga and Cristiano Ronaldo case, including legal proceedings, allegation timeline, media coverage, FAQs, and expert analysis."
 author: ishowspeed
-image: assets/images/featured_kathryn-mayorga-cristiano-ronaldo-case-explainedafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_kathryn-mayorga-cristiano-ronaldo-case-explained.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

@@ -4,7 +4,8 @@ title: "Meet Eva and Mateo: The Adorable Twins of Cristiano Ronaldo"
 description: "Learn about Cristiano Ronaldo’s twins, Eva and Mateo — their early life, public appearances, family moments, and how Ronaldo and Georgina raise them in the spotlight."
 category: "RonaldoTwins"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldos-twins-eva-and-mateoafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldos-twins-eva-and-mateo.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

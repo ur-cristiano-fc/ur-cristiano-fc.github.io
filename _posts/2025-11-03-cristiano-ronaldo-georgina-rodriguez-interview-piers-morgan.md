@@ -4,7 +4,8 @@ title: "From Love to Loss: What Cristiano Ronaldo Revealed About Georgina Rodrí
 description: "Explore Cristiano Ronaldo’s emotional revelations about Georgina Rodríguez during his candid talk with Piers Morgan. Learn about their journey through love, grief, and resilience."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-georgina-rodriguez-interview-piers-morganafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-georgina-rodriguez-interview-piers-morgan.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

@@ -5,7 +5,8 @@ description: "Discover what a typical day in the life of Cristiano Ronaldo looks
 keywords: "Cristiano Ronaldo, Cristiano Ronaldo daily routine, Cristiano Ronaldo workout, Cristiano Ronaldo diet, Cristiano Ronaldo lifestyle"
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-daily-routine-24-hoursafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-daily-routine-24-hours.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

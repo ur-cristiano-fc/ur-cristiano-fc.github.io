@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo Allegations: Media Coverage, Legal Proceedings, and Ex
 description: "A detailed, SEO-optimized breakdown of the Cristiano Ronaldo allegations, including legal proceedings, media coverage, settlements, expert analysis, and FAQ insights."
 category: "RonaldoAllegations"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-allegations-media-coverage-legal-analysisafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-allegations-media-coverage-legal-analysis.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

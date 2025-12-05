@@ -4,7 +4,8 @@ title: "Cristiano vs Messi: Who Owns More Cars, Yachts, and Private Jets?"
 description: "Explore the luxury lifestyles of Cristiano Ronaldo and Lionel Messi. Discover who owns more cars, yachts, and private jets, including details on their most expensive assets and homes."
 category: "RonaldoVsMessi"
 author: ishowspeed
-image: assets/images/featured_cristiano-vs-messi-cars-yachts-private-jetsafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-vs-messi-cars-yachts-private-jets.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

@@ -5,7 +5,8 @@ categories: [Celebrity, Lifestyle, Luxury]
 tags: [Cristiano Ronaldo, Ronaldo House, Cristiano Ronaldo Mansion, Luxury Homes]
 description: "Explore Cristiano Ronaldo's stunning homes across the world, from Portugal to Saudi Arabia, showcasing his love for luxury living and design."
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-homes-lifestyleafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-homes-lifestyle.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

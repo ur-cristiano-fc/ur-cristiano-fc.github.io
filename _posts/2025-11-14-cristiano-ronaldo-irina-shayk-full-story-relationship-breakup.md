@@ -4,7 +4,8 @@ title: "Cristiano Ronaldo and Irina Shayk: The Full Story Behind Their Relations
 description: "Explore the complete story of Cristiano Ronaldo and Irina Shayk’s relationship, breakup, timeline, controversies, and how both stars moved on. Includes detailed comparisons and facts."
 category: "RonaldoIrina"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-irina-shayk-full-story-relationship-breakupafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-irina-shayk-full-story-relationship-breakup.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

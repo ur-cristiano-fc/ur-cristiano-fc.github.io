@@ -4,7 +4,8 @@ title: "Ronaldo Risks Ban at World Cup After Red Card: Full Analysis and What It
 description: "Detailed analysis of Cristiano Ronaldo's red card incident, potential World Cup suspension, impact on Portugal's campaign, and updated insights for fans searching about 'ronaldo portugal soccer'."
 category: "RonaldoFunkoApp"
 author: ishowspeed
-image: assets/images/featured_ronaldo-risks-ban-world-cup-red-cardafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_ronaldo-risks-ban-world-cup-red-card.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

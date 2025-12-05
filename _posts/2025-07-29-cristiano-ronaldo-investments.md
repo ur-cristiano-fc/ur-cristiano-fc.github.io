@@ -5,7 +5,8 @@ description: "Explore Cristiano Ronaldo's diverse investments in real estate, fa
 keyword: ["cristiano ronaldo investments"]
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-investmentsafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-investments.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

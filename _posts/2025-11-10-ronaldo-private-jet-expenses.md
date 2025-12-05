@@ -4,7 +4,8 @@ title: "Ronaldo’s Private Jet Expenses: Maintenance, Crew, Fuel Costs, and Ann
 description: "A detailed breakdown of Ronaldo’s private jet expenses, including maintenance, fuel, crew salaries, insurance, and annual operating costs. Learn how Cristiano Ronaldo manages his luxurious travel lifestyle and what makes his jet a symbol of global celebrity travel."
 category: "RonaldoJet"
 author: ishowspeed
-image: assets/images/featured_ronaldo-private-jet-expensesafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_ronaldo-private-jet-expenses.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

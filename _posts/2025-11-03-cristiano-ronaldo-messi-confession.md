@@ -4,7 +4,8 @@ title: "GOAT Talk: Cristiano Ronaldo’s Confession About Messi That Surprised E
 description: "Cristiano Ronaldo’s latest confession about Lionel Messi has shocked football fans worldwide. Discover what the Portuguese legend said and how it reignited the GOAT debate."
 category: "RonaldoInterview"
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-messi-confessionafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-messi-confession.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

@@ -4,7 +4,8 @@ title: "From Small Town to Top Flight: Al-Kholood’s Rise & Why Cristiano Ronal
 description: "Discover Al-Kholood’s journey from a small-town club to Saudi Pro League newcomers and how Cristiano Ronaldo’s mentions keep them in the global spotlight."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_al-kholood-rise-cristiano-ronaldo-spotlightafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_al-kholood-rise-cristiano-ronaldo-spotlight.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

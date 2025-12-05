@@ -5,7 +5,8 @@ categories: [Football, Sports, Cristiano Ronaldo]
 tags: [Cristiano Ronaldo, Football, Al-Nassr, Portugal, Fitness, Legacy]
 description: Discover why Cristiano Ronaldo, at 40, continues to dominate football with his unmatched work ethic, fitness, and mental drive. Explore his journey, records, and secrets to longevity.
 author: ishowspeed
-image: assets/images/featured_cristiano-ronaldo-dominating-football-40safflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_cristiano-ronaldo-dominating-football-40s.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

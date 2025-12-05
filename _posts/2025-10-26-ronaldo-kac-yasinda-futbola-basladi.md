@@ -4,7 +4,8 @@ title: "Ronaldo Kaç Yaşında Futbola Başladı? Cristiano Ronaldo’nun Futbol
 description: "Cristiano Ronaldo kaç yaşında futbola başladı? Bu detaylı rehber, Ronaldo’nun çocukluk yıllarından profesyonel kariyerine kadar futbol yolculuğunu anlatıyor."
 category: "CristianoRonaldo"
 author: ishowspeed
-image: assets/images/featured_ronaldo-kac-yasinda-futbola-basladiafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_ronaldo-kac-yasinda-futbola-basladi.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"

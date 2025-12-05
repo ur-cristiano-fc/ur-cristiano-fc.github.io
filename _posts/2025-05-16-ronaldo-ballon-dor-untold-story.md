@@ -4,7 +4,8 @@ title: "The Untold Story Behind Ronaldo’s Five Ballon d’Or Triumphs"
 description: "Discover the untold journey of Cristiano Ronaldo's five Ballon d'Or wins with detailed insights, key moments, and behind-the-scenes stories."
 categories: [Sports, Celebrity]
 author: ishowspeed
-image: assets/images/featured_ronaldo-ballon-dor-untold-storyafflink: https://amzn.to/43Xm4Ci
+image: assets/images/featured_ronaldo-ballon-dor-untold-story.webp
+afflink: https://amzn.to/43Xm4Ci
 affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
 affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
 affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
