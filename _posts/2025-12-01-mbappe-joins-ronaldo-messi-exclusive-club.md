@@ -15,7 +15,9 @@ item: 12x18 inches
 specialfeature: Poster
 ---
 
-Kylian Mbappe has officially joined the elite goal-scoring club dominated for years by Cristiano Ronaldo and Lionel Messi. With his 60-goal milestone for Real Madrid in 2025, Mbappe becomes one of the very few modern players to match the explosive scoring seasons of football’s two greatest forwards. This article provides a deep comparative analysis of Mbappe's achievement, how it relates to *how many goals does Ronaldo have*, and the historical significance of joining the Ronaldo-Messi goal club.
+Kylian Mbappe has officially joined the elite goal-scoring club dominated for years by Cristiano Ronaldo and Lionel Messi. 
+
+With his 60-goal milestone for Real Madrid in 2025, Mbappe becomes one of the very few modern players to match the explosive scoring seasons of football’s two greatest forwards. 
 
 ---
 

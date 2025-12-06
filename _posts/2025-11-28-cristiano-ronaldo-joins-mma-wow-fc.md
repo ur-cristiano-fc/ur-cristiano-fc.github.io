@@ -15,7 +15,9 @@ item: 100% Polyester
 specialfeature: Crew Neck Jersey
 ---
 
-Cristiano Ronaldo has joined the Spanish MMA promotion WOW FC as a shareholder alongside UFC’s Ilia Topuria. Meanwhile, the legendary footballer’s career goal tally — combining club and country — stands at approximately **950–960 goals** (as of late 2025), underscoring his unmatched legacy on the pitch while branching out into combat-sports business.
+Cristiano Ronaldo has joined the Spanish MMA promotion WOW FC as a shareholder alongside UFC’s Ilia Topuria.
+
+Meanwhile, the legendary footballer’s career goal tally — combining club and country — stands at approximately **950–960 goals** (as of late 2025), underscoring his unmatched legacy on the pitch while branching out into combat-sports business.
 
 ---
 
