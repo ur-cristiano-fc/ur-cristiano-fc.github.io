@@ -2,7 +2,7 @@
 layout: page
 title: "Write for us – Ur Cristiano"
 permalink: /write-for-us/
-description: "Write for Us at ur-cristiano-fc.github.io — Submit guest posts on Cristiano Ronaldo, football, sports lifestyle, fitness, and trending football topics. DA 12 website accepting high-quality guest blogs."
+description: "Submit guest posts on Cristiano Ronaldo, football, sports lifestyle, fitness, and trending football topics."
 comments: false
 ---
 
