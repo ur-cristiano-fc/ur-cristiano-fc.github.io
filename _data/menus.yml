@@ -10,8 +10,8 @@ topmenu:
 - title: Contact
   url: "contact/"
 
-- title: Shop Coming Soon  
-  url: "#"
+- title: Write for Us
+  url: "/write-for-us/" 
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
@@ -26,6 +26,9 @@ footermenu:
 
 - title: Contact
   url: "contact/"
+
+- title: Write for Us
+  url: "/write-for-us/"
 
 - title: Affiliate Policy
   url: "affiliate-policy/"
