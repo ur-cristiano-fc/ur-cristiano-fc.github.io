@@ -16,7 +16,7 @@ For submissions or inquiries, contact us at: **[ur.cristiano.help@gmail.com](mai
 
 ## Acceptable Guest Blog Niches
 
-We accept well‑researched and high‑quality articles in the following categories:
+We accept high‑quality articles in the following categories:
 
 * Cristiano Ronaldo news, lifestyle, stats, and achievements
 * Football analysis, tactics, opinions, and match breakdowns
@@ -35,6 +35,8 @@ If your article is relevant to **Ronaldo**, **football**, **sports lifestyle**, 
 
 Publishing on our platform gives you:
 
+* **Domain Authority (DA) of 12** — growing authority and SEO value
+* **Domain Age is 12 years**
 * Sports‑specific audience from multiple countries
 * Professional formatting and quick publication
 * A **permanent do‑follow backlink** (subject to content quality)
