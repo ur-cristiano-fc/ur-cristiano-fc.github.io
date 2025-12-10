@@ -10,7 +10,7 @@ topmenu:
 - title: Contact
   url: "contact/"
 
-- title: Write for Us
+- title: Write for us
   url: "/write-for-us/" 
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
@@ -27,7 +27,7 @@ footermenu:
 - title: Contact
   url: "contact/"
 
-- title: Write for Us
+- title: Write for us
   url: "/write-for-us/"
 
 - title: Affiliate Policy

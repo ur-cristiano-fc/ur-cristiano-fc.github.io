@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Write for Us – Ur Cristiano"
+title: "Write for us – Ur Cristiano"
 permalink: /write-for-us/
 description: "Write for Us at ur-cristiano-fc.github.io — Submit guest posts on Cristiano Ronaldo, football, sports lifestyle, fitness, and trending football topics. DA 12 website accepting high-quality guest blogs."
 comments: false
@@ -91,10 +91,8 @@ We do not publish the following:
 * Articles that have been, or will be, published elsewhere.
 * Plagiarized or copied content
 * Low‑quality or spun content
-* SEO-boosted or promotional articles.
 * Topics unrelated to Ronaldo, football, sports, or fitness
 * Controversial, political, or hate‑driven writing
-* Articles created only for promotional/SEO purposes
 * Content with spam or commercial outbound links
 
 ---
