@@ -115,7 +115,7 @@ To maintain site quality and support the growth of **ur-cristiano-fc.github.io**
 * **Add Product Review / Sponsored Content** – **$25**
 
 ###  Pricing for Other category posts
-**If the article Category is different $30 per post (No Follow) Link, we will publish it within 24 hours.**
+**If the article Category is different $30-$50 per post (No Follow) Link, we will publish it within 24 hours.**
 
 ### What You Get
 
