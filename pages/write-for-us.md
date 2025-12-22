@@ -111,7 +111,7 @@ To maintain site quality and support the growth of **ur-cristiano-fc.github.io**
 * **Standard Guest Post (1000–1500 words)** – **$10**
 * **Premium Guest Post (1500–2000 words)** – **$15**
 * **Feature-Level Article (2000+ words, detailed analysis)** – **$20**
-* **Extra Do-Follow Link (1 additional link)** – **+$5**
+* **Extra Do-Follow Link (1 additional link)** – **+$10**
 * **Add Product Review / Sponsored Content** – **$25**
 
 ###  Pricing for Other category posts
