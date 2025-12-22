@@ -114,6 +114,9 @@ To maintain site quality and support the growth of **ur-cristiano-fc.github.io**
 * **Extra Do-Follow Link (1 additional link)** – **+$5**
 * **Add Product Review / Sponsored Content** – **$25**
 
+###  Pricing for Other category posts
+**If the article Category is different $30 per post (No Follow) Link, we will publish it within 24 hours.**
+
 ### What You Get
 
 * Permanent do-follow backlink (based on guidelines)
