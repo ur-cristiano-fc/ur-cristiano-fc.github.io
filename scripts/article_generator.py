@@ -129,20 +129,29 @@ Return ONLY the description text, nothing else.
     
     return description
 
-
-
 def generate_image_prompt(title):
     """Generate image prompt for Freepik AI"""
+    
+    # Remove celebrity names from title for image generation
+    title_cleaned = title.replace("Cristiano Ronaldo", "professional athlete")
+    title_cleaned = title_cleaned.replace("Ronaldo", "elite footballer")
+    title_cleaned = title_cleaned.replace("CR7", "top athlete")
+    
     prompt = f"""
-Create a photorealistic featured image prompt for cristiano ronaldo to generate his actual image for this blog post:
-Title: {title}
+Create a photorealistic featured image prompt for this blog post:
+Title: {title_cleaned}
 
 Requirements:
-- realistic, high-quality
+- Professional male athlete in peak physical condition
+- Athletic build, focused and determined expression
+- High-quality, realistic sports/training scene
+- Modern fitness environment or training facility
 - NO text or words in the image
+- NO specific person's face or celebrity likeness
 - Suitable as a blog featured image
-- 2:1 aspect ratio
+- 2:1 aspect ratio (1920x960)
 - Relevant to the topic
+- Professional sports photography style
 
 Return ONLY the image prompt, nothing else.
 """
@@ -152,4 +161,14 @@ Return ONLY the image prompt, nothing else.
         model=TEXT_MODEL,
         contents=prompt
     )
-    return response.text.strip()
+    
+    image_prompt = response.text.strip()
+    
+    # Additional safety check - remove any celebrity names from generated prompt
+    image_prompt = image_prompt.replace("Cristiano Ronaldo", "professional athlete")
+    image_prompt = image_prompt.replace("Ronaldo", "elite footballer")
+    image_prompt = image_prompt.replace("CR7", "top athlete")
+    
+    print(f"✅ Image prompt: {image_prompt[:100]}...")
+    
+    return image_prompt
