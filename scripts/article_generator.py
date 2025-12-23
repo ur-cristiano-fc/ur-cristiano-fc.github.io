@@ -134,11 +134,11 @@ Return ONLY the description text, nothing else.
 def generate_image_prompt(title):
     """Generate image prompt for Freepik AI"""
     prompt = f"""
-Create a photorealistic featured image prompt for this blog post:
+Create a photorealistic featured image prompt for cristiano ronaldo to generate his actual image for this blog post:
 Title: {title}
 
 Requirements:
-- realistic, professional, high-quality
+- realistic, high-quality
 - NO text or words in the image
 - Suitable as a blog featured image
 - 2:1 aspect ratio
