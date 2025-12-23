@@ -14,14 +14,30 @@ from config import (
 
 def get_random_reference_image(reference_folder="assets/images"):
     """Get a random reference image from the specified folder"""
+    import os
+    
+    # Check if running in GitHub Actions
+    is_github_actions = os.getenv('GITHUB_ACTIONS') == 'true'
+    
+    if is_github_actions:
+        # In GitHub Actions, return full URL
+        from config import SITE_DOMAIN
+        # You can hardcode your reference images or pick randomly
+        reference_images = [
+            "Ronaldo-image-for-reference.webp",
+            # Add more images here
+        ]
+        selected_image = random.choice(reference_images)
+        return f"{SITE_DOMAIN}/{reference_folder}/{selected_image}"
+    
+    # Local development - use file system
     if not os.path.exists(reference_folder):
         print(f"⚠️ Reference folder '{reference_folder}' not found")
         return None
     
-    # Get all image files
     image_extensions = ('.jpg', '.jpeg', '.png', '.webp')
     image_files = [
-        f for f in os.listdir(reference_folder) 
+        f for f in os.listdir(reference_folder)
         if f.lower().endswith(image_extensions)
     ]
     
@@ -34,7 +50,6 @@ def get_random_reference_image(reference_folder="assets/images"):
     print(f"🖼️ Selected reference image: {selected_image}")
     
     return image_path
-
 
 def encode_image_to_base64(image_path):
     """Encode image to base64 string"""

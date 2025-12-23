@@ -7,7 +7,7 @@ import datetime
 from config import *
 from keywords_handler import get_keyword_row, parse_keyword_row, remove_keyword_from_file, get_keywords_count
 from article_generator import generate_article, generate_image_prompt
-from image_generator import generate_image_freepik
+from image_generator import generate_image_freepik, get_random_reference_image
 from google_indexing import submit_to_google_indexing, check_indexing_status
 from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
@@ -68,7 +68,7 @@ def main():
         today = datetime.date.today().isoformat()
         post_path = f"{POSTS_DIR}/{today}-{permalink}.md"
         image_file = f"{IMAGES_DIR}/{permalink}.webp"
-        reference_image_path =  "https://ur-cristiano-fc.github.io/assets/images/Ronaldo-image-for-reference.webp"
+        reference_image_path =  get_random_reference_image()
         reference_strength = 0.7
         # Check if post already exists
         if os.path.exists(post_path):
