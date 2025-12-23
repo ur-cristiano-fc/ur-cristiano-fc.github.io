@@ -12,7 +12,7 @@ from config import (
 )
 
 
-def get_random_reference_image(reference_folder="/assets/images"):
+def get_random_reference_image(reference_folder="assets/images"):
     """Get a random reference image from the specified folder"""
     if not os.path.exists(reference_folder):
         print(f"⚠️ Reference folder '{reference_folder}' not found")
@@ -49,7 +49,7 @@ def generate_image_freepik(prompt, output_path, reference_image_path=None, refer
     Args:
         prompt: Text prompt for image generation
         output_path: Where to save the generated image
-        reference_image_path: Path to reference image (optional, defaults to random from /assets/images)
+        reference_image_path: Path to reference image (optional, defaults to random from assets/images)
         reference_strength: How much to follow reference image (0.0 to 1.0, default 0.5)
     """
     

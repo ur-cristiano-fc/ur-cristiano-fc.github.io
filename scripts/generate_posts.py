@@ -68,7 +68,7 @@ def main():
         today = datetime.date.today().isoformat()
         post_path = f"{POSTS_DIR}/{today}-{permalink}.md"
         image_file = f"{IMAGES_DIR}/{permalink}.webp"
-        reference_image_path =  "/assets/images/Ronaldo-image-for-reference.webp"
+        reference_image_path =  "assets/images/Ronaldo-image-for-reference.webp"
         reference_strength = 0.7
         # Check if post already exists
         if os.path.exists(post_path):
