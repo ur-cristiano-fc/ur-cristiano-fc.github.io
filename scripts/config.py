@@ -7,7 +7,7 @@ POSTS_DIR = "_posts"
 IMAGES_DIR = "assets/images"
 
 # Site settings
-SITE_DOMAIN = "https://ecommercemart.github.io"
+SITE_DOMAIN = "https://ur-cristiano-fc.github.io"
 
 # AI Models
 TEXT_MODEL = "gemini-2.5-flash"

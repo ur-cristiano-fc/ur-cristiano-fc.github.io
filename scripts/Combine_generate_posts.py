@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 KEYWORDS_FILE = "keywords.txt"
 POSTS_DIR = "_posts"
 IMAGES_DIR = "images"
-SITE_DOMAIN = "https://ecommercemart.github.io"
+SITE_DOMAIN = "https://ur-cristiano-fc.github.io"
 TEXT_MODEL = "gemini-2.5-flash"
 FREEPIK_ENDPOINT = "https://api.freepik.com/v1/ai/text-to-image/flux-dev"
 IMAGE_QUALITY = 80
