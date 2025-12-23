@@ -80,9 +80,10 @@ def generate_image_freepik(prompt, output_path, reference_image_path=None, refer
     
     # Prepare base payload
     payload = {
-        "prompt": prompt,
+        "prompt": f"{prompt}, digital illustration style, artistic rendering, not photorealistic",
         "num_images": 1,
         "image": {"size": "1920x960"},
+        "style": "illustration",
         "aspect_ratio": "horizontal_2_1"
     }
     
