@@ -203,10 +203,10 @@ def main():
                     
                 # Step 11: Send Push Notification
 
-                try:
-                    send_blog_post_notification(title, permalink, focus_kw)
-                except Exception as e:
-                    print(f"⚠️ Push notification failed (non-critical): {e}")
+                # try:
+                #     send_blog_post_notification(title, permalink, focus_kw)
+                # except Exception as e:
+                #     print(f"⚠️ Push notification failed (non-critical): {e}")
             
             print(f"\n{'=' * 60}")
             print("Step 11: Removing Keyword from File")
