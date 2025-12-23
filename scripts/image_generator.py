@@ -1,6 +1,8 @@
-"""Generate and compress images using Freepik AI"""
+"""Generate and compress images using Freepik AI with reference image support"""
 import os
 import time
+import base64
+import random
 import requests
 from io import BytesIO
 from PIL import Image
@@ -10,8 +12,46 @@ from config import (
 )
 
 
-def generate_image_freepik(prompt, output_path):
-    """Generate image using Freepik AI with polling and compression"""
+def get_random_reference_image(reference_folder="/assets/images"):
+    """Get a random reference image from the specified folder"""
+    if not os.path.exists(reference_folder):
+        print(f"⚠️ Reference folder '{reference_folder}' not found")
+        return None
+    
+    # Get all image files
+    image_extensions = ('.jpg', '.jpeg', '.png', '.webp')
+    image_files = [
+        f for f in os.listdir(reference_folder) 
+        if f.lower().endswith(image_extensions)
+    ]
+    
+    if not image_files:
+        print(f"⚠️ No reference images found in '{reference_folder}'")
+        return None
+    
+    selected_image = random.choice(image_files)
+    image_path = os.path.join(reference_folder, selected_image)
+    print(f"🖼️ Selected reference image: {selected_image}")
+    
+    return image_path
+
+
+def encode_image_to_base64(image_path):
+    """Encode image to base64 string"""
+    with open(image_path, "rb") as image_file:
+        encoded = base64.b64encode(image_file.read()).decode('utf-8')
+    return encoded
+
+
+def generate_image_freepik(prompt, output_path, reference_image_path=None, reference_strength=0.5):
+    """Generate image using Freepik AI with optional reference image and compression
+    
+    Args:
+        prompt: Text prompt for image generation
+        output_path: Where to save the generated image
+        reference_image_path: Path to reference image (optional, defaults to random from /assets/images)
+        reference_strength: How much to follow reference image (0.0 to 1.0, default 0.5)
+    """
     
     if not FREEPIK_API_KEY:
         raise ValueError("❌ FREEPIK_API_KEY environment variable is not set")
@@ -23,12 +63,36 @@ def generate_image_freepik(prompt, output_path):
         "Content-Type": "application/json"
     }
     
+    # Prepare base payload
     payload = {
         "prompt": prompt,
         "num_images": 1,
-        "image": {"size": "1920x1080"},
-        "aspect_ratio": "widescreen_16_9"
+        "image": {"size": "1920x960"},
+        "aspect_ratio": "horizontal_2_1"
     }
+    
+    # Add reference image if available
+    if reference_image_path is None:
+        reference_image_path = get_random_reference_image()
+    
+    if reference_image_path and os.path.exists(reference_image_path):
+        print(f"📸 Using reference image: {reference_image_path}")
+        print(f"💪 Reference strength: {reference_strength}")
+        
+        try:
+            # Encode reference image
+            base64_image = encode_image_to_base64(reference_image_path)
+            
+            # Add reference image to payload
+            payload["reference"] = {
+                "image_base64": base64_image,
+                "strength": reference_strength
+            }
+            
+            print(f"✅ Reference image encoded successfully")
+        except Exception as e:
+            print(f"⚠️ Could not load reference image: {e}")
+            print(f"⚠️ Proceeding without reference image")
     
     print(f"📤 Sending request to Freepik API...")
     print(f"📝 Prompt: {prompt[:100]}...")

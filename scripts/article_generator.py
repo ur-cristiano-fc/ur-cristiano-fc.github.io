@@ -141,7 +141,7 @@ Requirements:
 - realistic, professional, high-quality
 - NO text or words in the image
 - Suitable as a blog featured image
-- 16:9 aspect ratio
+- 2:1 aspect ratio
 - Relevant to the topic
 
 Return ONLY the image prompt, nothing else.

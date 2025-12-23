@@ -68,7 +68,8 @@ def main():
         today = datetime.date.today().isoformat()
         post_path = f"{POSTS_DIR}/{today}-{permalink}.md"
         image_file = f"{IMAGES_DIR}/{permalink}.webp"
-        
+        reference_image_path =  "/assets/images/Ronaldo-image-for-reference.webp"
+        reference_strength = 0.7
         # Check if post already exists
         if os.path.exists(post_path):
             print(f"\n⚠️  Post already exists: {post_path}")
@@ -95,8 +96,13 @@ def main():
             print(f"\n{'=' * 60}")
             print("Step 3: Generating & Compressing Image")
             print("=" * 60)
-            generate_image_freepik(image_prompt, image_file)
-            
+            # generate_image_freepik(image_prompt, image_file)
+            generate_image_freepik(
+                image_prompt,
+                image_file,
+                reference_image_path,
+                reference_strength
+            )
             # Step 4: Save post
             print(f"\n{'=' * 60}")
             print("Step 4: Saving Post")
