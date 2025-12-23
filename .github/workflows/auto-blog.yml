@@ -1,0 +1,56 @@
+name: Gemini AI Auto Blog Publisher
+
+on:
+  push:
+    branches: [ master ]     # ✅ run immediately on push
+  schedule:
+    - cron: "0 */23 * * *"    # ✅ every 23 hours
+  workflow_dispatch:         # ✅ manual trigger
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install google-genai pillow requests google-auth google-api-python-client tweepy
+
+      - name: Generate blog post
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FREEPIK_API_KEY: ${{ secrets.FREEPIK_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_SPREADSHEET_ID: ${{ secrets.GOOGLE_SPREADSHEET_ID }}
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_ID: ${{ secrets.LINKEDIN_PERSON_ID }}
+          WEBPUSHR_API_KEY: ${{ secrets.WEBPUSHR_API_KEY }}
+          WEBPUSHR_AUTH_TOKEN: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
+        run: |
+          python scripts/generate_posts.py
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "gemini-blog-bot"
+          git config user.email "bot@github.com"
+
+          git add _posts/ assets/images/ keywords.txt
+
+          TITLES=$(git diff --cached --name-only | grep "_posts/" | sed 's#.*/##' | sed 's/.md//' | tr '\n' ',')
+
+          git commit -m "${TITLES:-new post}" || exit 0
+          git push origin master
