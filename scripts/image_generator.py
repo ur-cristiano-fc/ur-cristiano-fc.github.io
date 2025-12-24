@@ -121,7 +121,7 @@ def generate_image_freepik(prompt, output_path, reference_image_path=None, refer
             json=payload,
             timeout=60
         )
-        
+         
         print(f"📥 Response status: {response.status_code}")
         
         if response.status_code == 401:
