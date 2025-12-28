@@ -148,3 +148,11 @@ Mbappé’nin 2024/25 sezonunda attığı 44 gol ve 2025 yılında ulaşılan 60
 Mbappé’nin bu performansı, onu aynı yaşta olan birçok yıldızdan ayırıyor. Genç, yetenekli ve üretken — bu da onu geleceğin en büyük forvetlerinden biri yapıyor. Messi ve Ronaldo ile yapılan karşılaştırmalar, Mbappé’nin “erken yükseliş + potansiyel” kombinasyonunu gözler önüne seriyor.  
 
 Eğer istersen, bu yazıya **Messi ve Ronaldo’nun da kariyer gol sayılarıyla detaylı karşılaştırma** ekleyebilirim — bu, kullanıcıların ilgisini çekecektir. Nasıl olur mu?
+
+## Related Posts
+
+- [Cristiano Ronaldo’s Daily Routine](/cristiano-ronaldo-daily-routine/)
+- [Cristiano Ronaldo Business Empire](/cristiano-ronaldo-business-empire/)
+- [Top 10 Cristiano Ronaldo Moments](/top-10-cristiano-ronaldo-moments/)
+- [Cristiano Ronaldo Family Life](/cristiano-ronaldo-family-life/)
+- [Cristiano Ronaldo Fitness Tips](/cristiano-ronaldo-fitness-tips/)
