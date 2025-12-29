@@ -2,7 +2,7 @@
 import os
 
 # File paths
-KEYWORDS_FILE = "keywords.txt"
+KEYWORDS_FILE = "../keywords.txt"
 POSTS_DIR = "_posts"
 IMAGES_DIR = "assets/images"
 
