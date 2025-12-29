@@ -30,14 +30,23 @@ def extract_search_query(title):
     # Default
     return f"{base} sports"
 
+def format_layout_name(layout):
+    """Convert internal layout name to display format"""
+    layout_map = {
+        'grid_2x2': '2x2',
+        'hero_with_strip': '1+3',
+        'featured_plus': '1+2',
+        'split_vertical': '1x2'
+    }
+    return layout_map.get(layout, layout)
 
 def create_blog_collage(title, output_path, num_images=4):
-    """Create collage using Unsplash/Pexels images
+    f"""Create collage using Unsplash/Pexels images
     
     Args:
-        title: Blog post title
-        output_path: Where to save collage
-        num_images: Number of images to use (2-4)
+        title: {title}
+        output_path: {output_path}
+        num_images: {num_images}
     
     Returns:
         Dictionary with success status and info
@@ -106,7 +115,7 @@ def create_blog_collage(title, output_path, num_images=4):
             'success': True,
             'path': output_path,
             'attributions': attributions,
-            'layout': layout,
+            'layout': format_layout_name(layout),  # ← Convert here
             'num_images': len(images)
         }
         

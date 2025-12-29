@@ -71,9 +71,7 @@ def main():
         # Generate file paths
         today = datetime.date.today().isoformat()
         post_path = f"{POSTS_DIR}/{today}-{permalink}.md"
-        image_file = f"{IMAGES_DIR}/{permalink}.webp"
-        reference_image_path =  get_random_reference_image()
-        reference_strength = 0.7
+        image_file = f"{IMAGES_DIR}/featured_{permalink}.webp"
         # Check if post already exists
         if os.path.exists(post_path):
             print(f"\n⚠️  Post already exists: {post_path}")
@@ -90,11 +88,11 @@ def main():
             print(f"✅ Article generated ({len(article)} characters)")
             
             # Step 2: Generate image prompt
-            print(f"\n{'=' * 60}")
-            print("Step 2: Generating Image Prompt")
-            print("=" * 60)
-            image_prompt = generate_image_prompt(title)
-            print(f"✅ Image prompt generated")
+            # print(f"\n{'=' * 60}")
+            # print("Step 2: Generating Image Prompt")
+            # print("=" * 60)
+            # image_prompt = generate_image_prompt(title)
+            # print(f"✅ Image prompt generated")
             
             # Step 3: Create featured image
             print(f"\n{'=' * 60}")
@@ -121,47 +119,23 @@ def main():
             else:
                 print(f"⚠️ Collage creation failed: {result.get('error')}")
                 print("📚 Falling back to curated library...")
+                # Step 4: Save post
+                print(f"\n{'=' * 60}")
+                print("Step 4: Saving Post")
+                print("=" * 60)
+                with open(post_path, "w", encoding="utf-8") as f:
+                    f.write(article)
+                print(f"✅ Post saved: {post_path}")
                 
-                # Fallback to your existing image_generator
-                try:
-                    reference_image_path = get_random_reference_image()
-                    generate_image_freepik(
-                        image_prompt,
-                        image_file,
-                        reference_image_path,
-                        0.7
-                    )
-                except Exception as e:
-                    print(f"❌ Fallback also failed: {e}")
-                    print("⚠️ Skipping post generation")
-                    continue
-            # print(f"\n{'=' * 60}")
-            # print("Step 3: Generating & Compressing Image")
-            # print("=" * 60)
-            # # generate_image_freepik(image_prompt, image_file)
-            # generate_image_freepik(
-            #     image_prompt,
-            #     image_file,
-            #     reference_image_path,
-            #     reference_strength
-            # )
-            # Step 4: Save post
-            print(f"\n{'=' * 60}")
-            print("Step 4: Saving Post")
-            print("=" * 60)
-            with open(post_path, "w", encoding="utf-8") as f:
-                f.write(article)
-            print(f"✅ Post saved: {post_path}")
-            
-            post_url = f"{SITE_DOMAIN}/{permalink}"
-            
-            print(f"\n{'=' * 60}")
-            print(f"✅ SUCCESS! Post {post_num} Generated")
-            print("=" * 60)
-            print(f"📰 Title: {title}")
-            print(f"🌐 URL: {post_url}")
-            
-            posts_generated += 1
+                post_url = f"{SITE_DOMAIN}/{permalink}"
+                
+                print(f"\n{'=' * 60}")
+                print(f"✅ SUCCESS! Post {post_num} Generated")
+                print("=" * 60)
+                print(f"📰 Title: {title}")
+                print(f"🌐 URL: {post_url}")
+                
+                posts_generated += 1
             
             # Step 5: Wait before indexing
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
