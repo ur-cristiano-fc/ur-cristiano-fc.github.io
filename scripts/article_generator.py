@@ -6,15 +6,16 @@ import re
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 
-def generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links):
+def generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links, hook_kw, search_kw):
     """Generate SEO-optimized blog article"""
     prompt = f"""
-write an SEO-optimised blog on the title {title}. using the Focus keyword {focus_kw} ,  using LSI Keywords {semantic_kw}
+write an SEO-optimised blog on the title {title}. using the Focus keyword {focus_kw},  using LSI Keywords {semantic_kw}, also use {search_kw} for  extra search intent
 use the following
 Rules:
 - Simple Language, a 10 year old can understand (follow title language).
 - Don't write more than 3 sentences per paragraph, changes paragraph after 3 sentences
 - Use "you" to address the reader
+- Hook: {hook_kw}
 - link other websites for external linking where relevant
 - also include related  affiliate links where it fits best: {affiliate_links},
 - Use H2 and H3, h4, h5, h6 headings, no H1

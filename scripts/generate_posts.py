@@ -63,6 +63,8 @@ def main():
         permalink = keyword_data['permalink']
         semantic_kw = keyword_data['semantic_kw']
         affiliate_links = keyword_data['affiliate_links']
+        hook_kw = keyword_data['hook_kw']
+        search_kw = keyword_data['search_kw']
         
         print(f"✅ Parsed: {title[:60]}...")
         
@@ -84,7 +86,7 @@ def main():
             print(f"\n{'=' * 60}")
             print("Step 1: Generating Article")
             print("=" * 60)
-            article = generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links)
+            article = generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links, hook_kw, search_kw)
             print(f"✅ Article generated ({len(article)} characters)")
             
             # Step 2: Generate image prompt
