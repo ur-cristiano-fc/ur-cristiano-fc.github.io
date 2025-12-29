@@ -4,7 +4,7 @@ import os
 # File paths
 KEYWORDS_FILE = "keywords.txt"
 POSTS_DIR = "_posts"
-IMAGES_DIR = "assets/images/ronaldo-library"
+IMAGES_DIR = "assets/images"
 
 # Site settings
 SITE_DOMAIN = "https://ur-cristiano-fc.github.io"
