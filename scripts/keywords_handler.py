@@ -47,6 +47,17 @@ def parse_keyword_row(row):
                 'hook_kw': '',
                 'search_kw': ''
             }
+        elif len(parts) == 5:
+            # Old format (backward compatible)
+            return {
+                'title': parts[0],
+                'focus_kw': parts[1],
+                'permalink': parts[2],
+                'semantic_kw': parts[3],
+                'affiliate_links': parts[4],
+                'hook_kw': '',
+                'search_kw': ''
+            }
         elif len(parts) == 7:
             # New format with social media
             return {
