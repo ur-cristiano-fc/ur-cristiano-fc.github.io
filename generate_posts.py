@@ -1,6 +1,5 @@
 """Main script to generate blog posts automatically"""
 import os
-import random
 import time
 import datetime
 
@@ -11,7 +10,6 @@ from article_generator import generate_article, generate_image_prompt
 from image_generator import generate_image_freepik, get_random_reference_image
 from google_indexing import submit_to_google_indexing, check_indexing_status
 from google_sheets_logger import log_to_google_sheets
-from collage_generator import create_blog_collage
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
 
 
@@ -94,55 +92,17 @@ def main():
             image_prompt = generate_image_prompt(title)
             print(f"✅ Image prompt generated")
             
-            # Step 3: Create featured image
+            # Step 3: Generate image
             print(f"\n{'=' * 60}")
-            print("Step 3: Creating Unique Collage Image")
+            print("Step 3: Generating & Compressing Image")
             print("=" * 60)
-
-
-            # Create collage with 3-4 images
-            num_images = random.choice([3, 4])
-            result = create_blog_collage(
-                title=title,
-                output_path=image_file,
-                num_images=num_images
+            # generate_image_freepik(image_prompt, image_file)
+            generate_image_freepik(
+                image_prompt,
+                image_file,
+                reference_image_path,
+                reference_strength
             )
-
-            if result['success']:
-                print(f"✅ Collage created successfully")
-                print(f"🎨 Layout: {result['layout']}")
-                print(f"🖼️ Images used: {result['num_images']}")
-                
-                # Log attributions
-                for i, attr in enumerate(result['attributions'], 1):
-                    print(f"   {i}. Photo by {attr['photographer']} on {attr['source'].capitalize()}")
-            else:
-                print(f"⚠️ Collage creation failed: {result.get('error')}")
-                print("📚 Falling back to curated library...")
-                
-                # Fallback to your existing image_generator
-                try:
-                    reference_image_path = get_random_reference_image()
-                    generate_image_freepik(
-                        image_prompt,
-                        image_file,
-                        reference_image_path,
-                        0.7
-                    )
-                except Exception as e:
-                    print(f"❌ Fallback also failed: {e}")
-                    print("⚠️ Skipping post generation")
-                    continue
-            # print(f"\n{'=' * 60}")
-            # print("Step 3: Generating & Compressing Image")
-            # print("=" * 60)
-            # # generate_image_freepik(image_prompt, image_file)
-            # generate_image_freepik(
-            #     image_prompt,
-            #     image_file,
-            #     reference_image_path,
-            #     reference_strength
-            # )
             # Step 4: Save post
             print(f"\n{'=' * 60}")
             print("Step 4: Saving Post")

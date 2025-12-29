@@ -12,7 +12,7 @@ def generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links):
 write an SEO-optimised blog on the title {title}. using the Focus keyword {focus_kw} ,  using LSI Keywords {semantic_kw}
 use the following
 Rules:
-- Simple English, a 10 year old can understand
+- Simple Language, a 10 year old can understand (follow title language).
 - Don't write more than 3 sentences per paragraph, changes paragraph after 3 sentences
 - Use "you" to address the reader
 - link other websites for external linking where relevant

@@ -4,7 +4,7 @@ import os
 # File paths
 KEYWORDS_FILE = "keywords.txt"
 POSTS_DIR = "_posts"
-IMAGES_DIR = "assets/images"
+IMAGES_DIR = "assets/images/ronaldo-library"
 
 # Site settings
 SITE_DOMAIN = "https://ur-cristiano-fc.github.io"
@@ -30,6 +30,8 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 FREEPIK_API_KEY = os.environ.get("FREEPIK_API_KEY")
 GOOGLE_SERVICE_ACCOUNT_JSON = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
 GOOGLE_SPREADSHEET_ID = os.environ.get("GOOGLE_SPREADSHEET_ID")
+UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")
+PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY")
 
 # Create directories
 os.makedirs(POSTS_DIR, exist_ok=True)
