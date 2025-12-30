@@ -41,17 +41,15 @@ def extract_search_query_from_title(title):
     return f"{base} sports"
 
 
-def generate_image_freepik(prompt, output_path, reference_image_path=None, reference_strength=0.5):
-    """Generate article-relevant collage (replaces Freepik API)
+def generate_image_freepik(prompt, output_path, ):
+    f"""Generate article-relevant collage (replaces Freepik API)
     
     This function maintains the same interface as the old Freepik generator
     but now creates unique collages from Unsplash/Pexels images.
     
     Args:
-        prompt: Text describing what image to create (blog title or description)
-        output_path: Where to save the generated collage
-        reference_image_path: Not used anymore (kept for compatibility)
-        reference_strength: Not used anymore (kept for compatibility)
+        prompt: {prompt}
+        output_path: {output_path}
     
     Returns:
         True if successful, raises exception otherwise
@@ -64,7 +62,7 @@ def generate_image_freepik(prompt, output_path, reference_image_path=None, refer
     print(f"📝 Prompt/Title: {prompt[:100]}...")
     
     # Extract search query from prompt/title
-    search_query = extract_search_query_from_title(prompt)
+    search_query = f"{prompt}"
     print(f"🔍 Search query: {search_query}")
     
     # Determine number of images (3 or 4 for variety)
