@@ -78,7 +78,7 @@ def main():
         # Generate file paths
         today = datetime.date.today().isoformat()
         post_path = f"{POSTS_DIR}/{today}-{permalink}.md"
-        image_file = f"{IMAGES_DIR}/featured_{permalink}.webp"
+        image_file = f"{IMAGES_DIR}/{permalink}.webp"
         
         # Check if post already exists
         if os.path.exists(post_path):
