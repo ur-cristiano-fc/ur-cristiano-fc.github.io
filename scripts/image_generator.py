@@ -236,8 +236,7 @@ def create_collage_layout(images, layout, title):
             canvas.paste(img, (x, y))
     
     # Add text overlay with title
-    # canvas = add_text_overlay(canvas, title, width, height)
-    canvas = ""
+    canvas = add_text_overlay(canvas, title, width, height)
     
     return canvas
 
