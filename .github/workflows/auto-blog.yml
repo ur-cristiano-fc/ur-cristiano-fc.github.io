@@ -54,8 +54,7 @@ jobs:
           UNSPLASH_SECRET_KEY: ${{ secrets.UNSPLASH_SECRET_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
-          cd scripts
-          python generate_posts.py
+          python scripts/generate_posts.py
       
       - name: Verify generated files
         run: |
