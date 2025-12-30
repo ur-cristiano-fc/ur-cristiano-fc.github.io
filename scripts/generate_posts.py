@@ -95,12 +95,14 @@ def main():
             article = generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links, hook_kw, search_kw)
             print(f"✅ Article generated ({len(article)} characters)")
             
-            # Step 2: Generate image prompt (optional - can be skipped)
+            
+            # Step 2: Generate image prompt
             print(f"\n{'=' * 60}")
-            print("Step 2: Preparing Image Generation")
+            print("Step 2: Generating Image Prompt")
             print("=" * 60)
-            # We'll use title directly, so prompt generation is optional
-            print(f"ℹ️ Using article title for image context")
+            image_prompt = generate_image_prompt(title)
+            print(f"✅ Image prompt generated")
+            
             
             # Step 3: Create featured image (collage)
             print(f"\n{'=' * 60}")
@@ -110,7 +112,7 @@ def main():
             # Use the updated generate_image_freepik (now creates collages)
             try:
                 generate_image_freepik(
-                    title,  # Pass title directly for better context detection
+                    image_prompt,  # Pass title directly for better context detection
                     image_file
                 )
                 print(f"✅ Featured image created successfully")

@@ -139,7 +139,7 @@ def generate_image_prompt(title):
     title_cleaned = title_cleaned.replace("CR7", "top athlete")
     
     prompt = f"""
-Create a photorealistic featured image prompt for this blog post:
+create a search term to get a high-quality image  related to the blog post with the following from unsplash and pixel
 Title: {title_cleaned}
 
 Requirements:
@@ -148,11 +148,7 @@ Requirements:
 - High-quality, realistic sports/training scene
 - Modern fitness environment or training facility
 - NO text or words in the image
-- NO specific person's face or celebrity likeness
-- Suitable as a blog featured image
-- 2:1 aspect ratio (1920x960)
-- Relevant to the topic
-- Professional sports photography style
+
 
 Return ONLY the image prompt, nothing else.
 """
