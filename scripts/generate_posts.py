@@ -111,9 +111,7 @@ def main():
             try:
                 generate_image_freepik(
                     title,  # Pass title directly for better context detection
-                    image_file,
-                    None,  # reference_image_path not used in collage mode
-                    0.7    # reference_strength not used in collage mode
+                    image_file
                 )
                 print(f"✅ Featured image created successfully")
             except Exception as img_error:
