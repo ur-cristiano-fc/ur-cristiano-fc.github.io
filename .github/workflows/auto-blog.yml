@@ -66,57 +66,35 @@ jobs:
           echo "🖼️ Generated images:"
           ls -lh assets/images/ | tail -5
 
+      - name: Debug files
+        run: |
+          echo "=== Working Directory ==="
+          pwd
+          ls -la
+          echo ""
+          echo "=== Posts Directory ==="
+          ls -lah _posts/ | tail -10
+          echo ""
+          echo "=== Images Directory ==="
+          ls -lah assets/images/ | tail -10
+          echo ""
+
       - name: Commit & Push changes
         run: |
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
           
-          # Pull latest changes first to avoid conflicts
-          git pull --rebase origin master || true
+          # Add everything
+          git add .
           
-          # Show what files were generated (for debugging)
-          echo "📋 Files to commit:"
-          git status --short
+          # Show status
+          git status
           
-          # Stage ALL changes in these directories
-          git add -A _posts/
-          git add -A assets/images/
-          git add keywords.txt
-          
-          # Show what's staged
-          echo "📦 Staged files:"
-          git diff --cached --name-only
-          
-          # Create commit message from generated posts
-          TITLES=$(git diff --cached --name-only | grep "_posts/" | sed 's#_posts/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-##' | sed 's/.md$//' | sed 's/-/ /g' | head -3 | tr '\n' ' | ')
-          
-          # Commit with meaningful message
-          if [ -n "$(git diff --cached)" ]; then
-            if [ -n "$TITLES" ]; then
-              git commit -m "🤖 Auto-post: $TITLES" || exit 0
-            else
-              git commit -m "🤖 Auto-post: Update content" || exit 0
-            fi
-            
-            echo "✅ Changes committed"
-            
-            # Push changes
+          # Commit if there are changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d')"
             git push origin master
             echo "✅ Changes pushed"
           else
             echo "⚠️ No changes to commit"
           fi
-
-      - name: Workflow summary
-        if: always()
-        run: |
-          echo "## 📊 Workflow Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ Blog post generation completed" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          
-          POST_COUNT=$(git diff HEAD~1 --name-only | grep "_posts/" | wc -l)
-          echo "📝 Posts generated: $POST_COUNT" >> $GITHUB_STEP_SUMMARY
-          
-          IMAGE_COUNT=$(git diff HEAD~1 --name-only | grep "assets/images/.*\.webp" | wc -l)
-          echo "🖼️ Images created: $IMAGE_COUNT" >> $GITHUB_STEP_SUMMARY
