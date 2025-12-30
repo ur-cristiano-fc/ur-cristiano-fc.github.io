@@ -3,6 +3,7 @@ import os
 import random
 from PIL import Image, ImageDraw, ImageFont
 from config import IMAGE_QUALITY, IMAGE_MAX_WIDTH, IMAGE_MAX_HEIGHT, OPTIMIZE_IMAGE
+from article_generator import client, TEXT_MODEL  # Import Gemini client
 
 try:
     from google_image_handler import GoogleImageSearchHandler
@@ -12,68 +13,137 @@ except ImportError:
     HAS_API_HANDLER = False
 
 
-def extract_search_query_from_title(title):
-    """Extract relevant search terms from blog title for image search
+def generate_search_queries_from_title(title):
+    """Use Gemini AI to generate optimal search queries based on article title
     
-    Returns specific Cristiano Ronaldo search queries based on article context
-    to get REAL photos of him, not generic athlete photos
+    Args:
+        title: Article title
+        
+    Returns:
+        List of 2-3 search queries for Google Images
     """
     
-    title_lower = title.lower()
+    prompt = f"""
+Given this blog post title: "{title}"
+
+Generate 2-3 Google Image search queries to find the most relevant photos for this article.
+
+Requirements:
+- ALWAYS include "cristiano ronaldo" in queries
+- If the title mentions specific people (mother, son, girlfriend, family), include them in the search
+- Make queries specific to the article topic
+- Keep queries short and focused (3-6 words each)
+- Return ONLY the search queries, one per line, nothing else
+
+Examples:
+Title: "Cristiano Ronaldo'nun Annesi ile Yapılan Röportajlardan 20 Söz"
+cristiano ronaldo with mother
+cristiano ronaldo maria dolores
+cristiano ronaldo family
+
+Title: "Cristiano Ronaldo's Training Routine"
+cristiano ronaldo training
+cristiano ronaldo gym workout
+
+Now generate for the given title above. Return ONLY the search queries, one per line:
+"""
     
-    # Always include his full name for real photos
-    base = "cristiano ronaldo"
+    try:
+        response = client.models.generate_content(
+            model=TEXT_MODEL,
+            contents=prompt
+        )
+        
+        queries = [q.strip() for q in response.text.strip().split('\n') if q.strip()]
+        queries = queries[:3]  # Max 3 queries
+        
+        print(f"🤖 Gemini generated {len(queries)} search queries:")
+        for i, q in enumerate(queries, 1):
+            print(f"   {i}. {q}")
+        
+        return queries
+        
+    except Exception as e:
+        print(f"⚠️ Gemini query generation failed: {e}")
+        # Fallback to simple query
+        return ["cristiano ronaldo"]
+
+
+def filter_relevant_images_with_gemini(title, image_results):
+    """Use Gemini AI to filter and rank images based on article relevance
     
-    # Context keywords mapping - now returns specific CR7 activities
-    contexts = {
-        'training': ['train', 'training', 'workout', 'exercise', 'fitness', 'gym', 'muscle', 'strength', 'antrenman'],
-        'match': ['soccer', 'football', 'field', 'match', 'game', 'pitch', 'play', 'player', 'futbol', 'maç', 'playing', 'stadium'],
-        'diet': ['diet', 'nutrition', 'food', 'meal', 'eating', 'healthy', 'breakfast', 'lunch', 'dinner', 'beslenme'],
-        'celebration': ['goal', 'celebration', 'siuu', 'score', 'celebrating', 'win', 'victory', 'gol', 'siuuu'],
-        'lifestyle': ['lifestyle', 'life', 'daily', 'routine', 'habits', 'home', 'family', 'yaşam', 'personal'],
-        'career': ['career', 'club', 'team', 'transfer', 'contract', 'trophy', 'award', 'kariyer', 'takım', 'juventus', 'real madrid', 'manchester', 'al nassr'],
-        'skills': ['skills', 'technique', 'dribbling', 'shooting', 'passing', 'speed', 'teknik', 'dribble', 'free kick'],
-        'portrait': ['portrait', 'face', 'look', 'style', 'fashion', 'photoshoot', 'photo'],
-        'jersey': ['jersey', 'kit', 'uniform', 'shirt', 'number', '7'],
-    }
+    Args:
+        title: Article title
+        image_results: List of image result dicts with 'title' and 'url'
+        
+    Returns:
+        List of filtered and ranked image indices
+    """
     
-    # Find best matching context
-    for context, keywords in contexts.items():
-        if any(kw in title_lower for kw in keywords):
-            print(f"🎯 Detected context: {context}")
-            
-            # Return specific Ronaldo queries for each context
-            if context == 'training':
-                return f"{base} training gym workout"
-            elif context == 'match':
-                return f"{base} playing football match action"
-            elif context == 'diet':
-                return f"{base} eating food healthy lifestyle"
-            elif context == 'celebration':
-                return f"{base} goal celebration siuu"
-            elif context == 'lifestyle':
-                return f"{base} lifestyle family home"
-            elif context == 'career':
-                return f"{base} trophy award winning"
-            elif context == 'skills':
-                return f"{base} skills dribbling technique"
-            elif context == 'portrait':
-                return f"{base} portrait photo face"
-            elif context == 'jersey':
-                return f"{base} jersey number 7 shirt"
+    if len(image_results) <= 4:
+        # If we have 4 or fewer, use all of them
+        return list(range(len(image_results)))
     
-    # Default to action shots if no specific match
-    return f"{base} football action"
+    # Prepare image descriptions for Gemini
+    image_descriptions = []
+    for i, img in enumerate(image_results[:10]):  # Analyze max 10 images
+        desc = f"{i}. {img.get('title', 'Untitled')}"
+        image_descriptions.append(desc)
+    
+    descriptions_text = '\n'.join(image_descriptions)
+    
+    prompt = f"""
+Article title: "{title}"
+
+Available images:
+{descriptions_text}
+
+Task: Select the 4 most relevant images for this article based on their descriptions.
+
+Requirements:
+- Choose images that best match the article topic
+- Prioritize images showing people mentioned in the title
+- Prefer action/contextual photos over generic portraits
+- Return ONLY the numbers (0-9) of the 4 best images, separated by commas
+
+Example response: 0,2,5,7
+
+Your response (only numbers):
+"""
+    
+    try:
+        response = client.models.generate_content(
+            model=TEXT_MODEL,
+            contents=prompt
+        )
+        
+        # Parse response
+        selected = response.text.strip()
+        indices = [int(x.strip()) for x in selected.split(',') if x.strip().isdigit()]
+        indices = [i for i in indices if i < len(image_results)][:4]  # Max 4 images
+        
+        if len(indices) < 2:
+            # If Gemini failed, use first 4
+            return list(range(min(4, len(image_results))))
+        
+        print(f"🤖 Gemini selected {len(indices)} most relevant images: {indices}")
+        return indices
+        
+    except Exception as e:
+        print(f"⚠️ Gemini filtering failed: {e}")
+        # Fallback: use first 4 images
+        return list(range(min(4, len(image_results))))
 
 
 def generate_image_freepik(prompt, output_path):
-    """Generate article-relevant collage using Google Custom Search API
+    """Generate article-relevant collage using Google Custom Search API + Gemini AI
     
-    This function maintains the same interface as the old Freepik generator
-    but now creates unique collages from Google Images using the official API.
+    Uses Gemini to:
+    1. Generate optimal search queries based on article title
+    2. Filter and rank the most relevant images from search results
     
     Args:
-        prompt: Article title or image prompt
+        prompt: Article title
         output_path: Where to save the collage
     
     Returns:
@@ -83,59 +153,91 @@ def generate_image_freepik(prompt, output_path):
     if not HAS_API_HANDLER:
         raise ImportError("google_image_handler module is required for collage generation")
     
-    print(f"🎨 Creating article-relevant collage with REAL Cristiano Ronaldo photos from Google")
-    print(f"📝 Prompt/Title: {prompt[:100]}...")
+    print(f"🎨 Creating AI-powered collage with relevant Cristiano Ronaldo photos")
+    print(f"📝 Article Title: {prompt[:100]}...")
     
-    # Extract search query from prompt/title
-    search_query = extract_search_query_from_title(prompt)
-    print(f"🔍 Search query: {search_query}")
+    # Step 1: Use Gemini to generate search queries
+    print(f"\n{'='*50}")
+    print("Step 1: AI Query Generation")
+    print("="*50)
+    search_queries = generate_search_queries_from_title(prompt)
     
-    # Determine number of images (3 or 4 for variety)
-    num_images = random.choice([3, 4])
-    
-    # Get images from Google Custom Search API
+    # Step 2: Search Google for images with all queries
+    print(f"\n{'='*50}")
+    print("Step 2: Searching Google Images")
+    print("="*50)
     api_handler = GoogleImageSearchHandler()
-    images_data = api_handler.get_images_for_collage(search_query, num_images)
+    all_image_results = []
     
-    if len(images_data) < 2:
-        raise Exception(f"❌ Not enough images found. Only got {len(images_data)} images from Google. Need at least 2.")
+    for query in search_queries:
+        print(f"🔍 Searching: {query}")
+        results = api_handler.search_images(query, num_images=6)
+        all_image_results.extend(results)
     
-    print(f"✅ Found {len(images_data)} images from Google")
+    if len(all_image_results) < 2:
+        raise Exception(f"❌ Not enough images found. Only got {len(all_image_results)} images from Google. Need at least 2.")
     
-    # Extract PIL images and attributions
+    print(f"✅ Found {len(all_image_results)} total images from all searches")
+    
+    # Step 3: Use Gemini to filter and select best images
+    print(f"\n{'='*50}")
+    print("Step 3: AI Image Selection")
+    print("="*50)
+    selected_indices = filter_relevant_images_with_gemini(prompt, all_image_results)
+    
+    # Determine number of images for collage
+    num_images = min(len(selected_indices), random.choice([3, 4]))
+    selected_indices = selected_indices[:num_images]
+    
+    print(f"✅ Selected {len(selected_indices)} most relevant images")
+    
+    # Step 4: Download selected images
+    print(f"\n{'='*50}")
+    print("Step 4: Downloading Selected Images")
+    print("="*50)
     images = []
     attributions = []
     
-    for img_data in images_data:
-        images.append(img_data['image'])
-        attributions.append({
-            'photographer': img_data['photographer'],
-            'photographer_url': img_data['photographer_url'],
-            'source': img_data['source']
-        })
+    for idx in selected_indices:
+        img_info = all_image_results[idx]
+        print(f"📥 Downloading: {img_info['title'][:60]}...")
+        
+        img = api_handler.download_image(img_info['url'])
+        if img:
+            images.append(img)
+            attributions.append({
+                'photographer': img_info.get('source', 'Google Search'),
+                'photographer_url': img_info['url'],
+                'source': 'google'
+            })
+        
+        if len(images) >= num_images:
+            break
     
-    print(f"✅ Prepared {len(images)} images for collage")
+    if len(images) < 2:
+        raise Exception(f"❌ Failed to download enough images. Only downloaded {len(images)}. Need at least 2.")
     
-    # Select layout based on number of images
+    print(f"✅ Successfully downloaded {len(images)} images")
+    
+    # Step 5: Create collage
+    print(f"\n{'='*50}")
+    print("Step 5: Creating Collage")
+    print("="*50)
     layout = select_optimal_layout(len(images))
     print(f"🎨 Using layout: {layout}")
     
-    # Create collage with article title
     collage = create_collage_layout(images, layout, prompt)
-    
-    # Add attribution watermark
     collage = add_attribution_watermark(collage, attributions)
     
-    # Save with optimization (using config settings)
+    # Save with optimization
     collage.save(output_path, 'WEBP', quality=IMAGE_QUALITY, optimize=OPTIMIZE_IMAGE, method=6)
     
-    # Get file info
     file_size = os.path.getsize(output_path)
     print(f"✅ Collage saved: {output_path}")
     print(f"📊 File size: {file_size / 1024:.1f} KB")
     
-    # Log attributions
-    print(f"📸 Image sources:")
+    # Log image sources
+    print(f"\n📸 Image sources:")
     for i, attr in enumerate(attributions, 1):
         print(f"   {i}. From {attr['source']} via Google Search")
     

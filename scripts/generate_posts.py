@@ -92,23 +92,15 @@ def main():
             print(f"✅ Article generated ({len(article)} characters)")
             
             
-            # Step 2: Generate image prompt
+            # Step 2: Create featured image (using Google Custom Search API + Gemini AI)
             print(f"\n{'=' * 60}")
-            print("Step 2: Generating Image Prompt")
-            print("=" * 60)
-            image_prompt = generate_image_prompt(title)
-            print(f"✅ Image prompt generated")
-            
-            
-            # Step 3: Create featured image (using Google Custom Search API)
-            print(f"\n{'=' * 60}")
-            print("Step 3: Creating Collage with Real CR7 Photos from Google")
+            print("Step 2: Creating AI-Powered Collage with Relevant Images")
             print("=" * 60)
             
             try:
-                # Pass the article title for context-aware image search
+                # Gemini will generate search queries and filter images based on article title
                 generate_image_freepik(
-                    title,  # Use title directly for better context detection
+                    title,  # Article title - Gemini uses this to find relevant images
                     image_file
                 )
                 print(f"✅ Featured image collage created successfully")
@@ -126,9 +118,9 @@ def main():
                 # Don't remove keyword so it can be retried
                 continue
             
-            # Step 4: Save post
+            # Step 3: Save post
             print(f"\n{'=' * 60}")
-            print("Step 4: Saving Post")
+            print("Step 3: Saving Post")
             print("=" * 60)
             with open(post_path, "w", encoding="utf-8") as f:
                 f.write(article)
@@ -144,12 +136,12 @@ def main():
             
             posts_generated += 1
             
-            # Step 5: Additional processing (indexing, logging, etc.)
+            # Step 4: Additional processing (indexing, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
-                # Step 5: Log to Sheets
+                # Step 4: Log to Sheets
                 print(f"\n{'=' * 60}")
-                print("Step 5: Logging to Google Sheets")
+                print("Step 4: Logging to Google Sheets")
                 print("=" * 60)
                 
                 indexing_status = "Pending"  # Set default status
@@ -170,9 +162,9 @@ def main():
                 # except Exception as e:
                 #     print(f"⚠️ Push notification failed (non-critical): {e}")
             
-            # Step 7: Remove keyword after success
+            # Step 5: Remove keyword after success
             print(f"\n{'=' * 60}")
-            print("Step 6: Removing Keyword from File")
+            print("Step 5: Removing Keyword from File")
             print("=" * 60)
             remove_keyword_from_file()
             print(f"✅ Keyword removed - post complete")
