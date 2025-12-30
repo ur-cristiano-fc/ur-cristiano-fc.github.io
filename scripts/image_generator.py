@@ -13,43 +13,68 @@ except ImportError:
 
 
 def extract_search_query_from_title(title):
-    """Extract relevant search terms from blog title for image search"""
+    """Extract relevant search terms from blog title for image search
+    
+    Returns specific Cristiano Ronaldo search queries based on article context
+    to get REAL photos of him, not generic athlete photos
+    """
     
     title_lower = title.lower()
     
-    # Always include base term for Ronaldo blog
+    # Always include his full name for real photos
     base = "cristiano ronaldo"
     
-    # Context keywords mapping
+    # Context keywords mapping - now returns specific CR7 activities
     contexts = {
         'training': ['train', 'training', 'workout', 'exercise', 'fitness', 'gym', 'muscle', 'strength', 'antrenman'],
-        'soccer': ['soccer', 'football', 'field', 'match', 'game', 'pitch', 'play', 'player', 'futbol', 'maç'],
+        'match': ['soccer', 'football', 'field', 'match', 'game', 'pitch', 'play', 'player', 'futbol', 'maç', 'playing', 'stadium'],
         'diet': ['diet', 'nutrition', 'food', 'meal', 'eating', 'healthy', 'breakfast', 'lunch', 'dinner', 'beslenme'],
-        'celebration': ['goal', 'celebration', 'siuu', 'score', 'celebrating', 'win', 'victory', 'gol'],
-        'lifestyle': ['lifestyle', 'life', 'daily', 'routine', 'habits', 'home', 'family', 'yaşam'],
-        'career': ['career', 'club', 'team', 'transfer', 'contract', 'trophy', 'award', 'kariyer', 'takım'],
-        'skills': ['skills', 'technique', 'dribbling', 'shooting', 'passing', 'speed', 'teknik'],
+        'celebration': ['goal', 'celebration', 'siuu', 'score', 'celebrating', 'win', 'victory', 'gol', 'siuuu'],
+        'lifestyle': ['lifestyle', 'life', 'daily', 'routine', 'habits', 'home', 'family', 'yaşam', 'personal'],
+        'career': ['career', 'club', 'team', 'transfer', 'contract', 'trophy', 'award', 'kariyer', 'takım', 'juventus', 'real madrid', 'manchester', 'al nassr'],
+        'skills': ['skills', 'technique', 'dribbling', 'shooting', 'passing', 'speed', 'teknik', 'dribble', 'free kick'],
+        'portrait': ['portrait', 'face', 'look', 'style', 'fashion', 'photoshoot', 'photo'],
+        'jersey': ['jersey', 'kit', 'uniform', 'shirt', 'number', '7'],
     }
     
     # Find best matching context
     for context, keywords in contexts.items():
         if any(kw in title_lower for kw in keywords):
             print(f"🎯 Detected context: {context}")
-            return f"{base} {context}"
+            
+            # Return specific Ronaldo queries for each context
+            if context == 'training':
+                return f"{base} training gym workout"
+            elif context == 'match':
+                return f"{base} playing football match action"
+            elif context == 'diet':
+                return f"{base} eating food healthy lifestyle"
+            elif context == 'celebration':
+                return f"{base} goal celebration siuu"
+            elif context == 'lifestyle':
+                return f"{base} lifestyle family home"
+            elif context == 'career':
+                return f"{base} trophy award winning"
+            elif context == 'skills':
+                return f"{base} skills dribbling technique"
+            elif context == 'portrait':
+                return f"{base} portrait photo face"
+            elif context == 'jersey':
+                return f"{base} jersey number 7 shirt"
     
-    # Default to sports if no match
-    return f"{base} sports"
+    # Default to action shots if no specific match
+    return f"{base} football action"
 
 
-def generate_image_freepik(prompt, output_path, ):
-    f"""Generate article-relevant collage (replaces Freepik API)
+def generate_image_freepik(prompt, output_path):
+    """Generate article-relevant collage (replaces Freepik API)
     
     This function maintains the same interface as the old Freepik generator
     but now creates unique collages from Unsplash/Pexels images.
     
     Args:
-        prompt: {prompt}
-        output_path: {output_path}
+        prompt: Article title or image prompt
+        output_path: Where to save the collage
     
     Returns:
         True if successful, raises exception otherwise
@@ -58,11 +83,11 @@ def generate_image_freepik(prompt, output_path, ):
     if not HAS_API_HANDLER:
         raise ImportError("image_api_handler module is required for collage generation")
     
-    print(f"🎨 Creating article-relevant collage instead of AI generation")
+    print(f"🎨 Creating article-relevant collage with REAL Cristiano Ronaldo photos")
     print(f"📝 Prompt/Title: {prompt[:100]}...")
     
     # Extract search query from prompt/title
-    search_query = f"{prompt}"
+    search_query = extract_search_query_from_title(prompt)
     print(f"🔍 Search query: {search_query}")
     
     # Determine number of images (3 or 4 for variety)
