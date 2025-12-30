@@ -1,40 +1,39 @@
 name: Gemini AI Auto Blog Publisher
-
 on:
   push:
     branches: [ master ]     # ✅ run immediately on push
   schedule:
     - cron: "0 */23 * * *"    # ✅ every 23 hours
   workflow_dispatch:         # ✅ manual trigger
-
 jobs:
   publish:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0  # Fetch full history for proper git pull
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-
+      
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra
-
+      
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
           pip install google-genai pillow requests google-auth google-api-python-client tweepy python-unsplash
-
+      
       - name: Verify environment
         run: |
           python --version
           pip list | grep -E "(pillow|requests|google-genai|python-unsplash)"
-
+      
       - name: Generate blog post
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -57,7 +56,7 @@ jobs:
         run: |
           cd scripts
           python generate_posts.py
-
+      
       - name: Verify generated files
         run: |
           echo "📋 Generated posts:"
@@ -65,7 +64,7 @@ jobs:
           echo ""
           echo "🖼️ Generated images:"
           ls -lh assets/images/ | tail -5
-
+      
       - name: Debug files
         run: |
           echo "=== Working Directory ==="
@@ -78,11 +77,14 @@ jobs:
           echo "=== Images Directory ==="
           ls -lah assets/images/ | tail -10
           echo ""
-
+      
       - name: Commit & Push changes
         run: |
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
+          
+          # Pull latest changes first to avoid conflicts
+          git pull --rebase origin master || echo "Already up to date"
           
           # Add everything
           git add .
