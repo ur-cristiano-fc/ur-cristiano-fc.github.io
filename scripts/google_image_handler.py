@@ -8,6 +8,21 @@ import os
 
 
 class GoogleImageSearchHandler:
+    """
+    Uses Google Custom Search API - LEGAL and RECOMMENDED
+    
+    Setup:
+    1. Go to https://console.cloud.google.com/apis/credentials
+    2. Create API key (enable Custom Search API)
+    3. Go to https://programmablesearchengine.google.com/
+    4. Create Custom Search Engine
+    5. Enable "Image Search" and "Search the entire web"
+    6. Get your Search Engine ID
+    7. Add to GitHub Secrets:
+       - GOOGLE_SEARCH_API_KEY
+       - GOOGLE_SEARCH_ENGINE_ID
+    """
+    
     def __init__(self, api_key=None, search_engine_id=None):
         # Get from environment if not provided
         self.api_key = api_key or os.environ.get('GOOGLE_SEARCH_API_KEY')
@@ -124,8 +139,8 @@ class GoogleImageSearchHandler:
             elif img.mode != 'RGB':
                 img = img.convert('RGB')
             
-            # Basic validation - ensure minimum quality
-            if img.width < 500 or img.height < 500:
+            # Basic validation - ensure minimum quality (lowered to 300x300)
+            if img.width < 300 or img.height < 300:
                 print(f"⚠️ Image too small: {img.width}x{img.height}")
                 return None
             
