@@ -296,7 +296,7 @@ def add_text_overlay(canvas, title, width, height):
             font = ImageFont.load_default()
     
     # Wrap text if too long
-    max_chars = 45
+    max_chars = 0
     if len(title) > max_chars:
         words = title.split()
         lines = []
