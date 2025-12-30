@@ -1,236 +1,393 @@
-"""Generate and compress images using Freepik AI with reference image support"""
+"""Generate article-relevant collage images (replacing Freepik AI)"""
 import os
-import time
-import base64
 import random
-import requests
-from io import BytesIO
-from PIL import Image
-from config import (
-    FREEPIK_API_KEY, FREEPIK_ENDPOINT,
-    IMAGE_QUALITY, IMAGE_MAX_WIDTH, IMAGE_MAX_HEIGHT, OPTIMIZE_IMAGE
-)
+from PIL import Image, ImageDraw, ImageFont
+from config import IMAGE_QUALITY, IMAGE_MAX_WIDTH, IMAGE_MAX_HEIGHT, OPTIMIZE_IMAGE
+
+try:
+    from image_api_handler import ImageAPIHandler
+    HAS_API_HANDLER = True
+except ImportError:
+    print("⚠️ image_api_handler not found, collage generation will fail")
+    HAS_API_HANDLER = False
 
 
-def get_random_reference_image(reference_folder="assets/images"):
-    """Get a random reference image from the specified folder"""
-    import os
+def extract_search_query_from_title(title):
+    """Extract relevant search terms from blog title for image search"""
     
-    # Check if running in GitHub Actions
-    is_github_actions = os.getenv('GITHUB_ACTIONS') == 'true'
+    title_lower = title.lower()
     
-    if is_github_actions:
-        # In GitHub Actions, return full URL
-        from config import SITE_DOMAIN
-        # You can hardcode your reference images or pick randomly
-        reference_images = [
-            "Ronaldo-image-for-reference.webp",
-            # Add more images here
-        ]
-        selected_image = random.choice(reference_images)
-        return f"{SITE_DOMAIN}/{reference_folder}/{selected_image}"
+    # Always include base term for Ronaldo blog
+    base = "cristiano ronaldo"
     
-    # Local development - use file system
-    if not os.path.exists(reference_folder):
-        print(f"⚠️ Reference folder '{reference_folder}' not found")
-        return None
+    # Context keywords mapping
+    contexts = {
+        'training': ['train', 'training', 'workout', 'exercise', 'fitness', 'gym', 'muscle', 'strength', 'antrenman'],
+        'soccer': ['soccer', 'football', 'field', 'match', 'game', 'pitch', 'play', 'player', 'futbol', 'maç'],
+        'diet': ['diet', 'nutrition', 'food', 'meal', 'eating', 'healthy', 'breakfast', 'lunch', 'dinner', 'beslenme'],
+        'celebration': ['goal', 'celebration', 'siuu', 'score', 'celebrating', 'win', 'victory', 'gol'],
+        'lifestyle': ['lifestyle', 'life', 'daily', 'routine', 'habits', 'home', 'family', 'yaşam'],
+        'career': ['career', 'club', 'team', 'transfer', 'contract', 'trophy', 'award', 'kariyer', 'takım'],
+        'skills': ['skills', 'technique', 'dribbling', 'shooting', 'passing', 'speed', 'teknik'],
+    }
     
-    image_extensions = ('.jpg', '.jpeg', '.png', '.webp')
-    image_files = [
-        f for f in os.listdir(reference_folder)
-        if f.lower().endswith(image_extensions)
-    ]
+    # Find best matching context
+    for context, keywords in contexts.items():
+        if any(kw in title_lower for kw in keywords):
+            print(f"🎯 Detected context: {context}")
+            return f"{base} {context}"
     
-    if not image_files:
-        print(f"⚠️ No reference images found in '{reference_folder}'")
-        return None
-    
-    selected_image = random.choice(image_files)
-    image_path = os.path.join(reference_folder, selected_image)
-    print(f"🖼️ Selected reference image: {selected_image}")
-    
-    return image_path
-
-def encode_image_to_base64(image_path):
-    """Encode image to base64 string"""
-    with open(image_path, "rb") as image_file:
-        encoded = base64.b64encode(image_file.read()).decode('utf-8')
-    return encoded
+    # Default to sports if no match
+    return f"{base} sports"
 
 
 def generate_image_freepik(prompt, output_path, reference_image_path=None, reference_strength=0.5):
-    """Generate image using Freepik AI with optional reference image and compression
+    """Generate article-relevant collage (replaces Freepik API)
+    
+    This function maintains the same interface as the old Freepik generator
+    but now creates unique collages from Unsplash/Pexels images.
     
     Args:
-        prompt: Text prompt for image generation
-        output_path: Where to save the generated image
-        reference_image_path: Path to reference image (optional, defaults to random from assets/images)
-        reference_strength: How much to follow reference image (0.0 to 1.0, default 0.5)
+        prompt: Text describing what image to create (blog title or description)
+        output_path: Where to save the generated collage
+        reference_image_path: Not used anymore (kept for compatibility)
+        reference_strength: Not used anymore (kept for compatibility)
+    
+    Returns:
+        True if successful, raises exception otherwise
     """
     
-    if not FREEPIK_API_KEY:
-        raise ValueError("❌ FREEPIK_API_KEY environment variable is not set")
+    if not HAS_API_HANDLER:
+        raise ImportError("image_api_handler module is required for collage generation")
     
-    print(f"🔑 API Key length: {len(FREEPIK_API_KEY)} chars")
+    print(f"🎨 Creating article-relevant collage instead of AI generation")
+    print(f"📝 Prompt/Title: {prompt[:100]}...")
     
-    headers = {
-        "x-freepik-api-key": FREEPIK_API_KEY,
-        "Content-Type": "application/json"
-    }
+    # Extract search query from prompt/title
+    search_query = extract_search_query_from_title(prompt)
+    print(f"🔍 Search query: {search_query}")
     
-    # Prepare base payload
-    payload = {
-        "prompt": f"{prompt}, digital illustration style, artistic rendering, not photorealistic",
-        "num_images": 1,
-        "image": {"size": "1920x960"},
-        "style": "illustration",
-        "aspect_ratio": "horizontal_2_1"
-    }
+    # Determine number of images (3 or 4 for variety)
+    num_images = random.choice([3, 4])
     
-    # Add reference image if available
-    if reference_image_path is None:
-        reference_image_path = get_random_reference_image()
+    # Get images from APIs
+    api_handler = ImageAPIHandler()
+    image_data = api_handler.get_images_for_collage(search_query, num_images)
     
-    if reference_image_path and os.path.exists(reference_image_path):
-        print(f"📸 Using reference image: {reference_image_path}")
-        print(f"💪 Reference strength: {reference_strength}")
-        
-        try:
-            # Encode reference image
-            base64_image = encode_image_to_base64(reference_image_path)
-            
-            # Add reference image to payload
-            payload["reference"] = {
-                "image_base64": base64_image,
-                "strength": reference_strength
-            }
-            
-            print(f"✅ Reference image encoded successfully")
-        except Exception as e:
-            print(f"⚠️ Could not load reference image: {e}")
-            print(f"⚠️ Proceeding without reference image")
+    if len(image_data) < 2:
+        raise Exception(f"❌ Not enough images found. Only got {len(image_data)} images from APIs. Need at least 2.")
     
-    print(f"📤 Sending request to Freepik API...")
-    print(f"📝 Prompt: {prompt[:100]}...")
+    print(f"✅ Found {len(image_data)} images from APIs")
     
-    try:
-        # Submit generation request
-        response = requests.post(
-            FREEPIK_ENDPOINT,
-            headers=headers,
-            json=payload,
-            timeout=60
-        )
-         
-        print(f"📥 Response status: {response.status_code}")
-        
-        if response.status_code == 401:
-            raise Exception("Invalid Freepik API key")
-        if response.status_code == 402:
-            raise Exception("Freepik API credits exhausted")
-        
-        response.raise_for_status()
-        data = response.json()
-        
-        # Extract task_id
-        task_id = data.get("data", {}).get("task_id")
-        if not task_id:
-            raise Exception(f"No task_id in response: {data}")
-        
-        print(f"🎫 Task ID: {task_id}")
-        print(f"⏳ Polling for result...")
-        
-        # Poll for result
-        image_url = poll_for_image(task_id, headers)
-        
-        # Download and compress image
-        download_and_compress_image(image_url, output_path)
-        
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        raise
+    # Download images
+    images = []
+    attributions = []
+    
+    for img_info in image_data:
+        img = api_handler.download_image(img_info['url'])
+        if img:
+            images.append(img)
+            attributions.append({
+                'photographer': img_info['photographer'],
+                'photographer_url': img_info['photographer_url'],
+                'source': img_info['source']
+            })
+    
+    if len(images) < 2:
+        raise Exception(f"❌ Failed to download enough images. Only downloaded {len(images)}. Need at least 2.")
+    
+    print(f"✅ Downloaded {len(images)} images successfully")
+    
+    # Select layout based on number of images
+    layout = select_optimal_layout(len(images))
+    print(f"🎨 Using layout: {layout}")
+    
+    # Create collage with article title
+    collage = create_collage_layout(images, layout, prompt)
+    
+    # Add attribution watermark
+    collage = add_attribution_watermark(collage, attributions)
+    
+    # Save with optimization (using config settings)
+    collage.save(output_path, 'WEBP', quality=IMAGE_QUALITY, optimize=OPTIMIZE_IMAGE, method=6)
+    
+    # Get file info
+    file_size = os.path.getsize(output_path)
+    print(f"✅ Collage saved: {output_path}")
+    print(f"📊 File size: {file_size / 1024:.1f} KB")
+    
+    # Log attributions
+    print(f"📸 Image sources:")
+    for i, attr in enumerate(attributions, 1):
+        print(f"   {i}. Photo by {attr['photographer']} on {attr['source'].capitalize()}")
+    
+    return True
 
 
-def poll_for_image(task_id, headers, max_attempts=40):
-    """Poll Freepik API until image is ready"""
-    attempt = 0
+def select_optimal_layout(num_images):
+    """Select best layout based on number of images"""
     
-    while attempt < max_attempts:
-        attempt += 1
-        time.sleep(5)
-        
-        print(f"🔄 Polling attempt {attempt}/{max_attempts}...")
-        
-        status_url = f"https://api.freepik.com/v1/ai/text-to-image/flux-dev/{task_id}"
-        status_response = requests.get(status_url, headers=headers, timeout=30)
-        status_response.raise_for_status()
-        
-        status_data = status_response.json()
-        status = status_data.get("data", {}).get("status")
-        
-        print(f"📊 Status: {status}")
-        
-        if status == "COMPLETED":
-            generated = status_data["data"].get("generated", [])
-            
-            if isinstance(generated, list) and len(generated) > 0:
-                image_url = generated[0] if isinstance(generated[0], str) else generated[0].get("url")
-                if image_url:
-                    return image_url
-            
-            raise Exception("No URL in completed response")
-        
-        elif status == "FAILED":
-            error_msg = status_data["data"].get("error", "Unknown error")
-            raise Exception(f"Generation failed: {error_msg}")
-        
-        elif status in ["CREATED", "PROCESSING"]:
-            continue
-    
-    raise Exception(f"Generation timeout after {max_attempts * 5} seconds")
-
-
-def download_and_compress_image(image_url, output_path):
-    """Download image and compress it"""
-    print(f"✅ Generation complete!")
-    print(f"🖼️ Image URL: {image_url[:60]}...")
-    print(f"📥 Downloading image...")
-    
-    img_response = requests.get(image_url, timeout=60)
-    img_response.raise_for_status()
-    
-    print(f"💾 Processing and compressing image...")
-    
-    # Open and convert image
-    img = Image.open(BytesIO(img_response.content)).convert("RGB")
-    
-    # Get original size
-    original_size = len(img_response.content)
-    original_width, original_height = img.size
-    print(f"📊 Original: {original_width}x{original_height}, {original_size / 1024:.1f} KB")
-    
-    # Resize if needed (maintain aspect ratio)
-    if original_width > IMAGE_MAX_WIDTH or original_height > IMAGE_MAX_HEIGHT:
-        print(f"🔧 Resizing to fit {IMAGE_MAX_WIDTH}x{IMAGE_MAX_HEIGHT}...")
-        img.thumbnail((IMAGE_MAX_WIDTH, IMAGE_MAX_HEIGHT), Image.Resampling.LANCZOS)
-        new_width, new_height = img.size
-        print(f"✅ Resized to: {new_width}x{new_height}")
-    
-    # Save with compression
-    if OPTIMIZE_IMAGE:
-        img.save(
-            output_path,
-            "WEBP",
-            quality=IMAGE_QUALITY,
-            method=6,
-            optimize=True
-        )
+    if num_images >= 4:
+        # For 4+ images, randomly choose between grid layouts
+        return random.choice(['grid_2x2', 'hero_with_strip'])
+    elif num_images == 3:
+        # For 3 images, use featured plus or horizontal strip
+        return random.choice(['featured_plus', 'grid_1x3'])
     else:
-        img.save(output_path, "WEBP", quality=IMAGE_QUALITY)
+        # For 2 images, split vertically
+        return 'split_vertical'
+
+
+def create_collage_layout(images, layout, title):
+    """Create collage with specified layout and title overlay"""
     
-    # Get compressed size
-    compressed_size = os.path.getsize(output_path)
-    compression_ratio = (1 - compressed_size / original_size) * 100
+    # Use config dimensions or default to 1920x1080
+    width = IMAGE_MAX_WIDTH if IMAGE_MAX_WIDTH <= 1920 else 1920
+    height = IMAGE_MAX_HEIGHT if IMAGE_MAX_HEIGHT <= 1080 else 1080
     
-    print(f"📊 Compressed: {compressed_size / 1024:.1f} KB (saved {compression_ratio:.1f}%)")
-    print(f"✅ Image saved: {output_path}")
+    canvas = Image.new('RGB', (width, height), (245, 245, 245))  # Light gray background
+    gap = 12  # Gap between images
+    
+    if layout == 'grid_2x2':
+        # 2x2 grid layout (4 images)
+        while len(images) < 4:
+            images.append(images[0])
+        
+        img_w = (width - gap) // 2
+        img_h = (height - gap) // 2
+        
+        positions = [
+            (0, 0),
+            (img_w + gap, 0),
+            (0, img_h + gap),
+            (img_w + gap, img_h + gap)
+        ]
+        
+        for i, (x, y) in enumerate(positions[:4]):
+            img = resize_and_crop(images[i], img_w, img_h)
+            canvas.paste(img, (x, y))
+    
+    elif layout == 'grid_1x3':
+        # Horizontal 3-image strip
+        while len(images) < 3:
+            images.append(images[0])
+        
+        img_w = (width - 2 * gap) // 3
+        img_h = height
+        
+        for i in range(3):
+            x = i * (img_w + gap)
+            img = resize_and_crop(images[i], img_w, img_h)
+            canvas.paste(img, (x, 0))
+    
+    elif layout == 'split_vertical':
+        # 2 images side by side
+        while len(images) < 2:
+            images.append(images[0])
+        
+        img_w = (width - gap) // 2
+        img_h = height
+        
+        img1 = resize_and_crop(images[0], img_w, img_h)
+        canvas.paste(img1, (0, 0))
+        
+        img2 = resize_and_crop(images[1], img_w, img_h)
+        canvas.paste(img2, (img_w + gap, 0))
+    
+    elif layout == 'featured_plus':
+        # 1 large image + 2 smaller on side
+        while len(images) < 2:
+            images.append(images[0])
+        
+        main_w = int(width * 0.68)
+        side_w = width - main_w - gap
+        side_h = (height - gap) // 2
+        
+        # Main large image (left)
+        main_img = resize_and_crop(images[0], main_w, height)
+        canvas.paste(main_img, (0, 0))
+        
+        # Top right
+        img2 = resize_and_crop(images[1], side_w, side_h)
+        canvas.paste(img2, (main_w + gap, 0))
+        
+        # Bottom right (use third image or duplicate)
+        img3_idx = 2 if len(images) > 2 else 1
+        img3 = resize_and_crop(images[img3_idx], side_w, side_h)
+        canvas.paste(img3, (main_w + gap, side_h + gap))
+    
+    elif layout == 'hero_with_strip':
+        # Large hero image with strip of smaller images below
+        while len(images) < 3:
+            images.append(images[0])
+        
+        hero_h = int(height * 0.65)
+        strip_h = height - hero_h - gap
+        strip_w = (width - 2 * gap) // 3
+        
+        # Hero image (top)
+        hero = resize_and_crop(images[0], width, hero_h)
+        canvas.paste(hero, (0, 0))
+        
+        # Bottom strip (3 images)
+        for i in range(3):
+            x = i * (strip_w + gap)
+            y = hero_h + gap
+            img_idx = min(i + 1, len(images) - 1)
+            img = resize_and_crop(images[img_idx], strip_w, strip_h)
+            canvas.paste(img, (x, y))
+    
+    # Add text overlay with title
+    canvas = add_text_overlay(canvas, title, width, height)
+    
+    return canvas
+
+
+def resize_and_crop(img, target_w, target_h):
+    """Resize and center-crop image to exact dimensions"""
+    
+    # Calculate ratios
+    img_ratio = img.width / img.height
+    target_ratio = target_w / target_h
+    
+    # Resize to cover target area
+    if img_ratio > target_ratio:
+        # Image is wider - fit height
+        new_h = target_h
+        new_w = int(new_h * img_ratio)
+    else:
+        # Image is taller - fit width
+        new_w = target_w
+        new_h = int(new_w / img_ratio)
+    
+    img = img.resize((new_w, new_h), Image.Resampling.LANCZOS)
+    
+    # Center crop
+    left = (new_w - target_w) // 2
+    top = (new_h - target_h) // 2
+    right = left + target_w
+    bottom = top + target_h
+    
+    return img.crop((left, top, right, bottom))
+
+
+def add_text_overlay(canvas, title, width, height):
+    """Add title text with gradient background overlay"""
+    
+    # Create RGBA overlay for transparency
+    overlay = Image.new('RGBA', canvas.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
+    
+    # Add gradient background at bottom
+    gradient_h = 220
+    for y in range(gradient_h):
+        # Smooth gradient from transparent to semi-opaque
+        alpha = int((y / gradient_h) * 200)
+        draw.rectangle(
+            [(0, height - gradient_h + y), (width, height - gradient_h + y + 1)],
+            fill=(0, 0, 0, alpha)
+        )
+    
+    # Load font
+    try:
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 56)
+    except:
+        try:
+            font = ImageFont.truetype("arial.ttf", 56)
+        except:
+            font = ImageFont.load_default()
+    
+    # Wrap text if too long
+    max_chars = 45
+    if len(title) > max_chars:
+        words = title.split()
+        lines = []
+        current_line = []
+        
+        for word in words:
+            test_line = ' '.join(current_line + [word])
+            if len(test_line) <= max_chars:
+                current_line.append(word)
+            else:
+                if current_line:
+                    lines.append(' '.join(current_line))
+                current_line = [word]
+        
+        if current_line:
+            lines.append(' '.join(current_line))
+        
+        # Limit to 2 lines
+        title = '\n'.join(lines[:2])
+    
+    # Calculate text position (centered at bottom)
+    bbox = draw.textbbox((0, 0), title, font=font)
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    
+    x = (width - text_w) // 2
+    y = height - gradient_h // 2 - text_h // 2
+    
+    # Draw text outline for better visibility
+    outline_range = 3
+    for adj_x in range(-outline_range, outline_range + 1):
+        for adj_y in range(-outline_range, outline_range + 1):
+            if adj_x != 0 or adj_y != 0:
+                draw.text((x + adj_x, y + adj_y), title, font=font, fill=(0, 0, 0, 255))
+    
+    # Draw main text
+    draw.text((x, y), title, font=font, fill=(255, 255, 255, 255))
+    
+    # Composite overlay onto canvas
+    canvas = canvas.convert('RGBA')
+    canvas = Image.alpha_composite(canvas, overlay)
+    
+    return canvas.convert('RGB')
+
+
+def add_attribution_watermark(canvas, attributions):
+    """Add small attribution watermark in corner"""
+    
+    if not attributions:
+        return canvas
+    
+    draw = ImageDraw.Draw(canvas, 'RGBA')
+    
+    # Get unique sources
+    sources = set([attr['source'] for attr in attributions])
+    source_text = ', '.join([s.capitalize() for s in sources])
+    text = f"Photos: {source_text}"
+    
+    # Load small font
+    try:
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+    except:
+        font = ImageFont.load_default()
+    
+    # Calculate position (bottom right)
+    bbox = draw.textbbox((0, 0), text, font=font)
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    
+    padding = 8
+    x = canvas.width - text_w - padding * 2 - 10
+    y = canvas.height - text_h - padding * 2 - 10
+    
+    # Draw semi-transparent background
+    draw.rectangle(
+        [
+            (x - padding, y - padding),
+            (x + text_w + padding, y + text_h + padding)
+        ],
+        fill=(0, 0, 0, 140)
+    )
+    
+    # Draw white text
+    draw.text((x, y), text, font=font, fill=(255, 255, 255, 220))
+    
+    return canvas
+
+
+def get_random_reference_image(reference_folder="assets/images"):
+    """Kept for backward compatibility - not used in collage mode"""
+    print("ℹ️ Reference images not used in collage mode")
+    return None

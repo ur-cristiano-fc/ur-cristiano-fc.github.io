@@ -8,10 +8,9 @@ import datetime
 from config import *
 from keywords_handler import get_keyword_row, parse_keyword_row, remove_keyword_from_file, get_keywords_count
 from article_generator import generate_article, generate_image_prompt
-from image_generator import generate_image_freepik, get_random_reference_image
+from image_generator import generate_image_freepik
 from google_indexing import submit_to_google_indexing, check_indexing_status
 from google_sheets_logger import log_to_google_sheets
-from collage_generator import create_blog_collage
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
 
 
@@ -26,10 +25,18 @@ def main():
         return
     print("✅ GEMINI_API_KEY found")
     
-    if not FREEPIK_API_KEY:
-        print("❌ FREEPIK_API_KEY not found")
-        return
-    print("✅ FREEPIK_API_KEY found")
+    # Check for API keys (Unsplash/Pexels for collages)
+    unsplash_key = os.environ.get("UNSPLASH_ACCESS_KEY")
+    pexels_key = os.environ.get("PEXELS_API_KEY")
+    
+    if not unsplash_key and not pexels_key:
+        print("⚠️ Warning: No UNSPLASH_ACCESS_KEY or PEXELS_API_KEY found")
+        print("⚠️ Image generation will fail without these keys")
+    else:
+        if unsplash_key:
+            print("✅ UNSPLASH_ACCESS_KEY found")
+        if pexels_key:
+            print("✅ PEXELS_API_KEY found")
     
     # Show keywords status
     keywords_count = get_keywords_count()
@@ -63,8 +70,8 @@ def main():
         permalink = keyword_data['permalink']
         semantic_kw = keyword_data['semantic_kw']
         affiliate_links = keyword_data['affiliate_links']
-        hook_kw = keyword_data['hook_kw']
-        search_kw = keyword_data['search_kw']
+        hook_kw = keyword_data.get('hook_kw', '')
+        search_kw = keyword_data.get('search_kw', '')
         
         print(f"✅ Parsed: {title[:60]}...")
         
@@ -72,6 +79,7 @@ def main():
         today = datetime.date.today().isoformat()
         post_path = f"{POSTS_DIR}/{today}-{permalink}.md"
         image_file = f"{IMAGES_DIR}/featured_{permalink}.webp"
+        
         # Check if post already exists
         if os.path.exists(post_path):
             print(f"\n⚠️  Post already exists: {post_path}")
@@ -87,158 +95,97 @@ def main():
             article = generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links, hook_kw, search_kw)
             print(f"✅ Article generated ({len(article)} characters)")
             
-            # Step 2: Generate image prompt
-            # print(f"\n{'=' * 60}")
-            # print("Step 2: Generating Image Prompt")
-            # print("=" * 60)
-            # image_prompt = generate_image_prompt(title)
-            # print(f"✅ Image prompt generated")
-            
-            # Step 3: Create featured image
+            # Step 2: Generate image prompt (optional - can be skipped)
             print(f"\n{'=' * 60}")
-            print("Step 3: Creating Unique Collage Image")
+            print("Step 2: Preparing Image Generation")
             print("=" * 60)
-
-
-            # Create collage with 3-4 images
-            num_images = random.choice([3, 4])
-            result = create_blog_collage(
-                title=title,
-                output_path=image_file,
-                num_images=num_images
-            )
-
-            if result['success']:
-                print(f"✅ Collage created successfully")
-                print(f"🎨 Layout: {result['layout']}")
-                print(f"🖼️ Images used: {result['num_images']}")
-                
-                # Log attributions
-                for i, attr in enumerate(result['attributions'], 1):
-                    print(f"   {i}. Photo by {attr['photographer']} on {attr['source'].capitalize()}")
-            else:
-                print(f"⚠️ Collage creation failed: {result.get('error')}")
-                print("📚 Falling back to curated library...")
-                # Step 4: Save post
-                print(f"\n{'=' * 60}")
-                print("Step 4: Saving Post")
-                print("=" * 60)
-                with open(post_path, "w", encoding="utf-8") as f:
-                    f.write(article)
-                print(f"✅ Post saved: {post_path}")
-                
-                post_url = f"{SITE_DOMAIN}/{permalink}"
-                
-                print(f"\n{'=' * 60}")
-                print(f"✅ SUCCESS! Post {post_num} Generated")
-                print("=" * 60)
-                print(f"📰 Title: {title}")
-                print(f"🌐 URL: {post_url}")
-                
-                posts_generated += 1
+            # We'll use title directly, so prompt generation is optional
+            print(f"ℹ️ Using article title for image context")
             
-            # Step 5: Wait before indexing
+            # Step 3: Create featured image (collage)
+            print(f"\n{'=' * 60}")
+            print("Step 3: Creating Article-Relevant Collage Image")
+            print("=" * 60)
+            
+            # Use the updated generate_image_freepik (now creates collages)
+            try:
+                generate_image_freepik(
+                    title,  # Pass title directly for better context detection
+                    image_file,
+                    None,  # reference_image_path not used in collage mode
+                    0.7    # reference_strength not used in collage mode
+                )
+                print(f"✅ Featured image created successfully")
+            except Exception as img_error:
+                print(f"❌ Image creation failed: {img_error}")
+                print(f"⚠️ Skipping this post - will retry next run")
+                # Don't remove keyword so it can be retried
+                continue
+            
+            # Step 4: Save post
+            print(f"\n{'=' * 60}")
+            print("Step 4: Saving Post")
+            print("=" * 60)
+            with open(post_path, "w", encoding="utf-8") as f:
+                f.write(article)
+            print(f"✅ Post saved: {post_path}")
+            
+            post_url = f"{SITE_DOMAIN}/{permalink}"
+            
+            print(f"\n{'=' * 60}")
+            print(f"✅ SUCCESS! Post {post_num} Generated")
+            print("=" * 60)
+            print(f"📰 Title: {title}")
+            print(f"🌐 URL: {post_url}")
+            
+            posts_generated += 1
+            
+            # Step 5: Additional processing (indexing, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
-                print(f"\n{'=' * 60}")
-                print(f"Step 5: Waiting {WAIT_TIME_BEFORE_INDEXING // 60} minutes")
-                print("=" * 60)
-                print("⏳ Allowing GitHub Pages to deploy...")
                 
-                # for remaining in range(WAIT_TIME_BEFORE_INDEXING, 0, -30):
-                #     minutes = remaining // 60
-                #     seconds = remaining % 60
-                #     print(f"⏰ Time remaining: {minutes}m {seconds}s", end='\r')
-                #     time.sleep(30)
-                
-                # print(f"\n✅ Wait complete!")
-                
-                # # Step 6: Submit to Google
+                # Uncomment these if you want to enable them
                 # print(f"\n{'=' * 60}")
-                # print("Step 6: Submitting to Google")
+                # print(f"Step 5: Waiting {WAIT_TIME_BEFORE_INDEXING // 60} minutes")
                 # print("=" * 60)
+                # print("⏳ Allowing GitHub Pages to deploy...")
                 
-                # indexing_status = "Not Attempted"
-                # try:
-                #     success = submit_to_google_indexing(post_url)
-                #     indexing_status = "Success" if success else "Failed - See Logs"
-                # except Exception as e:
-                #     indexing_status = f"Failed - {str(e)[:100]}"
-                #     print(f"⚠️ Indexing failed (non-critical): {e}")
-                
-                    # Wait for Google's API to update metadata
-                # if success:
-                #     print(f"\n⏳ Waiting 50 seconds for Check indexing status...")
-                #     for remaining in range(WAIT_TIME_BEFORE_INDEXING, 0, -30):
-                #         minutes = remaining // 60
-                #         seconds = remaining % 60
-                #         print(f"⏰ Time remaining: {minutes}m {seconds}s", end='\r')
-                #         time.sleep(30)
-                
-                # Step 7: Check indexing status
-                # try:
-                #     status_result = check_indexing_status(post_url)
-                    
-                #     if status_result is None:
-                #         print(f"⚠️ Could not verify indexing status - check credentials")
-                #         indexing_status += " (Status: Unverified)"
-                        
-                #     elif status_result == {} or 'latestUpdate' not in status_result:
-                #         print(f"ℹ️ No indexing history found (may take a moment to appear)")
-                #         indexing_status += " (Status: Pending)"
-                        
-                #     elif status_result.get('latestUpdate', {}).get('type') == 'URL_UPDATED':
-                #         notify_time = status_result['latestUpdate']['notifyTime']
-                #         print(f"✅ Confirmed in indexing queue at {notify_time}")
-                #         indexing_status = "Success (Confirmed in Queue)"
-                        
-                #     elif status_result.get('latestUpdate', {}).get('type') == 'URL_DELETED':
-                #         notify_time = status_result['latestUpdate']['notifyTime']
-                #         print(f"🗑️ URL marked for deletion at {notify_time}")
-                #         indexing_status = "Deleted"
-                        
-                # except Exception as e:
-                #     print(f"⚠️ Error checking indexing status: {e}")
-                #     indexing_status += " (Verification Failed)"
-                
-                # Step 8: Log to Sheets
+                # Step 6: Log to Sheets
                 print(f"\n{'=' * 60}")
-                print("Step 7: Logging to Google Sheets")
+                print("Step 6: Logging to Google Sheets")
                 print("=" * 60)
+                
+                indexing_status = "Pending"  # Set default status
                 
                 try:
                     log_to_google_sheets(
                         title, focus_kw, permalink,
                         image_file, article, indexing_status
                     )
+                    print(f"✅ Logged to Google Sheets")
                 except Exception as e:
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
                 
-                # Step 9: Post to Twitter
-
-                # Step 10: Post to LinkedIn
-                    
-                # Step 11: Send Push Notification
-
+                # Step 7: Send Push Notification (optional)
                 # try:
                 #     send_blog_post_notification(title, permalink, focus_kw)
+                #     print(f"✅ Push notification sent")
                 # except Exception as e:
                 #     print(f"⚠️ Push notification failed (non-critical): {e}")
             
+            # Step 8: Remove keyword after success
             print(f"\n{'=' * 60}")
-            print("Step 11: Removing Keyword from File")
-            print("=" * 60)
-            
-            # Step 12: Remove keyword after success
-            print(f"\n{'=' * 60}")
-            print("Step 10: Removing Keyword from File")
+            print("Step 8: Removing Keyword from File")
             print("=" * 60)
             remove_keyword_from_file()
+            print(f"✅ Keyword removed - post complete")
             
         except Exception as e:
             print(f"\n{'=' * 60}")
             print(f"❌ FAILED: {e}")
             print("=" * 60)
             print(f"⚠️ Keyword NOT removed - will retry next run")
+            import traceback
+            traceback.print_exc()
             continue
     
     # Final summary
@@ -247,6 +194,10 @@ def main():
     print("=" * 60)
     print(f"✅ Posts generated: {posts_generated}")
     print(f"📊 Keywords remaining: {get_keywords_count()}")
+    
+    if posts_generated == 0:
+        print(f"\n⚠️ No posts were generated this run")
+        print(f"💡 Check the logs above for errors")
 
 
 if __name__ == "__main__":
