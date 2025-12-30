@@ -16,7 +16,7 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
-```markdown
+
 ## Cristiano Ronaldo’nun Annesi Dolores Aveiro'dan Hayat Dersi Gibi 20 Söz
 
 Hayat dersi arayışında mısınız? Dünya futbolunun zirvesindeki isimlerden Cristiano Ronaldo'nun başarısının arkasındaki en büyük güçlerden biri, annesi Dolores Aveiro'dur. Onun yaşadıkları, tecrübeleri ve oğluna verdiği destek, hepimize ilham veriyor.
@@ -191,4 +191,3 @@ Dolores Aveiro'nun sözlerinde "life lessons from dolores aveiro" (Dolores Aveir
 H3: Günlük Yaşamda Dolores Aveiro'nun Öğretileri
 
 Bu sözleri günlük hayatınıza uygulamak için öncelikle kendi değerlerinizi ve hedeflerinizi gözden geçirebilirsiniz. Örneğin, "Hiçbir zaman vazgeçmedim" sözünü bir ilke edinerek karşılaştığınız engellere karşı daha dirençli olabilirsiniz. Aile bağlarınızı güçlendirmek için daha fazla zaman ayırabilir, şükran duygunuzu artırmak için her gün küçük şeylere minnettar olmaya çalışabilirsiniz. Bu prensipleri hayatınıza entegre etmek için `[günlük/planlayıcılar](https://www.example.com/gunluk-planlayicilar)` kullanmak size yardımcı olabilir. Bu sayede, **Dolores Aveiro'dan hayat dersleri**nizi somut adımlara dönüştürebilirsiniz.
-```

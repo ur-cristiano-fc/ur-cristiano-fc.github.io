@@ -22,7 +22,7 @@ Rules:
 - Use lists, tables, snippets, and other data formats
 - Write more than 2000 words
 - Add FAQ sections
-- Write in Jekyll markdown format  artile filename extension .md only
+- Write in Jekyll format article filename extension .md only
 - Naturally include focused & semantic keywords
 - do not add any front matter or meta data
 """
