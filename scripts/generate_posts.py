@@ -25,18 +25,14 @@ def main():
         return
     print("✅ GEMINI_API_KEY found")
     
-    # Check for API keys (Unsplash/Pexels for collages)
-    unsplash_key = os.environ.get("UNSPLASH_ACCESS_KEY")
-    pexels_key = os.environ.get("PEXELS_API_KEY")
-    
-    if not unsplash_key and not pexels_key:
-        print("⚠️ Warning: No UNSPLASH_ACCESS_KEY or PEXELS_API_KEY found")
-        print("⚠️ Image generation will fail without these keys")
-    else:
-        if unsplash_key:
-            print("✅ UNSPLASH_ACCESS_KEY found")
-        if pexels_key:
-            print("✅ PEXELS_API_KEY found")
+    # Check for Google Custom Search API keys (for image generation)
+    if not GOOGLE_SEARCH_API_KEY or not GOOGLE_SEARCH_ENGINE_ID:
+        print("❌ Google Custom Search API credentials not found")
+        print("   Required: GOOGLE_SEARCH_API_KEY and GOOGLE_SEARCH_ENGINE_ID")
+        print("   Image generation will fail without these keys")
+        return
+    print("✅ GOOGLE_SEARCH_API_KEY found")
+    print("✅ GOOGLE_SEARCH_ENGINE_ID found")
     
     # Show keywords status
     keywords_count = get_keywords_count()
@@ -104,21 +100,29 @@ def main():
             print(f"✅ Image prompt generated")
             
             
-            # Step 3: Create featured image (collage)
+            # Step 3: Create featured image (using Google Custom Search API)
             print(f"\n{'=' * 60}")
-            print("Step 3: Creating Article-Relevant Collage Image")
+            print("Step 3: Creating Collage with Real CR7 Photos from Google")
             print("=" * 60)
             
-            # Use the updated generate_image_freepik (now creates collages)
             try:
+                # Pass the article title for context-aware image search
                 generate_image_freepik(
-                    image_prompt,  # Pass title directly for better context detection
+                    title,  # Use title directly for better context detection
                     image_file
                 )
-                print(f"✅ Featured image created successfully")
+                print(f"✅ Featured image collage created successfully")
+                
+                # Add image to git
+                if os.path.exists(image_file):
+                    os.system(f"git add {image_file}")
+                    print(f"✅ Image added to git: {image_file}")
+                
             except Exception as img_error:
                 print(f"❌ Image creation failed: {img_error}")
                 print(f"⚠️ Skipping this post - will retry next run")
+                import traceback
+                traceback.print_exc()
                 # Don't remove keyword so it can be retried
                 continue
             
@@ -143,15 +147,9 @@ def main():
             # Step 5: Additional processing (indexing, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
-                # Uncomment these if you want to enable them
-                # print(f"\n{'=' * 60}")
-                # print(f"Step 5: Waiting {WAIT_TIME_BEFORE_INDEXING // 60} minutes")
-                # print("=" * 60)
-                # print("⏳ Allowing GitHub Pages to deploy...")
-                
-                # Step 6: Log to Sheets
+                # Step 5: Log to Sheets
                 print(f"\n{'=' * 60}")
-                print("Step 6: Logging to Google Sheets")
+                print("Step 5: Logging to Google Sheets")
                 print("=" * 60)
                 
                 indexing_status = "Pending"  # Set default status
@@ -165,16 +163,16 @@ def main():
                 except Exception as e:
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
                 
-                # Step 7: Send Push Notification (optional)
+                # Step 6: Send Push Notification (optional)
                 # try:
                 #     send_blog_post_notification(title, permalink, focus_kw)
                 #     print(f"✅ Push notification sent")
                 # except Exception as e:
                 #     print(f"⚠️ Push notification failed (non-critical): {e}")
             
-            # Step 8: Remove keyword after success
+            # Step 7: Remove keyword after success
             print(f"\n{'=' * 60}")
-            print("Step 8: Removing Keyword from File")
+            print("Step 6: Removing Keyword from File")
             print("=" * 60)
             remove_keyword_from_file()
             print(f"✅ Keyword removed - post complete")

@@ -1,14 +1,14 @@
-"""Generate article-relevant collage images (replacing Freepik AI)"""
+"""Generate article-relevant collage images using Google Custom Search API"""
 import os
 import random
 from PIL import Image, ImageDraw, ImageFont
 from config import IMAGE_QUALITY, IMAGE_MAX_WIDTH, IMAGE_MAX_HEIGHT, OPTIMIZE_IMAGE
 
 try:
-    from image_api_handler import ImageAPIHandler
+    from google_image_handler import GoogleImageSearchHandler
     HAS_API_HANDLER = True
 except ImportError:
-    print("⚠️ image_api_handler not found, collage generation will fail")
+    print("⚠️ google_image_handler not found, collage generation will fail")
     HAS_API_HANDLER = False
 
 
@@ -67,10 +67,10 @@ def extract_search_query_from_title(title):
 
 
 def generate_image_freepik(prompt, output_path):
-    """Generate article-relevant collage (replaces Freepik API)
+    """Generate article-relevant collage using Google Custom Search API
     
     This function maintains the same interface as the old Freepik generator
-    but now creates unique collages from Unsplash/Pexels images.
+    but now creates unique collages from Google Images using the official API.
     
     Args:
         prompt: Article title or image prompt
@@ -81,9 +81,9 @@ def generate_image_freepik(prompt, output_path):
     """
     
     if not HAS_API_HANDLER:
-        raise ImportError("image_api_handler module is required for collage generation")
+        raise ImportError("google_image_handler module is required for collage generation")
     
-    print(f"🎨 Creating article-relevant collage with REAL Cristiano Ronaldo photos")
+    print(f"🎨 Creating article-relevant collage with REAL Cristiano Ronaldo photos from Google")
     print(f"📝 Prompt/Title: {prompt[:100]}...")
     
     # Extract search query from prompt/title
@@ -93,33 +93,28 @@ def generate_image_freepik(prompt, output_path):
     # Determine number of images (3 or 4 for variety)
     num_images = random.choice([3, 4])
     
-    # Get images from APIs
-    api_handler = ImageAPIHandler()
-    image_data = api_handler.get_images_for_collage(search_query, num_images)
+    # Get images from Google Custom Search API
+    api_handler = GoogleImageSearchHandler()
+    images_data = api_handler.get_images_for_collage(search_query, num_images)
     
-    if len(image_data) < 2:
-        raise Exception(f"❌ Not enough images found. Only got {len(image_data)} images from APIs. Need at least 2.")
+    if len(images_data) < 2:
+        raise Exception(f"❌ Not enough images found. Only got {len(images_data)} images from Google. Need at least 2.")
     
-    print(f"✅ Found {len(image_data)} images from APIs")
+    print(f"✅ Found {len(images_data)} images from Google")
     
-    # Download images
+    # Extract PIL images and attributions
     images = []
     attributions = []
     
-    for img_info in image_data:
-        img = api_handler.download_image(img_info['url'])
-        if img:
-            images.append(img)
-            attributions.append({
-                'photographer': img_info['photographer'],
-                'photographer_url': img_info['photographer_url'],
-                'source': img_info['source']
-            })
+    for img_data in images_data:
+        images.append(img_data['image'])
+        attributions.append({
+            'photographer': img_data['photographer'],
+            'photographer_url': img_data['photographer_url'],
+            'source': img_data['source']
+        })
     
-    if len(images) < 2:
-        raise Exception(f"❌ Failed to download enough images. Only downloaded {len(images)}. Need at least 2.")
-    
-    print(f"✅ Downloaded {len(images)} images successfully")
+    print(f"✅ Prepared {len(images)} images for collage")
     
     # Select layout based on number of images
     layout = select_optimal_layout(len(images))
@@ -142,7 +137,7 @@ def generate_image_freepik(prompt, output_path):
     # Log attributions
     print(f"📸 Image sources:")
     for i, attr in enumerate(attributions, 1):
-        print(f"   {i}. Photo by {attr['photographer']} on {attr['source'].capitalize()}")
+        print(f"   {i}. From {attr['source']} via Google Search")
     
     return True
 
@@ -164,9 +159,9 @@ def select_optimal_layout(num_images):
 def create_collage_layout(images, layout, title):
     """Create collage with specified layout and title overlay"""
     
-    # Use config dimensions or default to 1920x1080
-    width = IMAGE_MAX_WIDTH if IMAGE_MAX_WIDTH <= 1920 else 1920
-    height = IMAGE_MAX_HEIGHT if IMAGE_MAX_HEIGHT <= 1080 else 1080
+    # Use 1920x1080 for 16:9 aspect ratio
+    width = 1920
+    height = 1080
     
     canvas = Image.new('RGB', (width, height), (245, 245, 245))  # Light gray background
     gap = 12  # Gap between images
@@ -260,7 +255,7 @@ def create_collage_layout(images, layout, title):
             img = resize_and_crop(images[img_idx], strip_w, strip_h)
             canvas.paste(img, (x, y))
     
-    # Add text overlay with title
+    # Optional: Add text overlay with title (currently commented out)
     # canvas = add_text_overlay(canvas, title, width, height)
     
     return canvas
@@ -294,91 +289,18 @@ def resize_and_crop(img, target_w, target_h):
     return img.crop((left, top, right, bottom))
 
 
-def add_text_overlay(canvas, title, width, height):
-    """Add title text with gradient background overlay"""
-    
-    # Create RGBA overlay for transparency
-    overlay = Image.new('RGBA', canvas.size, (0, 0, 0, 0))
-    draw = ImageDraw.Draw(overlay)
-    
-    # Add gradient background at bottom
-    gradient_h = 220
-    for y in range(gradient_h):
-        # Smooth gradient from transparent to semi-opaque
-        alpha = int((y / gradient_h) * 200)
-        draw.rectangle(
-            [(0, height - gradient_h + y), (width, height - gradient_h + y + 1)],
-            fill=(0, 0, 0, alpha)
-        )
-    
-    # Load font
-    try:
-        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 56)
-    except:
-        try:
-            font = ImageFont.truetype("arial.ttf", 56)
-        except:
-            font = ImageFont.load_default()
-    
-    # Wrap text if too long
-    max_chars = 45
-    if len(title) > max_chars:
-        words = title.split()
-        lines = []
-        current_line = []
-        
-        for word in words:
-            test_line = ' '.join(current_line + [word])
-            if len(test_line) <= max_chars:
-                current_line.append(word)
-            else:
-                if current_line:
-                    lines.append(' '.join(current_line))
-                current_line = [word]
-        
-        if current_line:
-            lines.append(' '.join(current_line))
-        
-        # Limit to 2 lines
-        title = '\n'.join(lines[:2])
-    
-    # Calculate text position (centered at bottom)
-    bbox = draw.textbbox((0, 0), title, font=font)
-    text_w = bbox[2] - bbox[0]
-    text_h = bbox[3] - bbox[1]
-    
-    x = (width - text_w) // 2
-    y = height - gradient_h // 2 - text_h // 2
-    
-    # Draw text outline for better visibility
-    outline_range = 3
-    for adj_x in range(-outline_range, outline_range + 1):
-        for adj_y in range(-outline_range, outline_range + 1):
-            if adj_x != 0 or adj_y != 0:
-                draw.text((x + adj_x, y + adj_y), title, font=font, fill=(0, 0, 0, 255))
-    
-    # Draw main text
-    draw.text((x, y), title, font=font, fill=(255, 255, 255, 255))
-    
-    # Composite overlay onto canvas
-    canvas = canvas.convert('RGBA')
-    canvas = Image.alpha_composite(canvas, overlay)
-    
-    return canvas.convert('RGB')
-
-
-def add_attribution_watermark(canvas, attributions):
+def add_attribution_watermark(collage, attributions):
     """Add small attribution watermark in corner"""
     
     if not attributions:
-        return canvas
+        return collage
     
-    draw = ImageDraw.Draw(canvas, 'RGBA')
+    draw = ImageDraw.Draw(collage, 'RGBA')
     
     # Get unique sources
     sources = set([attr['source'] for attr in attributions])
     source_text = ', '.join([s.capitalize() for s in sources])
-    text = f"Photos: {source_text}"
+    text = f"Images: Google Search"
     
     # Load small font
     try:
@@ -392,8 +314,8 @@ def add_attribution_watermark(canvas, attributions):
     text_h = bbox[3] - bbox[1]
     
     padding = 8
-    x = canvas.width - text_w - padding * 2 - 10
-    y = canvas.height - text_h - padding * 2 - 10
+    x = collage.width - text_w - padding * 2 - 10
+    y = collage.height - text_h - padding * 2 - 10
     
     # Draw semi-transparent background
     draw.rectangle(
@@ -407,7 +329,7 @@ def add_attribution_watermark(canvas, attributions):
     # Draw white text
     draw.text((x, y), text, font=font, fill=(255, 255, 255, 220))
     
-    return canvas
+    return collage
 
 
 def get_random_reference_image(reference_folder="assets/images"):
