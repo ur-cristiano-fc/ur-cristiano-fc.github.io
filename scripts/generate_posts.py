@@ -156,11 +156,11 @@ def main():
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
                 
                 # Step 6: Send Push Notification (optional)
-                # try:
-                #     send_blog_post_notification(title, permalink, focus_kw)
-                #     print(f"✅ Push notification sent")
-                # except Exception as e:
-                #     print(f"⚠️ Push notification failed (non-critical): {e}")
+                try:
+                    send_blog_post_notification(title, permalink, focus_kw)
+                    print(f"✅ Push notification sent")
+                except Exception as e:
+                    print(f"⚠️ Push notification failed (non-critical): {e}")
             
             # Step 5: Remove keyword after success
             print(f"\n{'=' * 60}")
