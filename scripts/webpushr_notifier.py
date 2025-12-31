@@ -87,7 +87,7 @@ def send_blog_post_notification(title, permalink, focus_kw):
     
     # Construct full URL
     post_url = f"{SITE_DOMAIN}/{permalink}"
-    image_url = f"{SITE_DOMAIN}/assets/images/{permalink.strip('/').split('/')[-1]}.webp"
+    image_url = f"{SITE_DOMAIN}/assets/images/featured_{permalink.strip('/').split('/')[-1]}.webp"
     description = generate_description(title, focus_kw)
     # Create notification message
     notification_title = f"{title[:80]}"
