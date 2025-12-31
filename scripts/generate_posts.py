@@ -12,6 +12,7 @@ from image_generator import generate_image_freepik
 from google_indexing import submit_to_google_indexing, check_indexing_status
 from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
+from instagram_poster import post_article_to_instagram
 
 
 def main():
@@ -33,6 +34,13 @@ def main():
         return
     print("✅ GOOGLE_SEARCH_API_KEY found")
     print("✅ GOOGLE_SEARCH_ENGINE_ID found")
+    
+    # Check for Instagram credentials (optional)
+    instagram_enabled = bool(os.environ.get('INSTAGRAM_USERNAME') and os.environ.get('INSTAGRAM_PASSWORD'))
+    if instagram_enabled:
+        print("✅ Instagram credentials found - auto-posting enabled")
+    else:
+        print("ℹ️ Instagram credentials not found - skipping Instagram posts")
     
     # Show keywords status
     keywords_count = get_keywords_count()
@@ -136,12 +144,33 @@ def main():
             
             posts_generated += 1
             
-            # Step 4: Additional processing (indexing, logging, etc.)
+            # Step 4: Additional processing (social media, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
-                # Step 4: Log to Sheets
+                # Step 4a: Post to Instagram
+                if instagram_enabled:
+                    print(f"\n{'=' * 60}")
+                    print("Step 4a: Posting to Instagram")
+                    print("=" * 60)
+                    
+                    try:
+                        instagram_result = post_article_to_instagram(
+                            title, focus_kw, article, image_file, permalink
+                        )
+                        
+                        if instagram_result['success']:
+                            print(f"✅ Posted to Instagram: {instagram_result['post_url']}")
+                        else:
+                            print(f"⚠️ Instagram posting failed: {instagram_result.get('error')}")
+                            
+                    except Exception as e:
+                        print(f"⚠️ Instagram posting failed (non-critical): {e}")
+                        import traceback
+                        traceback.print_exc()
+                
+                # Step 4b: Log to Google Sheets
                 print(f"\n{'=' * 60}")
-                print("Step 4: Logging to Google Sheets")
+                print("Step 4b: Logging to Google Sheets")
                 print("=" * 60)
                 
                 indexing_status = "Pending"  # Set default status
@@ -155,7 +184,7 @@ def main():
                 except Exception as e:
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
                 
-                # Step 6: Send Push Notification (optional)
+                # Step 4c: Send Push Notification
                 try:
                     send_blog_post_notification(title, permalink, focus_kw)
                     print(f"✅ Push notification sent")
