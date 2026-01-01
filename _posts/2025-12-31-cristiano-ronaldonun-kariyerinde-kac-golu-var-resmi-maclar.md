@@ -156,7 +156,7 @@ Sporting CP'den Al Nassr'a, Portekiz Milli Takımı'na kadar attığı her gol, 
 
 Bu inanılmaz sayı, onu futbol tarihinin en golcü oyuncusu yapıyor. Hala aktif olarak futbol oynadığı düşünülürse, bu sayının daha da artması muhtemeldir. Siz de onun maçlarını takip ederek yeni gollerine tanıklık edebilirsiniz.
 
-Bu istatistikler, ronaldo kariyer istatistikleri içinde en dikkat çekici olanı. Onun bu başarısı, sadece kendisi için değil, tüm futbolseverler için büyük bir ilham kaynağı. Golleri hakkında daha detaylı bilgilere ulaşmak için [futbol istatistik uygulamalarını buradan inceleyebilirsiniz](link-to-futbol-istatistik-uygulamalari).
+Bu istatistikler, ronaldo kariyer istatistikleri içinde en dikkat çekici olanı. Onun bu başarısı, sadece kendisi için değil, tüm futbolseverler için büyük bir ilham kaynağı. Golleri hakkında daha detaylı bilgilere ulaşmak için [futbol istatistik uygulamalarını buradan inceleyebilirsiniz].
 
 ### Hedeflerine Giden Yolda Ronaldo'nun Sırları
 
@@ -164,7 +164,7 @@ Peki, bu kadar gol atmayı nasıl başarıyor? Cristiano Ronaldo'nun başarısı
 
 Beslenmesine dikkat etmesi, uykusunu düzenli alması ve sürekli formda kalması, onun sırlarından bazıları. Siz de bir futbolcu adayıysanız, onun bu çalışma prensiplerinden ilham alabilirsiniz. Bu azim, ona gol kapılarını sonuna kadar açıyor.
 
-Bu kadar gol atmak için doğru ekipman da önemli. Siz de CR7 kramponlarına [buradan göz atabilirsiniz](link-to-cr7-kramponlari). Doğru kramponlar, sahada daha iyi performans göstermenize yardımcı olabilir. Ronaldo gibi bir yıldızın tercihleri, her zaman merak uyandırır.
+Bu kadar gol atmak için doğru ekipman da önemli. Siz de CR7 kramponlarına [buradan göz atabilirsiniz]. Doğru kramponlar, sahada daha iyi performans göstermenize yardımcı olabilir. Ronaldo gibi bir yıldızın tercihleri, her zaman merak uyandırır.
 
 ### Gollerini Nereden Takip Edebilirsiniz?
 
@@ -182,7 +182,7 @@ Topu ağlara gönderdiği her an, tribünlerde büyük bir coşku yaratıyor. Bu
 
 Cristiano Ronaldo'nun giydiği her forma, adeta bir tarih parçası haline geldi. Sporting Lizbon, Manchester United, Real Madrid, Juventus ve Al Nassr formaları, onun kariyerinin farklı dönemlerini temsil ediyor. Her bir forma, farklı zaferlere tanıklık etti.
 
-Bu formalar, futbolseverler arasında büyük ilgi görüyor. Siz de onun giydiği takımların orijinal formalarını bulmak için [futbol forması mağazalarını ziyaret edebilirsiniz](link-to-futbol-formasi-magazalari). Bu formalar, onun mirasını ve başarılarını yaşatmanın bir yolu. Bir Ronaldo forması giymek, o efsanenin bir parçası olmak gibi hissettirir.
+Bu formalar, futbolseverler arasında büyük ilgi görüyor. Siz de onun giydiği takımların orijinal formalarını bulmak için [futbol forması mağazalarını ziyaret edebilirsiniz]. Bu formalar, onun mirasını ve başarılarını yaşatmanın bir yolu. Bir Ronaldo forması giymek, o efsanenin bir parçası olmak gibi hissettirir.
 
 ## Ronaldo'nun Gol Krallığı Unvanları ve Rekorları
 
@@ -209,7 +209,7 @@ Futbolu ne zaman bırakacağı bilinmese de, her maçta yeni goller eklemeye ça
 
 Cristiano Ronaldo'nun kariyeri ve golleri hakkında daha fazla bilgi edinmek isterseniz, birçok belgesel ve biyografi filmi bulunuyor. Bu yapımlar, onun saha içi ve saha dışı yaşamına dair çarpıcı detaylar sunar. Onun hikayesi, pek çok kişiye ilham veriyor.
 
-Bu belgesellerde, onun attığı efsanevi gollerin hikayelerini ve o anlardaki duygularını yakından izleyebilirsiniz. Siz de onun kariyerini ve gollerini anlatan belgeselleri [spor belgesel platformlarında izleyebilirsiniz](link-to-spor-belgesel-platformlari). Bu platformlar, size unutulmaz anlar yaşatacak.
+Bu belgesellerde, onun attığı efsanevi gollerin hikayelerini ve o anlardaki duygularını yakından izleyebilirsiniz. Siz de onun kariyerini ve gollerini anlatan belgeselleri [spor belgesel platformlarında izleyebilirsiniz]. Bu platformlar, size unutulmaz anlar yaşatacak.
 
 ## Sıkça Sorulan Sorular (SSS)
 
