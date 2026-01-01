@@ -11,7 +11,10 @@ topmenu:
   url: "contact/"
 
 - title: Write for us
-  url: "/write-for-us/" 
+  url: "/write-for-us/"
+
+- title: CR7 8K Posters
+  url: "ur-cristiano-posters/"
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 

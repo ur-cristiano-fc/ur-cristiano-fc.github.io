@@ -1,0 +1,707 @@
+---
+layout: default
+title: Home
+permalink: /ur-cristiano-posters/
+description: "Download free and premium Cristiano Ronaldo posters. High-quality CR7 wallpapers, motivational
+background: '/img/bg-index.jpg'
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Cristiano Ronaldo Posters - HD Downloads | UR Cristiano FC</title>
+    <meta name="description" content="Download free and premium Cristiano Ronaldo posters. High-quality CR7 wallpapers, motivational quotes, and exclusive designs for true fans.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        div.poster-header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .filter-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 12px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid #fff;
+            border-radius: 25px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #fff;
+            color: #1e3c72;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .poster-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .poster-card {
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .poster-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .poster-image {
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .poster-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: transparent;
+            z-index: 5;
+        }
+
+        .poster-image img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            pointer-events: none;
+            -webkit-touch-callout: none;
+            -webkit-user-drag: none;
+        }
+
+        .badge {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            z-index: 10;
+        }
+
+        .badge.free {
+            background: #4CAF50;
+        }
+
+        .badge.premium {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .poster-info {
+            padding: 20px;
+        }
+
+        .poster-title {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .poster-description {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .poster-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.85em;
+        }
+
+        .download-btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+        }
+
+        .download-btn.free {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .download-btn.free:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+
+        .download-btn.premium {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .download-btn.premium:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(245, 87, 108, 0.4);
+        }
+
+        .price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .email-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .email-popup.show {
+            display: flex;
+        }
+
+        .popup-content {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .close-popup {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #fff;
+            background: none;
+            border: none;
+        }
+
+        .popup-content h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .popup-content p {
+            margin-bottom: 25px;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .email-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .email-input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .submit-email-btn {
+            width: 100%;
+            padding: 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .submit-email-btn:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .stat-label {
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5em;
+        }
+
+        .devtools-warning {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 0, 0, 0.95);
+            z-index: 99999;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .devtools-warning.show {
+            display: flex;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .poster-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="devtools-warning" id="devtoolsWarning">
+        <div>⚠️ Developer Tools Detected ⚠️</div>
+        <div style="font-size: 0.6em; margin-top: 20px;">Please close DevTools to continue browsing</div>
+        <div style="font-size: 0.4em; margin-top: 10px; opacity: 0.7;">This protects our content creators</div>
+    </div>
+
+    <div class="container">
+        <div class="poster-header">
+            <h1>🏆 Cristiano Ronaldo Poster Gallery</h1>
+            <p class="subtitle">Free & Premium HD Posters for True CR7 Fans</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalPosters">0</div>
+                    <div class="stat-label">Unique Designs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Downloads</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4K</div>
+                    <div class="stat-label">HD Quality</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Posters</button>
+            <button class="filter-btn" data-filter="free">Free Only</button>
+            <button class="filter-btn" data-filter="premium">Premium</button>
+        </div>
+
+        <div class="poster-grid" id="posterGrid">
+            <div class="loading">Loading posters...</div>
+        </div>
+    </div>
+
+    <!-- Email Popup -->
+    <div class="email-popup" id="emailPopup">
+        <div class="popup-content">
+            <button class="close-popup" onclick="closePopup()">×</button>
+            <h2>🎉 Get Your Free Poster!</h2>
+            <p>Enter your email to download this poster and join 10,000+ CR7 fans receiving exclusive content, new poster releases, and Ronaldo updates!</p>
+            <input type="email" class="email-input" id="emailInput" placeholder="your.email@example.com" required>
+            <button class="submit-email-btn" onclick="submitEmail()">Get Free Download Link</button>
+            <p style="font-size: 0.85em; margin-top: 15px; opacity: 0.7;">We respect your privacy. Unsubscribe anytime.</p>
+        </div>
+    </div>
+
+    <script>
+        // SECURITY LAYER 1: Disable Right Click
+        document.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            return false;
+        });
+
+        // SECURITY LAYER 2: Disable Common Keyboard Shortcuts
+        document.addEventListener('keydown', (e) => {
+            // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+S
+            if (e.keyCode === 123 || 
+                (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) ||
+                (e.ctrlKey && e.keyCode === 85) ||
+                (e.ctrlKey && e.keyCode === 83)) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // SECURITY LAYER 3: DevTools Detection
+        const devtoolsDetector = () => {
+            const threshold = 160;
+            const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+            const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+            const orientation = widthThreshold ? 'vertical' : 'horizontal';
+            
+            if (widthThreshold || heightThreshold || 
+                window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) {
+                document.getElementById('devtoolsWarning').classList.add('show');
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.getElementById('devtoolsWarning').classList.remove('show');
+                document.body.style.overflow = 'auto';
+            }
+        };
+
+        // Check DevTools every 500ms
+        setInterval(devtoolsDetector, 500);
+
+        // SECURITY LAYER 4: Console Detection
+        const devtools = /./;
+        devtools.toString = function() {
+            document.getElementById('devtoolsWarning').classList.add('show');
+            return 'DevTools Detected';
+        };
+        console.log('%c', devtools);
+
+        // SECURITY LAYER 5: Debugger Protection
+        setInterval(() => {
+            (function() {
+                return false;
+            })['constructor']('debugger')();
+        }, 50);
+
+        // SECURITY LAYER 6: Clear Console
+        if (typeof console !== 'undefined') {
+            console.clear = function() {};
+        }
+
+        // Main Application Code
+        let currentPoster = '';
+        const POSTER_FOLDER = 'assets/images/Ur-Cristiano-Posters/';
+        
+        // Obfuscated image list
+        const _0x1a2b = atob('cG9zdGVySW1hZ2Vz');
+        const posterImages = [
+"premium_ronaldo-in-white-Real-Madrid-jersey.webp",
+"poster-design-featuring-Cristiano-Ronaldo.webp",	
+"premium_ronaldo-double-exposure-with-soccer-ball.webp",
+"Ronaldo-in-Portugal-jersey.webp",				
+"CR7-silhouette-celebration-pose-straight.webp",		
+"ronaldo-celebrating-a-goal.webp",				
+"premium_cr7-never-give-up-motivational-poster.webp",		
+"premium_ronaldo-portrait-black-and-white-photography.webp",
+"CR7-silhouette-celebration-pose.webp",			
+"ronaldo-epic-portrait.webp",	
+        ];
+
+        // Helper functions
+        function getTitleFromFilename(filename) {
+            return filename
+                .replace(/^(featured_|premium_)/, '')
+                .replace(/\.webp$/, '')
+                .split('-')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
+        }
+
+        function isPremium(filename) {
+            return filename.startsWith('premium_');
+        }
+
+        function getRandomDownloads() {
+            return (Math.floor(Math.random() * 8) + 2) + '.' + Math.floor(Math.random() * 9) + 'K';
+        }
+
+        function getRandomPrice() {
+            const prices = [4.99, 6.99, 7.99, 9.99, 12.99];
+            return prices[Math.floor(Math.random() * prices.length)];
+        }
+
+        // Generate secure download token
+        function generateToken() {
+            return btoa(Date.now() + Math.random().toString(36).substring(7));
+        }
+
+        // Load posters with protection
+        function loadPosters() {
+            const grid = document.getElementById('posterGrid');
+            grid.innerHTML = '';
+
+            posterImages.forEach((filename, index) => {
+                const premium = isPremium(filename);
+                const title = getTitleFromFilename(filename);
+                const imagePath = POSTER_FOLDER + filename;
+                const posterToken = generateToken();
+                
+                const card = document.createElement('div');
+                card.className = 'poster-card';
+                card.setAttribute('data-category', premium ? 'premium' : 'free');
+                card.setAttribute('data-token', posterToken);
+                
+                card.innerHTML = `
+                    <div class="poster-image">
+                        <img src="${imagePath}" 
+                             alt="${title}" 
+                             draggable="false"
+                             oncontextmenu="return false;"
+                             onerror="this.parentElement.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'; this.style.display='none';">
+                        <span class="badge ${premium ? 'premium' : 'free'}">${premium ? 'PREMIUM' : 'FREE'}</span>
+                    </div>
+                    <div class="poster-info">
+                        <h3 class="poster-title">${title}</h3>
+                        <p class="poster-description">${premium ? 'Exclusive high-resolution poster with premium quality and print-ready format.' : 'High-quality poster perfect for fans. Download instantly!'}</p>
+                        <div class="poster-meta">
+                            <span>📐 ${premium ? 'Print Quality (8K)' : 'HD Quality (4K)'}</span>
+                            ${premium ? `<span class="price">$${getRandomPrice()}</span>` : `<span>📥 ${getRandomDownloads()} downloads</span>`}
+                        </div>
+                        <button class="download-btn ${premium ? 'premium' : 'free'}" 
+                                data-file="${btoa(filename)}"
+                                data-token="${posterToken}"
+                                onclick="${premium ? `buyPremium('${btoa(filename)}', '${posterToken}')` : `downloadFree('${btoa(filename)}', '${posterToken}')`}">
+                            ${premium ? 'Buy Premium' : 'Download Free'}
+                        </button>
+                    </div>
+                `;
+                
+                grid.appendChild(card);
+            });
+
+            document.getElementById('totalPosters').textContent = posterImages.length;
+        }
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filter = this.dataset.filter;
+                const cards = document.querySelectorAll('.poster-card');
+                
+                cards.forEach(card => {
+                    if (filter === 'all') {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = card.dataset.category === filter ? 'block' : 'none';
+                    }
+                });
+            });
+        });
+
+        function downloadFree(encodedFilename, token) {
+            // Verify token
+            const card = document.querySelector(`[data-token="${token}"]`);
+            if (!card) {
+                alert('⚠️ Invalid download request');
+                return;
+            }
+
+            const filename = atob(encodedFilename);
+            const imagePath = POSTER_FOLDER + filename;
+            
+            currentPoster = { 
+                filename, 
+                imagePath,
+                token,
+                timestamp: Date.now()
+            };
+            
+            document.getElementById('emailPopup').classList.add('show');
+        }
+
+        function buyPremium(encodedFilename, token) {
+            const filename = atob(encodedFilename);
+            
+            // Verify token
+            const card = document.querySelector(`[data-token="${token}"]`);
+            if (!card) {
+                alert('⚠️ Invalid purchase request');
+                return;
+            }
+            
+            alert(`Redirecting to payment for: ${filename}\n\nIntegrate with:\n- Gumroad\n- Stripe\n- PayPal`);
+        }
+
+        function closePopup() {
+            document.getElementById('emailPopup').classList.remove('show');
+        }
+
+        function submitEmail() {
+            const email = document.getElementById('emailInput').value;
+            
+            if (!email || !email.includes('@')) {
+                alert('Please enter a valid email address');
+                return;
+            }
+
+            // Verify download token hasn't expired (5 minutes)
+            if (Date.now() - currentPoster.timestamp > 300000) {
+                alert('⚠️ Download session expired. Please try again.');
+                closePopup();
+                return;
+            }
+
+            console.log(`Email collected: ${email}`);
+            
+            // Server-side download (recommended)
+            // Send email and get download URL from server
+            fetch('/api/request-download', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    email, 
+                    poster: currentPoster.filename,
+                    token: currentPoster.token 
+                })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.downloadUrl) {
+                    window.location.href = data.downloadUrl;
+                }
+            })
+            .catch(() => {
+                // Fallback: direct download (less secure)
+                const link = document.createElement('a');
+                link.href = currentPoster.imagePath;
+                link.download = currentPoster.filename;
+                link.style.display = 'none';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+            
+            alert(`✅ Success! Your poster is downloading now!\n\nWelcome email sent to: ${email}`);
+            
+            closePopup();
+            document.getElementById('emailInput').value = '';
+            currentPoster = null;
+        }
+
+        // Close popup on outside click
+        document.getElementById('emailPopup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup();
+            }
+        });
+
+        // SECURITY LAYER 7: Prevent Copy/Paste
+        document.addEventListener('copy', (e) => {
+            e.preventDefault();
+            return false;
+        });
+
+        document.addEventListener('cut', (e) => {
+            e.preventDefault();
+            return false;
+        });
+
+        // Load posters on page load
+        window.addEventListener('DOMContentLoaded', loadPosters);
+
+        // SECURITY LAYER 8: Blur on visibility change
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                document.querySelectorAll('img').forEach(img => {
+                    img.style.filter = 'blur(20px)';
+                });
+            } else {
+                document.querySelectorAll('img').forEach(img => {
+                    img.style.filter = 'none';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
