@@ -266,7 +266,7 @@ def create_collage_layout(images, layout, title):
     height = 1080
     
     canvas = Image.new('RGB', (width, height), (245, 245, 245))  # Light gray background
-    gap = 12  # Gap between images
+    gap = 2  # Gap between images
     
     if layout == 'grid_2x2':
         # 2x2 grid layout (4 images)
