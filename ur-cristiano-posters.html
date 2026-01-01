@@ -334,6 +334,27 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             margin-top: 5px;
             color: #1e3c72;
         }
+        .devtools-warning {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 0, 0, 0.95);
+            z-index: 99999;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .devtools-warning.show {
+            display: flex;
+        }
 
         .loading {
             text-align: center;
@@ -354,6 +375,11 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
     </style>
 </head>
 <body>
+    <div class="devtools-warning" id="devtoolsWarning">
+        <div>⚠️ Developer Tools Detected ⚠️</div>
+        <div style="font-size: 0.6em; margin-top: 20px;">Please close DevTools to continue browsing</div>
+        <div style="font-size: 0.4em; margin-top: 10px; opacity: 0.7;">This protects our content creators</div>
+    </div>
     <div class="container">
         <div class="poster-header">
             <h1>🏆 Cristiano Ronaldo Poster Gallery</h1>
@@ -398,14 +424,15 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
     </div>
 
     <script>
-        // SECURITY: Disable Right Click
+        // SECURITY LAYER 1: Disable Right Click
         document.addEventListener('contextmenu', (e) => {
             e.preventDefault();
             return false;
         });
 
-        // SECURITY: Disable Keyboard Shortcuts
+        // SECURITY LAYER 2: Disable Common Keyboard Shortcuts
         document.addEventListener('keydown', (e) => {
+            // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+S
             if (e.keyCode === 123 || 
                 (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) ||
                 (e.ctrlKey && e.keyCode === 85) ||
@@ -414,6 +441,46 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
                 return false;
             }
         });
+
+        // SECURITY LAYER 3: DevTools Detection
+        const devtoolsDetector = () => {
+            const threshold = 160;
+            const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+            const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+            const orientation = widthThreshold ? 'vertical' : 'horizontal';
+            
+            if (widthThreshold || heightThreshold || 
+                window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) {
+                document.getElementById('devtoolsWarning').classList.add('show');
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.getElementById('devtoolsWarning').classList.remove('show');
+                document.body.style.overflow = 'auto';
+            }
+        };
+
+        // Check DevTools every 500ms
+        setInterval(devtoolsDetector, 500);
+
+        // SECURITY LAYER 4: Console Detection
+        const devtools = /./;
+        devtools.toString = function() {
+            document.getElementById('devtoolsWarning').classList.add('show');
+            return 'DevTools Detected';
+        };
+        console.log('%c', devtools);
+
+        // SECURITY LAYER 5: Debugger Protection
+        setInterval(() => {
+            (function() {
+                return false;
+            })['constructor']('debugger')();
+        }, 50);
+
+        // SECURITY LAYER 6: Clear Console
+        if (typeof console !== 'undefined') {
+            console.clear = function() {};
+        }
 
         // Main Application Code
         let currentPoster = '';
