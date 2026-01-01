@@ -148,25 +148,25 @@ def main():
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
                 # Step 4a: Post to Instagram
-                if instagram_enabled:
-                    print(f"\n{'=' * 60}")
-                    print("Step 4a: Posting to Instagram")
-                    print("=" * 60)
+                # if instagram_enabled:
+                #     print(f"\n{'=' * 60}")
+                #     print("Step 4a: Posting to Instagram")
+                #     print("=" * 60)
                     
-                    try:
-                        instagram_result = post_article_to_instagram(
-                            title, focus_kw, article, image_file, permalink
-                        )
+                #     try:
+                #         instagram_result = post_article_to_instagram(
+                #             title, focus_kw, article, image_file, permalink
+                #         )
                         
-                        if instagram_result['success']:
-                            print(f"✅ Posted to Instagram: {instagram_result['post_url']}")
-                        else:
-                            print(f"⚠️ Instagram posting failed: {instagram_result.get('error')}")
+                #         if instagram_result['success']:
+                #             print(f"✅ Posted to Instagram: {instagram_result['post_url']}")
+                #         else:
+                #             print(f"⚠️ Instagram posting failed: {instagram_result.get('error')}")
                             
-                    except Exception as e:
-                        print(f"⚠️ Instagram posting failed (non-critical): {e}")
-                        import traceback
-                        traceback.print_exc()
+                #     except Exception as e:
+                #         print(f"⚠️ Instagram posting failed (non-critical): {e}")
+                #         import traceback
+                #         traceback.print_exc()
                 
                 # Step 4b: Log to Google Sheets
                 print(f"\n{'=' * 60}")
