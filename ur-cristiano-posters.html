@@ -5,11 +5,10 @@ permalink: /ur-cristiano-posters/
 description: "Download free and premium Cristiano Ronaldo posters. High-quality CR7 wallpapers, motivational
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <style>
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -27,6 +26,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
         .container {
             max-width: 1400px;
             margin: 0 auto;
+            padding: 20px;
         }
 
         div.poster-header {
@@ -42,11 +42,13 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             font-size: 3em;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            color: #1e3c72;
         }
 
         .subtitle {
             font-size: 1.2em;
             opacity: 0.9;
+            color: #2a5298;
         }
 
         .filter-buttons {
@@ -60,9 +62,9 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
         .filter-btn {
             padding: 12px 30px;
             background: rgba(255, 255, 255, 0.2);
-            border: 2px solid #fff;
+            border: 2px solid #1e3c72;
             border-radius: 25px;
-            color: #fff;
+            color: #1e3c72;
             cursor: pointer;
             font-size: 16px;
             transition: all 0.3s;
@@ -71,8 +73,8 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
 
         .filter-btn:hover,
         .filter-btn.active {
-            background: #fff;
-            color: #1e3c72;
+            background: #1e3c72;
+            color: #fff;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
@@ -85,7 +87,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
         }
 
         .poster-card {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             overflow: hidden;
             transition: transform 0.3s, box-shadow 0.3s;
@@ -138,6 +140,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             font-weight: bold;
             text-transform: uppercase;
             z-index: 10;
+            color: white;
         }
 
         .badge.free {
@@ -156,6 +159,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             font-size: 1.3em;
             margin-bottom: 10px;
             font-weight: bold;
+            color: #1e3c72;
         }
 
         .poster-description {
@@ -163,6 +167,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             opacity: 0.8;
             margin-bottom: 15px;
             line-height: 1.5;
+            color: #333;
         }
 
         .poster-meta {
@@ -171,6 +176,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             align-items: center;
             margin-bottom: 15px;
             font-size: 0.85em;
+            color: #555;
         }
 
         .download-btn {
@@ -213,7 +219,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
         .price {
             font-size: 1.3em;
             font-weight: bold;
-            color: #ffd700;
+            color: #f5576c;
         }
 
         .email-popup {
@@ -242,6 +248,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             text-align: center;
             position: relative;
             border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
         }
 
         .close-popup {
@@ -325,12 +332,14 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
         .stat-label {
             opacity: 0.8;
             margin-top: 5px;
+            color: #1e3c72;
         }
 
         .loading {
             text-align: center;
             padding: 50px;
             font-size: 1.5em;
+            color: #1e3c72;
         }
 
         @media (max-width: 768px) {
@@ -409,18 +418,19 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
         // Main Application Code
         let currentPoster = '';
         const POSTER_FOLDER = '/assets/images/Ur-Cristiano-Posters/';
+        const GUMROAD_BASE_URL = 'https://urcristiano.gumroad.com/l/';
         
         const posterImages = [
-"premium_ronaldo-in-white-Real-Madrid-jersey.webp",
-"poster-design-featuring-Cristiano-Ronaldo.webp",	
-"premium_ronaldo-double-exposure-with-soccer-ball.webp",
-"Ronaldo-in-Portugal-jersey.webp",				
-"CR7-silhouette-celebration-pose-straight.webp",		
-"ronaldo-celebrating-a-goal.webp",				
-"premium_cr7-never-give-up-motivational-poster.webp",		
-"premium_ronaldo-portrait-black-and-white-photography.webp",
-"CR7-silhouette-celebration-pose.webp",			
-"ronaldo-epic-portrait.webp",	
+            "premium_ronaldo-in-white-Real-Madrid-jersey.webp",
+            "poster-design-featuring-Cristiano-Ronaldo.webp",	
+            "premium_ronaldo-double-exposure-with-soccer-ball.webp",
+            "Ronaldo-in-Portugal-jersey.webp",				
+            "CR7-silhouette-celebration-pose-straight.webp",		
+            "ronaldo-celebrating-a-goal.webp",				
+            "premium_cr7-never-give-up-motivational-poster.webp",		
+            "premium_ronaldo-portrait-black-and-white-photography.webp",
+            "CR7-silhouette-celebration-pose.webp",			
+            "ronaldo-epic-portrait.webp",	
         ];
 
         function getTitleFromFilename(filename) {
@@ -434,6 +444,15 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
 
         function isPremium(filename) {
             return filename.startsWith('premium_');
+        }
+
+        function getGumroadUrl(filename) {
+            // Remove 'premium_' prefix and '.webp' extension
+            const urlSlug = filename
+                .replace(/^premium_/, '')
+                .replace(/\.webp$/, '');
+            
+            return GUMROAD_BASE_URL + urlSlug;
         }
 
         function getRandomDownloads() {
@@ -453,6 +472,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
                 const premium = isPremium(filename);
                 const title = getTitleFromFilename(filename);
                 const imagePath = POSTER_FOLDER + filename;
+                const gumroadUrl = premium ? getGumroadUrl(filename) : '';
                 
                 const card = document.createElement('div');
                 card.className = 'poster-card';
@@ -475,7 +495,7 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
                             ${premium ? `<span class="price">$${getRandomPrice()}</span>` : `<span>📥 ${getRandomDownloads()} downloads</span>`}
                         </div>
                         <button class="download-btn ${premium ? 'premium' : 'free'}" 
-                                onclick="${premium ? `buyPremium('${filename}')` : `downloadFree('${filename}', '${imagePath}')`}">
+                                onclick="${premium ? `buyPremium('${gumroadUrl}', '${title}')` : `downloadFree('${filename}', '${imagePath}')`}">
                             ${premium ? 'Buy Premium' : 'Download Free'}
                         </button>
                     </div>
@@ -516,8 +536,13 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
             document.getElementById('emailPopup').classList.add('show');
         }
 
-        function buyPremium(filename) {
-            alert(`Premium purchase coming soon!\n\nPoster: ${getTitleFromFilename(filename)}\n\nWe're setting up secure payment processing.`);
+        function buyPremium(gumroadUrl, title) {
+            // Open Gumroad product page in new tab
+            window.open(gumroadUrl, '_blank');
+            
+            // Optional: Show a message
+            console.log(`Opening Gumroad for: ${title}`);
+            console.log(`URL: ${gumroadUrl}`);
         }
 
         function closePopup() {
