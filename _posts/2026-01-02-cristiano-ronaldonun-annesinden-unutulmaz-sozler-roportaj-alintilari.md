@@ -98,7 +98,7 @@ Cristiano Ronaldo'nun kariyeri, azmin ve kararlılığın bir manifestosudur. An
 3.  **H6: Performans Baskısı:** Sürekli en iyi olma ve beklentileri karşılama baskısı altında bile istikrarlı kalmayı başardı. Her maçta kendini yeniden kanıtlama motivasyonu, onu hep zirvede tuttu.
 4.  **H6: Eleştirilere Yanıt:** Kariyeri boyunca karşılaştığı eleştirilere, sözle değil, sahadaki performansıyla en güzel cevabı verdi. Bu, onun mental gücünün ve azminin bir göstergesidir.
 
-Hayatınızdaki engelleri aşmak ve hedeflerinize ulaşmak için motivasyona mı ihtiyacınız var? Bir online koçluk programı, hedeflerinize ulaşmanızda size rehberlik edebilir. Size özel stratejilerle potansiyelinizi açığa çıkarmanıza yardımcı olabilir. [Online Koçluk Programları](https://www.examplecoaching.com.tr) bu konuda size yardımcı olabilir. (Bu bir örnek linktir, gerçek bir linkle değiştirilmelidir)
+Hayatınızdaki engelleri aşmak ve hedeflerinize ulaşmak için motivasyona mı ihtiyacınız var? Bir online koçluk programı, hedeflerinize ulaşmanızda size rehberlik edebilir. Size özel stratejilerle potansiyelinizi açığa çıkarmanıza yardımcı olabilir. [Online Koçluk Programları](https://www.koclukmerkezi.com/uzaktan-egitim/) bu konuda size yardımcı olabilir. (Bu bir örnek linktir, gerçek bir linkle değiştirilmelidir)
 
 #### H3: Alıntı 4: "Ona her zaman alçakgönüllü olmayı ve köklerini unutmamayı öğrettim."
 
@@ -121,7 +121,7 @@ Alçakgönüllülük ve köklerine bağlılık, Cristiano Ronaldo'yu sadece kend
 *   **H6: Doğal Afet Yardımları:** Deprem ve diğer doğal afetlerde mağdurlara maddi destekte bulunur. Örneğin, Nepal depremi ve Portekiz'deki orman yangınlarında önemli yardımlar sağlamıştır.
 *   **H6: Futbol Akademileri:** Genç yeteneklere kapı açan futbol akademilerine destek vererek, kendi gibi imkanları kısıtlı gençlere fırsatlar sunar. Bu, onun nereden geldiğini unutmadığının bir göstergesidir.
 
-Topluma katkıda bulunmanın ve alçakgönüllülüğün önemini vurgulayan başarı seminerlerine katılmak, kişisel gelişiminize katkı sağlayabilir. Liderlik ve etik değerler hakkında bilgi edinmek, hem iş hem de özel hayatınızda size yol gösterecektir. [Başarı ve Liderlik Seminerleri](https://www.exampleseminars.com.tr) size bu konuda ilham verebilir. (Bu bir örnek linktir, gerçek bir linkle değiştirilmelidir)
+Topluma katkıda bulunmanın ve alçakgönüllülüğün önemini vurgulayan başarı seminerlerine katılmak, kişisel gelişiminize katkı sağlayabilir. Liderlik ve etik değerler hakkında bilgi edinmek, hem iş hem de özel hayatınızda size yol gösterecektir. [Başarı ve Liderlik Seminerleri](https://edu.sabanciuniv.edu/tr/blog/basarili-bir-lider-olmak-icin-almaniz-gereken-egitimler) size bu konuda ilham verebilir. (Bu bir örnek linktir, gerçek bir linkle değiştirilmelidir)
 
 #### H3: Alıntı 5: "O benim en büyük gururum, ama aynı zamanda diğer çocuklarım gibi o da benim evladım."
 
