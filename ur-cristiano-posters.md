@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Free Cristiano Ronaldo Posters - HD Downloads | UR Cristiano FC"
 permalink: /ur-cristiano-posters/
 description: "Download free and premium Cristiano Ronaldo posters. High-quality CR7 wallpapers, motivational
