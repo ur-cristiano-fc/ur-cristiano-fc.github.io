@@ -14,9 +14,8 @@ topmenu:
   url: "write-for-us/"
 
 - title: Free 8K Images
-  url: "/ur-cristiano-posters/"
+  url: "ur-cristiano-posters/"
   class: "ml-2 btn btn-dark text-white px-3"
-  external: true
 
 # Footer Menu
 footermenu:
@@ -41,7 +40,7 @@ footermenu:
 
 - title: Terms of Service
   url: "terms-of-service/"
-  
+
 # - title: Download
 #   url: "#"  
 #   external: true
