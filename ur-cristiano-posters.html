@@ -473,22 +473,31 @@ description: "Download free and premium Cristiano Ronaldo posters. High-quality 
                 (window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized);
             
             if (devtoolsOpen) {
-                // DevTools OPEN - Remove poster grid
+                // DevTools OPEN - Remove poster grid and show warning
                 const existingGrid = document.getElementById('posterGrid');
                 if (existingGrid) {
                     existingGrid.remove();
                     posterGridCreated = false;
                 }
+                document.getElementById('devtoolsWarning').classList.add('show');
                 document.body.style.overflow = 'hidden';
             } else {
                 // DevTools CLOSED - Create poster grid
+                document.getElementById('devtoolsWarning').classList.remove('show');
+                
                 if (!posterGridCreated) {
                     const container = document.querySelector('.container');
                     if (container) {
-                        const posterGrid = document.createElement('div');
-                        posterGrid.id = 'posterGrid';
-                        posterGrid.className = 'poster-grid';
-                        container.appendChild(posterGrid);
+                        // Check if posterGrid already exists in HTML
+                        let posterGrid = document.getElementById('posterGrid');
+                        
+                        if (!posterGrid) {
+                            // Create new posterGrid if it doesn't exist
+                            posterGrid = document.createElement('div');
+                            posterGrid.id = 'posterGrid';
+                            posterGrid.className = 'poster-grid';
+                            container.appendChild(posterGrid);
+                        }
                         
                         posterGridCreated = true;
                         loadPosters(); // Load posters after creating grid
