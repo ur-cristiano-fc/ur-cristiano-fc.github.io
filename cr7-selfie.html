@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7 AI Selfie - Replicate API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .api-key-section {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .api-key-section h3 {
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .api-input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        input[type="text"], input[type="password"] {
+            flex: 1;
+            min-width: 250px;
+            padding: 12px 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1em;
+        }
+
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto 20px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: black;
+        }
+
+        #video {
+            width: 100%;
+            display: block;
+        }
+
+        #canvas {
+            display: none;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background: #f0f0f0;
+            transform: translateY(-2px);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #4ade80, #22c55e);
+            color: white;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .style-selector {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .style-selector label {
+            display: block;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .style-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .style-option {
+            cursor: pointer;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 3px solid transparent;
+            border-radius: 15px;
+            transition: all 0.3s;
+        }
+
+        .style-option:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .style-option.selected {
+            border-color: #4ade80;
+            background: rgba(74, 222, 128, 0.3);
+            box-shadow: 0 0 20px rgba(74, 222, 128, 0.5);
+        }
+
+        .style-option h4 {
+            margin-bottom: 8px;
+            font-size: 1.2em;
+        }
+
+        .style-option p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .preview-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .preview-container h3 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        #preview, #result {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            margin-bottom: 15px;
+        }
+
+        .status {
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            font-size: 1.1em;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: rgba(255, 0, 0, 0.3);
+            border: 2px solid rgba(255, 0, 0, 0.5);
+        }
+
+        .success {
+            background: rgba(0, 255, 0, 0.3);
+            border: 2px solid rgba(0, 255, 0, 0.5);
+        }
+
+        .warning {
+            background: rgba(255, 193, 7, 0.3);
+            border: 2px solid rgba(255, 193, 7, 0.5);
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .info-box strong {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .info-box a {
+            color: #4ade80;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .info-box a:hover {
+            text-decoration: underline;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ade80, #22c55e);
+            width: 0%;
+            transition: width 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚽ CR7 AI Selfie Creator <span class="badge">Replicate API</span></h1>
+        <p class="subtitle">Create ultra-realistic selfies with Cristiano Ronaldo using AI!</p>
+
+        <div class="api-key-section">
+            <h3>🔑 Replicate API Configuration</h3>
+            <div class="api-input-group">
+                <input type="password" id="apiKeyInput" placeholder="Enter your Replicate API Key (r8_...)" />
+                <button class="btn-success" onclick="saveApiKey()">💾 Save API Key</button>
+            </div>
+            <div class="info-box">
+                <strong>📌 How to get your FREE Replicate API Key:</strong>
+                1. Go to <a href="https://replicate.com" target="_blank">replicate.com</a> and sign up (free)<br>
+                2. Go to <a href="https://replicate.com/account/api-tokens" target="_blank">Account → API Tokens</a><br>
+                3. Copy your API token (starts with "r8_")<br>
+                4. Paste it above and click Save<br>
+                <br>
+                💰 <strong>Pricing:</strong> First predictions are FREE, then ~$0.001-0.01 per image (very cheap!)
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video id="video" autoplay playsinline></video>
+        </div>
+        <canvas id="canvas"></canvas>
+
+        <div class="controls">
+            <button id="startBtn" class="btn-primary" onclick="startCamera()">📷 Start Camera</button>
+            <button id="captureBtn" class="btn-secondary" onclick="capturePhoto()" disabled>📸 Capture Photo</button>
+        </div>
+
+        <div class="preview-container" id="previewContainer" style="display: none;">
+            <h3>Your Captured Photo:</h3>
+            <img id="preview" alt="Preview">
+        </div>
+
+        <div class="style-selector" id="styleSelector" style="display: none;">
+            <label>Choose Your Selfie Style:</label>
+            <div class="style-options">
+                <div class="style-option selected" onclick="selectStyle('casual')" data-style="casual">
+                    <h4>😊 Casual Selfie</h4>
+                    <p>Friendly photo together outdoors</p>
+                </div>
+                <div class="style-option" onclick="selectStyle('stadium')" data-style="stadium">
+                    <h4>🏟️ Stadium</h4>
+                    <p>At a football stadium</p>
+                </div>
+                <div class="style-option" onclick="selectStyle('celebration')" data-style="celebration">
+                    <h4>🎉 Celebration</h4>
+                    <p>Victory celebration together</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls" id="generateControls" style="display: none;">
+            <button id="generateBtn" class="btn-primary" onclick="generateWithReplicate()">✨ Generate AI Selfie</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p id="loadingText">Creating your AI selfie with CR7...</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <p style="font-size: 0.9em; opacity: 0.8; margin-top: 10px;">This may take 10-30 seconds</p>
+        </div>
+
+        <div class="preview-container" id="resultContainer" style="display: none;">
+            <h3>🎉 Your AI-Generated Selfie with CR7!</h3>
+            <img id="result" alt="Generated selfie">
+            <br>
+            <button class="btn-secondary" onclick="downloadImage()">💾 Download Selfie</button>
+            <button class="btn-primary" onclick="resetApp()">🔄 Create Another</button>
+        </div>
+    </div>
+
+    <script>
+        let stream = null;
+        let capturedImageData = null;
+        let generatedImageUrl = null;
+        let selectedStyle = 'casual';
+        let apiKey = localStorage.getItem('replicate_api_key') || '';
+
+        // Load API key on page load
+        if (apiKey) {
+            document.getElementById('apiKeyInput').value = apiKey;
+            showStatus('✅ API Key loaded from storage', 'success');
+        }
+
+        const stylePrompts = {
+            casual: "two men taking a selfie together, both smiling, one is Cristiano Ronaldo in casual clothes, outdoor setting, natural lighting, photorealistic, high quality",
+            stadium: "two men taking selfie at football stadium, both excited, one is Cristiano Ronaldo in jersey, crowd background, stadium lights, photorealistic",
+            celebration: "two men celebrating together, happy expressions, one is Cristiano Ronaldo, victory pose, confetti, bright lighting, photorealistic"
+        };
+
+        function saveApiKey() {
+            const key = document.getElementById('apiKeyInput').value.trim();
+            if (!key) {
+                showStatus('Please enter an API key', 'error');
+                return;
+            }
+            if (!key.startsWith('r8_')) {
+                showStatus('Invalid API key format. Should start with "r8_"', 'error');
+                return;
+            }
+            apiKey = key;
+            localStorage.setItem('replicate_api_key', apiKey);
+            showStatus('✅ API Key saved successfully!', 'success');
+        }
+
+        async function startCamera() {
+            try {
+                stream = await navigator.mediaDevices.getUserMedia({ 
+                    video: { facingMode: 'user', width: { ideal: 1280 }, height: { ideal: 720 } },
+                    audio: false 
+                });
+                
+                const video = document.getElementById('video');
+                video.srcObject = stream;
+                
+                document.getElementById('startBtn').disabled = true;
+                document.getElementById('captureBtn').disabled = false;
+                
+                showStatus('Camera started! Position yourself and click Capture Photo.', 'success');
+            } catch (err) {
+                showStatus('Error accessing camera: ' + err.message, 'error');
+            }
+        }
+
+        function capturePhoto() {
+            const video = document.getElementById('video');
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            
+            ctx.drawImage(video, 0, 0);
+            
+            capturedImageData = canvas.toDataURL('image/jpeg', 0.92);
+            
+            document.getElementById('preview').src = capturedImageData;
+            document.getElementById('previewContainer').style.display = 'block';
+            document.getElementById('styleSelector').style.display = 'block';
+            document.getElementById('generateControls').style.display = 'flex';
+            document.getElementById('resultContainer').style.display = 'none';
+            
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                video.srcObject = null;
+            }
+            
+            showStatus('Photo captured! Choose a style and generate your AI selfie.', 'success');
+        }
+
+        function selectStyle(style) {
+            selectedStyle = style;
+            document.querySelectorAll('.style-option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            event.currentTarget.classList.add('selected');
+        }
+
+        async function generateWithReplicate() {
+            if (!capturedImageData) {
+                showStatus('Please capture a photo first!', 'error');
+                return;
+            }
+
+            if (!apiKey) {
+                showStatus('Please enter and save your Replicate API key first!', 'error');
+                return;
+            }
+
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('generateBtn').disabled = true;
+            document.getElementById('loadingText').textContent = 'Initializing AI generation...';
+            showStatus('', '');
+
+            try {
+                updateProgress(10);
+                
+                // Use Replicate's FLUX model for high-quality image generation
+                const prompt = stylePrompts[selectedStyle];
+                
+                updateProgress(30);
+                document.getElementById('loadingText').textContent = 'Sending to Replicate AI...';
+                
+                const response = await fetch('https://api.replicate.com/v1/predictions', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${apiKey}`,
+                        'Content-Type': 'application/json',
+                        'Prefer': 'wait'
+                    },
+                    body: JSON.stringify({
+                        version: "5599ed30703defd1d160a25a63321b4dec97101d98b4674bcc56e41f62f35637",
+                        input: {
+                            prompt: prompt,
+                            num_outputs: 1,
+                            aspect_ratio: "3:4",
+                            output_format: "jpg",
+                            output_quality: 90,
+                            num_inference_steps: 4
+                        }
+                    })
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    console.error('API Error:', errorData);
+                    throw new Error(errorData.detail || errorData.error || `API Error: ${response.status} ${response.statusText}`);
+                }
+
+                const prediction = await response.json();
+                updateProgress(50);
+                document.getElementById('loadingText').textContent = 'AI is generating your image...';
+                
+                // Poll for result
+                const result = await pollPrediction(prediction.id);
+                
+                updateProgress(90);
+                document.getElementById('loadingText').textContent = 'Finalizing your selfie...';
+                
+                if (result.output && result.output.length > 0) {
+                    generatedImageUrl = result.output[0];
+                    document.getElementById('result').src = generatedImageUrl;
+                    document.getElementById('resultContainer').style.display = 'block';
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('generateBtn').disabled = false;
+                    updateProgress(100);
+                    showStatus('🎉 Your AI selfie with CR7 is ready!', 'success');
+                } else {
+                    throw new Error('No output received from API');
+                }
+                
+            } catch (err) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('generateBtn').disabled = false;
+                console.error('Generation error:', err);
+                showStatus('Error: ' + err.message + '. Please check your API key and try again.', 'error');
+            }
+        }
+
+        async function pollPrediction(predictionId) {
+            const maxAttempts = 60;
+            let attempts = 0;
+            
+            while (attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                const response = await fetch(`https://api.replicate.com/v1/predictions/${predictionId}`, {
+                    headers: {
+                        'Authorization': `Bearer ${apiKey}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                const prediction = await response.json();
+                
+                if (prediction.status === 'succeeded') {
+                    return prediction;
+                } else if (prediction.status === 'failed') {
+                    throw new Error('Generation failed: ' + (prediction.error || 'Unknown error'));
+                }
+                
+                attempts++;
+                const progress = 50 + (attempts / maxAttempts) * 40;
+                updateProgress(progress);
+            }
+            
+            throw new Error('Generation timeout');
+        }
+
+        function updateProgress(percent) {
+            document.getElementById('progressFill').style.width = percent + '%';
+        }
+
+        function downloadImage() {
+            if (!generatedImageUrl) return;
+            
+            const a = document.createElement('a');
+            a.href = generatedImageUrl;
+            a.download = `cr7-selfie-${Date.now()}.jpg`;
+            a.target = '_blank';
+            a.click();
+        }
+
+        function resetApp() {
+            capturedImageData = null;
+            generatedImageUrl = null;
+            document.getElementById('previewContainer').style.display = 'none';
+            document.getElementById('resultContainer').style.display = 'none';
+            document.getElementById('styleSelector').style.display = 'none';
+            document.getElementById('generateControls').style.display = 'none';
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('captureBtn').disabled = true;
+            updateProgress(0);
+            
+            document.querySelectorAll('.style-option').forEach((opt, idx) => {
+                if (idx === 0) opt.classList.add('selected');
+                else opt.classList.remove('selected');
+            });
+            selectedStyle = 'casual';
+            
+            showStatus('Ready to create another AI selfie!', 'success');
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            if (message) {
+                status.textContent = message;
+                status.className = 'status ' + type;
+                status.style.display = 'block';
+            } else {
+                status.style.display = 'none';
+            }
+        }
+
+        window.addEventListener('beforeunload', () => {
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+            }
+        });
+    </script>
+</body>
+</html>
