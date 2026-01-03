@@ -139,7 +139,7 @@
             <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
               {% for item in site.data.menus.topmenu %}
               <li class="nav-item">
-                <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+                <a class="nav-link btn-grad" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
               </li>
               {% endfor %}
             </ul>
