@@ -17,7 +17,6 @@ Rules:
 - Use "you" to address the reader
 - Hook: {hook_kw}
 - link other websites for external linking where relevant
-- also include related  affiliate links where it fits best: {affiliate_links},
 - don't use H1, only Use H2 and H3, h4, h5, h6 headings 
 - Use lists, tables, snippets, and other data formats
 - Write more than 2000 words
@@ -26,6 +25,7 @@ Rules:
 - Naturally include focused & semantic keywords
 - do not add any front matter or meta data
 """
+    # - also include related  affiliate links where it fits best: {affiliate_links},
     
     print("🤖 Generating article with Gemini...")
     response = client.models.generate_content(
