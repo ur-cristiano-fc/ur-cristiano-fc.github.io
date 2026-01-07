@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Where Does Cristiano Ronaldo Donate His Money? Full Charity and Foundation List"
+title: "Where Does Cristiano Ronaldo Donate His Money? Full Charity and Foundation List (2026)"
 description: "Ever wonder where Cristiano Ronaldo donates his money? Explore the complete cristiano ronaldo charity and donations list and see his supported foundations."
 keywords: "cristiano ronaldo charity and donations list"
 author: ishowspeed

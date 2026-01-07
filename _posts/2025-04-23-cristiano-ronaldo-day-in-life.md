@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Day in the Life of Cristiano Ronaldo: Family, Fitness, and Fun"
+title: "A Day in the Life of Cristiano Ronaldo: Family, Fitness, and Fun (2026)"
 categories: [Celebrity, Lifestyle]
 tags: [Cristiano Ronaldo, Ronaldo Daily Life, Football Lifestyle, Ronaldo Family]
 description: "Get an exclusive look into Cristiano Ronaldo's daily routine—family time, elite fitness, and moments of fun with the football legend."

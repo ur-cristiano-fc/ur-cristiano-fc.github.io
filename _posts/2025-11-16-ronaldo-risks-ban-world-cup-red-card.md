@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ronaldo Risks Ban at World Cup After Red Card: Full Analysis and What It Means for Portugal"
+title: "Ronaldo Risks Ban at World Cup After Red Card: Full Analysis and What It Means for Portugal (2026)"
 description: "Detailed analysis of Cristiano Ronaldo's red card incident, potential World Cup suspension, impact on Portugal's campaign, and updated insights for fans searching about 'ronaldo portugal soccer'."
 category: "RonaldoFunkoApp"
 author: ishowspeed

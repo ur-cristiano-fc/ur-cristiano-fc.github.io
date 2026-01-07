@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inside Maria Dolores’ Life: Cristiano Ronaldo’s Strongest Supporter"
+title: "Inside Maria Dolores’ Life: Cristiano Ronaldo’s Strongest Supporter (2026)"
 description: "Discover the inspiring story of Cristiano Ronaldo’s mom, Maria Dolores Aveiro — her life, struggles, and unwavering support that shaped the football legend’s success."
 category: "ronaldomom"
 author: ishowspeed

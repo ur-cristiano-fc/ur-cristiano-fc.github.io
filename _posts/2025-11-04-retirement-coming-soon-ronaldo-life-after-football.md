@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Retirement Is Coming Soon: Ronaldo’s Honest Admission on Life After Football"
+title: "Retirement Is Coming Soon: Ronaldo’s Honest Admission on Life After Football (2026)"
 description: "Cristiano Ronaldo opens up about his retirement plans, life beyond football, and what he envisions for his post-playing career. Explore his emotional reflections and future ambitions."
 category: "RonaldoInterview"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano vs Messi: Who Is Fitter, Faster, and Stronger on the Field"
+title: "Cristiano vs Messi: Who Is Fitter, Faster, and Stronger on the Field (2026)"
 description: "Explore the ultimate comparison of Cristiano Ronaldo vs Lionel Messi — who is fitter, faster, and stronger on the field in 2025. Detailed stats, fitness routines, and expert insights included."
 category: "RonaldoVsMessi"
 author: ishowspeed

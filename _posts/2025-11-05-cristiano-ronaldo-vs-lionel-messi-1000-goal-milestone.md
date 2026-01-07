@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo vs Lionel Messi: How Far Are the Legends from Their 1000 Goal Milestone?"
+title: "Cristiano Ronaldo vs Lionel Messi: How Far Are the Legends from Their 1000 Goal Milestone? (2026)"
 description: "A detailed comparison of Cristiano Ronaldo and Lionel Messi's journey toward the 1000-goal milestone. Explore career statistics, goal-scoring trends, achievements, and what lies ahead for the football legends."
 category: "RonaldoInterview"
 author: ishowspeed

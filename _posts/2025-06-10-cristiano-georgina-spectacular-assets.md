@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Are Cristiano and Georgina's Assets Truly Spectacular? Their Luxury Homes and Cars Will Amaze"
+title: "Are Cristiano and Georgina's Assets Truly Spectacular? Their Luxury Homes and Cars Will Amaze (2026)"
 description: "Explore Cristiano Ronaldo's and Georgina's luxurious assets: stunning homes, incredible cars, and a lifestyle that will leave you amazed."
 keywords: "Cristiano Ronaldo"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Evolution of Cristiano Ronaldo's Hairstyles Over the Years"
+title: "Evolution of Cristiano Ronaldo's Hairstyles Over the Years (2026)"
 keywords: cristiano ronaldo, cristiano ronaldo hairstyles, cristiano ronaldo haircut, cristiano ronaldo hair evolution, football hairstyles
 description: "Explore the evolution of Cristiano Ronaldo's hairstyles over the years, from his early career looks to his iconic haircuts that inspired millions of fans worldwide."
 category: "CristianoRonaldo"

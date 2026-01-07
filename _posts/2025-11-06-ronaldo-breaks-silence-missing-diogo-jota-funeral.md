@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ronaldo Breaks Silence on Missing Diogo Jota’s Funeral"
+title: "Ronaldo Breaks Silence on Missing Diogo Jota’s Funeral (2026)"
 description: "Cristiano Ronaldo addresses the emotional circumstances behind missing Diogo Jota’s funeral. This article explains the context, reactions, and the deeper meaning behind Ronaldo’s response."
 category: "Ronaldo"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maria Dolores Aveiro: The Woman Who Shaped Cristiano Ronaldo’s Legendary Career"
+title: "Maria Dolores Aveiro: The Woman Who Shaped Cristiano Ronaldo’s Legendary Career (2026)"
 description: "Discover the inspiring story of Cristiano Ronaldo's mom, Maria Dolores Aveiro, and how her strength, sacrifices, and values shaped one of the greatest footballers in history."
 category: "ronaldomom"
 author: ishowspeed

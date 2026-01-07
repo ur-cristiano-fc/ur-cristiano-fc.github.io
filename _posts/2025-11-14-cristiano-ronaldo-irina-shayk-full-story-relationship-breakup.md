@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo and Irina Shayk: The Full Story Behind Their Relationship and Breakup"
+title: "Cristiano Ronaldo and Irina Shayk: The Full Untold Story Revealed Behind Their Relationship and Breakup (2026)"
 description: "Explore the complete story of Cristiano Ronaldo and Irina Shayk’s relationship, breakup, timeline, controversies, and how both stars moved on. Includes detailed comparisons and facts."
 category: "RonaldoIrina"
 author: ishowspeed

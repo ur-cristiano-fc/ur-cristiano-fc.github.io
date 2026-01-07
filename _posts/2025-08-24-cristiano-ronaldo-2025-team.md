@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo in 2025: What Team Does He Play For Now?"
+title: "Cristiano Ronaldo in 2026: What Team Does He Play For Now?"
 description: "Cristiano Ronaldo continues his legendary career in 2025. Discover which team he currently plays for, his achievements, and his impact on world football."
 keywords: Cristiano Ronaldo, Cristiano Ronaldo 2025, what team does Cristiano Ronaldo play for now, Ronaldo Al Nassr, Ronaldo Saudi Pro League
 category: "CristianoRonaldo"

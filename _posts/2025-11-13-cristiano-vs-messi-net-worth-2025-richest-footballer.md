@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano vs Messi Net Worth 2025: Who Is the Richest Footballer Today?"
+title: "Cristiano Ronaldo Net Worth 2026: The Billion-Dollar Empire Revealed"
 description: "Discover the detailed comparison of Cristiano Ronaldo and Lionel Messi's net worth in 2025. Learn who tops the list of richest footballers, including Faiq Bolkiah and other global stars."
 category: "RonaldoVsMessi"
 author: ishowspeed

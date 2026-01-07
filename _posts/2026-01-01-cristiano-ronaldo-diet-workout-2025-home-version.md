@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo Diet and Workout Plan 2025 You Can Follow at Home (No Gym Needed)"
+title: "Cristiano Ronaldo Diet and Workout Plan 2026 You Can Follow at Home (No Gym Needed)"
 description: "Discover the full Cristiano Ronaldo diet and workout plan 2025 you can easily follow at home. Achieve peak fitness without a gym – start your transformation ..."
 keywords: "cristiano ronaldo diet and workout plan 2025"
 author: ishowspeed

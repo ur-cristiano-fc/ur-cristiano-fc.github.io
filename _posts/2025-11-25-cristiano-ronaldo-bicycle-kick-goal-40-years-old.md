@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "40 Year-Old Cristiano Ronaldo Scores Jaw-Dropping Bicycle Kick Goal"
+title: "40 Year-Old Cristiano Ronaldo Scores Jaw-Dropping Bicycle Kick Goal (2026)"
 description: "A detailed breakdown of the incredible bicycle kick goal scored by 40 year-old Cristiano Ronaldo, including match analysis, timeline, stats, comparison tables, and career insights for fans searching about Cristiano Ronaldo."
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-bicycle-kick-goal-40-years-old.webp

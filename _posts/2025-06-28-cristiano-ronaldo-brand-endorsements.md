@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Ronaldo Effect: Brand Endorsements"
+title: "The Ronaldo Effect: Brand Endorsements (2026)"
 description: Discover how Christiano Ronaldo influences global brands with his endorsements and how his presence transforms the marketing landscape.
 tags: [christiano ronaldo, brand endorsements, celebrity marketing, football, advertising]
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top 10 Cristiano Ronaldo Moments You Can’t Miss"
+title: "Top 10 Cristiano Ronaldo Moments You Can’t Miss (2026)"
 description: "Discover the top 10 Cristiano Ronaldo moments you can’t miss. Relive his greatest goals, records, and unforgettable football achievements."
 categories: "cristianoronaldo"
 tags: [cristiano ronaldo, youtube, ur cristiano, football, social media]

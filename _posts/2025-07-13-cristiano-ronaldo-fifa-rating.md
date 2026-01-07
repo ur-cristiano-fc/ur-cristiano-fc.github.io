@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo’s FIFA Ratings: Year by Year Analysis"
+title: "Cristiano Ronaldo’s FIFA Ratings: Year by Year Analysis (2026)"
 description: "Explore Cristiano Ronaldo's FIFA ratings year by year. See how his virtual stats evolved, reflecting his legendary football career."
 category: "CristianoRonaldo"
 author: ishowspeed

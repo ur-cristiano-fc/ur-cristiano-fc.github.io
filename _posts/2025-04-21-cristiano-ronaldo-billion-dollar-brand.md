@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Cristiano Ronaldo Built His $1 Billion Brand Empire"
+title: "How Cristiano Ronaldo Built His $1 Billion Brand Empire (2026)"
 description: "Discover how Cristiano Ronaldo built a $1 billion brand empire through football, fashion, endorsements, and global influence."
 keywords: "Cristiano Ronaldo"
 categories: [Business, Celebrity Brands, Cristiano Ronaldo, Sports Marketing]

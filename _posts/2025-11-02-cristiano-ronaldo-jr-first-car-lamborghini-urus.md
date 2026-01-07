@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo’s Son Gets His First Car: A Lamborghini Urus"
+title: "Cristiano Ronaldo’s Son Gets His First Car: A Lamborghini Urus (2026)"
 meta_description: "Cristiano Ronaldo Jr. receives his first car, a Lamborghini Urus, marking a new milestone in the life of football’s most famous son. Explore the story, the car’s features, and what it says about the Ronaldo legacy."
 keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo Jr car, Lamborghini Urus, Cristiano Ronaldo family, Ronaldo Jr lifestyle"
 category: "RonaldoJr"

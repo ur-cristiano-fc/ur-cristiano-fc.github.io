@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "At What Age Did Ronaldo Start Playing Football? The Early Years That Shaped His Career"
+title: "At What Age Did Ronaldo Start Playing Football? The Early Years That Shaped His Career (2026)"
 description: "Discover what age Cristiano Ronaldo started playing football, how his early years shaped his career, and how his childhood influenced his rise to greatness. A detailed Google Discover‑style guide for fans."
 author: ishowspeed
 image: assets/images/featured_what-age-did-ronaldo-start-playing.webp

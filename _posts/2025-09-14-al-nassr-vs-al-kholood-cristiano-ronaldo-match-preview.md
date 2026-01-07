@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Al-Nassr vs Al-Kholood: Cristiano Ronaldo’s Match Performances & What to Expect"
+title: "Al-Nassr vs Al-Kholood: Cristiano Ronaldo’s Match Performances & What to Expect (2026)"
 description: "Detailed analysis of Al-Nassr vs Al-Kholood, focusing on Cristiano Ronaldo’s goals, match performances, and what US viewers can expect from this Saudi Pro League clash."
 category: "CristianoRonaldo"
 author: ishowspeed

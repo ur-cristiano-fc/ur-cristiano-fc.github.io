@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Love to Loss: What Cristiano Ronaldo Revealed About Georgina Rodríguez in His Talk with Piers Morgan"
+title: "From Love to Loss: What Cristiano Ronaldo Revealed About Georgina Rodríguez in His Talk with Piers Morgan (2026)"
 description: "Explore Cristiano Ronaldo’s emotional revelations about Georgina Rodríguez during his candid talk with Piers Morgan. Learn about their journey through love, grief, and resilience."
 category: "RonaldoInterview"
 author: ishowspeed

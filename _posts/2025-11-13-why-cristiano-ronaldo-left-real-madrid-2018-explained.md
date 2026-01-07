@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Real Reason Cristiano Ronaldo Left Real Madrid in 2018 — Explained"
+title: "The Real Reason Cristiano Ronaldo Left Real Madrid in 2018 — Explained (2026)"
 description: "Discover the real reason Cristiano Ronaldo left Real Madrid in 2018. Explore his relationship with the club, tensions behind the scenes, and how the move to Juventus reshaped his career."
 category: "RonaldoRealMadrid"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Italy in Danger Again, Ireland Make Playoffs, and Cristiano Ronaldo Set for Record 6th World Cup"
+title: "Italy in Danger Again, Ireland Make Playoffs, and Cristiano Ronaldo Set for Record 6th World Cup (2026)"
 description: "A detailed analysis of Italy's World Cup danger, Ireland's playoff qualification, and Cristiano Ronaldo's record-breaking path to a sixth World Cup. Updated for Google Discover readers."
 category: "RonaldoFunkoApp"
 author: ishowspeed

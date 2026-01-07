@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Georgina Rodríguez Stuns in Hilary Swank’s 2005 Oscar-Style Gown at White House Event with Ronaldo"
+title: "Georgina Rodríguez Stuns in Hilary Swank’s 2005 Oscar-Style Gown at White House Event with Ronaldo (2026)"
 description: "Explore how Georgina Rodríguez recreated Hilary Swank’s iconic 2005 Oscar gown at a White House event with Cristiano Ronaldo. Full style breakdown, comparisons, and fashion insights."
 category: "RonaldoTrump"
 author: ishowspeed

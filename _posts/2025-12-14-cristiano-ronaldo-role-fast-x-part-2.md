@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vin Diesel Says He ‘Wrote A Role’ For Cristiano Ronaldo In ‘Fast X: Part 2’: ‘He Is a Real One’"
+title: "Vin Diesel Says He ‘Wrote A Role’ For Cristiano Ronaldo In ‘Fast X: Part 2’: ‘He Is a Real One’ (2026)"
 description: "Vin Diesel reveals he wrote a role for Cristiano Ronaldo in Fast X Part 2. Read what this means for fans, the movie, and Ronaldo’s Hollywood future."
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-role-fast-x-part-2.webp

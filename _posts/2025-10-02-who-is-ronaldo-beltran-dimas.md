@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Who Is Ronaldo Beltrán Dimas? Career, Background, and Latest Updates"
+title: "Who Is Ronaldo Beltrán Dimas? Career, Background, and Latest Updates (2026)"
 keywords: [Ronaldo Beltrán Dimas, career, Toluca, Liga MX, goalkeeper profile]
 description: "Discover Ronaldo Beltrán Dimas: his early life, professional journey with Toluca, recent performances, and what he aims next in Liga MX and beyond."
 category: "CristianoRonaldo"

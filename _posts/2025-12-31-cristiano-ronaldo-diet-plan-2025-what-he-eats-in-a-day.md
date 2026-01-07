@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo Diet Plan 2025: What He Eats in a Day to Stay Match Fit"
+title: "Eat Like a Champion: Cristiano Ronaldo's Complete Diet Plan Revealed (2026)"
 description: "Learn Cristiano Ronaldo's 2025 diet and workout plan. Discover his daily meals & training secrets to stay match fit and perform at his best."
 keywords: "cristiano ronaldo diet and workout plan 2025"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Cristiano Ronaldo Said About Critics, Pressure, and Proving Himself Again"
+title: "What Cristiano Ronaldo Said About Critics, Pressure, and Proving Himself Again (2026)"
 description: "Discover Cristiano Ronaldo’s honest thoughts on critics, handling pressure, and his constant drive to prove himself. A deep look at the mindset behind the legend."
 keywords: "cristiano, Cristiano Ronaldo, football, criticism, pressure, motivation, sports mindset, Ronaldo interview"
 category: "CristianoRonaldo"

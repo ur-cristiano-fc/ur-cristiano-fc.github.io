@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo News: Latest Updates on His Career, Goals, and Life in 2025"
+title: "Cristiano Ronaldo News: Latest Updates on His Career, Goals, and Life in 2026"
 description: "Stay updated with the latest Cristiano Ronaldo news in 2025 — including his career highlights, goals, club updates, family life, and off-field ventures. A complete roundup for fans and football followers."
 category: "totalgoals"
 author: ishowspeed

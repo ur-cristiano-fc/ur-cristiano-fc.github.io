@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo’s Son Joins Portugal U-15: The Next Generation of Football Begins"
+title: "Cristiano Ronaldo’s Son Joins Portugal U-15: The Next Generation of Football Begins (2026)"
 description: "Cristiano Ronaldo’s son joins Portugal U-15, raising expectations about his future in football. Learn all about the next generation of Ronaldo legacy."
 tags: [Cristiano Ronaldo, Portugal U-15, Cristiano Ronaldo Jr, football news, youth football, football legacy]
 author: ishowspeed

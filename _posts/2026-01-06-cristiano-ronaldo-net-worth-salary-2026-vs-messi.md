@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo Net Worth and Salary 2026 vs Messi: Who Is Richer This Year?"
+title: "Cristiano Ronaldo Net Worth 2026: The Billion-Dollar Empire Revealed"
 description: "Explore the incredible cristiano ronaldo net worth and salary 2026, breaking down his earnings and comparing them to Messi's wealth to see who's richer this ..."
 keywords: "cristiano ronaldo net worth and salary 2026"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano vs Messi: Who Owns More Cars, Yachts, and Private Jets?"
+title: "Cristiano vs Messi: Who Owns More Cars, Yachts, and Private Jets? (2026)"
 description: "Explore the luxury lifestyles of Cristiano Ronaldo and Lionel Messi. Discover who owns more cars, yachts, and private jets, including details on their most expensive assets and homes."
 category: "RonaldoVsMessi"
 author: ishowspeed

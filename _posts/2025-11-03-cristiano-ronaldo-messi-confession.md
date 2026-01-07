@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GOAT Talk: Cristiano Ronaldo’s Confession About Messi That Surprised Everyone"
+title: "GOAT Talk: Cristiano Ronaldo’s Confession About Messi That Surprised Everyone (2026)"
 description: "Cristiano Ronaldo’s latest confession about Lionel Messi has shocked football fans worldwide. Discover what the Portuguese legend said and how it reignited the GOAT debate."
 category: "RonaldoInterview"
 author: ishowspeed

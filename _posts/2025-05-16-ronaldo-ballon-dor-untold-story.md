@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Untold Story Behind Ronaldo’s Five Ballon d’Or Triumphs"
+title: "The Untold Story Behind Ronaldo’s Five Ballon d’Or Triumphs (2026)"
 description: "Discover the untold journey of Cristiano Ronaldo's five Ballon d'Or wins with detailed insights, key moments, and behind-the-scenes stories."
 categories: [Sports, Celebrity]
 author: ishowspeed

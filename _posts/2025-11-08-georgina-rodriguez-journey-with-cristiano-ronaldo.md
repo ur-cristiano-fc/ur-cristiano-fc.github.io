@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Model to Mother: Georgina Rodríguez’s Journey With Cristiano Ronaldo"
+title: "From Model to Mother: Georgina Rodríguez’s Journey With Cristiano Ronaldo (2026)"
 description: "A detailed and inspiring look into Georgina Rodríguez’s journey from her early life and modeling career to becoming a devoted partner and mother alongside Cristiano Ronaldo, exploring family life, values, challenges, and global influence."
 category: "RonaldoGeorgina"
 author: ishowspeed

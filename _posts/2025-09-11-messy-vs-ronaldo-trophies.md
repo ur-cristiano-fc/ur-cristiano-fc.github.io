@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Who Has More Trophies: Messi or Ronaldo?"
+title: "Who Has More Trophies: Messi or Ronaldo? (2026)"
 description: "A complete comparison of Cristiano Ronaldo and Lionel Messi's trophies as of 2025. Discover who has more titles and the breakdown of their legendary careers."
 category: "CristianoRonaldo"
 author: ishowspeed

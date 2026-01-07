@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Madeira to Millions: Cristiano Ronaldo’s Journey"
+title: "From Madeira to Millions: Cristiano Ronaldo’s Journey (2026)"
 categories: [Sports, Celebrity, Biography]
 tags: [Cristiano Ronaldo, Ronaldo Biography, Cristiano Ronaldo life story]
 description: "Discover Cristiano Ronaldo’s incredible journey from a small boy in Madeira to a global football legend and millionaire. An inspiring life story of triumph."

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano vs Messi: Who Has Broken More Records in Football History?"
+title: "Cristiano vs Messi: Who Has Broken More Records in Football History? (2026)"
 description: "Explore the ultimate comparison of Cristiano Ronaldo and Lionel Messi — who has broken more records in football history? Dive deep into their goals, trophies, and achievements that define their legendary rivalry."
 category: "RonaldoVsMessi"
 author: ishowspeed

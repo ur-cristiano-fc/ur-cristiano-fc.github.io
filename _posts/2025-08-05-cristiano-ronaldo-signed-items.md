@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best Cristiano Ronaldo Signed Memorabilia to Collect"
+title: "Best Cristiano Ronaldo Signed Memorabilia to Collect (2026)"
 description: "Discover the best Cristiano Ronaldo signed items every true fan should own. From jerseys to boots, start your memorabilia collection today."
 keywords: ["cristiano ronaldo signed items", "ronaldo autographed memorabilia", "ronaldo collectibles"]
 category: "CristianoRonaldo"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Kids Asked, So He Proposed: Ronaldo’s Story Behind the Engagement"
+title: "The Kids Asked, So He Proposed: Ronaldo’s Untold Story Revealed Behind the Engagement (2026)"
 description: "Cristiano Ronaldo reveals the heartfelt story behind his engagement to Georgina Rodríguez — a decision inspired by his children. Discover how family, love, and legacy shaped Ronaldo’s romantic journey."
 category: "RonaldoInterview"
 author: ishowspeed

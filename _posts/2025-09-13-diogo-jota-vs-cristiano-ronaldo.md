@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diogo Jota vs Cristiano Ronaldo: Who Shines Brighter for Portugal?"
+title: "Diogo Jota vs Cristiano Ronaldo: Who Shines Brighter for Portugal? (2026)"
 description: "A detailed comparison of Diogo Jota and Cristiano Ronaldo, analyzing their impact, playing style, and future with Portugal. Includes insights into Cristiano Ronaldo fiancé ring keyword trend."
 category: "CristianoRonaldo"
 author: ishowspeed

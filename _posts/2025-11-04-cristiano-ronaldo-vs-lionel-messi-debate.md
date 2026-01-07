@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo vs. Lionel Messi — Again: 'I Don’t Agree That He’s Better'"
+title: "Cristiano Ronaldo vs. Lionel Messi — Again: 'I Don’t Agree That He’s Better (2026)"
 description: "Cristiano Ronaldo reignites the age-old debate with Lionel Messi, sharing his honest views on their rivalry, achievements, and who deserves the GOAT title. Read a detailed breakdown of Ronaldo's remarks and the global reaction."
 category: "RonaldoInterview"
 author: ishowspeed

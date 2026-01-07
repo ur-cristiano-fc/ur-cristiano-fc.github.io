@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is Cristiano Ronaldo Married Yet? The Truth About His Love Life and Family"
+title: "Is Cristiano Ronaldo Married Yet? The Truth About His Love Life and Family (2026)"
 description: "Is Cristiano Ronaldo married? Discover the truth about Ronaldo’s relationship with Georgina Rodríguez, his children, family life, and marriage plans in 2025."
 category: "RonaldoRealMadrid"
 author: ishowspeed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top Cristiano Ronaldo Quotes for Social Media Captions"
+title: "Top Cristiano Ronaldo Quotes for Social Media Captions (2026)"
 description: "Discover the top Cristiano Ronaldo quotes perfect for social media captions. Inspire your followers with powerful words from one of the greatest footballers of all time."
 category: "CristianoRonaldo"
 author: ishowspeed

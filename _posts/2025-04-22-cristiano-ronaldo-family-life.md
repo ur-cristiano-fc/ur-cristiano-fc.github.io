@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inside Cristiano Ronaldo’s Family Life: Balancing Fame and Fatherhood"
+title: "Inside Cristiano Ronaldo’s Family Life: Balancing Fame and Fatherhood (2026)"
 description: "A closer look at Cristiano Ronaldo's journey as a father and global icon—how he balances career, family, and legacy."
 keywords: "cristiano ronaldo"
 categories: [Celebrity, Lifestyle, Family, Football]

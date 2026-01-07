@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CR7 Sets New Record: Cristiano Ronaldo’s Historic Goal in 2025"
+title: "CR7 Sets New Record: Cristiano Ronaldo’s Historic Goal in 2026"
 description: "CR7 breaks another record in 2025 with a stunning goal that rewrites football history."
 keywords: "CR7"
 categories: [Football, Sports News, Cristiano Ronaldo]

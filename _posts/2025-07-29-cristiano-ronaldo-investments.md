@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Does Cristiano Ronaldo Invest In? A Deep Dive"
+title: "What Does Cristiano Ronaldo Invest In? A Deep Dive (2026)"
 description: "Explore Cristiano Ronaldo's diverse investments in real estate, fashion, fitness, and tech, and see how he built his financial empire."
 keyword: ["cristiano ronaldo investments"]
 category: "CristianoRonaldo"

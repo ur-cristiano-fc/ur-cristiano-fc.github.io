@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is Cristiano Ronaldo the Greatest Footballer of All Time? Fans Debate!"
+title: "Is Cristiano Ronaldo the Greatest Footballer of All Time? Fans Debate! (2026)"
 description: "A detailed look at the global debate on whether Cristiano Ronaldo is the greatest footballer of all time, supported by fan opinions and data."
 keywords: ["Cristiano Ronaldo", "Cristiano Ronaldo GOAT debate", "Greatest footballer of all time"]
 categories: [Sports, Celebrity, Biography]

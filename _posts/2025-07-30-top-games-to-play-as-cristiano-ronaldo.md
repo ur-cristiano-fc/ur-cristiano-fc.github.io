@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top 5 Games Where You Can Play as Cristiano Ronaldo"
+title: "Top 5 Games Where You Can Play as Cristiano Ronaldo (2026)"
 description: "Explore the top 5 video games where Cristiano Ronaldo appears as a playable character, from FIFA to eFootball and beyond."
 keywords: ["cristiano ronaldo in games", "cristiano ronaldo video games", "ronaldo fifa games", "cristiano ronaldo mobile games"]
 category: "CristianoRonaldo"

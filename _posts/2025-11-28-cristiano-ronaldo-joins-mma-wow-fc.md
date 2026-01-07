@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo Joins MMA with Ilia Topuria’s WOW FC — What It Means & How Many Goals Does Ronaldo Have"
+title: "Cristiano Ronaldo Joins MMA with Ilia Topuria’s WOW FC — What It Means & How Many Goals Does Ronaldo Have (2026)"
 description: "Cristiano Ronaldo has become a shareholder in WOW FC alongside Ilia Topuria. We analyse this move, what it means for MMA and his legacy — and also review how many goals does Ronaldo have (club + country) as of 2025."
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-joins-mma-wow-fc.webp

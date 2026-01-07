@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wayne Rooney Speaks Out on 'Hating' Cristiano Ronaldo as Lionel Messi Claim Made"
+title: "Wayne Rooney Speaks Out on 'Hating' Cristiano Ronaldo as Lionel Messi Claim Made (2026)"
 description: "Wayne Rooney opens up about his alleged 'hate' for Cristiano Ronaldo and his views on Lionel Messi, clarifying the truth behind their football rivalry and friendship."
 category: "RonaldoInterview"
 author: ishowspeed

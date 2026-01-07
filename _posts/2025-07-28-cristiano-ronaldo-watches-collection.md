@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo’s Watch Collection: Luxury Timepieces Explained"
+title: "Cristiano Ronaldo’s Watch Collection: Luxury Timepieces Explained (2026)"
 description: "Explore the luxurious world of Cristiano Ronaldo watches, featuring Rolex, Jacob & Co., and more. A detailed look into the timepieces of a football legend."
 keywords: \["cristiano ronaldo watches"]
 category: "CristianoRonaldo"

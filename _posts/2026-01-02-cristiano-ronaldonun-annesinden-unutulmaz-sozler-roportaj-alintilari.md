@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo’nun Annesinden Unutulmaz Sözler: Röportajlardan En Güçlü Alıntılar"
+title: "Cristiano Ronaldo’nun Annesinden Unutulmaz Sözler: Röportajlardan En Güçlü Alıntılar (2026)"
 description: "Cristiano Ronaldo'nun annesinin röportajlarından en çarpıcı anları ve unutulmaz sözleri keşfedin. İlham veren bu güçlü alıntılar sizi derinden etkileyecek."
 keywords: "cristiano ronaldo mother interview highlights and quotes"
 author: ishowspeed

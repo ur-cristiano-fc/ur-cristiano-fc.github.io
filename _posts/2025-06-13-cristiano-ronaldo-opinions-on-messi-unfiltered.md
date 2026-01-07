@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo's Opinions on Messi, Unfiltered"
+title: "Cristiano Ronaldo's Opinions on Messi, Unfiltered (2026)"
 description: "Explore Cristiano Ronaldo's honest opinions on Lionel Messi, from rivalry to respect, and how their relationship shaped football history."
 categories: [Sports, Football, News]
 tags: [Cristiano Ronaldo, Lionel Messi, football rivalry, opinions]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ronaldo’nun 2025’te Kaç Golü Var? Kulüp ve Milli Takım Tüm Golleri"
+title: "Ronaldo’nun 2026’te Kaç Golü Var? Kulüp ve Milli Takım Tüm Golleri"
 description: "Ronaldo’nun 2025’te kaç golü var? Kulüp ve milli takımdaki tüm gollerini kapsayan güncel istatistiklere hemen göz atın ve rekorları keşfedin!"
 keywords: "ronaldo’nun 2025’te kaç golü var"
 author: ishowspeed

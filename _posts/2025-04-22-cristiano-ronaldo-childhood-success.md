@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Cristiano Ronaldo’s Childhood Shaped His Drive for Success"
+title: "How Cristiano Ronaldo’s Childhood Shaped His Drive for Success (2026)"
 description: "Explore how Cristiano Ronaldo's humble beginnings shaped his ambition, work ethic, and rise to global football stardom."
 keywords: "cristiano ronaldo"
 categories: [Sports, Biography, Football, Inspiration]

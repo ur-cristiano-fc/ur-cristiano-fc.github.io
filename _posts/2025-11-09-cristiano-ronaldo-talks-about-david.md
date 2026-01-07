@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cristiano Ronaldo Says He Feels “Perfect” Compared to David Beckham in Conversation With Piers Morgan"
+title: "Cristiano Ronaldo Says He Feels “Perfect” Compared to David Beckham in Conversation With Piers Morgan (2026)"
 description: "Cristiano Ronaldo spoke about confidence, legacy, and comparisons to David Beckham during his conversation with Piers Morgan. Explore the context, reaction, and meaning behind the statement."
 category: "RonaldoBeckham"
 author: ishowspeed

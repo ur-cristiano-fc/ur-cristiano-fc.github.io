@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What to Expect from Dortmund - Barcelona Clash Tonight"
+title: "What to Expect from Dortmund - Barcelona Clash Tonight (2026)"
 description: "Full match preview of Dortmund - Barcelona: Lineups, tactics, injuries, predictions, and more. Stay ahead of tonight’s football showdown."
 keywords: ["Dortmund - Barcelona", "Barcelona", "Dortmund", "Champions League"]
 categories: [Football, Sports News, Champions League]

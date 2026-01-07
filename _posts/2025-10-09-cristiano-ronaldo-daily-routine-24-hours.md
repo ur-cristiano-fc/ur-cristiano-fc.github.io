@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "24 Hours with Cristiano Ronaldo: A Complete Breakdown of His Day"
+title: "24 Hours with Cristiano Ronaldo: A Complete Breakdown of His Day (2026)"
 description: "Discover what a typical day in the life of Cristiano Ronaldo looks like. From his intense training routines and diet to family time and recovery, here’s a full breakdown of his 24 hours."
 keywords: "Cristiano Ronaldo, Cristiano Ronaldo daily routine, Cristiano Ronaldo workout, Cristiano Ronaldo diet, Cristiano Ronaldo lifestyle"
 category: "CristianoRonaldo"

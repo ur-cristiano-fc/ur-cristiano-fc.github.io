@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Cristiano Ronaldo Travels: Private Jet Life Explained"
+title: "How Cristiano Ronaldo Travels: Private Jet Life Explained (2026)"
 description: "Discover how Cristiano Ronaldo travels in luxury with his private jet. A detailed look at his jet, lifestyle, routes, and travel habits."
 keywords: ["Cristiano Ronaldo", "Cristiano Ronaldo travel", "Cristiano Ronaldo private jet", "Cristiano Ronaldo lifestyle"]
 category: "CristianoRonaldo"
