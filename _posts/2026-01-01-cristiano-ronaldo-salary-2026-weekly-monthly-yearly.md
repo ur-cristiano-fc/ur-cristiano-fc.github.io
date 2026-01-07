@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Salary 2026 Explained: Weekly, Monthly and Yearly Pay in Saudi Arabia"
-description: "Discover Cristiano Ronaldo's net worth and salary 2026, with a full breakdown of his weekly, monthly, and yearly pay in Saudi Arabia."
+description: "Discover Cristiano Ronaldo's net worth and salary 2026, with a full breakdown of his weekly, monthly, and yearly pay in Saudi Arabia. Read the full story now."
 keywords: "cristiano ronaldo net worth and salary 2026"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-salary-2026-weekly-monthly-yearly.webp

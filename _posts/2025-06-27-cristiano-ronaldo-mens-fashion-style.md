@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’s Influence on Men’s Fashion (2026)"
-description: "Explore how Cristiano Ronaldo transformed men’s fashion with his iconic style, brand endorsements, and CR7 fashion line."
+description: "Explore how Cristiano Ronaldo transformed men’s fashion with his iconic style, brand endorsements, and CR7 fashion line. Updated for 2026. Read the full story now."
 categories: [Fashion, Celebrity Style, Cristiano Ronaldo]
 tags: [Cristiano Ronaldo, Men’s Fashion, Celebrity Style, CR7, Fashion Icons]
 author: ishowspeed

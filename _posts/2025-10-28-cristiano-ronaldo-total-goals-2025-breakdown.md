@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Total Goals in 2026: Complete Breakdown by Club, Country, and Competition"
-description: "A complete, up-to-date breakdown of Cristiano Ronaldo's total goals in 2025 — by club, country, competition, and calendar year. Detailed stats and analysis for fans and researchers."
+description: "A complete, up-to-date breakdown of Cristiano Ronaldo's total goals in 2026 — by club, country, competition, and calendar year. Detailed stats and analysis for fans and researchers. Read the full story now."
 keywords: "cristiano ronaldo total goals, cristiano ronaldo goals 2025, ronaldo goals by club, ronaldo international goals, cr7 goals"
 category: "totalgoals"
 author: ishowspeed

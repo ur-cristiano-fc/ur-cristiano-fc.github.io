@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo and His Son Cristiano Jr. Both Scored on the Same Day Yesterday (2026)"
-description: "Discover the heartwarming story of Cristiano Ronaldo and his son Cristiano Jr. both scoring on the same day — a powerful symbol of legacy, talent, and shared passion for football."
+description: "Discover the heartwarming story of Cristiano Ronaldo and his son Cristiano Jr. both scoring on the same day — a powerful symbol of legacy, talent, and shared passion for football. Updated for 2026. Read the full story now."
 keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo, football legacy, father and son goals, Portugal football, Al-Nassr, youth football"
 category: "RonaldoJr"
 author: ishowspeed

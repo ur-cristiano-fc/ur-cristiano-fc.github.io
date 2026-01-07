@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Net Worth 2026: The Billion-Dollar Empire Revealed"
-description: "Explore Cristiano Ronaldo's net worth in 2025, his earnings from football, endorsements, businesses, and investments that make him one of the richest athletes in the world."
+description: "Explore Cristiano Ronaldo's net worth in 2026, his earnings from football, endorsements, businesses, and investments that make him one of the richest athletes in the world. Read the full breakdown now."
 category: "NetWorth"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-net-worth.webp

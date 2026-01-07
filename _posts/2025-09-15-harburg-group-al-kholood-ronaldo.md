@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "US Investors in Saudi Football: What Harburg Group’s Purchase of Al-Kholood Means for Cristiano Ronaldo’s Competition (2026)"
-description: "Explore how Harburg Group’s US investment in Al-Kholood affects Cristiano Ronaldo’s competition and the broader growth of the Saudi Pro League."
+description: "Explore how Harburg Group’s US investment in Al-Kholood affects Cristiano Ronaldo’s competition and the broader growth of the Saudi Pro League. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_harburg-group-al-kholood-ronaldo.webp

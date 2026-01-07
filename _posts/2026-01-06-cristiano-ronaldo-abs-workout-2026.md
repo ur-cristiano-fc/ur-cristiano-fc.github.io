@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Get Ronaldo's 6-Pack: His Complete 20-Minute Ab Workout (2026)"
-description: "Discover the exact cristiano ronaldo abs workout program to get your own shredded six-pack like CR7 by 2026 and achieve elite fitness."
+description: "Discover the exact cristiano ronaldo abs workout program to get your own shredded six-pack like CR7 by 2026 and achieve elite fitness. Start your journey today."
 keywords: "cristiano ronaldo abs workout"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-abs-workout-2026.webp

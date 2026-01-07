@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’s Father: The Untold Story Behind His Early Struggles and Motivation (2026)"
-description: "Explore the emotional and untold story of Cristiano Ronaldo’s father, José Dinis Aveiro, and how his life struggles shaped Ronaldo’s personality, ambition, and legendary football career."
+description: "Explore the emotional and untold story of Cristiano Ronaldo’s father, José Dinis Aveiro, and how his life struggles shaped Ronaldo’s personality, ambition, and legendary football career. Updated for 2026. Read the full story now."
 category: "RonaldoFather"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-father-untold-story.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Charity and Donations List 2026: All the Causes He Supports"
-description: "Discover the extensive cristiano ronaldo charity and donations list for 2026. Uncover all the causes he passionately supports and how he makes a global impac..."
+description: "Discover the extensive cristiano ronaldo charity and donations list for 2026. Uncover all the causes he passionately supports and how he makes a global impac.. Read the full story now."
 keywords: "cristiano ronaldo charity and donations list"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-charity-and-donations-list-2026.webp

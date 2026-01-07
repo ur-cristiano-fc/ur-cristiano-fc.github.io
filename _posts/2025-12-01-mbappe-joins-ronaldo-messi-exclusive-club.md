@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kylian Mbappe Reaches 60 Goals in 2026, Joining Cristiano Ronaldo and Lionel Messi in Football’s Most Exclusive Club"
-description: "Kylian Mbappe joins Cristiano Ronaldo and Lionel Messi in an ultra-exclusive 60-goal club in 2025. Full breakdown of how many goals Ronaldo has, Mbappe’s rise, comparisons, records, statistics, and expert analysis."
+description: "Kylian Mbappe joins Cristiano Ronaldo and Lionel Messi in an ultra-exclusive 60-goal club in 2026. Full breakdown of how many goals Ronaldo has, Mbappe’s rise, comparisons, records, statistics, and expert analysis. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_mbappe-joins-ronaldo-messi-exclusive-club.webp
 afflink: https://amzn.to/3XunWik

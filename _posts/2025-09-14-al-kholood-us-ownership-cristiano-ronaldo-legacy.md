@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Al-Kholood’s US Ownership Could Shape Cristiano Ronaldo’s Saudi Pro League Legacy (2026)"
-description: "Explore how US investment in Saudi Pro League clubs like Al-Kholood could impact Cristiano Ronaldo’s legacy amid Saudi football’s privatization drive."
+description: "Explore how US investment in Saudi Pro League clubs like Al-Kholood could impact Cristiano Ronaldo’s legacy amid Saudi football’s privatization drive. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_al-kholood-us-ownership-cristiano-ronaldo-legacy.webp

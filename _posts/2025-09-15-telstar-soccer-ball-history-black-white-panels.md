@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Soccer Balls Have Black & White Panels: The Telstar Untold Story Revealed Explained (2026)"
-description: "Discover the fascinating history of the Telstar soccer ball and why black and white panels became the iconic design during the 1960s World Cup."
+description: "Discover the fascinating history of the Telstar soccer ball and why black and white panels became the iconic design during the 1960s World Cup. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_telstar-soccer-ball-history-black-white-panels.webp

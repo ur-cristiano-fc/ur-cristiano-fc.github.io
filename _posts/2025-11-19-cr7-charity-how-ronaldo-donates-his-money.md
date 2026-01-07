@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where Cristiano Ronaldo Donates His Money: All CR7 Charity Acts Explained (2026)"
-description: "A detailed breakdown of Cristiano Ronaldo's charity work, donations, foundation projects, and global impact. Learn how much Ronaldo donates, who he helps, and how his philanthropy compares to Messi."
+description: "A detailed breakdown of Cristiano Ronaldo's charity work, donations, foundation projects, and global impact. Learn how much Ronaldo donates, who he helps, and how his philanthropy compares to Messi. Updated for 2026. Read the full story now."
 category: "RonaldoTrump"
 author: ishowspeed
 image: assets/images/featured_cr7-charity-how-ronaldo-donates-his-money.webp

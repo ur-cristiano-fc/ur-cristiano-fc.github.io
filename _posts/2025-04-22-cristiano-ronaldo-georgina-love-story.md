@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’s Love Untold Story Revealed: Who Is Georgina Rodríguez? (2026)"
-description: "Discover Cristiano Ronaldo's love story with Georgina Rodríguez — from their first meeting to parenting and public life."
+description: "Discover Cristiano Ronaldo's love story with Georgina Rodríguez — from their first meeting to parenting and public life. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo"
 categories: [Celebrity, Lifestyle, Cristiano Ronaldo, Love Story]
 tags: [cristiano ronaldo, georgina rodriguez, football love story, celebrity couple, football family]

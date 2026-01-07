@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo Futbolu Bıraktı mı? İşte Cristiano Ronaldo’nun Kariyer Durumu ve Son Açıklamalar"
-description: "Ronaldo futbolu bıraktı mı? Cristiano Ronaldo'nun kariyer durumu, son açıklamaları, gelecekteki planları ve taraftarların tepkileri hakkında güncel ve detaylı bilgi."
+description: "Ronaldo futbolu bıraktı mı? Cristiano Ronaldo'nun kariyer durumu, son açıklamaları, gelecekteki planları ve taraftarların tepkileri hakkında güncel ve detaylı bilgi. Updated for 2026. Read the full story now."
 category: "RonaldoRetirement"
 author: ishowspeed
 image: assets/images/featured_ronaldo-futbolu-birakti-mi.webp

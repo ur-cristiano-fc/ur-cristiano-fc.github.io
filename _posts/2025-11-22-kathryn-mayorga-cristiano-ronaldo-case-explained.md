@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kathryn Mayorga and Cristiano Ronaldo Case Explained: Legal Proceedings, Timeline, and Key Questions (2026)"
-description: "A detailed, SEO-optimized breakdown of the Kathryn Mayorga and Cristiano Ronaldo case, including legal proceedings, allegation timeline, media coverage, FAQs, and expert analysis."
+description: "A detailed, SEO-optimized breakdown of the Kathryn Mayorga and Cristiano Ronaldo case, including legal proceedings, allegation timeline, media coverage, FAQs, and expert analysis. Updated for 2026. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_kathryn-mayorga-cristiano-ronaldo-case-explained.webp
 afflink: https://amzn.to/43Xm4Ci

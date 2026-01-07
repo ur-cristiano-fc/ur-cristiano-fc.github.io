@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’nun Kariyerinde Kaç Golü Var? Sezon Sezon Gol ve Asist Tablosu"
-description: "Cristiano Ronaldo'nun kariyerinde kaç golü var merak ediyor musunuz? Efsanevi futbolcunun tüm gollerini ve asistlerini detaylı sezonluk tabloda keşfedin."
+description: "Cristiano Ronaldo'nun kariyerinde kaç golü var merak ediyor musunuz? Efsanevi futbolcunun tüm gollerini ve asistlerini detaylı sezonluk tabloda keşfedin. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo’nun kariyerinde kaç golü var"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldonun-kariyerinde-kac-golu-var-sezon-sezon.webp

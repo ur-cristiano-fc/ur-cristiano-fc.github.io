@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet Eva and Mateo: The Adorable Twins of Cristiano Ronaldo (2026)"
-description: "Learn about Cristiano Ronaldo’s twins, Eva and Mateo — their early life, public appearances, family moments, and how Ronaldo and Georgina raise them in the spotlight."
+description: "Learn about Cristiano Ronaldo’s twins, Eva and Mateo — their early life, public appearances, family moments, and how Ronaldo and Georgina raise them in the spotlight. Updated for 2026. Read the full story now."
 category: "RonaldoTwins"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldos-twins-eva-and-mateo.webp

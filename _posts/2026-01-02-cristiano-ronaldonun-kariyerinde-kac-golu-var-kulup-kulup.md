@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’nun Kariyerinde Kaç Golü Var? Kulüp Kulüp Ayrıntılı Gol Listesi"
-description: "Cristiano Ronaldo'nun kariyerinde kaç golü var merak edenler için tüm kulüplerindeki ayrıntılı gol listesini ve şaşırtıcı istatistikleri hemen keşfedin."
+description: "Cristiano Ronaldo'nun kariyerinde kaç golü var merak edenler için tüm kulüplerindeki ayrıntılı gol listesini ve şaşırtıcı istatistikleri hemen keşfedin. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo’nun kariyerinde kaç golü var"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldonun-kariyerinde-kac-golu-var-kulup-kulup.webp

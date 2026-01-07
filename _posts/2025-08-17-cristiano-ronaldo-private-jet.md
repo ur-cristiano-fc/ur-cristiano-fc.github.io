@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inside Cristiano Ronaldo’s Private Jet: Features & Photos (2026)"
-description: "Explore Cristiano Ronaldo private jet in detail. Learn about its luxury features, interiors, cost, photos, and why it reflects his lifestyle."
+description: "Explore Cristiano Ronaldo private jet in detail. Learn about its luxury features, interiors, cost, photos, and why it reflects his lifestyle. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo private jet, cristiano ronaldo jet, cristiano ronaldo plane, cristiano ronaldo lifestyle"
 category: "CristianoRonaldo"
 author: ishowspeed

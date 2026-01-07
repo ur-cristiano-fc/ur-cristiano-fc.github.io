@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Jr Scores His First Goal Ever for Portugal U-16 at Just 15 Years Old! (2026)"
-description: "Cristiano Ronaldo Jr scores his first international goal for Portugal U-16 at age 15 — a proud moment that echoes his father’s legendary beginnings. Discover his journey, training, and what this means for the future of the Ronaldo legacy."
+description: "Cristiano Ronaldo Jr scores his first international goal for Portugal U-16 at age 15 — a proud moment that echoes his father’s legendary beginnings. Discover his journey, training, and what this means for the future of the Ronaldo legacy. Updated for 2026. Read the full story now."
 keywords: "Cristiano Ronaldo Jr, Cristiano Ronaldo Jr first goal, Cristiano Ronaldo Jr Portugal U16, Cristiano Ronaldo Jr football career, Ronaldo son, Ronaldo family"
 category: "RonaldoJr"
 author: ishowspeed

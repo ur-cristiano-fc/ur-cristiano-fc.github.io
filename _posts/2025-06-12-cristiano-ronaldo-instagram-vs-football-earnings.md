@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Much Does Ronaldo Really Earn From Instagram vs Football (2026)"
-description: "Discover Cristiano Ronaldo's real earnings from Instagram and football. See how his social media income compares to his on-field salary in 2025."
+description: "Discover Cristiano Ronaldo's real earnings from Instagram and football. See how his social media income compares to his on-field salary in 2026. Read the full story now."
 categories: [Sports, Business, Social Media]
 tags: [Cristiano Ronaldo, Instagram earnings, football salary, athlete income]
 author: ishowspeed

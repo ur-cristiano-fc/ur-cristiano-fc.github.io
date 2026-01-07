@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo & Georgina Rodríguez’s Long‑Awaited Wedding Date: What We Know So Far (2026)"
-description: "Cristiano Ronaldo wedding latest updates – confirmed Madeira venue, expected wedding date after the 2026 World Cup, engagement ring price, guest list rumours, photos and videos, all explained in simple language."
+description: "Cristiano Ronaldo wedding latest updates – confirmed Madeira venue, expected wedding date after the 2026 World Cup, engagement ring price, guest list rumours, photos and videos, all explained in simple language. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-wedding-date-madeira.webp
 afflink: https://amzn.to/43Xm4Ci

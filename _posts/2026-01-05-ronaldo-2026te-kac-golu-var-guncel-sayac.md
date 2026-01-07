@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo’nun 2026’te Kaç Golü Var? Maç Maç Güncellenen Gol Sayacı"
-description: "Ronaldo'nun 2026 hedefi ne? ronaldo’nun 2026’te kaç golü var, öğrenmek için maç maç güncellenen bu özel sayacı takip edin ve gol serüvenine tanık olun."
+description: "Ronaldo'nun 2026 hedefi ne? ronaldo’nun 2026’te kaç golü var, öğrenmek için maç maç güncellenen bu özel sayacı takip edin ve gol serüvenine tanık olun. Read the full story now."
 keywords: "ronaldo’nun 2026’te kaç golü var"
 author: ishowspeed
 image: assets/images/featured_ronaldo-2026te-kac-golu-var-guncel-sayac.webp

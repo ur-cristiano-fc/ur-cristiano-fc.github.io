@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’s Most Inspiring Speeches of All Time (2026)"
-description: "Discover Cristiano Ronaldo’s most inspiring speeches of all time. Learn how his words motivate fans, players, and aspiring athletes around the world."
+description: "Discover Cristiano Ronaldo’s most inspiring speeches of all time. Learn how his words motivate fans, players, and aspiring athletes around the world. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-inspiring-speeches.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’s Philanthropy: How He Gives Back to the World (2026)"
-description: "Explore Cristiano Ronaldo's charity work and global impact in this detailed 2025 guide covering his donations, causes, and philanthropy."
+description: "Explore Cristiano Ronaldo's charity work and global impact in this detailed 2026 guide covering his donations, causes, and philanthropy. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-charity-work.webp

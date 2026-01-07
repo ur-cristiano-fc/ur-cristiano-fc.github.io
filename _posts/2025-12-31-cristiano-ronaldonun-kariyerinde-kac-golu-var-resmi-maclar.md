@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’nun Kariyerinde Kaç Golü Var? Resmi Maçlarda Toplam Gol Sayısı"
-description: "Cristiano Ronaldo'nun kariyerinde kaç golü var? Efsanevi yıldızın resmi maçlardaki toplam gol sayısını ve kırılmaz rekorlarını keşfetmek için tıklayın."
+description: "Cristiano Ronaldo'nun kariyerinde kaç golü var? Efsanevi yıldızın resmi maçlardaki toplam gol sayısını ve kırılmaz rekorlarını keşfetmek için tıklayın. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo’nun kariyerinde kaç golü var"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldonun-kariyerinde-kac-golu-var-resmi-maclar.webp

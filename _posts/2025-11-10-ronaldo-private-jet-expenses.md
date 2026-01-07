@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo’s Private Jet Expenses: Maintenance, Crew, Fuel Costs, and Annual Budget (2026)"
-description: "A detailed breakdown of Ronaldo’s private jet expenses, including maintenance, fuel, crew salaries, insurance, and annual operating costs. Learn how Cristiano Ronaldo manages his luxurious travel lifestyle and what makes his jet a symbol of global celebrity travel."
+description: "A detailed breakdown of Ronaldo’s private jet expenses, including maintenance, fuel, crew salaries, insurance, and annual operating costs. Learn how Cristiano Ronaldo manages his luxurious travel lifestyle and what makes his jet a symbol of global celebrity travel. Updated for 2026. Read the full story now."
 category: "RonaldoJet"
 author: ishowspeed
 image: assets/images/featured_ronaldo-private-jet-expenses.webp

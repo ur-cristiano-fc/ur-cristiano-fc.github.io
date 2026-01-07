@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo 2026’te Hangi Takımda Oynuyor? Al Nassr’daki Rolü, Mevkisi ve Forma Numarası"
-description: "Ronaldo 2026'te hangi takımda oynuyor sorusunun cevabı burada! Al Nassr'daki geleceği, rolü, mevkisi ve forma numarasını hemen keşfedin."
+description: "Ronaldo 2026'te hangi takımda oynuyor sorusunun cevabı burada! Al Nassr'daki geleceği, rolü, mevkisi ve forma numarasını hemen keşfedin. Read the full story now."
 keywords: "ronaldo hangi takımda 2026’te oynuyor"
 author: ishowspeed
 image: assets/images/featured_ronaldo-2026te-hangi-takimda-oynuyor-rolu-mevkisi.webp

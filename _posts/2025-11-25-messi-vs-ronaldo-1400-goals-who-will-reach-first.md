@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Who Will Reach 1400 Goals First: Ronaldo or Messi? Full Breakdown and Predictions (2026)"
-description: "Detailed analysis of Messi vs Ronaldo goal race. Who will reach 1400 goals first? Includes total goals, assists, 2025 stats, projections, and career comparison."
+description: "Detailed analysis of Messi vs Ronaldo goal race. Who will reach 1400 goals first? Includes total goals, assists, 2026 stats, projections, and career comparison. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_messi-vs-ronaldo-1400-goals-race.webp
 afflink: https://amzn.to/43Xm4Ci

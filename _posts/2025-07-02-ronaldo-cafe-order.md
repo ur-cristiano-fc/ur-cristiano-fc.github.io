@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Would Cristiano Ronaldo Order at Your Favorite Café (2026)"
-description: "Curious what Cristiano Ronaldo would eat or drink at your favorite café? Discover his dietary habits and possible café picks."
+description: "Curious what Cristiano Ronaldo would eat or drink at your favorite café? Discover his dietary habits and possible café picks. Updated for 2026. Read the full story now."
 keywords: ["Cristiano Ronaldo", "Cristiano Ronaldo diet", "Cristiano Ronaldo café", "Cristiano Ronaldo food"]
 category: "CristianoRonaldo"
 author: ishowspeed

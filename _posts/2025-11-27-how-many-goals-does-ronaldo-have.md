@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Many Goals Does Ronaldo Have: Full Career, 2026 Update & Comparison"
-description: "Discover how many goals Cristiano Ronaldo has scored in his career—including club, international, 2025 season—and compare with Messi total goals and other key stats."
+description: "Discover how many goals Cristiano Ronaldo has scored in his career—including club, international, 2026 season—and compare with Messi total goals and other key stats. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_how-many-goals-does-ronaldo-have.webp
 afflink: https://amzn.to/4rmYEQT

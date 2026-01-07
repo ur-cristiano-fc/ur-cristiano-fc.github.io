@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’s Daughter Alana Martina: Family Life and Sweet Moments (2026)"
-description: "A detailed and heartwarming look at Cristiano Ronaldo’s daughter Alana Martina, her early life, family environment, and the role she plays within the Ronaldo family. Includes background, personal insights, and public moments shared with fans."
+description: "A detailed and heartwarming look at Cristiano Ronaldo’s daughter Alana Martina, her early life, family environment, and the role she plays within the Ronaldo family. Includes background, personal insights, and public moments shared with fans. Updated for 2026. Read the full story now."
 category: "RonaldoDaughter"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-daughter-alana-martina.webp

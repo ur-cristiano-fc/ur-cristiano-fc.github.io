@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’nun Annesi ile Yapılan Röportajlardan Hayat Dersi Gibi 20 Söz (2026)"
-description: "Cristiano Ronaldo's mother interview highlights and quotes reveal 20 powerful life lessons. Get inspired by her wisdom and resilience now!"
+description: "Cristiano Ronaldo's mother interview highlights and quotes reveal 20 powerful life lessons. Get inspired by her wisdom and resilience now! Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo mother interview highlights and quotes"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldonun-annesi-roportaj-hayat-dersi-sozler.webp

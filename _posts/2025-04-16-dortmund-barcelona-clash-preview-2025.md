@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What to Expect from Dortmund - Barcelona Clash Tonight (2026)"
-description: "Full match preview of Dortmund - Barcelona: Lineups, tactics, injuries, predictions, and more. Stay ahead of tonight’s football showdown."
+description: "Full match preview of Dortmund - Barcelona: Lineups, tactics, injuries, predictions, and more. Stay ahead of tonight’s football showdown. Updated for 2026. Read the full story now."
 keywords: ["Dortmund - Barcelona", "Barcelona", "Dortmund", "Champions League"]
 categories: [Football, Sports News, Champions League]
 tags: ["Dortmund - Barcelona", "Barcelona match", "Dortmund preview", "football 2025"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Cristiano Ronaldo’s 'UR' YouTube Channel Broke Records in 2026"
-description: "Discover how Cristiano Ronaldo’s 'UR' YouTube channel broke records, gained millions of fans, and changed influencer marketing in 2024."
+description: "Discover how Cristiano Ronaldo’s 'UR' YouTube channel broke records, gained millions of fans, and changed influencer marketing in 2026. Read the full story now."
 categories: sports
 tags: [cristiano ronaldo, youtube, ur cristiano, football, influencer, social media]
 author: ishowspeed

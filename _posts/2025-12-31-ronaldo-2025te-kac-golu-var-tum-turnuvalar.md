@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo’nun 2026’te Kaç Golü Var? Tüm Turnuvalarda Gol ve Asist Tablosu"
-description: "Ronaldo'nun 2025 yılı gol ve asist sayısını keşfedin! Tüm turnuvalardaki güncel istatistikleriyle birlikte, ronaldo’nun 2025’te kaç golü var, hemen öğrenin."
+description: "Ronaldo'nun 2026 yılı gol ve asist sayısını keşfedin! Tüm turnuvalardaki güncel istatistikleriyle birlikte, ronaldo’nun 2026’te kaç golü var, hemen öğrenin. Read the full story now."
 keywords: "ronaldo’nun 2025’te kaç golü var"
 author: ishowspeed
 image: assets/images/featured_ronaldo-2025te-kac-golu-var-tum-turnuvalar.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mbappé Kaç Gol Attı? Messi ve Ronaldo ile Gol Karşılaştırması"
-description: "Mbappé kaç gol attı? 2024-2025 sezonu, Real Madrid dönemi, kariyer toplamı ve karşılaştırmalı analiz — Mbappé, Messi ve Ronaldo ile nerede duruyor?"
+description: "Mbappé kaç gol attı? 2024-2026 sezonu, Real Madrid dönemi, kariyer toplamı ve karşılaştırmalı analiz — Mbappé, Messi ve Ronaldo ile nerede duruyor? Read the full story now."
 author: ishowspeed
 image: assets/images/featured_mbappe-kac-gol-atti-messi-ronaldo-karsilastirma.webp
 afflink: https://amzn.to/4rwVgTH

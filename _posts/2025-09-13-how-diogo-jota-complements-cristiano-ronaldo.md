@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Diogo Jota Complements Cristiano Ronaldo in Portugal’s Attack (2026)"
-description: "A detailed analysis of how Diogo Jota complements Cristiano Ronaldo in Portugal’s attack, exploring their playing styles, partnership, tactics, and impact on the national team."
+description: "A detailed analysis of how Diogo Jota complements Cristiano Ronaldo in Portugal’s attack, exploring their playing styles, partnership, tactics, and impact on the national team. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_how-diogo-jota-complements-cristiano-ronaldo.webp

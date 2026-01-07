@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo Hangi Takımda Oynuyor? 2026 Güncel Bilgiler ve Kariyer Durumu"
-description: "Cristiano Ronaldo 2025 yılında hangi takımda oynuyor? Al-Nassr, Suudi Arabistan Ligi, performans istatistikleri ve kariyer durumu hakkında detaylı inceleme."
+description: "Cristiano Ronaldo 2026 yılında hangi takımda oynuyor? Al-Nassr, Suudi Arabistan Ligi, performans istatistikleri ve kariyer durumu hakkında detaylı inceleme. Read the full story now."
 category: "Ronaldo"
 author: ishowspeed
 image: assets/images/featured_ronaldo-hangi-takimda-oynuyor-2025.webp

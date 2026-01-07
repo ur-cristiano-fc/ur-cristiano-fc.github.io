@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo’nun Annesi Konuşuyor: En Çarpıcı Röportaj Sözleri ve Hayatından Kesitler (2026)"
-description: "Cristiano Ronaldo'nun annesi Maria Dolores'in hayatına ışık tutan röportajından çarpıcı sözleri kaçırmayın. Cristiano Ronaldo mother interview highlights and..."
+description: "Cristiano Ronaldo'nun annesi Maria Dolores'in hayatına ışık tutan röportajından çarpıcı sözleri kaçırmayın. Cristiano Ronaldo mother interview highlights and.. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo mother interview highlights and quotes"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldonun-annesi-roportaj-sozleri-hayati.webp

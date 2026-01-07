@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remembering José Dinis Aveiro: Cristiano Ronaldo’s Father and His Lasting Influence (2026)"
-description: "A detailed look at the life, struggles, and lasting influence of José Dinis Aveiro, Cristiano Ronaldo's father, and how his story shaped the football legend's journey."
+description: "A detailed look at the life, struggles, and lasting influence of José Dinis Aveiro, Cristiano Ronaldo's father, and how his story shaped the football legend's journey. Updated for 2026. Read the full story now."
 category: "RonaldoFather"
 author: ishowspeed
 image: assets/images/featured_remembering-cristiano-ronaldo-father.webp

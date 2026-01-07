@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo Total Goals in 2026: Al Nassr, Portugal and Friendly Matches Compared"
-description: "Predicting ronaldo total goals in 2026 for Al Nassr, Portugal, and friendlies. Get the ultimate comparison and see if CR7 can break new records!"
+description: "Predicting ronaldo total goals in 2026 for Al Nassr, Portugal, and friendlies. Get the ultimate comparison and see if CR7 can break new records! Read the full story now."
 keywords: "ronaldo total goals in 2026"
 author: ishowspeed
 image: assets/images/featured_ronaldo-total-goals-2026-al-nassr-portugal.webp

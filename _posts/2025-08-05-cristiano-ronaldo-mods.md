@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Best Cristiano Ronaldo Mods for GTA, Minecraft & FIFA (2026)"
-description: "Explore the best Cristiano Ronaldo mods for GTA, Minecraft, and FIFA. Download top-rated custom mods to enhance your gaming experience."
+description: "Explore the best Cristiano Ronaldo mods for GTA, Minecraft, and FIFA. Download top-rated custom mods to enhance your gaming experience. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-mods.webp

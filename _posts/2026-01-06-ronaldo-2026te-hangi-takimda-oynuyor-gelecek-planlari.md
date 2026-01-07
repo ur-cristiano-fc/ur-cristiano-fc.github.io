@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo 2026’te Hangi Takımda Oynuyor? Gelecek Planları, Emeklilik Söylentileri ve Olası Transferler"
-description: "Ronaldo hangi takımda 2026’te oynuyor? Gelecek planları, emeklilik söylentileri ve olası transferleri derinlemesine inceledik. Tüm detayları öğrenin!"
+description: "Ronaldo hangi takımda 2026’te oynuyor? Gelecek planları, emeklilik söylentileri ve olası transferleri derinlemesine inceledik. Tüm detayları öğrenin! Read the full story now."
 keywords: "ronaldo hangi takımda 2026’te oynuyor"
 author: ishowspeed
 image: assets/images/featured_ronaldo-2026te-hangi-takimda-oynuyor-gelecek-planlari.webp

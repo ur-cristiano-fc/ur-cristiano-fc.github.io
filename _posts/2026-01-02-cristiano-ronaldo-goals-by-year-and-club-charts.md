@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Goals by Year and Club: Season‑by‑Season Charts and Records (2026)"
-description: "Uncover Cristiano Ronaldo total goals by year! Dive into detailed, season-by-season charts and club records for his entire career. Don't miss CR7's scoring h..."
+description: "Uncover Cristiano Ronaldo total goals by year! Dive into detailed, season-by-season charts and club records for his entire career. Don't miss CR7's scoring h.. Updated for 2026. Read the full story now."
 keywords: "cristiano ronaldo total goals by year"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-goals-by-year-and-club-charts.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Did Lionel Messi Break a Historic Record, Leaving Cristiano Ronaldo Behind (2026)"
-description: "An in-depth look at whether Lionel Messi broke a historic record and how it compares to Ronaldo's achievements, legacy, and career influence. Explore context, performance, and fan reaction."
+description: "An in-depth look at whether Lionel Messi broke a historic record and how it compares to Ronaldo's achievements, legacy, and career influence. Explore context, performance, and fan reaction. Updated for 2026. Read the full story now."
 category: "RonaldoAge"
 author: ishowspeed
 image: assets/images/featured_messi-breaks-historic-record-leaves-ronaldo-behind.webp

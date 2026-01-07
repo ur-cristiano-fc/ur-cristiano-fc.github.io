@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Invests in Perplexity AI, Announces Launch of Ronaldo Hub (2026)"
-description: "A detailed Google Discover-style article on how Cristiano Ronaldo invests in Perplexity AI and launches Ronaldo Hub. Learn how cristiano ronaldo perplexity partnership is shaping the future of sports-tech."
+description: "A detailed Google Discover-style article on how Cristiano Ronaldo invests in Perplexity AI and launches Ronaldo Hub. Learn how cristiano ronaldo perplexity partnership is shaping the future of sports-tech. Updated for 2026. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-perplexity-ai-ronaldo-hub.webp
 afflink: https://amzn.to/4iAgmfx

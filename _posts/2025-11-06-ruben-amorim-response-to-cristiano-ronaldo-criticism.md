@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruben Amorim delivers brutally honest response to Cristiano Ronaldo's savage Man United criticism (2026)"
-description: "Ruben Amorim responds forcefully to Cristiano Ronaldo's recent criticism of Manchester United. This article analyses Amorim's comments, Ronaldo's original claims, the wider context, and what it means for Man United's future."
+description: "Ruben Amorim responds forcefully to Cristiano Ronaldo's recent criticism of Manchester United. This article analyses Amorim's comments, Ronaldo's original claims, the wider context, and what it means for Man United's future. Updated for 2026. Read the full story now."
 category: "Ronaldo"
 author: ishowspeed
 image: assets/images/featured_ruben-amorim-response-to-cristiano-ronaldo-criticism.webp

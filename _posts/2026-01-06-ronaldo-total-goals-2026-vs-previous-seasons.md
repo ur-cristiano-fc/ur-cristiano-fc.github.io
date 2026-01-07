@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo Total Goals in 2026 vs Previous Seasons: Is He Still at His Peak?"
-description: "Explore Ronaldo's total goals in 2026 and compare his performance against previous seasons. Is the legend still at his peak? Get the full stats and analysis ..."
+description: "Explore Ronaldo's total goals in 2026 and compare his performance against previous seasons. Is the legend still at his peak? Get the full stats and analysis .. Read the full story now."
 keywords: "ronaldo total goals in 2026"
 author: ishowspeed
 image: assets/images/featured_ronaldo-total-goals-2026-vs-previous-seasons.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ronaldo Kaç Gol Attı Toplam? Cristiano Ronaldo’nun Gol Rekorları ve Kariyer İstatistikleri"
-description: "Cristiano Ronaldo toplam kaç gol attı? Bu detaylı makalede Ronaldo’nun kulüp, milli takım ve toplam gol istatistikleriyle kariyerinin en unutulmaz anlarını keşfedin."
+description: "Cristiano Ronaldo toplam kaç gol attı? Bu detaylı makalede Ronaldo’nun kulüp, milli takım ve toplam gol istatistikleriyle kariyerinin en unutulmaz anlarını keşfedin. Updated for 2026. Read the full story now."
 category: "CristianoRonaldo"
 author: ishowspeed
 image: assets/images/featured_ronaldo-kac-gol-atti-toplam.webp

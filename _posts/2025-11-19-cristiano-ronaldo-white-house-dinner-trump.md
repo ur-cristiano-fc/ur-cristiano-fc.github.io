@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cristiano Ronaldo Attends White House Dinner with U.S. President Donald Trump (2026)"
-description: "Cristiano Ronaldo’s high-profile appearance at the White House dinner with Donald Trump and Saudi Crown Prince Mohammed bin Salman — the full story, implications, and public reaction."  
+description: "Cristiano Ronaldo’s high-profile appearance at the White House dinner with Donald Trump and Saudi Crown Prince Mohammed bin Salman — the full story, implications, and public reaction. Updated for 2026."
 category: "RonaldoTrump"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-white-house-dinner-trump.webp
