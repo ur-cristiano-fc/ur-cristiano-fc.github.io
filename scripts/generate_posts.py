@@ -1,4 +1,4 @@
-"""Main script to generate blog posts automatically"""
+"""Main script to generate blog posts automatically with GSC indexing"""
 import os
 import random
 import time
@@ -9,15 +9,82 @@ from config import *
 from keywords_handler import get_keyword_row, parse_keyword_row, remove_keyword_from_file, get_keywords_count
 from article_generator import generate_article, generate_image_prompt
 from image_generator import generate_image_freepik
-from google_indexing import submit_to_google_indexing, check_indexing_status
 from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
 from instagram_poster import post_article_to_instagram
 
+# Import GSC automation
+try:
+    from gsc_automation_enhanced import GSCAutomation
+    HAS_GSC = True
+except ImportError:
+    print("⚠️ GSC automation not available - indexing will be skipped")
+    HAS_GSC = False
+
+
+def request_google_indexing(post_url, property_id=None):
+    """
+    Request Google Search Console indexing for the generated post
+    
+    Args:
+        post_url: Full URL of the published post
+        property_id: GSC property ID (if None, will be generated from SITE_DOMAIN)
+        
+    Returns:
+        True if indexing requested successfully, False otherwise
+    """
+    
+    if not HAS_GSC:
+        print("⚠️ GSC automation not available")
+        return False
+    
+    print(f"\n{'='*60}")
+    print("🔍 Requesting Google Search Console Indexing")
+    print("="*60)
+    
+    try:
+        # Initialize GSC bot (headless mode for automation)
+        bot = GSCAutomation(headless=True)
+        
+        # Generate property ID if not provided
+        if not property_id:
+            property_id = bot.get_property_id(SITE_DOMAIN, use_domain_property=False)
+            print(f"📋 Using property ID: {property_id}")
+        
+        # Wait 30 seconds before indexing (as requested)
+        print(f"⏳ Waiting 30 seconds before requesting indexing...")
+        time.sleep(30)
+        
+        # Submit URL for indexing
+        print(f"🚀 Submitting URL: {post_url}")
+        result = bot.submit_url(post_url, property_id, max_retries=3)
+        
+        # Close browser
+        bot.close()
+        
+        if result is True:
+            print("✅ Successfully requested indexing from Google!")
+            return True
+        elif result == 'quota_reached':
+            print("⚠️ GSC quota reached - indexing will be attempted later")
+            return False
+        elif result == 'already_requested':
+            print("ℹ️ URL already has pending indexing request")
+            return True
+        else:
+            print("❌ Failed to request indexing")
+            return False
+            
+    except Exception as e:
+        print(f"❌ GSC indexing error: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
 
 def main():
     print("=" * 60)
-    print("🚀 Starting Blog Post Generator")
+    print("🚀 Starting Blog Post Generator with Auto-Indexing")
     print("=" * 60)
     
     # Verify environment variables
@@ -35,6 +102,12 @@ def main():
     print("✅ GOOGLE_SEARCH_API_KEY found")
     print("✅ GOOGLE_SEARCH_ENGINE_ID found")
     
+    # Check for GSC automation
+    if HAS_GSC:
+        print("✅ GSC automation available - auto-indexing enabled")
+    else:
+        print("⚠️ GSC automation not available - indexing will be skipped")
+    
     # Check for Instagram credentials (optional)
     instagram_enabled = bool(os.environ.get('INSTAGRAM_USERNAME') and os.environ.get('INSTAGRAM_PASSWORD'))
     if instagram_enabled:
@@ -48,6 +121,7 @@ def main():
     print(f"📋 Keywords available: {keywords_count}")
     
     posts_generated = 0
+    urls_to_index = []  # Collect URLs for batch indexing
     
     for post_num in range(1, POSTS_PER_RUN + 1):
         print(f"\n{'=' * 60}")
@@ -144,10 +218,13 @@ def main():
             
             posts_generated += 1
             
+            # Add URL to indexing queue
+            urls_to_index.append(post_url)
+            
             # Step 4: Additional processing (social media, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
-                # Step 4a: Post to Instagram
+                # Step 4a: Post to Instagram (optional)
                 # if instagram_enabled:
                 #     print(f"\n{'=' * 60}")
                 #     print("Step 4a: Posting to Instagram")
@@ -173,7 +250,7 @@ def main():
                 print("Step 4b: Logging to Google Sheets")
                 print("=" * 60)
                 
-                indexing_status = "Pending"  # Set default status
+                indexing_status = "Pending"  # Will be updated after GSC indexing
                 
                 try:
                     log_to_google_sheets(
@@ -207,12 +284,59 @@ def main():
             traceback.print_exc()
             continue
     
+    # Step 6: Request Google Search Console indexing for all generated posts
+    if urls_to_index and HAS_GSC:
+        print(f"\n{'=' * 60}")
+        print("Step 6: Requesting Google Search Console Indexing")
+        print("=" * 60)
+        print(f"📋 URLs to index: {len(urls_to_index)}")
+        
+        try:
+            # Initialize GSC bot once for all URLs
+            bot = GSCAutomation(headless=True)
+            property_id = bot.get_property_id(SITE_DOMAIN, use_domain_property=False)
+            
+            # Wait 30 seconds before first indexing request
+            print(f"⏳ Waiting 30 seconds before requesting indexing...")
+            time.sleep(30)
+            
+            # Submit all URLs for indexing
+            results = bot.batch_submit(
+                urls_to_index,
+                property_id,
+                delay=15  # 15 seconds between requests
+            )
+            
+            # Update Google Sheets with indexing status
+            success_count = len(results.get('success', []))
+            if success_count > 0:
+                print(f"✅ Successfully requested indexing for {success_count} URLs")
+                
+                # Optional: Update Google Sheets with "Indexed" status
+                # This would require modifying google_sheets_logger.py to support updates
+                
+            bot.close()
+            
+        except Exception as e:
+            print(f"⚠️ GSC batch indexing failed (non-critical): {e}")
+            import traceback
+            traceback.print_exc()
+    
+    elif urls_to_index and not HAS_GSC:
+        print(f"\n⚠️ GSC automation not available - skipping indexing for {len(urls_to_index)} URLs")
+        print("   URLs that need indexing:")
+        for url in urls_to_index:
+            print(f"   - {url}")
+    
     # Final summary
     print(f"\n{'=' * 60}")
     print("🎉 WORKFLOW COMPLETE")
     print("=" * 60)
     print(f"✅ Posts generated: {posts_generated}")
     print(f"📊 Keywords remaining: {get_keywords_count()}")
+    
+    if urls_to_index:
+        print(f"🔍 URLs submitted for indexing: {len(urls_to_index)}")
     
     if posts_generated == 0:
         print(f"\n⚠️ No posts were generated this run")

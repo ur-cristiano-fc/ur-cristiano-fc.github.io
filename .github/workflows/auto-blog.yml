@@ -1,9 +1,9 @@
-name: Gemini AI Auto Blog Publisher
+name: Gemini AI Auto Blog Publisher with GSC Indexing
 on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "0 */23 * * *"
+    - cron: "0 */23 * * *"  # Every 23 hours
   workflow_dispatch:
 
 jobs:
@@ -20,22 +20,82 @@ jobs:
         with:
           python-version: "3.10"
       
+      # ===================================================================
+      # RESTORE CHROME PROFILE FROM GITHUB ACTIONS CACHE (SECURE!)
+      # This keeps your login cookies private even in public repos
+      # ===================================================================
+      - name: Restore Chrome Profile from Cache
+        id: cache-chrome-profile
+        uses: actions/cache@v3
+        with:
+          path: chrome_profile
+          key: gsc-chrome-profile-${{ github.repository }}
+          restore-keys: |
+            gsc-chrome-profile-
+      
+      - name: Check Chrome Profile Status
+        run: |
+          if [ -d "chrome_profile" ]; then
+            echo "✅ Chrome profile loaded from cache"
+            ls -lah chrome_profile/ | head -5
+          else
+            echo "⚠️  Chrome profile not found in cache"
+            echo "    You need to set this up once - see instructions below"
+            echo ""
+            echo "📋 First-time setup instructions:"
+            echo "1. Run locally: python scripts/first_time_gsc_login.py"
+            echo "2. This creates chrome_profile/ folder"
+            echo "3. Manually upload chrome_profile/ to GitHub Actions cache:"
+            echo "   - Go to Actions tab"
+            echo "   - Run 'Setup Chrome Profile' workflow"
+            echo "   - This will cache your profile securely"
+          fi
+      
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra
+          
+          # Install Chrome for Selenium (GSC automation)
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          
+          echo "✅ Chrome installed successfully"
+          google-chrome --version
       
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
           pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi
+          
+          # Install Selenium and webdriver-manager for GSC automation
+          pip install selenium webdriver-manager
+          
+          echo "✅ All dependencies installed"
       
       - name: Verify environment
         run: |
+          echo "=== Python Version ==="
           python --version
-          pip list | grep -E "(pillow|requests|google-genai|instagrapi)"
+          echo ""
+          echo "=== Chrome Version ==="
+          google-chrome --version
+          echo ""
+          echo "=== Chrome Profile Status ==="
+          if [ -d "chrome_profile" ]; then
+            echo "✅ chrome_profile exists (loaded from cache)"
+          else
+            echo "⚠️  chrome_profile not found - GSC indexing will be skipped"
+          fi
       
-      - name: Generate blog post
+      - name: Create Chrome profile directory (if not cached)
+        run: |
+          mkdir -p ./chrome_profile
+          echo "Chrome profile directory ready"
+      
+      - name: Generate blog post with GSC indexing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FREEPIK_API_KEY: ${{ secrets.FREEPIK_API_KEY }}
@@ -56,7 +116,19 @@ jobs:
           WEBPUSHR_API_KEY: ${{ secrets.WEBPUSHR_API_KEY }}
           WEBPUSHR_AUTH_TOKEN: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
         run: |
+          echo "🚀 Starting blog post generation with GSC indexing"
           python scripts/generate_posts.py
+      
+      # ===================================================================
+      # SAVE UPDATED CHROME PROFILE BACK TO CACHE
+      # This preserves the session for next run
+      # ===================================================================
+      - name: Save Chrome Profile to Cache
+        if: always()
+        uses: actions/cache/save@v3
+        with:
+          path: chrome_profile
+          key: gsc-chrome-profile-${{ github.repository }}-${{ github.run_id }}
       
       - name: Verify generated files
         run: |
@@ -65,19 +137,17 @@ jobs:
           echo ""
           echo "🖼️ Generated images:"
           ls -lh assets/images/ | tail -5
+          echo ""
+          echo "📸 Debug screenshots (if any):"
+          ls -lh debug_*.png 2>/dev/null || echo "No debug screenshots"
       
-      - name: Debug files
-        run: |
-          echo "=== Working Directory ==="
-          pwd
-          ls -la
-          echo ""
-          echo "=== Posts Directory ==="
-          ls -lah _posts/ | tail -10
-          echo ""
-          echo "=== Images Directory ==="
-          ls -lah assets/images/ | tail -10
-          echo ""
+      - name: Upload screenshots as artifacts (for debugging)
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: gsc-screenshots
+          path: debug_*.png
+          if-no-files-found: ignore
       
       - name: Commit & Push changes
         run: |
@@ -87,17 +157,23 @@ jobs:
           # Pull latest changes first to avoid conflicts
           git pull --rebase origin master || echo "Already up to date"
           
-          # Add everything
-          git add .
+          # Add everything (posts, images, GSC progress) - but NOT chrome_profile
+          git add _posts/ assets/ gsc_progress.json 2>/dev/null || true
           
           # Show status
+          echo "=== Git Status ==="
           git status
+          echo ""
           
           # Commit if there are changes
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d')"
+            COMMIT_MSG="🤖 Auto-post with GSC indexing: $(date +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "$COMMIT_MSG"
+            
+            echo "📤 Pushing changes..."
             git push origin master
-            echo "✅ Changes pushed"
+            
+            echo "✅ Changes pushed successfully"
           else
-            echo "⚠️ No changes to commit"
+            echo "ℹ️  No changes to commit"
           fi
