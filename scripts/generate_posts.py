@@ -11,7 +11,6 @@ from article_generator import generate_article, generate_image_prompt
 from image_generator import generate_image_freepik
 from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
-from instagram_poster import post_article_to_instagram
 
 # Import GSC automation
 try:
