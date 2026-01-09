@@ -4,3 +4,6 @@
 .sass-cache
 _site
 Gemfile.lock
+chrome_profile/
+debug_*.png
+gsc_progress.json
