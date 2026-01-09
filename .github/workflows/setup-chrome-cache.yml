@@ -1,0 +1,61 @@
+# Save this as .github/workflows/setup-chrome-cache.yml
+# Run this ONCE after creating chrome_profile locally
+
+name: Setup Chrome Profile Cache (One-Time)
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  setup-cache:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Verify chrome_profile exists
+        run: |
+          if [ ! -d "chrome_profile" ]; then
+            echo "❌ ERROR: chrome_profile directory not found!"
+            echo ""
+            echo "📋 Steps to fix:"
+            echo "1. Run locally: python3 scripts/first_time_gsc_login.py"
+            echo "2. This creates chrome_profile/ folder"
+            echo "3. Push chrome_profile to repo TEMPORARILY:"
+            echo "   git add -f chrome_profile/"
+            echo "   git commit -m 'temp: add chrome profile for cache setup'"
+            echo "   git push"
+            echo "4. Run this workflow"
+            echo "5. Then remove chrome_profile from git:"
+            echo "   git rm -r --cached chrome_profile/"
+            echo "   git commit -m 'Remove chrome_profile (now in cache)'"
+            echo "   git push"
+            exit 1
+          fi
+          
+          echo "✅ chrome_profile directory found"
+          echo "📊 Contents:"
+          ls -lah chrome_profile/ | head -20
+          echo ""
+          echo "📦 Size:"
+          du -sh chrome_profile/
+      
+      - name: Save Chrome Profile to Cache
+        uses: actions/cache/save@v3
+        with:
+          path: chrome_profile
+          key: gsc-chrome-profile-v2
+      
+      - name: Success Message
+        run: |
+          echo "✅ Chrome profile cached successfully!"
+          echo ""
+          echo "📋 Next steps:"
+          echo "1. Remove chrome_profile from git (it's now in cache):"
+          echo "   git rm -r --cached chrome_profile/"
+          echo "   git commit -m 'Remove chrome_profile (now in Actions cache)'"
+          echo "   git push"
+          echo ""
+          echo "2. Your main workflow will now use the cached profile!"
+          echo "3. You can delete this setup workflow file if you want"

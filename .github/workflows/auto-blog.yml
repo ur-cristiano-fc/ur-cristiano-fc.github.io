@@ -170,16 +170,32 @@ jobs:
           # Pull latest changes first
           git pull --rebase origin master || echo "Already up to date"
           
-          # Add generated content (NOT chrome_profile - that's cached separately)
-          git add _posts/ assets/ gsc_progress.json 2>/dev/null || true
+          # IMPORTANT: Exclude chrome_profile from git tracking
+          # Add to .gitignore if not already there
+          if ! grep -q "chrome_profile/" .gitignore 2>/dev/null; then
+            echo "chrome_profile/" >> .gitignore
+            echo "debug_*.png" >> .gitignore
+            echo "gsc_progress.json" >> .gitignore
+            git add .gitignore
+          fi
+          
+          # Only add generated content (posts and images)
+          # DO NOT add chrome_profile - it's cached separately
+          git add _posts/*.md 2>/dev/null || true
+          git add assets/images/*.webp 2>/dev/null || true
+          git add assets/images/*.jpg 2>/dev/null || true
+          git add assets/images/*.png 2>/dev/null || true
           
           # Show what will be committed
           echo "=== Git Status ==="
           git status
           echo ""
+          echo "=== Files to commit ==="
+          git diff --cached --name-only
+          echo ""
           
           # Commit if there are changes
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git diff --cached --name-only)" ]; then
             COMMIT_MSG="🤖 Auto-post with GSC indexing: $(date +'%Y-%m-%d %H:%M UTC')"
             git commit -m "$COMMIT_MSG"
             
