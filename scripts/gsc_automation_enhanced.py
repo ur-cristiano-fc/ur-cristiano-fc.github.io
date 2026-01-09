@@ -86,7 +86,7 @@ class GSCAutomation:
         Get the property ID for GSC
         
         Args:
-            domain: Your domain (e.g., "langchain-tutorials.github.io" or "https://langchain-tutorials.github.io/")
+            domain: Your domain (e.g., "ur-cristiano-fc.github.io" or "https://ur-cristiano-fc.github.io/")
             use_domain_property: If True, use domain property (sc-domain:), else use URL prefix
         """
         if use_domain_property:
@@ -338,171 +338,81 @@ class GSCAutomation:
                 
                 print(f"\n[Attempt {attempt + 1}/{max_retries}] Processing: {url}")
                 
-                # Step 1: Go to the property's URL inspection page
-                base_url = f"https://search.google.com/u/0/search-console?resource_id={property_id}"
-                print(f"Opening property: {base_url}")
-                self.driver.get(base_url)
+                # Step 1: Go directly to URL inspection page with the URL
+                # This is more reliable than searching for the input box
+                encoded_url = urllib.parse.quote(url, safe='')
+                inspection_url = f"https://search.google.com/search-console/inspect?resource_id={property_id}&url={encoded_url}"
                 
-                print("⏳ Waiting for property page to load...")
-                time.sleep(5)
+                print(f"Opening URL inspection directly: {inspection_url}")
+                self.driver.get(inspection_url)
                 
-                # Step 2: Navigate to URL inspection
-                print("Navigating to URL inspection...")
+                print("⏳ Waiting for inspection page to load...")
+                time.sleep(15)  # Give it more time to load
                 
-                # Try to find the search box to inspect URL
-                search_selectors = [
-                    "//input[contains(@placeholder, 'Inspect any URL')]",
-                    "//input[contains(@aria-label, 'Inspect')]",
-                    "//input[@type='text']",
-                ]
-                
-                search_box = None
-                for selector in search_selectors:
-                    search_box = self.wait_for_element(selector, timeout=10)
-                    if search_box:
-                        print("✅ Found URL inspection search box")
-                        break
-                
-                if not search_box:
-                    print("❌ Could not find URL inspection search box")
-                    continue
-                
-                # Step 3: Enter the URL to inspect
-                print(f"Entering URL: {url}")
-                search_box.clear()
-                search_box.send_keys(url)
-                time.sleep(1)
-                search_box.send_keys(Keys.RETURN)
-                
-                print("⏳ Waiting for URL inspection to load...")
-                time.sleep(10)
-                
-                # Take a screenshot for debugging
-                timestamp = int(time.time())
-                screenshot_path = f"debug_inspection_{timestamp}.png"
-                self.driver.save_screenshot(screenshot_path)
-                print(f"📸 Screenshot saved: {screenshot_path}")
-                
-                # Step 4: Wait for inspection results
-                print("⏳ Waiting for inspection results...")
-                
-                # Wait for the page to show results
-                result_element = self.wait_for_element(
-                    "//*[contains(text(), 'URL is not on Google') or contains(text(), 'URL is on Google')]",
-                    timeout=15
-                )
-                
-                if result_element:
-                    print("✅ Inspection results loaded")
-                else:
-                    print("⚠️ Could not confirm inspection loaded, continuing anyway...")
-                
-                time.sleep(3)
-                
-                # Check for errors before proceeding
-                error_type = self.check_for_errors()
-                if error_type:
-                    print(f"⚠️ Error detected: {error_type}")
-                    if error_type in ['quota', 'limit']:
-                        return 'quota_reached'
-                    elif error_type == 'already_requested':
-                        print("ℹ️ URL already has pending indexing request")
-                        return 'already_requested'
-                
-                # Scroll down to ensure element is visible
-                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(2)
-                
-                # Step 5: Find and click "REQUEST INDEXING" text
-                print("Looking for 'Request Indexing' button...")
-                
-                element_found = False
-                
-                # Case-insensitive search for "request indexing"
-                selectors = [
-                    "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'request indexing')]",
-                    "//*[contains(text(), 'Request indexing')]",
-                    "//*[contains(text(), 'REQUEST INDEXING')]",
-                    "//*[contains(text(), 'Request Indexing')]",
-                ]
-                
-                for selector in selectors:
-                    try:
-                        elements = self.driver.find_elements(By.XPATH, selector)
-                        
-                        for element in elements:
-                            try:
-                                # Check if element is visible and clickable
-                                if element.is_displayed() and element.is_enabled():
-                                    # Scroll to element
-                                    self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
-                                    time.sleep(1)
-                                    
-                                    print(f"✅ Found clickable element with text: '{element.text}'")
-                                    
-                                    # Click using JavaScript (most reliable)
-                                    self.driver.execute_script("arguments[0].click();", element)
-                                    element_found = True
-                                    print("✅ Clicked 'Request Indexing' button")
-                                    break
-                            except Exception as e:
-                                continue
-                        
-                        if element_found:
-                            break
-                            
-                    except Exception as e:
-                        continue
-                
-                if not element_found:
-                    print("❌ Could not find clickable 'Request Indexing' element")
-                    self._debug_page_elements()
-                    continue
-                
-                # Step 6: WAIT FOR INDEXING PROCESS TO COMPLETE (NO TIMEOUT)
-                print("\n" + "="*60)
-                print("⏳ WAITING FOR INDEXING PROCESS TO COMPLETE")
-                print("(Will wait as long as needed until process finishes)")
-                print("="*60)
-                
-                indexing_success = self.wait_for_indexing_completion()
-                
-                print("✅ SUCCESS: Indexing request confirmed and completed!")
-                
-                # Take screenshot of success message
-                success_screenshot = f"debug_success_{timestamp}.png"
-                self.driver.save_screenshot(success_screenshot)
-                print(f"📸 Success screenshot saved: {success_screenshot}")
-                
-                # Step 7: Wait 5 seconds, then click Dismiss button
-                print("\n⏳ Waiting 5 seconds before dismissing...")
-                time.sleep(5)
-                
-                dismiss_clicked = self.click_dismiss_button()
-                
-                if dismiss_clicked:
-                    print("✅ Dismiss button clicked")
-                    # Wait another 5 seconds after dismissing
-                    print("⏳ Waiting 5 seconds after dismiss...")
-                    time.sleep(5)
-                else:
-                    print("⚠️ Could not find Dismiss button (may have auto-closed)")
-                    time.sleep(2)
-                
-                # Take final screenshot
-                final_screenshot = f"debug_final_{timestamp}.png"
-                self.driver.save_screenshot(final_screenshot)
-                print(f"📸 Final screenshot saved: {final_screenshot}")
-                
-                return True
+                # Alternative: If direct URL doesn't work, try the old method
+                if "inspect" not in self.driver.current_url.lower():
+                    print("📍 Direct URL didn't work, trying navigation method...")
                     
-            except Exception as e:
-                print(f"❌ Error: {str(e)}")
-                if attempt >= max_retries - 1:
-                    return False
-        
-        return False
-    
+                    base_url = f"https://search.google.com/u/0/search-console?resource_id={property_id}"
+                    print(f"Opening property: {base_url}")
+                    self.driver.get(base_url)
+                    
+                    print("⏳ Waiting for property page to load...")
+                    time.sleep(5)
+                    
+                    # Try to find the search box to inspect URL
+                    print("Looking for URL inspection search box...")
+                    search_selectors = [
+                        "//input[contains(@placeholder, 'Inspect any URL')]",
+                        "//input[contains(@aria-label, 'Inspect')]",
+                        "//input[contains(@placeholder, 'Inspect')]",
+                        "//input[@type='search']",
+                        "//input[@type='text' and contains(@class, 'search')]",
+                        "//input[@role='combobox']",
+                    ]
+                    
+                    search_box = None
+                    for selector in search_selectors:
+                        try:
+                            elements = self.driver.find_elements(By.XPATH, selector)
+                            for elem in elements:
+                                if elem.is_displayed() and elem.is_enabled():
+                                    search_box = elem
+                                    print(f"✅ Found search box with selector: {selector}")
+                                    break
+                            if search_box:
+                                break
+                        except:
+                            continue
+                    
+                    if not search_box:
+                        print("❌ Could not find URL inspection search box")
+                        # Debug: print page source snippet
+                        print("📄 Checking page for input elements...")
+                        try:
+                            all_inputs = self.driver.find_elements(By.XPATH, "//input")
+                            print(f"Found {len(all_inputs)} input elements on page")
+                            for inp in all_inputs[:5]:
+                                try:
+                                    print(f"  Input: type={inp.get_attribute('type')}, placeholder={inp.get_attribute('placeholder')}, visible={inp.is_displayed()}")
+                                except:
+                                    pass
+                        except Exception as e:
+                            print(f"Debug error: {e}")
+                        continue
+                    
+                    # Enter the URL to inspect
+                    print(f"Entering URL: {url}")
+                    search_box.clear()
+                    time.sleep(0.5)
+                    search_box.send_keys(url)
+                    time.sleep(1)
+                    search_box.send_keys(Keys.RETURN)
+                    
+                    print("⏳ Waiting for URL inspection to load...")
+                    time.sleep(10)
+
+    # Step 2: Wait for the Request Indexing button
     def _debug_page_elements(self):
         """Debug helper to find relevant elements on page"""
         print("Searching page for any text containing 'request' or 'indexing'...")
