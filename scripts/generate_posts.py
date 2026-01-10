@@ -12,7 +12,6 @@ from image_generator import generate_image_freepik
 from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
 
-# Import GSC automation
 
 
 def main():
@@ -177,7 +176,6 @@ def main():
                 print("Step 4b: Logging to Google Sheets")
                 print("=" * 60)
                 
-                indexing_status = "Pending"  # Will be updated after GSC indexing
                 
                 try:
                     log_to_google_sheets(
