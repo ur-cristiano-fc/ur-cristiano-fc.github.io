@@ -115,7 +115,7 @@ jobs:
       
       - name: Upload debug screenshots (if available)
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gsc-debug-screenshots
           path: debug_*.png
