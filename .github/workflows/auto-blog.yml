@@ -78,10 +78,7 @@ jobs:
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
           
-          # Pull latest changes first to avoid conflicts
-          git pull --rebase origin master || echo "Already up to date"
-          
-          # Add everything
+          # Add everything first
           git add .
           
           # Show status
@@ -90,8 +87,32 @@ jobs:
           # Commit if there are changes
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin master
-            echo "✅ Changes pushed"
+            
+            # Try to push with retry logic
+            max_retries=5
+            retry_count=0
+            
+            while [ $retry_count -lt $max_retries ]; do
+              echo "📤 Attempting to push (attempt $((retry_count + 1))/$max_retries)..."
+              
+              # Pull with rebase first
+              git pull --rebase origin master || {
+                echo "⚠️  Pull failed, trying to continue..."
+              }
+              
+              # Try to push
+              if git push origin master; then
+                echo "✅ Changes pushed successfully!"
+                exit 0
+              else
+                echo "⚠️  Push failed, retrying in 5 seconds..."
+                retry_count=$((retry_count + 1))
+                sleep 5
+              fi
+            done
+            
+            echo "❌ Failed to push after $max_retries attempts"
+            exit 1
           else
             echo "⚠️ No changes to commit"
           fi
