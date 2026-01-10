@@ -1,0 +1,43 @@
+
+✅ SESSION SAVED SUCCESSFULLY!
+
+╔════════════════════════════════════════════════════════════╗
+║              ADD TO GITHUB SECRETS                         ║
+╚════════════════════════════════════════════════════════════╝
+
+1. Open file: gsc_cookies_base64.txt
+
+2. Copy ALL content (Ctrl+A → Ctrl+C or Cmd+A → Cmd+C)
+
+3. Go to GitHub:
+   Your Repo → Settings → Secrets and variables → Actions
+
+4. Click "New repository secret"
+
+5. Add:
+   Name:  GSC_COOKIES_BASE64
+   Value: [paste the copied content]
+
+6. Click "Add secret"
+
+
+╔════════════════════════════════════════════════════════════╗
+║                 REFRESH SESSION (Future)                   ║
+╚════════════════════════════════════════════════════════════╝
+
+When automation stops working (after ~60 days):
+1. Run this script again
+2. Login manually
+3. Update the GSC_COOKIES_BASE64 secret with new value
+
+
+╔════════════════════════════════════════════════════════════╗
+║                    YOU'RE DONE!                            ║
+╚════════════════════════════════════════════════════════════╝
+
+Your GitHub Actions workflow will now automatically:
+✓ Generate blog posts
+✓ Submit them to Google Search Console
+✓ Handle indexing requests
+
+No manual work needed! 🎉

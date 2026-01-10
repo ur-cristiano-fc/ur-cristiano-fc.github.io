@@ -1,156 +1,281 @@
-"""First-time GSC login helper script
-
-Run this ONCE on your local machine to save GSC login credentials.
-Then commit and push the chrome_profile folder to GitHub.
-
-Usage:
-    python scripts/first_time_gsc_login.py
+"""
+First-time GSC Login Script - Simple Selenium Version
+No SSL issues, works on all platforms
 """
 
-import sys
 import os
-
-# Add scripts directory to path
-sys.path.insert(0, os.path.dirname(__file__))
-
+import time
+import json
+import base64
+from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-def setup_undetected_chrome(profile_path="./chrome_profile"):
-    """
-    Setup Chrome with options to avoid detection as automated browser
-    """
-    options = Options()
+class GSCFirstTimeLogin:
+    """Handle first-time login with regular Selenium"""
     
-    # Use existing profile or create new one
-    options.add_argument(f"user-data-dir={profile_path}")
+    def __init__(self, profile_dir="./gsc_chrome_profile"):
+        self.profile_dir = Path(profile_dir)
+        self.driver = None
+        
+    def setup_driver(self):
+        """Setup Chrome with persistent profile"""
+        # Create profile directory if it doesn't exist
+        self.profile_dir.mkdir(parents=True, exist_ok=True)
+        
+        print("🌐 Opening Chrome browser...")
+        
+        options = Options()
+        options.add_argument(f"--user-data-dir={self.profile_dir.absolute()}")
+        
+        # Anti-bot detection (basic)
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+        
+        # Add realistic user agent
+        options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        
+        service = Service(ChromeDriverManager().install())
+        self.driver = webdriver.Chrome(service=service, options=options)
+        
+        # Hide webdriver flag
+        self.driver.execute_cdp_cmd('Network.setUserAgentOverride', {
+            "userAgent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        })
+        self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        
+        self.driver.maximize_window()
+        print("✅ Browser ready!")
+        
+    def perform_manual_login(self):
+        """Guide user through manual login with 2FA"""
+        print("\n" + "="*60)
+        print("🔐 MANUAL LOGIN REQUIRED")
+        print("="*60)
+        
+        print("\n💡 TIP: If Google blocks you with 'This browser is not secure':")
+        print("   1. Click 'Try again'")
+        print("   2. Or use 'Sign in with a different account'")
+        print("   3. Complete the security checks")
+        print("\nOpening Google Search Console...\n")
+        
+        # Navigate to GSC
+        self.driver.get("https://search.google.com/search-console")
+        
+        print("="*60)
+        print("📋 INSTRUCTIONS:")
+        print("="*60)
+        print("1. Login with your Google account")
+        print("2. Complete any security checks (2FA, CAPTCHA, etc.)")
+        print("3. Make sure you reach the GSC dashboard")
+        print("4. You should see your properties listed")
+        print("="*60)
+        
+        input("\n⏸️  Press ENTER after you've successfully logged in and see the GSC dashboard: ")
+        
+        # Verify we're logged in
+        current_url = self.driver.current_url
+        
+        if "search.google.com/search-console" in current_url:
+            print("✅ Login verified! You're on Google Search Console")
+            return True
+        else:
+            print(f"⚠️  Current URL: {current_url}")
+            confirm = input("Are you sure you're logged in and on GSC? (y/n): ")
+            return confirm.lower() == 'y'
     
-    # IMPORTANT: These flags help avoid "This browser may not be secure" error
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
+    def verify_session(self):
+        """Verify the session works"""
+        print("\n" + "="*60)
+        print("🔍 VERIFYING SESSION PERSISTENCE")
+        print("="*60)
+        
+        # Close and reopen browser
+        print("Closing browser...")
+        self.driver.quit()
+        time.sleep(2)
+        
+        print("Reopening browser with saved profile...")
+        self.setup_driver()
+        
+        print("Navigating to GSC...")
+        self.driver.get("https://search.google.com/search-console")
+        time.sleep(5)
+        
+        current_url = self.driver.current_url
+        
+        if "search.google.com/search-console" in current_url and "signin" not in current_url.lower():
+            print("✅ Session verified! Auto-login works!")
+            return True
+        else:
+            print(f"⚠️  Session verification failed")
+            print(f"   Current URL: {current_url}")
+            return False
     
-    # Additional flags for better compatibility
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--start-maximized")
+    def save_cookies_json(self):
+        """Save cookies as JSON"""
+        print("\n" + "="*60)
+        print("🍪 SAVING COOKIES")
+        print("="*60)
+        
+        try:
+            cookies = self.driver.get_cookies()
+            
+            # Save cookies to JSON
+            cookies_file = "gsc_cookies.json"
+            with open(cookies_file, 'w') as f:
+                json.dump(cookies, f, indent=2)
+            
+            # Save as base64
+            cookies_json = json.dumps(cookies)
+            cookies_base64 = base64.b64encode(cookies_json.encode()).decode()
+            
+            cookies_base64_file = "gsc_cookies_base64.txt"
+            with open(cookies_base64_file, 'w') as f:
+                f.write(cookies_base64)
+            
+            print(f"✅ Cookies saved to: {cookies_file}")
+            print(f"✅ Cookies (base64) saved to: {cookies_base64_file}")
+            print(f"📊 Size: {len(cookies_base64):,} characters")
+            
+            if len(cookies_base64) > 64000:
+                print(f"⚠️  Cookies too large for GitHub Secrets ({len(cookies_base64):,} > 64,000)")
+                return False
+            else:
+                print(f"✅ Size OK for GitHub Secrets!")
+                return True
+                
+        except Exception as e:
+            print(f"❌ Cookie export failed: {e}")
+            import traceback
+            traceback.print_exc()
+            return False
     
-    # Set a real user agent
-    options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    def generate_instructions(self):
+        """Generate setup instructions"""
+        print("\n" + "="*60)
+        print("📚 NEXT STEPS")
+        print("="*60)
+        
+        instructions = """
+✅ SESSION SAVED SUCCESSFULLY!
+
+╔════════════════════════════════════════════════════════════╗
+║              ADD TO GITHUB SECRETS                         ║
+╚════════════════════════════════════════════════════════════╝
+
+1. Open file: gsc_cookies_base64.txt
+
+2. Copy ALL content (Ctrl+A → Ctrl+C or Cmd+A → Cmd+C)
+
+3. Go to GitHub:
+   Your Repo → Settings → Secrets and variables → Actions
+
+4. Click "New repository secret"
+
+5. Add:
+   Name:  GSC_COOKIES_BASE64
+   Value: [paste the copied content]
+
+6. Click "Add secret"
+
+
+╔════════════════════════════════════════════════════════════╗
+║                 REFRESH SESSION (Future)                   ║
+╚════════════════════════════════════════════════════════════╝
+
+When automation stops working (after ~60 days):
+1. Run this script again
+2. Login manually
+3. Update the GSC_COOKIES_BASE64 secret with new value
+
+
+╔════════════════════════════════════════════════════════════╗
+║                    YOU'RE DONE!                            ║
+╚════════════════════════════════════════════════════════════╝
+
+Your GitHub Actions workflow will now automatically:
+✓ Generate blog posts
+✓ Submit them to Google Search Console
+✓ Handle indexing requests
+
+No manual work needed! 🎉
+"""
+        print(instructions)
+        
+        # Save to file
+        with open("GITHUB_SETUP_INSTRUCTIONS.txt", 'w') as f:
+            f.write(instructions)
+        
+        print("📄 Instructions saved to: GITHUB_SETUP_INSTRUCTIONS.txt")
     
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
-    
-    # Execute CDP commands to further hide automation
-    driver.execute_cdp_cmd('Network.setUserAgentOverride', {
-        "userAgent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    })
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    
-    return driver
+    def close(self):
+        """Close browser"""
+        if self.driver:
+            self.driver.quit()
 
 
 def main():
+    """Main execution"""
     print("="*60)
-    print("🔐 Google Search Console First-Time Login")
+    print("🚀 GSC First-Time Login Setup")
     print("="*60)
-    print()
-    print("This script will:")
-    print("1. Open Chrome browser (with anti-detection)")
-    print("2. Navigate to Google Search Console")
-    print("3. Wait for you to log in manually")
-    print("4. Save your login session to ./chrome_profile")
-    print()
-    print("⚠️  IMPORTANT:")
-    print("- Use a Google account that has access to your GSC property")
-    print("- Complete 2FA/CAPTCHA if prompted")
-    print("- Chrome will look like a normal browser (not automated)")
-    print("- After login, you'll need to commit and push the chrome_profile folder")
-    print("- Make sure your repo is PRIVATE (chrome_profile contains session cookies)")
-    print()
+    print("\nThis script will:")
+    print("  1. Open Chrome browser")
+    print("  2. Let you login to GSC manually")
+    print("  3. Save your authenticated session")
+    print("  4. Export cookies for GitHub Actions")
+    print("\n" + "="*60)
     
-    response = input("Ready to proceed? (y/n): ")
-    if response.lower() != 'y':
-        print("❌ Cancelled")
-        return
+    input("Press ENTER to begin...")
     
-    print("\n🚀 Starting browser with anti-detection...")
+    login_manager = GSCFirstTimeLogin()
     
-    driver = None
     try:
-        # Setup Chrome with anti-detection
-        driver = setup_undetected_chrome(profile_path="./chrome_profile")
+        # Step 1: Open browser and login
+        login_manager.setup_driver()
         
-        print("✅ Chrome started successfully")
-        print("📱 Opening Google Search Console...")
+        if not login_manager.perform_manual_login():
+            print("\n❌ Login failed or was cancelled")
+            return
         
-        driver.get("https://search.google.com/search-console")
+        # Step 2: Save cookies
+        print("\n⏳ Saving session data...")
+        time.sleep(2)
         
+        if not login_manager.save_cookies_json():
+            print("\n❌ Failed to save cookies")
+            return
+        
+        # Step 3: Verify session persistence
+        if not login_manager.verify_session():
+            print("\n⚠️  Session verification failed")
+            print("💡 The cookies were saved, but you may need to try again")
+            return
+        
+        # Step 4: Success!
         print("\n" + "="*60)
-        print("PLEASE LOG IN MANUALLY")
+        print("🎉 SUCCESS!")
         print("="*60)
-        print()
-        print("👉 The Chrome window should now be open")
-        print("👉 Log in to your Google account")
-        print("👉 Complete any 2FA/CAPTCHA challenges")
-        print("👉 Wait for GSC dashboard to load")
-        print()
         
-        input("Press Enter after logging in and seeing the GSC dashboard: ")
+        login_manager.generate_instructions()
         
-        print("\n✅ Login saved successfully!")
-        print()
-        print("="*60)
-        print("📋 Next Steps:")
-        print("="*60)
-        print()
-        print("1. Verify the chrome_profile folder exists:")
-        print("   ls -la chrome_profile/")
-        print()
-        print("2. Make sure your repo is PRIVATE:")
-        print("   Go to GitHub → Settings → Danger Zone")
-        print("   Check it says 'Private repository'")
-        print()
-        print("3. Commit and push to GitHub:")
-        print("   git add chrome_profile/")
-        print("   git commit -m 'Add GSC authenticated session'")
-        print("   git push")
-        print()
-        print("4. Test locally (optional):")
-        print("   python scripts/generate_posts.py")
-        print()
-        print("5. Your GitHub Actions workflow will now use this profile!")
-        print("   The automation will work even when your MacBook is off.")
-        print()
-        
-        # Close browser
-        if driver:
-            driver.quit()
-        
-        print("="*60)
-        print("✅ Setup Complete!")
-        print("="*60)
-        print()
-        print("You only need to do this once.")
-        print("After pushing chrome_profile/, everything runs automatically!")
-        
+        print("\n✅ Setup complete!")
+        print("📖 Read GITHUB_SETUP_INSTRUCTIONS.txt for next steps")
+    
+    except KeyboardInterrupt:
+        print("\n\n⚠️  Cancelled by user")
     except Exception as e:
         print(f"\n❌ Error: {e}")
-        print()
-        print("Troubleshooting tips:")
-        print("- Make sure Chrome is installed")
-        print("- Try running with administrator/sudo privileges")
-        print("- Check your internet connection")
-        print("- If Google still blocks login, try using a different Google account")
-        print("- Make sure you're not using a VPN or proxy")
         import traceback
         traceback.print_exc()
-        
-        if driver:
-            driver.quit()
+    finally:
+        print("\n👋 Closing browser...")
+        login_manager.close()
 
 
 if __name__ == "__main__":

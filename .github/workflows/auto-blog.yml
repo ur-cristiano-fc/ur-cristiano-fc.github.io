@@ -1,16 +1,14 @@
-name: Gemini AI Auto Blog Publisher with GSC Indexing
-
+name: Gemini AI Auto Blog Publisher
 on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "0 */23 * * *"  # Every 23 hours
+    - cron: "0 */23 * * *"
   workflow_dispatch:
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,76 +20,22 @@ jobs:
         with:
           python-version: "3.10"
       
-      # ===================================================================
-      # FIXED: Restore Chrome Profile with proper cache key
-      # ===================================================================
-      - name: Restore Chrome Profile from Cache
-        id: cache-chrome-profile
-        uses: actions/cache/restore@v3
-        with:
-          path: chrome_profile
-          # Use a static key (not run-specific) so it persists across runs
-          key: gsc-chrome-profile-v2
-          restore-keys: |
-            gsc-chrome-profile-v2
-            gsc-chrome-profile-
-      
-      - name: Check Chrome Profile Status
-        run: |
-          if [ -d "chrome_profile" ] && [ "$(ls -A chrome_profile)" ]; then
-            echo "✅ Chrome profile loaded from cache"
-            echo "📁 Profile contents:"
-            ls -lah chrome_profile/ | head -10
-            echo ""
-            echo "📊 Profile size:"
-            du -sh chrome_profile/
-          else
-            echo "❌ Chrome profile not found or empty!"
-            echo ""
-            echo "📋 Setup instructions:"
-            echo "1. Clone repo locally"
-            echo "2. Run: python3 scripts/first_time_gsc_login.py"
-            echo "3. This creates chrome_profile/ folder with login cookies"
-            echo "4. Run workflow once manually to cache the profile"
-            echo "5. Check 'Save Chrome Profile' step succeeds"
-            exit 1
-          fi
-      
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          
-          # Install Chrome for Selenium
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-          
-          # Install fonts for better rendering
-          sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra fontconfig
-          
-          echo "✅ Chrome installed"
-          google-chrome --version
+          sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra
       
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-genai pillow requests google-auth google-api-python-client
-          pip install selenium webdriver-manager
-          
-          # Install undetected-chromedriver for better anti-detection
-          pip install undetected-chromedriver
-          
-          echo "✅ Dependencies installed"
+          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi
       
-      - name: Verify Chrome Profile Permissions
+      - name: Verify environment
         run: |
-          # Fix permissions on chrome_profile
-          chmod -R 755 chrome_profile/ 2>/dev/null || true
-          
-          echo "✅ Chrome profile permissions fixed"
+          python --version
+          pip list | grep -E "(pillow|requests|google-genai|instagrapi)"
       
-      - name: Generate blog post with GSC indexing
+      - name: Generate blog post
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FREEPIK_API_KEY: ${{ secrets.FREEPIK_API_KEY }}
@@ -112,118 +56,48 @@ jobs:
           WEBPUSHR_API_KEY: ${{ secrets.WEBPUSHR_API_KEY }}
           WEBPUSHR_AUTH_TOKEN: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
         run: |
-          echo "🚀 Starting blog post generation with GSC indexing"
-          
-          # Set display for headless Chrome
-          export DISPLAY=:99
-          
           python scripts/generate_posts.py
-      
-      # ===================================================================
-      # FIXED: Save Chrome Profile with static key (not run-specific)
-      # ===================================================================
-      - name: Save Chrome Profile to Cache
-        if: always()
-        uses: actions/cache/save@v3
-        with:
-          path: chrome_profile
-          # Use same static key so next run can find it
-          key: gsc-chrome-profile-v2
       
       - name: Verify generated files
         run: |
           echo "📋 Generated posts:"
-          ls -lh _posts/ | tail -5 || echo "No posts found"
+          ls -lh _posts/ | tail -5
           echo ""
           echo "🖼️ Generated images:"
-          ls -lh assets/images/ | tail -5 || echo "No images found"
-          echo ""
-          echo "📸 Debug screenshots:"
-          ls -lh debug_*.png 2>/dev/null || echo "No debug screenshots"
-          echo ""
-          echo "📊 GSC Progress:"
-          cat gsc_progress.json 2>/dev/null || echo "No GSC progress file"
+          ls -lh assets/images/ | tail -5
       
-      - name: Upload screenshots as artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: gsc-screenshots-${{ github.run_number }}
-          path: debug_*.png
-          if-no-files-found: ignore
-          retention-days: 7
-      
-      - name: Upload GSC progress as artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: gsc-progress-${{ github.run_number }}
-          path: gsc_progress.json
-          if-no-files-found: ignore
-          retention-days: 7
+      - name: Debug files
+        run: |
+          echo "=== Working Directory ==="
+          pwd
+          ls -la
+          echo ""
+          echo "=== Posts Directory ==="
+          ls -lah _posts/ | tail -10
+          echo ""
+          echo "=== Images Directory ==="
+          ls -lah assets/images/ | tail -10
+          echo ""
       
       - name: Commit & Push changes
         run: |
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
           
-          # Pull latest changes first
+          # Pull latest changes first to avoid conflicts
           git pull --rebase origin master || echo "Already up to date"
           
-          # IMPORTANT: Exclude chrome_profile from git tracking
-          # Add to .gitignore if not already there
-          if ! grep -q "chrome_profile/" .gitignore 2>/dev/null; then
-            echo "chrome_profile/" >> .gitignore
-            echo "debug_*.png" >> .gitignore
-            echo "gsc_progress.json" >> .gitignore
-            git add .gitignore
-          fi
+          # Add everything
+          git add .
           
-          # Only add generated content (posts and images)
-          # DO NOT add chrome_profile - it's cached separately
-          git add _posts/*.md 2>/dev/null || true
-          git add assets/images/*.webp 2>/dev/null || true
-          git add assets/images/*.jpg 2>/dev/null || true
-          git add assets/images/*.png 2>/dev/null || true
-          
-          # Show what will be committed
-          echo "=== Git Status ==="
+          # Show status
           git status
-          echo ""
-          echo "=== Files to commit ==="
-          git diff --cached --name-only
-          echo ""
           
           # Commit if there are changes
-          if [ -n "$(git diff --cached --name-only)" ]; then
-            COMMIT_MSG="🤖 Auto-post with GSC indexing: $(date +'%Y-%m-%d %H:%M UTC')"
-            git commit -m "$COMMIT_MSG"
-            
-            echo "📤 Pushing changes..."
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d')"
             git push origin master
-            
-            echo "✅ Changes pushed successfully"
+            echo "✅ Changes pushed"
           else
-            echo "ℹ️  No changes to commit"
+            echo "⚠️ No changes to commit"
           fi
-      
-      - name: Workflow Summary
-        if: always()
-        run: |
-          echo "## 📊 Workflow Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -f "gsc_progress.json" ]; then
-            echo "### ✅ GSC Indexing Results" >> $GITHUB_STEP_SUMMARY
-            echo '```json' >> $GITHUB_STEP_SUMMARY
-            cat gsc_progress.json >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          else
-            echo "### ❌ No GSC progress file found" >> $GITHUB_STEP_SUMMARY
-          fi
-          
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 📁 Generated Files" >> $GITHUB_STEP_SUMMARY
-          echo "- Posts: $(ls _posts/*.md 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
-          echo "- Images: $(ls assets/images/*.webp 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
-          echo "- Screenshots: $(ls debug_*.png 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY

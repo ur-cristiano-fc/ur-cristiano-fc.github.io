@@ -6,7 +6,7 @@ KEYWORDS_FILE = "keywords.txt"
 POSTS_DIR = "_posts"
 IMAGES_DIR = "assets/images"
 
-# Site settings (from your GSC screenshot)
+# Site settings
 SITE_DOMAIN = "https://ur-cristiano-fc.github.io"
 
 # AI Models
@@ -22,14 +22,6 @@ IMAGE_MAX_WIDTH = 1920
 IMAGE_MAX_HEIGHT = 1080
 OPTIMIZE_IMAGE = True
 
-# Timing
-WAIT_TIME_BEFORE_INDEXING = 30  # seconds (30 seconds before GSC indexing)
-
-# Google Search Console settings
-GSC_USE_DOMAIN_PROPERTY = False  # False = URL prefix (sc-set:https://ur-cristiano-fc.github.io/)
-GSC_DELAY_BETWEEN_REQUESTS = 15  # seconds between indexing requests
-GSC_MAX_RETRIES = 3  # number of retry attempts per URL
-GSC_HEADLESS = True  # run browser in headless mode (recommended for CI/CD)
 
 # API Keys (from environment)
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
