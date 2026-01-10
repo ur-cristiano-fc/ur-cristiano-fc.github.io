@@ -1,0 +1,4 @@
+2026/01/10-05:38:05.031 1e3b8f Reusing MANIFEST /Users/sushilmohan/Documents/ur-cristiano-fc.github.io/chrome_profile/Default/Site Characteristics Database/MANIFEST-000001
+2026/01/10-05:38:05.032 1e3b8f Recovering log #3
+2026/01/10-05:38:05.032 1e3b8f (ignoring error) /Users/sushilmohan/Documents/ur-cristiano-fc.github.io/chrome_profile/Default/Site Characteristics Database/000003.log: dropping 298 bytes; Corruption: checksum mismatch
+2026/01/10-05:38:05.032 1e3b8f Reusing old log /Users/sushilmohan/Documents/ur-cristiano-fc.github.io/chrome_profile/Default/Site Characteristics Database/000003.log 
