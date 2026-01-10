@@ -35,12 +35,6 @@ def main():
     print("✅ GOOGLE_SEARCH_API_KEY found")
     print("✅ GOOGLE_SEARCH_ENGINE_ID found")
     
-    # Check for GSC automation
-    if HAS_GSC:
-        print("✅ GSC automation available - auto-indexing enabled")
-    else:
-        print("⚠️ GSC automation not available - indexing will be skipped")
-    
     # Check for Instagram credentials (optional)
     instagram_enabled = bool(os.environ.get('INSTAGRAM_USERNAME') and os.environ.get('INSTAGRAM_PASSWORD'))
     if instagram_enabled:
@@ -216,50 +210,6 @@ def main():
             import traceback
             traceback.print_exc()
             continue
-    
-    # Step 6: Request Google Search Console indexing for all generated posts
-    if urls_to_index and HAS_GSC:
-        print(f"\n{'=' * 60}")
-        print("Step 6: Requesting Google Search Console Indexing")
-        print("=" * 60)
-        print(f"📋 URLs to index: {len(urls_to_index)}")
-        
-        try:
-            # Initialize GSC bot once for all URLs
-            bot = GSCAutomation(headless=True)
-            property_id = bot.get_property_id(SITE_DOMAIN, use_domain_property=False)
-            
-            # Wait 30 seconds before first indexing request
-            print(f"⏳ Waiting 30 seconds before requesting indexing...")
-            time.sleep(30)
-            
-            # Submit all URLs for indexing
-            results = bot.batch_submit(
-                urls_to_index,
-                property_id,
-                delay=15  # 15 seconds between requests
-            )
-            
-            # Update Google Sheets with indexing status
-            success_count = len(results.get('success', []))
-            if success_count > 0:
-                print(f"✅ Successfully requested indexing for {success_count} URLs")
-                
-                # Optional: Update Google Sheets with "Indexed" status
-                # This would require modifying google_sheets_logger.py to support updates
-                
-            bot.close()
-            
-        except Exception as e:
-            print(f"⚠️ GSC batch indexing failed (non-critical): {e}")
-            import traceback
-            traceback.print_exc()
-    
-    elif urls_to_index and not HAS_GSC:
-        print(f"\n⚠️ GSC automation not available - skipping indexing for {len(urls_to_index)} URLs")
-        print("   URLs that need indexing:")
-        for url in urls_to_index:
-            print(f"   - {url}")
     
     # Final summary
     print(f"\n{'=' * 60}")
