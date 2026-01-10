@@ -1,9 +1,9 @@
-name: Gemini AI Auto Blog Publisher + GSC Indexing
+name: Gemini AI Auto Blog Publisher
 on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "0 */23 * * *"  # Every 23 hours
+    - cron: "0 */23 * * *"
   workflow_dispatch:
 
 jobs:
@@ -23,24 +23,17 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            fonts-dejavu-core \
-            fonts-dejavu-extra \
-            chromium-browser \
-            chromium-chromedriver
+          sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra
       
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
           pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi
-          pip install selenium webdriver-manager
       
       - name: Verify environment
         run: |
           python --version
-          pip list | grep -E "(pillow|requests|google-genai|instagrapi|selenium)"
-          chromium-browser --version
-          chromedriver --version
+          pip list | grep -E "(pillow|requests|google-genai|instagrapi)"
       
       - name: Generate blog post
         env:
@@ -73,12 +66,28 @@ jobs:
           echo "🖼️ Generated images:"
           ls -lh assets/images/ | tail -5
       
+      - name: Debug files
+        run: |
+          echo "=== Working Directory ==="
+          pwd
+          ls -la
+          echo ""
+          echo "=== Posts Directory ==="
+          ls -lah _posts/ | tail -10
+          echo ""
+          echo "=== Images Directory ==="
+          ls -lah assets/images/ | tail -10
+          echo ""
+      
       - name: Commit & Push changes
         run: |
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
           
-          # Add everything first
+          # Pull latest changes first to avoid conflicts
+          git pull --rebase origin master || echo "Already up to date"
+          
+          # Add everything
           git add .
           
           # Show status
@@ -86,59 +95,9 @@ jobs:
           
           # Commit if there are changes
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d %H:%M:%S')"
-            
-            # Try to push with retry logic
-            max_retries=5
-            retry_count=0
-            
-            while [ $retry_count -lt $max_retries ]; do
-              echo "📤 Attempting to push (attempt $((retry_count + 1))/$max_retries)..."
-              
-              # Pull with rebase first
-              git pull --rebase origin master || {
-                echo "⚠️  Pull failed, trying to continue..."
-              }
-              
-              # Try to push
-              if git push origin master; then
-                echo "✅ Changes pushed successfully!"
-                exit 0
-              else
-                echo "⚠️  Push failed, retrying in 5 seconds..."
-                retry_count=$((retry_count + 1))
-                sleep 5
-              fi
-            done
-            
-            echo "❌ Failed to push after $max_retries attempts"
-            exit 1
+            git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d')"
+            git push origin master
+            echo "✅ Changes pushed"
           else
             echo "⚠️ No changes to commit"
           fi
-      
-      # Wait for GitHub Pages to build and deploy
-      - name: Wait for deployment
-        run: |
-          echo "⏳ Waiting 60 seconds for GitHub Pages to build and deploy..."
-          sleep 60
-      
-      # NEW: Submit to Google Search Console using saved session
-      - name: Submit to Google Search Console
-        env:
-          SITE_DOMAIN: "https://ur-cristiano-fc.github.io"
-          GSC_COOKIES_BASE64: ${{ secrets.GSC_COOKIES_BASE64 }}
-          USE_DOMAIN_PROPERTY: "false"  # Set to "true" for domain property
-        run: |
-          echo "🔍 Submitting latest post to Google Search Console..."
-          python scripts/gsc_with_saved_session.py
-        continue-on-error: true  # Don't fail workflow if GSC submission fails
-      
-      - name: Upload debug screenshots (if available)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: gsc-debug-screenshots
-          path: debug_*.png
-          if-no-files-found: ignore
-          retention-days: 7
