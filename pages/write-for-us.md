@@ -8,7 +8,7 @@ comments: false
 
 Welcome to the official page of **[Ur Cristiano](https://ur-cristiano-fc.github.io/)** — a dedicated platform for Cristiano Ronaldo content, football analysis, lifestyle stories, and trending sports updates.
 
-Our site currently has a **Domain Authority (DA) of 12**, and **Domain Age is 12 years**, making it a growing and valuable platform for guest contributors, SEO writers, and football enthusiasts.
+Our site currently has a **Domain Authority (DA) of 15**, and **Domain Age is 15 years**, making it a growing and valuable platform for guest contributors, SEO writers, and football enthusiasts.
 
 For submissions or inquiries, contact us at: **[ur.cristiano.help@gmail.com](mailto:ur.cristiano.help@gmail.com)**
 
@@ -35,7 +35,7 @@ If your article is relevant to **Ronaldo**, **football**, **sports lifestyle**, 
 
 Publishing on our platform gives you:
 
-* **Domain Authority (DA) of 12** — growing authority and SEO value
+* **Domain Authority (DA) of 15** — growing authority and SEO value
 * **Domain Age is 12 years**
 * Sports‑specific audience from multiple countries
 * Professional formatting and quick publication
