@@ -106,7 +106,7 @@ We do not publish the following:
 
 To maintain site quality and support the growth of **ur-cristiano-fc.github.io**, we charge a small publishing fee for approved guest posts.
 
-### Current Pricing (2025)
+### Current Pricing (2026)
 
 * **Standard Guest Post (1000–1500 words)** – **$10**
 * **Premium Guest Post (1500–2000 words)** – **$15**
