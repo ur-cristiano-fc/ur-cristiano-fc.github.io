@@ -37,10 +37,14 @@ def get_available_boards():
             board_list.append({
                 'id': board['id'],
                 'name': board['name'],
-                'description': board.get('description', '')
+                'description': board.get('description', ''),
+                'pin_count': board.get('pin_count', 0)
             })
         
-        print(f"✅ Found {len(board_list)} Pinterest boards")
+        print(f"✅ Found {len(board_list)} Pinterest boards:")
+        for b in board_list:
+            print(f"   📌 {b['name']} ({b['pin_count']} pins)")
+        
         return board_list
         
     except Exception as e:
@@ -52,7 +56,14 @@ def select_relevant_board(title, focus_kw, available_boards):
     """Use Gemini AI to select the most relevant Pinterest board"""
     
     if not available_boards:
-        return PINTEREST_BOARD_ID  # Default board
+        print("⚠️ No boards found, using fallback")
+        return PINTEREST_BOARD_ID if 'PINTEREST_BOARD_ID' in globals() else None
+    
+    if len(available_boards) == 1:
+        # Only one board, use it
+        board = available_boards[0]
+        print(f"✅ Only one board available: {board['name']}")
+        return board['id']
     
     # Prepare board descriptions for Gemini
     board_descriptions = []
@@ -60,6 +71,7 @@ def select_relevant_board(title, focus_kw, available_boards):
         desc = f"{i}. {board['name']}"
         if board['description']:
             desc += f" - {board['description']}"
+        desc += f" ({board.get('pin_count', 0)} pins)"
         board_descriptions.append(desc)
     
     boards_text = '\n'.join(board_descriptions)
@@ -71,11 +83,14 @@ Focus Keyword: "{focus_kw}"
 Available Pinterest Boards:
 {boards_text}
 
-Task: Select the MOST relevant board for this article.
+Task: Select the MOST relevant board for this article about Cristiano Ronaldo.
 
 Requirements:
 - Choose the board that best matches the article topic
-- Consider board name and description
+- Consider board name, description, and existing content (pin count)
+- For training/workout articles → fitness/training boards
+- For family/personal articles → lifestyle/personal boards  
+- For match/performance articles → highlights/football boards
 - Return ONLY the number (0-{len(available_boards)-1}) of the best board
 
 Example response: 2
@@ -93,14 +108,18 @@ Your response (only the number):
         
         if 0 <= selected_idx < len(available_boards):
             selected_board = available_boards[selected_idx]
-            print(f"🤖 Gemini selected board: {selected_board['name']}")
+            print(f"🤖 Gemini AI selected board: '{selected_board['name']}'")
+            print(f"   Reason: Best match for topic '{focus_kw}'")
             return selected_board['id']
         else:
-            return PINTEREST_BOARD_ID
+            # Fallback to first board
+            print(f"⚠️ Invalid selection, using first board: {available_boards[0]['name']}")
+            return available_boards[0]['id']
             
     except Exception as e:
         print(f"⚠️ Board selection failed: {e}")
-        return PINTEREST_BOARD_ID
+        # Fallback to first board
+        return available_boards[0]['id'] if available_boards else None
 
 
 def generate_pin_variations(title, focus_kw, article_content):
