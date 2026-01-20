@@ -11,7 +11,7 @@ BLOG_SITE = "https://ur-cristiano-fc.github.io"
 
 # Pinterest API credentials
 PINTEREST_ACCESS_TOKEN = os.environ.get("PINTEREST_ACCESS_TOKEN")
-PINTEREST_BOARD_ID = os.environ.get("PINTEREST_BOARD_ID")  # Default board
+PINTEREST_BOARD_ID = os.environ.get("PINTEREST_BOARD_ID")  # Optional - will auto-select if not provided
 
 # Pin design settings
 PIN_WIDTH = 1000
@@ -66,17 +66,24 @@ def get_available_boards():
 
 
 def select_relevant_board(title, focus_kw, available_boards):
-    """Use Gemini AI to select the most relevant Pinterest board"""
+    """Use Gemini AI to select the most relevant Pinterest board
+    
+    This function will ALWAYS use AI to select the best board, even if PINTEREST_BOARD_ID is set.
+    If only one board exists, it returns that board without using AI.
+    """
     
     if not available_boards:
-        print("⚠️ No boards found, using fallback")
-        return PINTEREST_BOARD_ID if PINTEREST_BOARD_ID else None
+        print("❌ No boards found - cannot post to Pinterest")
+        return None
     
     if len(available_boards) == 1:
         # Only one board, use it
         board = available_boards[0]
         print(f"✅ Only one board available: {board['name']}")
         return board['id']
+    
+    # Multiple boards - use AI to select the best one
+    print(f"🤖 Using Gemini AI to select best board from {len(available_boards)} options...")
     
     # Prepare board descriptions for Gemini
     board_descriptions = []
@@ -104,6 +111,8 @@ Requirements:
 - For training/workout articles → fitness/training boards
 - For family/personal articles → lifestyle/personal boards  
 - For match/performance articles → highlights/football boards
+- For news/updates → news/latest boards
+- For records/achievements → stats/records boards
 - Return ONLY the number (0-{len(available_boards)-1}) of the best board
 
 Example response: 2
@@ -122,17 +131,23 @@ Your response (only the number):
         if 0 <= selected_idx < len(available_boards):
             selected_board = available_boards[selected_idx]
             print(f"🤖 Gemini AI selected board: '{selected_board['name']}'")
-            print(f"   Reason: Best match for topic '{focus_kw}'")
+            print(f"   📊 Board has {selected_board['pin_count']} existing pins")
             return selected_board['id']
         else:
-            # Fallback to first board
-            print(f"⚠️ Invalid selection, using first board: {available_boards[0]['name']}")
+            # Invalid index - fallback to first board
+            print(f"⚠️ AI returned invalid index {selected_idx}, using first board: {available_boards[0]['name']}")
             return available_boards[0]['id']
             
+    except ValueError as e:
+        # Failed to parse number
+        print(f"⚠️ AI response was not a number: {e}")
+        print(f"   Falling back to first board: {available_boards[0]['name']}")
+        return available_boards[0]['id']
     except Exception as e:
+        # Other errors
         print(f"⚠️ Board selection failed: {e}")
-        # Fallback to first board
-        return available_boards[0]['id'] if available_boards else None
+        print(f"   Falling back to first board: {available_boards[0]['name']}")
+        return available_boards[0]['id']
 
 
 def generate_pin_variations(title, focus_kw, article_content):
@@ -448,6 +463,9 @@ def post_to_pinterest(pin_image_path, title, description, hashtags, link, board_
 def create_and_post_pinterest_pins(title, focus_kw, permalink, featured_image_path, article_content):
     """Main function: Create and post 3 Pinterest pins for a blog article
     
+    This function will automatically select the best board from available boards using AI.
+    No need to manually set PINTEREST_BOARD_ID - it's now optional.
+    
     Args:
         title: Blog post title
         focus_kw: Focus keyword
@@ -464,17 +482,24 @@ def create_and_post_pinterest_pins(title, focus_kw, permalink, featured_image_pa
         print(f"📌 Creating 3 Pinterest Pins")
         print(f"{'='*60}")
         
-        # Get available boards
+        # Step 1: Get all available boards
+        print("\n🔍 Fetching available Pinterest boards...")
         available_boards = get_available_boards()
         
-        # Select best board using AI
+        if not available_boards:
+            print("❌ No Pinterest boards found - cannot post")
+            print("💡 Please create at least one board on Pinterest first")
+            return []
+        
+        # Step 2: AI selects the most relevant board for this article
+        print(f"\n🎯 Selecting best board for: '{title[:60]}...'")
         selected_board_id = select_relevant_board(title, focus_kw, available_boards)
         
         if not selected_board_id:
-            print("❌ No board ID available, skipping Pinterest posting")
+            print("❌ Could not select a board - skipping Pinterest posting")
             return []
         
-        # Generate 3 variations
+        # Step 3: Generate 3 pin variations
         variations = generate_pin_variations(title, focus_kw, article_content)
         
         # Article URL
@@ -487,9 +512,10 @@ def create_and_post_pinterest_pins(title, focus_kw, permalink, featured_image_pa
         results = []
         styles = ['modern', 'bold', 'minimal']
         
+        # Step 4: Create and post each pin
         for i, variation in enumerate(variations, 1):
             print(f"\n{'='*60}")
-            print(f"Creating Pin {i}/3")
+            print(f"Creating Pin {i}/3 ({styles[i-1]} style)")
             print(f"{'='*60}")
             
             # Create pin image
@@ -553,6 +579,8 @@ def create_and_post_pinterest_pins(title, focus_kw, permalink, featured_image_pa
         
     except Exception as e:
         print(f"⚠️ Pinterest posting failed (non-critical): {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 
