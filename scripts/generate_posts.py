@@ -150,27 +150,6 @@ def main():
             # Step 4: Additional processing (social media, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
-                # Step 4a: Post to Instagram (optional)
-                # if instagram_enabled:
-                #     print(f"\n{'=' * 60}")
-                #     print("Step 4a: Posting to Instagram")
-                #     print("=" * 60)
-                    
-                #     try:
-                #         instagram_result = post_article_to_instagram(
-                #             title, focus_kw, article, image_file, permalink
-                #         )
-                        
-                #         if instagram_result['success']:
-                #             print(f"✅ Posted to Instagram: {instagram_result['post_url']}")
-                #         else:
-                #             print(f"⚠️ Instagram posting failed: {instagram_result.get('error')}")
-                            
-                #     except Exception as e:
-                #         print(f"⚠️ Instagram posting failed (non-critical): {e}")
-                #         import traceback
-                #         traceback.print_exc()
-                
                 # Step 4b: Log to Google Sheets
                 print(f"\n{'=' * 60}")
                 print("Step 4b: Logging to Google Sheets")
@@ -185,8 +164,37 @@ def main():
                     print(f"✅ Logged to Google Sheets")
                 except Exception as e:
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
+
+                # Step 4c: Post to Pinterest (3 pins)
+                print(f"\n{'=' * 60}")
+                print("Step 4c: Creating & Posting Pinterest Pins")
+                print("=" * 60)
+
+                try:
+                    from pinterest_poster import create_and_post_pinterest_pins
+                    
+                    pinterest_results = create_and_post_pinterest_pins(
+                        title, 
+                        focus_kw, 
+                        permalink, 
+                        image_file, 
+                        article
+                    )
+                    
+                    successful_pins = sum(1 for r in pinterest_results if r['success'])
+                    print(f"✅ Posted {successful_pins}/3 pins to Pinterest")
+                    
+                    # Log Pinterest URLs
+                    for result in pinterest_results:
+                        if result['success']:
+                            print(f"   📌 Pin {result['pin_number']}: {result['pin_url']}")
+                            
+                except Exception as e:
+                    print(f"⚠️ Pinterest posting failed (non-critical): {e}")
+                    import traceback
+                    traceback.print_exc()
                 
-                # Step 4c: Send Push Notification
+                # Step 5: Send Push Notification
                 try:
                     send_blog_post_notification(title, permalink, focus_kw)
                     print(f"✅ Push notification sent")

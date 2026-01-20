@@ -104,18 +104,20 @@ We do not publish the following:
 
 ## Pricing for Guest Posts
 
-To maintain site quality and support the growth of **ur-cristiano-fc.github.io**, we charge a small publishing fee for approved guest posts.
 
-### Current Pricing (2026)
 
-* **Standard Guest Post (1000–1500 words)** – **$10**
-* **Premium Guest Post (1500–2000 words)** – **$15**
-* **Feature-Level Article (2000+ words, detailed analysis)** – **$20**
-* **Extra Do-Follow Link (1 additional link)** – **+$10**
-* **Add Product Review / Sponsored Content** – **$25**
+We offer **paid guest posting options** to maintain quality and editorial standards.
 
-###  Pricing for Other category posts
-**If the article Category is different $30-$50 per post (No Follow) Link, we will publish it within 24 hours.**
+💰 **Guest Post Pricing:**
+- Sponsored Guest Post: **Paid (contact for current pricing)**
+- Contextual link insertions: **Case-by-case**
+
+👉 Prices vary depending on:
+- Number of links
+- Content type
+- Promotional intent
+
+For pricing details, email us directly **[ur.cristiano.help@gmail.com](mailto:ur.cristiano.help@gmail.com)**.
 
 ### What You Get
 
