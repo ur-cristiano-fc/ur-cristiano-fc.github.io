@@ -28,12 +28,12 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi python-pinterest
+          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi
 
       - name: Verify environment
         run: |
           python --version
-          pip list | grep -E "(pillow|requests|google-genai|instagrapi|pinterest)"
+          pip list | grep -E "(pillow|requests|google-genai|instagrapi)"
 
       - name: Generate blog post
         env:

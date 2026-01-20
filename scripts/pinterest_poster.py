@@ -1,8 +1,8 @@
 """Automatically create and post 3 Pinterest pins for blog articles"""
 import os
 import time
+import requests
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
-from pinterest import Pinterest
 from article_generator import client, TEXT_MODEL
 import random
 
@@ -18,22 +18,32 @@ PIN_WIDTH = 1000
 PIN_HEIGHT = 1500  # Pinterest optimal ratio 2:3
 
 
-def get_pinterest_client():
-    """Initialize Pinterest API client"""
+def get_pinterest_headers():
+    """Get Pinterest API headers"""
     if not PINTEREST_ACCESS_TOKEN:
         raise ValueError("PINTEREST_ACCESS_TOKEN not found in environment")
     
-    return Pinterest(access_token=PINTEREST_ACCESS_TOKEN)
+    return {
+        'Authorization': f'Bearer {PINTEREST_ACCESS_TOKEN}',
+        'Content-Type': 'application/json'
+    }
 
 
 def get_available_boards():
     """Fetch user's Pinterest boards"""
     try:
-        client = get_pinterest_client()
-        boards = client.boards.list()
+        headers = get_pinterest_headers()
+        response = requests.get(
+            'https://api.pinterest.com/v5/boards',
+            headers=headers,
+            params={'page_size': 100}
+        )
+        response.raise_for_status()
         
+        data = response.json()
         board_list = []
-        for board in boards:
+        
+        for board in data.get('items', []):
             board_list.append({
                 'id': board['id'],
                 'name': board['name'],
@@ -47,6 +57,9 @@ def get_available_boards():
         
         return board_list
         
+    except requests.exceptions.HTTPError as e:
+        print(f"⚠️ HTTP Error fetching boards: {e.response.status_code} - {e.response.text}")
+        return []
     except Exception as e:
         print(f"⚠️ Error fetching boards: {e}")
         return []
@@ -57,7 +70,7 @@ def select_relevant_board(title, focus_kw, available_boards):
     
     if not available_boards:
         print("⚠️ No boards found, using fallback")
-        return PINTEREST_BOARD_ID if 'PINTEREST_BOARD_ID' in globals() else None
+        return PINTEREST_BOARD_ID if PINTEREST_BOARD_ID else None
     
     if len(available_boards) == 1:
         # Only one board, use it
@@ -373,31 +386,56 @@ def wrap_text(text, font, max_width):
 
 
 def post_to_pinterest(pin_image_path, title, description, hashtags, link, board_id):
-    """Upload pin to Pinterest"""
+    """Upload pin to Pinterest using API v5"""
     
     try:
-        pinterest = get_pinterest_client()
-        
         # Combine description with hashtags
         full_description = f"{description}\n\n{hashtags}"
         
-        # Create pin
-        pin = pinterest.pins.create(
-            board_id=board_id,
-            title=title[:100],  # Pinterest title limit
-            description=full_description[:500],  # Pinterest description limit
-            link=link,
-            image_path=pin_image_path
-        )
-        
-        pin_url = f"https://pinterest.com/pin/{pin['id']}"
-        print(f"✅ Posted to Pinterest: {pin_url}")
-        
-        return {
-            'success': True,
-            'pin_id': pin['id'],
-            'pin_url': pin_url
+        # Prepare the request
+        headers = {
+            'Authorization': f'Bearer {PINTEREST_ACCESS_TOKEN}'
         }
+        
+        # Read image file
+        with open(pin_image_path, 'rb') as img_file:
+            files = {
+                'media_source': ('pin.png', img_file, 'image/png')
+            }
+            
+            data = {
+                'board_id': board_id,
+                'title': title[:100],  # Pinterest title limit
+                'description': full_description[:500],  # Pinterest description limit
+                'link': link
+            }
+            
+            response = requests.post(
+                'https://api.pinterest.com/v5/pins',
+                headers=headers,
+                data=data,
+                files=files
+            )
+            
+            # Check for errors
+            if response.status_code == 201:
+                pin_data = response.json()
+                pin_id = pin_data['id']
+                pin_url = f"https://pinterest.com/pin/{pin_id}"
+                print(f"✅ Posted to Pinterest: {pin_url}")
+                
+                return {
+                    'success': True,
+                    'pin_id': pin_id,
+                    'pin_url': pin_url
+                }
+            else:
+                error_msg = f"HTTP {response.status_code}: {response.text}"
+                print(f"❌ Pinterest posting failed: {error_msg}")
+                return {
+                    'success': False,
+                    'error': error_msg
+                }
         
     except Exception as e:
         print(f"❌ Pinterest posting failed: {e}")
@@ -421,92 +459,101 @@ def create_and_post_pinterest_pins(title, focus_kw, permalink, featured_image_pa
         List of results for each pin
     """
     
-    print(f"\n{'='*60}")
-    print(f"📌 Creating 3 Pinterest Pins")
-    print(f"{'='*60}")
-    
-    # Get available boards
-    available_boards = get_available_boards()
-    
-    # Select best board using AI
-    selected_board_id = select_relevant_board(title, focus_kw, available_boards)
-    
-    # Generate 3 variations
-    variations = generate_pin_variations(title, focus_kw, article_content)
-    
-    # Article URL
-    article_url = f"{BLOG_SITE}/{permalink}"
-    
-    # Create temp directory for pins
-    pins_dir = "temp_pinterest_pins"
-    os.makedirs(pins_dir, exist_ok=True)
-    
-    results = []
-    styles = ['modern', 'bold', 'minimal']
-    
-    for i, variation in enumerate(variations, 1):
+    try:
         print(f"\n{'='*60}")
-        print(f"Creating Pin {i}/3")
+        print(f"📌 Creating 3 Pinterest Pins")
         print(f"{'='*60}")
         
-        # Create pin image
-        pin_path = f"{pins_dir}/pin_{i}_{permalink}.png"
-        style = styles[i-1]
+        # Get available boards
+        available_boards = get_available_boards()
         
-        create_pinterest_pin(
-            featured_image_path,
-            variation['hook'],
-            pin_path,
-            style=style
-        )
+        # Select best board using AI
+        selected_board_id = select_relevant_board(title, focus_kw, available_boards)
         
-        # Post to Pinterest
-        print(f"\n📤 Posting Pin {i} to Pinterest...")
+        if not selected_board_id:
+            print("❌ No board ID available, skipping Pinterest posting")
+            return []
         
-        result = post_to_pinterest(
-            pin_path,
-            title,
-            variation['description'],
-            variation['hashtags'],
-            article_url,
-            selected_board_id
-        )
+        # Generate 3 variations
+        variations = generate_pin_variations(title, focus_kw, article_content)
         
-        result['pin_number'] = i
-        result['style'] = style
-        result['description'] = variation['description']
-        result['hashtags'] = variation['hashtags']
+        # Article URL
+        article_url = f"{BLOG_SITE}/{permalink}"
         
-        results.append(result)
+        # Create temp directory for pins
+        pins_dir = "temp_pinterest_pins"
+        os.makedirs(pins_dir, exist_ok=True)
         
-        # Wait between posts to avoid rate limiting
-        if i < len(variations):
-            print("⏳ Waiting 5 seconds before next pin...")
-            time.sleep(5)
-    
-    # Cleanup temp files
-    try:
-        for file in os.listdir(pins_dir):
-            os.remove(os.path.join(pins_dir, file))
-        os.rmdir(pins_dir)
-    except:
-        pass
-    
-    # Summary
-    print(f"\n{'='*60}")
-    print(f"📌 Pinterest Posting Complete")
-    print(f"{'='*60}")
-    
-    successful = sum(1 for r in results if r['success'])
-    print(f"✅ Successfully posted: {successful}/3 pins")
-    
-    for result in results:
-        if result['success']:
-            print(f"   Pin {result['pin_number']} ({result['style']}): {result['pin_url']}")
-        else:
-            print(f"   Pin {result['pin_number']} ({result['style']}): Failed - {result.get('error')}")
-    
-    return results
+        results = []
+        styles = ['modern', 'bold', 'minimal']
+        
+        for i, variation in enumerate(variations, 1):
+            print(f"\n{'='*60}")
+            print(f"Creating Pin {i}/3")
+            print(f"{'='*60}")
+            
+            # Create pin image
+            pin_path = f"{pins_dir}/pin_{i}_{permalink}.png"
+            style = styles[i-1]
+            
+            create_pinterest_pin(
+                featured_image_path,
+                variation['hook'],
+                pin_path,
+                style=style
+            )
+            
+            # Post to Pinterest
+            print(f"\n📤 Posting Pin {i} to Pinterest...")
+            
+            result = post_to_pinterest(
+                pin_path,
+                title,
+                variation['description'],
+                variation['hashtags'],
+                article_url,
+                selected_board_id
+            )
+            
+            result['pin_number'] = i
+            result['style'] = style
+            result['description'] = variation['description']
+            result['hashtags'] = variation['hashtags']
+            
+            results.append(result)
+            
+            # Wait between posts to avoid rate limiting
+            if i < len(variations):
+                print("⏳ Waiting 5 seconds before next pin...")
+                time.sleep(5)
+        
+        # Cleanup temp files
+        try:
+            for file in os.listdir(pins_dir):
+                os.remove(os.path.join(pins_dir, file))
+            os.rmdir(pins_dir)
+        except:
+            pass
+        
+        # Summary
+        print(f"\n{'='*60}")
+        print(f"📌 Pinterest Posting Complete")
+        print(f"{'='*60}")
+        
+        successful = sum(1 for r in results if r['success'])
+        print(f"✅ Successfully posted: {successful}/3 pins")
+        
+        for result in results:
+            if result['success']:
+                print(f"   Pin {result['pin_number']} ({result['style']}): {result['pin_url']}")
+            else:
+                print(f"   Pin {result['pin_number']} ({result['style']}): Failed - {result.get('error')}")
+        
+        return results
+        
+    except Exception as e:
+        print(f"⚠️ Pinterest posting failed (non-critical): {e}")
+        return []
 
 
 # Example usage

@@ -13,7 +13,6 @@ from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
 
 
-
 def main():
     print("=" * 60)
     print("🚀 Starting Blog Post Generator with Auto-Indexing")
@@ -40,6 +39,13 @@ def main():
         print("✅ Instagram credentials found - auto-posting enabled")
     else:
         print("ℹ️ Instagram credentials not found - skipping Instagram posts")
+    
+    # Check for Pinterest credentials (optional)
+    pinterest_enabled = bool(os.environ.get('PINTEREST_ACCESS_TOKEN'))
+    if pinterest_enabled:
+        print("✅ Pinterest credentials found - auto-posting enabled")
+    else:
+        print("ℹ️ Pinterest credentials not found - skipping Pinterest posts")
     
     # Show keywords status
     keywords_count = get_keywords_count()
@@ -155,8 +161,10 @@ def main():
                 print("Step 4b: Logging to Google Sheets")
                 print("=" * 60)
                 
-                
                 try:
+                    # Set indexing status
+                    indexing_status = "Published"
+                    
                     log_to_google_sheets(
                         title, focus_kw, permalink,
                         image_file, article, indexing_status
@@ -166,35 +174,46 @@ def main():
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
 
                 # Step 4c: Post to Pinterest (3 pins)
-                print(f"\n{'=' * 60}")
-                print("Step 4c: Creating & Posting Pinterest Pins")
-                print("=" * 60)
+                if pinterest_enabled:
+                    print(f"\n{'=' * 60}")
+                    print("Step 4c: Creating & Posting Pinterest Pins")
+                    print("=" * 60)
 
-                try:
-                    from pinterest_poster import create_and_post_pinterest_pins
-                    
-                    pinterest_results = create_and_post_pinterest_pins(
-                        title, 
-                        focus_kw, 
-                        permalink, 
-                        image_file, 
-                        article
-                    )
-                    
-                    successful_pins = sum(1 for r in pinterest_results if r['success'])
-                    print(f"✅ Posted {successful_pins}/3 pins to Pinterest")
-                    
-                    # Log Pinterest URLs
-                    for result in pinterest_results:
-                        if result['success']:
-                            print(f"   📌 Pin {result['pin_number']}: {result['pin_url']}")
-                            
-                except Exception as e:
-                    print(f"⚠️ Pinterest posting failed (non-critical): {e}")
-                    import traceback
-                    traceback.print_exc()
+                    try:
+                        from pinterest_poster import create_and_post_pinterest_pins
+                        
+                        pinterest_results = create_and_post_pinterest_pins(
+                            title, 
+                            focus_kw, 
+                            permalink, 
+                            image_file, 
+                            article
+                        )
+                        
+                        successful_pins = sum(1 for r in pinterest_results if r['success'])
+                        print(f"✅ Posted {successful_pins}/3 pins to Pinterest")
+                        
+                        # Log Pinterest URLs
+                        for result in pinterest_results:
+                            if result['success']:
+                                print(f"   📌 Pin {result['pin_number']}: {result['pin_url']}")
+                                
+                    except ImportError as e:
+                        print(f"⚠️ Pinterest module not available: {e}")
+                    except Exception as e:
+                        print(f"⚠️ Pinterest posting failed (non-critical): {e}")
+                        import traceback
+                        traceback.print_exc()
+                else:
+                    print(f"\n{'=' * 60}")
+                    print("Step 4c: Pinterest posting skipped (credentials not configured)")
+                    print("=" * 60)
                 
-                # Step 5: Send Push Notification
+                # Step 4d: Send Push Notification
+                print(f"\n{'=' * 60}")
+                print("Step 4d: Sending Push Notification")
+                print("=" * 60)
+                
                 try:
                     send_blog_post_notification(title, permalink, focus_kw)
                     print(f"✅ Push notification sent")
@@ -225,7 +244,9 @@ def main():
     print(f"📊 Keywords remaining: {get_keywords_count()}")
     
     if urls_to_index:
-        print(f"🔍 URLs submitted for indexing: {len(urls_to_index)}")
+        print(f"🔍 URLs ready for indexing: {len(urls_to_index)}")
+        for url in urls_to_index:
+            print(f"   🔗 {url}")
     
     if posts_generated == 0:
         print(f"\n⚠️ No posts were generated this run")
