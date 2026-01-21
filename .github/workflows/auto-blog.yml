@@ -24,8 +24,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
-          # Verify location for Selenium binary mapping
+
+      - name: Verify Chrome Installation
+        run: |
           which google-chrome
+          google-chrome --version
 
       - name: Install system dependencies
         run: |
@@ -35,8 +38,13 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-genai pillow requests google-auth google-api-python-client \
-          tweepy instagrapi selenium webdriver-manager
+          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi selenium webdriver-manager
+
+      - name: Verify environment
+        run: |
+          python --version
+          pip list | grep -E "(pillow|requests|google-genai|instagrapi|selenium)"
+          echo "DISPLAY=$DISPLAY"
 
       - name: Generate blog post
         env:
@@ -61,10 +69,11 @@ jobs:
           PINTEREST_EMAIL: ${{ secrets.PINTEREST_EMAIL }}
           PINTEREST_PASSWORD: ${{ secrets.PINTEREST_PASSWORD }}
         run: |
-          # Start virtual display for Selenium
+          # Start virtual display for headless Chrome
           Xvfb :99 -ac &
           export DISPLAY=:99
-          sleep 3
+          sleep 2
+          echo "Virtual display started on DISPLAY=$DISPLAY"
           
           # Run the blog post generator
           python scripts/generate_posts.py
@@ -75,20 +84,51 @@ jobs:
         with:
           name: pinterest-debug-screenshots
           path: |
-            *.png
-            scripts/*.png
+            scripts/pinterest_*.png
+            pinterest_*.png
           retention-days: 7
           if-no-files-found: ignore
+
+      - name: Verify generated files
+        run: |
+          echo "📋 Generated posts:"
+          ls -lh _posts/ | tail -5 || echo "No posts directory"
+          echo ""
+          echo "🖼️ Generated images:"
+          ls -lh assets/images/ | tail -5 || echo "No images directory"
+
+      - name: Debug files
+        run: |
+          echo "=== Working Directory ==="
+          pwd
+          ls -la
+          echo ""
+          echo "=== Posts Directory ==="
+          ls -lah _posts/ | tail -10 || echo "No _posts directory"
+          echo ""
+          echo "=== Images Directory ==="
+          ls -lah assets/images/ | tail -10 || echo "No assets/images directory"
+          echo ""
 
       - name: Commit & Push changes
         run: |
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
-          git pull --rebase origin master
+          
+          # Pull latest changes first to avoid conflicts
+          git pull --rebase origin master || echo "Already up to date"
+          
+          # Add everything
           git add .
+          
+          # Show status
+          git status
+          
+          # Commit if there are changes
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d') with Pinterest pins 📌"
             git push origin master
+            echo "✅ Changes pushed"
           else
-            echo "No changes to commit"
+            echo "⚠️ No changes to commit"
           fi
