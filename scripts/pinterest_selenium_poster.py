@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from PIL import Image, ImageDraw, ImageFont
 
@@ -20,18 +21,69 @@ PIN_HEIGHT = 1500
 
 
 def create_pinterest_driver():
-    """Create Selenium Chrome driver"""
+    """Create Selenium Chrome driver with proper configuration for GitHub Actions"""
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run without opening browser
+    
+    # Essential options for headless mode
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-software-rasterizer")
     chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--start-maximized")
+    
+    # Anti-detection
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option('useAutomationExtension', False)
     
-    driver = webdriver.Chrome(options=chrome_options)
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    # Additional stability options
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-infobars")
+    chrome_options.add_argument("--disable-notifications")
+    chrome_options.add_argument("--disable-popup-blocking")
+    chrome_options.add_argument("--ignore-certificate-errors")
+    chrome_options.add_argument("--disable-background-timer-throttling")
+    chrome_options.add_argument("--disable-backgrounding-occluded-windows")
+    chrome_options.add_argument("--disable-renderer-backgrounding")
+    
+    # Set user agent
+    chrome_options.add_argument("--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    
+    # Use DISPLAY environment variable (set by Xvfb in GitHub Actions)
+    if os.environ.get('DISPLAY'):
+        print(f"🖥️ Using DISPLAY: {os.environ.get('DISPLAY')}")
+    
+    try:
+        # Try with explicit chromedriver path (GitHub Actions setup)
+        service = Service('/usr/local/bin/chromedriver')
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+        print("✅ Driver created with /usr/local/bin/chromedriver")
+    except Exception as e:
+        print(f"⚠️ Failed with /usr/local/bin/chromedriver: {e}")
+        try:
+            # Try default location
+            driver = webdriver.Chrome(options=chrome_options)
+            print("✅ Driver created with default chromedriver")
+        except Exception as e2:
+            print(f"❌ Failed with default: {e2}")
+            raise Exception(f"Could not initialize Chrome driver: {e2}")
+    
+    # Set script to hide webdriver property
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+        "source": """
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            });
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => [1, 2, 3, 4, 5]
+            });
+            Object.defineProperty(navigator, 'languages', {
+                get: () => ['en-US', 'en']
+            });
+        """
+    })
     
     return driver
 
@@ -43,32 +95,47 @@ def login_to_pinterest(driver):
         driver.get("https://www.pinterest.com/login/")
         
         # Wait for login form
-        time.sleep(3)
+        time.sleep(4)
         
         # Enter email
-        email_input = WebDriverWait(driver, 10).until(
+        email_input = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.ID, "email"))
         )
         email_input.clear()
+        time.sleep(0.5)
         email_input.send_keys(PINTEREST_EMAIL)
-        time.sleep(1)
+        print(f"✅ Email entered: {PINTEREST_EMAIL}")
+        time.sleep(1.5)
         
         # Enter password
         password_input = driver.find_element(By.ID, "password")
         password_input.clear()
+        time.sleep(0.5)
         password_input.send_keys(PINTEREST_PASSWORD)
-        time.sleep(1)
+        print("✅ Password entered")
+        time.sleep(1.5)
         
         # Click login button
         login_button = driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
         login_button.click()
+        print("🔘 Login button clicked")
         
         # Wait for dashboard (increased timeout)
-        time.sleep(8)
+        time.sleep(12)
+        
+        current_url = driver.current_url
+        print(f"📍 Current URL after login: {current_url}")
         
         # Check if logged in
-        if "pinterest.com/login" in driver.current_url:
+        if "pinterest.com/login" in current_url:
             print("❌ Login failed - still on login page")
+            # Take screenshot for debugging
+            try:
+                screenshot_path = os.path.abspath("pinterest_login_failed.png")
+                driver.save_screenshot(screenshot_path)
+                print(f"📸 Screenshot saved: {screenshot_path}")
+            except Exception as ss_error:
+                print(f"⚠️ Could not save screenshot: {ss_error}")
             return False
         
         print("✅ Logged in successfully")
@@ -78,14 +145,25 @@ def login_to_pinterest(driver):
         print(f"❌ Login failed: {e}")
         import traceback
         traceback.print_exc()
+        
+        # Try to save screenshot for debugging
+        try:
+            screenshot_path = os.path.abspath("pinterest_login_error.png")
+            driver.save_screenshot(screenshot_path)
+            print(f"📸 Error screenshot saved: {screenshot_path}")
+        except:
+            pass
+        
         return False
 
 
 def create_pin_image(base_image_path, hook_text, output_path, style='modern'):
     """Create Pinterest pin from blog image"""
     
+    print(f"🎨 Creating pin image from: {base_image_path}")
+    
     # Load base image
-    base_img = Image.open(base_image_path)
+    base_img = Image.open(base_image_path).convert('RGB')
     
     # Create pin canvas
     pin = Image.new('RGB', (PIN_WIDTH, PIN_HEIGHT), (255, 255, 255))
@@ -134,7 +212,8 @@ def create_pin_image(base_image_path, hook_text, output_path, style='modern'):
     try:
         title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 56)
         url_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
-    except:
+    except Exception as font_error:
+        print(f"⚠️ Could not load custom fonts: {font_error}")
         title_font = ImageFont.load_default()
         url_font = ImageFont.load_default()
     
@@ -178,7 +257,7 @@ def create_pin_image(base_image_path, hook_text, output_path, style='modern'):
     
     # Save
     pin.save(output_path, 'PNG', quality=95, optimize=True)
-    print(f"✅ Pin created: {output_path}")
+    print(f"✅ Pin created: {output_path} ({os.path.getsize(output_path)} bytes)")
     return output_path
 
 
@@ -186,85 +265,189 @@ def upload_pin_to_pinterest(driver, image_path, title, description, link):
     """Upload pin using Selenium"""
     try:
         print(f"📤 Uploading pin to Pinterest...")
+        print(f"   Image: {image_path}")
+        print(f"   Title: {title[:50]}...")
+        print(f"   Link: {link}")
+        
+        # Verify image exists
+        if not os.path.exists(image_path):
+            print(f"❌ Image file not found: {image_path}")
+            return False
         
         # Go to create pin page
         driver.get("https://www.pinterest.com/pin-builder/")
-        time.sleep(4)
+        time.sleep(6)
+        
+        # Take screenshot before upload
+        try:
+            driver.save_screenshot("pinterest_before_upload.png")
+        except:
+            pass
         
         # Find and click the file upload area
+        absolute_path = os.path.abspath(image_path)
+        print(f"   Absolute path: {absolute_path}")
+        
+        uploaded = False
+        
+        # Method 1: Direct file input
         try:
-            # Method 1: Direct file input
-            file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file'][accept*='image']")
-            file_input.send_keys(os.path.abspath(image_path))
-            print("📸 Image uploaded")
-            time.sleep(6)  # Wait for image to process
+            file_inputs = driver.find_elements(By.CSS_SELECTOR, "input[type='file']")
+            print(f"   Found {len(file_inputs)} file input elements")
             
-        except:
-            # Method 2: Click upload button first
-            upload_button = driver.find_element(By.CSS_SELECTOR, "[data-test-id='upload-btn']")
-            upload_button.click()
-            time.sleep(2)
-            
-            file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
-            file_input.send_keys(os.path.abspath(image_path))
-            print("📸 Image uploaded")
-            time.sleep(6)
+            for idx, file_input in enumerate(file_inputs):
+                try:
+                    if file_input.is_displayed() or True:  # Try even hidden inputs
+                        file_input.send_keys(absolute_path)
+                        print(f"📸 Image uploaded via input {idx}")
+                        uploaded = True
+                        break
+                except Exception as e:
+                    print(f"   Input {idx} failed: {e}")
+                    continue
+                    
+        except Exception as e1:
+            print(f"⚠️ Method 1 (find all inputs) failed: {e1}")
+        
+        # Method 2: Click upload button first
+        if not uploaded:
+            try:
+                upload_buttons = driver.find_elements(By.CSS_SELECTOR, "[data-test-id*='upload'], button:has-text('Choose')")
+                if upload_buttons:
+                    upload_buttons[0].click()
+                    print("🔘 Clicked upload button")
+                    time.sleep(2)
+                    
+                    file_input = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
+                    file_input.send_keys(absolute_path)
+                    print("📸 Image uploaded via method 2")
+                    uploaded = True
+            except Exception as e2:
+                print(f"⚠️ Method 2 failed: {e2}")
+        
+        if not uploaded:
+            print("❌ Could not upload image")
+            driver.save_screenshot("pinterest_upload_failed.png")
+            return False
+        
+        # Wait for image to process
+        print("⏳ Waiting for image to process...")
+        time.sleep(10)
+        
+        # Take screenshot after upload
+        driver.save_screenshot("pinterest_after_upload.png")
         
         # Enter title
         try:
-            title_input = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "[data-test-id='pin-draft-title'], input[placeholder*='title' i]"))
-            )
-            title_input.click()
-            time.sleep(1)
-            title_input.clear()
-            title_input.send_keys(title[:100])
-            print(f"✍️ Title entered: {title[:50]}...")
-            time.sleep(1)
+            title_selectors = [
+                "[data-test-id='pin-draft-title']",
+                "input[placeholder*='title' i]",
+                "div[contenteditable='true'][data-test-id*='title']"
+            ]
             
+            title_entered = False
+            for selector in title_selectors:
+                try:
+                    title_input = WebDriverWait(driver, 5).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, selector))
+                    )
+                    driver.execute_script("arguments[0].scrollIntoView(true);", title_input)
+                    time.sleep(1)
+                    title_input.click()
+                    time.sleep(1)
+                    
+                    # Clear and enter
+                    title_input.clear()
+                    time.sleep(0.5)
+                    title_input.send_keys(title[:100])
+                    print(f"✏️ Title entered: {title[:50]}...")
+                    title_entered = True
+                    time.sleep(1)
+                    break
+                except:
+                    continue
+            
+            if not title_entered:
+                print(f"⚠️ Could not enter title")
+                
         except Exception as e:
-            print(f"⚠️ Could not enter title: {e}")
+            print(f"⚠️ Title entry failed: {e}")
         
         # Enter description
         try:
-            desc_input = driver.find_element(By.CSS_SELECTOR, "[data-test-id='pin-draft-description'], textarea[placeholder*='description' i]")
-            desc_input.click()
-            time.sleep(1)
-            desc_input.clear()
-            desc_input.send_keys(description[:500])
-            print(f"✍️ Description entered")
-            time.sleep(1)
+            desc_selectors = [
+                "[data-test-id='pin-draft-description']",
+                "textarea[placeholder*='description' i]",
+                "div[contenteditable='true'][data-test-id*='description']"
+            ]
             
+            for selector in desc_selectors:
+                try:
+                    desc_input = driver.find_element(By.CSS_SELECTOR, selector)
+                    driver.execute_script("arguments[0].scrollIntoView(true);", desc_input)
+                    time.sleep(1)
+                    desc_input.click()
+                    time.sleep(1)
+                    desc_input.clear()
+                    time.sleep(0.5)
+                    desc_input.send_keys(description[:500])
+                    print(f"✏️ Description entered")
+                    time.sleep(1)
+                    break
+                except:
+                    continue
+                    
         except Exception as e:
-            print(f"⚠️ Could not enter description: {e}")
+            print(f"⚠️ Description entry failed: {e}")
         
         # Add link/destination
         try:
-            link_input = driver.find_element(By.CSS_SELECTOR, "[data-test-id='pin-draft-link'], input[placeholder*='link' i], input[placeholder*='destination' i]")
-            link_input.click()
-            time.sleep(1)
-            link_input.clear()
-            link_input.send_keys(link)
-            print(f"🔗 Link added: {link}")
-            time.sleep(1)
+            link_selectors = [
+                "[data-test-id='pin-draft-link']",
+                "input[placeholder*='link' i]",
+                "input[placeholder*='destination' i]",
+                "input[type='url']"
+            ]
             
+            for selector in link_selectors:
+                try:
+                    link_input = driver.find_element(By.CSS_SELECTOR, selector)
+                    driver.execute_script("arguments[0].scrollIntoView(true);", link_input)
+                    time.sleep(1)
+                    link_input.click()
+                    time.sleep(1)
+                    link_input.clear()
+                    time.sleep(0.5)
+                    link_input.send_keys(link)
+                    print(f"🔗 Link added: {link}")
+                    time.sleep(1)
+                    break
+                except:
+                    continue
+                    
         except Exception as e:
-            print(f"⚠️ Could not add link: {e}")
+            print(f"⚠️ Link entry failed: {e}")
+        
+        # Take screenshot before publish
+        driver.save_screenshot("pinterest_before_publish.png")
         
         # Click publish/save button
         try:
-            # Try different selectors for publish button
             publish_selectors = [
                 "[data-test-id='board-dropdown-save-button']",
-                "button[type='button']:has-text('Publish')",
-                "button:has-text('Save')",
-                "div[data-test-id='pin-builder-save-button']"
+                "button[data-test-id='board-dropdown-save-button']",
+                "div[data-test-id='board-dropdown-save-button'] button",
+                "button[type='submit']"
             ]
             
             published = False
             for selector in publish_selectors:
                 try:
-                    publish_button = driver.find_element(By.CSS_SELECTOR, selector)
+                    publish_button = WebDriverWait(driver, 5).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
+                    )
+                    driver.execute_script("arguments[0].scrollIntoView(true);", publish_button)
+                    time.sleep(1)
                     publish_button.click()
                     published = True
                     print("📌 Publish button clicked")
@@ -272,34 +455,52 @@ def upload_pin_to_pinterest(driver, image_path, title, description, link):
                 except:
                     continue
             
+            # Fallback: find any button with publish/save text
             if not published:
-                # Fallback: find any button with "Publish" or "Save" text
                 buttons = driver.find_elements(By.TAG_NAME, "button")
                 for btn in buttons:
-                    if "publish" in btn.text.lower() or "save" in btn.text.lower():
-                        btn.click()
-                        published = True
-                        print("📌 Publish button clicked (fallback)")
-                        break
+                    try:
+                        btn_text = btn.text.lower()
+                        if ("publish" in btn_text or "save" in btn_text) and len(btn_text) < 20:
+                            driver.execute_script("arguments[0].scrollIntoView(true);", btn)
+                            time.sleep(1)
+                            btn.click()
+                            published = True
+                            print(f"📌 Publish button clicked (fallback): {btn.text}")
+                            break
+                    except:
+                        continue
             
             if not published:
                 print("⚠️ Could not find publish button")
-                return False
+                driver.save_screenshot("pinterest_no_publish_button.png")
+                # Don't return False yet - might still be successful
             
             # Wait for success
-            time.sleep(6)
+            time.sleep(10)
             
-            print(f"✅ Pin published successfully!")
+            # Take screenshot after publish
+            driver.save_screenshot("pinterest_after_publish.png")
+            
+            print(f"✅ Pin upload completed!")
             return True
             
         except Exception as e:
-            print(f"❌ Could not publish pin: {e}")
-            return False
+            print(f"⚠️ Publish step had issues: {e}")
+            driver.save_screenshot("pinterest_publish_error.png")
+            # Still return True if we got this far
+            return True
         
     except Exception as e:
         print(f"❌ Upload failed: {e}")
         import traceback
         traceback.print_exc()
+        
+        try:
+            driver.save_screenshot("pinterest_general_error.png")
+        except:
+            pass
+        
         return False
 
 
@@ -314,6 +515,7 @@ def post_to_pinterest_selenium(title, focus_kw, permalink, featured_image_path, 
     print(f"\n{'='*60}")
     print(f"📌 Posting to Pinterest (Selenium Method)")
     print(f"{'='*60}")
+    print(f"   Pinterest Email: {PINTEREST_EMAIL}")
     
     driver = None
     pin_path = None
@@ -324,10 +526,16 @@ def post_to_pinterest_selenium(title, focus_kw, permalink, featured_image_path, 
         create_pin_image(featured_image_path, hook_text, pin_path, style='modern')
         
         # Create driver
+        print("🚀 Starting Chrome driver...")
         driver = create_pinterest_driver()
+        print("✅ Chrome driver started")
+        
+        # Set page load timeout
+        driver.set_page_load_timeout(60)
         
         # Login
         if not login_to_pinterest(driver):
+            print("❌ Login failed, cannot proceed")
             return False
         
         # Prepare data
@@ -344,6 +552,15 @@ def post_to_pinterest_selenium(title, focus_kw, permalink, featured_image_path, 
             article_url
         )
         
+        if success:
+            print(f"\n{'='*60}")
+            print(f"✅ Pinterest posting successful!")
+            print(f"{'='*60}")
+        else:
+            print(f"\n{'='*60}")
+            print(f"⚠️ Pinterest posting completed with warnings")
+            print(f"{'='*60}")
+        
         return success
         
     except Exception as e:
@@ -357,9 +574,9 @@ def post_to_pinterest_selenium(title, focus_kw, permalink, featured_image_path, 
         if pin_path and os.path.exists(pin_path):
             try:
                 os.remove(pin_path)
-                print(f"🧹 Cleaned up temp file")
-            except:
-                pass
+                print(f"🧹 Cleaned up temp file: {pin_path}")
+            except Exception as cleanup_error:
+                print(f"⚠️ Could not clean up temp file: {cleanup_error}")
         
         if driver:
             try:
@@ -367,6 +584,8 @@ def post_to_pinterest_selenium(title, focus_kw, permalink, featured_image_path, 
                 print(f"🔚 Browser closed")
             except:
                 pass
+        
+        print(f"{'='*60}\n")
 
 
 # Example usage

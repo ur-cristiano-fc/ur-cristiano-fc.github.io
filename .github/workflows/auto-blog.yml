@@ -33,8 +33,12 @@ jobs:
           sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/local/bin/chromedriver
           
           # Verify installation
+          echo "Chrome version:"
           google-chrome --version
+          echo "ChromeDriver version:"
           chromedriver --version
+          echo "ChromeDriver location:"
+          which chromedriver
 
       - name: Install system dependencies
         run: |
@@ -50,6 +54,7 @@ jobs:
         run: |
           python --version
           pip list | grep -E "(pillow|requests|google-genai|instagrapi|selenium)"
+          echo "DISPLAY=$DISPLAY"
 
       - name: Generate blog post
         env:
@@ -77,17 +82,30 @@ jobs:
           # Start virtual display for headless Chrome
           Xvfb :99 -ac &
           export DISPLAY=:99
+          sleep 2
+          echo "Virtual display started on DISPLAY=$DISPLAY"
           
           # Run the blog post generator
           python scripts/generate_posts.py
 
+      - name: Upload Pinterest screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pinterest-debug-screenshots
+          path: |
+            scripts/pinterest_*.png
+            pinterest_*.png
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Verify generated files
         run: |
           echo "📋 Generated posts:"
-          ls -lh _posts/ | tail -5
+          ls -lh _posts/ | tail -5 || echo "No posts directory"
           echo ""
           echo "🖼️ Generated images:"
-          ls -lh assets/images/ | tail -5
+          ls -lh assets/images/ | tail -5 || echo "No images directory"
 
       - name: Debug files
         run: |
@@ -96,10 +114,10 @@ jobs:
           ls -la
           echo ""
           echo "=== Posts Directory ==="
-          ls -lah _posts/ | tail -10
+          ls -lah _posts/ | tail -10 || echo "No _posts directory"
           echo ""
           echo "=== Images Directory ==="
-          ls -lah assets/images/ | tail -10
+          ls -lah assets/images/ | tail -10 || echo "No assets/images directory"
           echo ""
 
       - name: Commit & Push changes
