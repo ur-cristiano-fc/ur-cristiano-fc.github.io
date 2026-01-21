@@ -24,69 +24,37 @@ def create_pinterest_driver():
     """Create Selenium Chrome driver with proper configuration for GitHub Actions"""
     chrome_options = Options()
     
-    # Essential options for headless mode
+    # Path to the Google Chrome binary in GitHub Actions
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--disable-software-rasterizer")
     chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--start-maximized")
     
     # Anti-detection
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option('useAutomationExtension', False)
     
-    # Additional stability options
-    chrome_options.add_argument("--disable-extensions")
-    chrome_options.add_argument("--disable-infobars")
-    chrome_options.add_argument("--disable-notifications")
-    chrome_options.add_argument("--disable-popup-blocking")
-    chrome_options.add_argument("--ignore-certificate-errors")
-    chrome_options.add_argument("--disable-background-timer-throttling")
-    chrome_options.add_argument("--disable-backgrounding-occluded-windows")
-    chrome_options.add_argument("--disable-renderer-backgrounding")
-    
     # Set user agent
     chrome_options.add_argument("--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     
-    # Use DISPLAY environment variable (set by Xvfb in GitHub Actions)
-    if os.environ.get('DISPLAY'):
-        print(f"🖥️ Using DISPLAY: {os.environ.get('DISPLAY')}")
-    
     try:
-        # Try with explicit chromedriver path (GitHub Actions setup)
-        service = Service('/usr/local/bin/chromedriver')
+        # Use webdriver-manager to handle driver matching automatically
+        from selenium.webdriver.chrome.service import Service as ChromeService
+        from webdriver_manager.chrome import ChromeDriverManager
+        
+        service = ChromeService(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chrome_options)
-        print("✅ Driver created with /usr/local/bin/chromedriver")
+        print("✅ Driver created using webdriver-manager")
     except Exception as e:
-        print(f"⚠️ Failed with /usr/local/bin/chromedriver: {e}")
-        try:
-            # Try default location
-            driver = webdriver.Chrome(options=chrome_options)
-            print("✅ Driver created with default chromedriver")
-        except Exception as e2:
-            print(f"❌ Failed with default: {e2}")
-            raise Exception(f"Could not initialize Chrome driver: {e2}")
+        print(f"⚠️ Webdriver-manager failed: {e}. Attempting fallback...")
+        # Fallback for standard environments
+        driver = webdriver.Chrome(options=chrome_options)
     
-    # Set script to hide webdriver property
-    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-        "source": """
-            Object.defineProperty(navigator, 'webdriver', {
-                get: () => undefined
-            });
-            Object.defineProperty(navigator, 'plugins', {
-                get: () => [1, 2, 3, 4, 5]
-            });
-            Object.defineProperty(navigator, 'languages', {
-                get: () => ['en-US', 'en']
-            });
-        """
-    })
-    
+    # ... rest of your script (CDP commands, etc.)
     return driver
-
 
 def login_to_pinterest(driver):
     """Login to Pinterest"""

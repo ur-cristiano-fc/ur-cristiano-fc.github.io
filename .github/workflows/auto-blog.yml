@@ -20,25 +20,12 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install Chrome and ChromeDriver
+      - name: Install Google Chrome
         run: |
           sudo apt-get update
-          sudo apt-get install -y wget gnupg
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable chromium-chromedriver
-          
-          # Symlink chromedriver
-          sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/local/bin/chromedriver
-          
-          # Verify installation
-          echo "Chrome version:"
-          google-chrome --version
-          echo "ChromeDriver version:"
-          chromedriver --version
-          echo "ChromeDriver location:"
-          which chromedriver
+          sudo apt-get install -y google-chrome-stable
+          # Verify location for Selenium binary mapping
+          which google-chrome
 
       - name: Install system dependencies
         run: |
@@ -48,13 +35,8 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi selenium webdriver-manager
-
-      - name: Verify environment
-        run: |
-          python --version
-          pip list | grep -E "(pillow|requests|google-genai|instagrapi|selenium)"
-          echo "DISPLAY=$DISPLAY"
+          pip install google-genai pillow requests google-auth google-api-python-client \
+          tweepy instagrapi selenium webdriver-manager
 
       - name: Generate blog post
         env:
@@ -79,11 +61,10 @@ jobs:
           PINTEREST_EMAIL: ${{ secrets.PINTEREST_EMAIL }}
           PINTEREST_PASSWORD: ${{ secrets.PINTEREST_PASSWORD }}
         run: |
-          # Start virtual display for headless Chrome
+          # Start virtual display for Selenium
           Xvfb :99 -ac &
           export DISPLAY=:99
-          sleep 2
-          echo "Virtual display started on DISPLAY=$DISPLAY"
+          sleep 3
           
           # Run the blog post generator
           python scripts/generate_posts.py
@@ -94,51 +75,20 @@ jobs:
         with:
           name: pinterest-debug-screenshots
           path: |
-            scripts/pinterest_*.png
-            pinterest_*.png
+            *.png
+            scripts/*.png
           retention-days: 7
           if-no-files-found: ignore
-
-      - name: Verify generated files
-        run: |
-          echo "📋 Generated posts:"
-          ls -lh _posts/ | tail -5 || echo "No posts directory"
-          echo ""
-          echo "🖼️ Generated images:"
-          ls -lh assets/images/ | tail -5 || echo "No images directory"
-
-      - name: Debug files
-        run: |
-          echo "=== Working Directory ==="
-          pwd
-          ls -la
-          echo ""
-          echo "=== Posts Directory ==="
-          ls -lah _posts/ | tail -10 || echo "No _posts directory"
-          echo ""
-          echo "=== Images Directory ==="
-          ls -lah assets/images/ | tail -10 || echo "No assets/images directory"
-          echo ""
 
       - name: Commit & Push changes
         run: |
           git config user.name "gemini-blog-bot"
           git config user.email "bot@github.com"
-          
-          # Pull latest changes first to avoid conflicts
-          git pull --rebase origin master || echo "Already up to date"
-          
-          # Add everything
+          git pull --rebase origin master
           git add .
-          
-          # Show status
-          git status
-          
-          # Commit if there are changes
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d') with Pinterest pins 📌"
             git push origin master
-            echo "✅ Changes pushed"
           else
-            echo "⚠️ No changes to commit"
+            echo "No changes to commit"
           fi
