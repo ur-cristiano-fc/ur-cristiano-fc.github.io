@@ -20,20 +20,36 @@ jobs:
         with:
           python-version: "3.10"
 
+      - name: Install Chrome and ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget gnupg
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable chromium-chromedriver
+          
+          # Symlink chromedriver
+          sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/local/bin/chromedriver
+          
+          # Verify installation
+          google-chrome --version
+          chromedriver --version
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra
+          sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra xvfb
 
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi
+          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi selenium webdriver-manager
 
       - name: Verify environment
         run: |
           python --version
-          pip list | grep -E "(pillow|requests|google-genai|instagrapi)"
+          pip list | grep -E "(pillow|requests|google-genai|instagrapi|selenium)"
 
       - name: Generate blog post
         env:
@@ -55,9 +71,14 @@ jobs:
           LINKEDIN_PERSON_ID: ${{ secrets.LINKEDIN_PERSON_ID }}
           WEBPUSHR_API_KEY: ${{ secrets.WEBPUSHR_API_KEY }}
           WEBPUSHR_AUTH_TOKEN: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
-          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
-          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          PINTEREST_EMAIL: ${{ secrets.PINTEREST_EMAIL }}
+          PINTEREST_PASSWORD: ${{ secrets.PINTEREST_PASSWORD }}
         run: |
+          # Start virtual display for headless Chrome
+          Xvfb :99 -ac &
+          export DISPLAY=:99
+          
+          # Run the blog post generator
           python scripts/generate_posts.py
 
       - name: Verify generated files
@@ -97,7 +118,7 @@ jobs:
           
           # Commit if there are changes
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "🤖 Current-post: $(date +'%Y-%m-%d')"
+            git commit -m "🤖 Auto-post: $(date +'%Y-%m-%d') with Pinterest pins 📌"
             git push origin master
             echo "✅ Changes pushed"
           else

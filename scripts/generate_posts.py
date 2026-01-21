@@ -1,4 +1,4 @@
-"""Main script to generate blog posts automatically with GSC indexing"""
+"""Main script to generate blog posts automatically with Pinterest posting"""
 import os
 import random
 import time
@@ -7,15 +7,14 @@ import datetime
 # Import all modules
 from config import *
 from keywords_handler import get_keyword_row, parse_keyword_row, remove_keyword_from_file, get_keywords_count
-from article_generator import generate_article, generate_image_prompt
+from article_generator import generate_article, generate_image_prompt, generate_description
 from image_generator import generate_image_freepik
 from google_sheets_logger import log_to_google_sheets
 from webpushr_notifier import send_blog_post_notification, get_subscriber_count
 
-
 def main():
     print("=" * 60)
-    print("🚀 Starting Blog Post Generator with Auto-Indexing")
+    print("🚀 Starting Blog Post Generator with Pinterest Integration")
     print("=" * 60)
     
     # Verify environment variables
@@ -40,10 +39,10 @@ def main():
     else:
         print("ℹ️ Instagram credentials not found - skipping Instagram posts")
     
-    # Check for Pinterest credentials (optional)
-    pinterest_enabled = bool(os.environ.get('PINTEREST_ACCESS_TOKEN'))
+    # Check for Pinterest credentials (Selenium method - email/password)
+    pinterest_enabled = bool(os.environ.get('PINTEREST_EMAIL') and os.environ.get('PINTEREST_PASSWORD'))
     if pinterest_enabled:
-        print("✅ Pinterest credentials found - auto-posting enabled")
+        print("✅ Pinterest credentials found - auto-posting enabled (Selenium)")
     else:
         print("ℹ️ Pinterest credentials not found - skipping Pinterest posts")
     
@@ -53,7 +52,6 @@ def main():
     print(f"📋 Keywords available: {keywords_count}")
     
     posts_generated = 0
-    urls_to_index = []  # Collect URLs for batch indexing
     
     for post_num in range(1, POSTS_PER_RUN + 1):
         print(f"\n{'=' * 60}")
@@ -105,7 +103,6 @@ def main():
             article = generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links, hook_kw, search_kw)
             print(f"✅ Article generated ({len(article)} characters)")
             
-            
             # Step 2: Create featured image (using Google Custom Search API + Gemini AI)
             print(f"\n{'=' * 60}")
             print("Step 2: Creating AI-Powered Collage with Relevant Images")
@@ -150,15 +147,12 @@ def main():
             
             posts_generated += 1
             
-            # Add URL to indexing queue
-            urls_to_index.append(post_url)
-            
             # Step 4: Additional processing (social media, logging, etc.)
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
-                # Step 4b: Log to Google Sheets
+                # Step 4a: Log to Google Sheets
                 print(f"\n{'=' * 60}")
-                print("Step 4b: Logging to Google Sheets")
+                print("Step 4a: Logging to Google Sheets")
                 print("=" * 60)
                 
                 try:
@@ -173,45 +167,51 @@ def main():
                 except Exception as e:
                     print(f"⚠️ Sheets logging failed (non-critical): {e}")
 
-                # Step 4c: Post to Pinterest (3 pins)
+                # Step 4b: Post to Pinterest (Selenium method - 3 pins)
                 if pinterest_enabled:
                     print(f"\n{'=' * 60}")
-                    print("Step 4c: Creating & Posting Pinterest Pins")
+                    print("Step 4b: Creating & Posting Pinterest Pins (Selenium)")
                     print("=" * 60)
 
                     try:
-                        from pinterest_poster import create_and_post_pinterest_pins
+                        from pinterest_selenium_poster import post_to_pinterest_selenium
                         
-                        pinterest_results = create_and_post_pinterest_pins(
-                            title, 
-                            focus_kw, 
-                            permalink, 
-                            image_file, 
-                            article
+                        # Generate description and hook
+                        description = generate_description(title, focus_kw)
+                        hook_text = hook_kw if hook_kw else f"{focus_kw.title()} Guide"
+                        
+                        # Post to Pinterest (creates and uploads 1 pin)
+                        # You can call this 3 times with different styles if you want 3 pins
+                        success = post_to_pinterest_selenium(
+                            title=title,
+                            focus_kw=focus_kw,
+                            permalink=permalink,
+                            featured_image_path=image_file,
+                            description=description,
+                            hook_text=hook_text
                         )
                         
-                        successful_pins = sum(1 for r in pinterest_results if r['success'])
-                        print(f"✅ Posted {successful_pins}/3 pins to Pinterest")
-                        
-                        # Log Pinterest URLs
-                        for result in pinterest_results:
-                            if result['success']:
-                                print(f"   📌 Pin {result['pin_number']}: {result['pin_url']}")
+                        if success:
+                            print(f"✅ Posted to Pinterest successfully!")
+                        else:
+                            print(f"⚠️ Pinterest posting failed")
                                 
                     except ImportError as e:
                         print(f"⚠️ Pinterest module not available: {e}")
+                        print(f"   Make sure pinterest_selenium_poster.py exists in scripts/")
                     except Exception as e:
                         print(f"⚠️ Pinterest posting failed (non-critical): {e}")
                         import traceback
                         traceback.print_exc()
                 else:
                     print(f"\n{'=' * 60}")
-                    print("Step 4c: Pinterest posting skipped (credentials not configured)")
+                    print("Step 4b: Pinterest posting skipped (credentials not configured)")
+                    print("   Set PINTEREST_EMAIL and PINTEREST_PASSWORD to enable")
                     print("=" * 60)
                 
-                # Step 4d: Send Push Notification
+                # Step 4c: Send Push Notification
                 print(f"\n{'=' * 60}")
-                print("Step 4d: Sending Push Notification")
+                print("Step 4c: Sending Push Notification")
                 print("=" * 60)
                 
                 try:
@@ -242,11 +242,6 @@ def main():
     print("=" * 60)
     print(f"✅ Posts generated: {posts_generated}")
     print(f"📊 Keywords remaining: {get_keywords_count()}")
-    
-    if urls_to_index:
-        print(f"🔍 URLs ready for indexing: {len(urls_to_index)}")
-        for url in urls_to_index:
-            print(f"   🔗 {url}")
     
     if posts_generated == 0:
         print(f"\n⚠️ No posts were generated this run")
