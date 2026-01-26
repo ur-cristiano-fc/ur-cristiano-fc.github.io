@@ -38,7 +38,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi selenium webdriver-manager
+          pip install google-genai pillow requests google-auth google-api-python-client tweepy instagrapi selenium webdriver-manager beautifulsoup4 lxml
 
       - name: Verify environment
         run: |
