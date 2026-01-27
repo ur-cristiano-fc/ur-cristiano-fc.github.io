@@ -136,41 +136,41 @@ def main():
             if post_num == POSTS_PER_RUN or post_num == posts_generated:
                 
                 # Step 4a: Post to Pinterest (if enabled)
-                if pinterest_enabled:
-                    print(f"\n{'=' * 60}")
-                    print("Step 4a: Creating & Posting Pinterest Pins")
-                    print("=" * 60)
+                # if pinterest_enabled:
+                #     print(f"\n{'=' * 60}")
+                #     print("Step 4a: Creating & Posting Pinterest Pins")
+                #     print("=" * 60)
 
-                    try:
-                        from pinterest_selenium_poster import post_to_pinterest_selenium
+                #     try:
+                #         from pinterest_selenium_poster import post_to_pinterest_selenium
                         
-                        description = generate_description(title, focus_kw)
-                        hook_text = hook_kw if hook_kw else f"{focus_kw.title()} Guide"
+                #         description = generate_description(title, focus_kw)
+                #         hook_text = hook_kw if hook_kw else f"{focus_kw.title()} Guide"
                         
-                        success = post_to_pinterest_selenium(
-                            title=title,
-                            focus_kw=focus_kw,
-                            permalink=permalink,
-                            featured_image_path=image_file,
-                            description=description,
-                            hook_text=hook_text
-                        )
+                #         success = post_to_pinterest_selenium(
+                #             title=title,
+                #             focus_kw=focus_kw,
+                #             permalink=permalink,
+                #             featured_image_path=image_file,
+                #             description=description,
+                #             hook_text=hook_text
+                #         )
                         
-                        if success:
-                            print(f"✅ Posted to Pinterest successfully!")
-                        else:
-                            print(f"⚠️ Pinterest posting failed")
+                #         if success:
+                #             print(f"✅ Posted to Pinterest successfully!")
+                #         else:
+                #             print(f"⚠️ Pinterest posting failed")
                                 
-                    except ImportError as e:
-                        print(f"⚠️ Pinterest module not available: {e}")
-                    except Exception as e:
-                        print(f"⚠️ Pinterest posting failed (non-critical): {e}")
-                        import traceback
-                        traceback.print_exc()
-                else:
-                    print(f"\n{'=' * 60}")
-                    print("Step 4a: Pinterest posting skipped (credentials not configured)")
-                    print("=" * 60)
+                #     except ImportError as e:
+                #         print(f"⚠️ Pinterest module not available: {e}")
+                #     except Exception as e:
+                #         print(f"⚠️ Pinterest posting failed (non-critical): {e}")
+                #         import traceback
+                #         traceback.print_exc()
+                # else:
+                #     print(f"\n{'=' * 60}")
+                #     print("Step 4a: Pinterest posting skipped (credentials not configured)")
+                #     print("=" * 60)
                 
                 # Step 4b: Send Push Notification
                 print(f"\n{'=' * 60}")
