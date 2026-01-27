@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import argparse
 
 
-USED_TOPICS_FILE = "_posts/used_topics.json"
+USED_TOPICS_FILE = "_data/used_topics.json"
 
 
 def load_topics():

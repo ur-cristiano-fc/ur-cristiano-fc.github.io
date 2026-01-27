@@ -13,7 +13,7 @@ import random
 class GoogleNewsFetcher:
     """Fetch and process trending news about Cristiano Ronaldo"""
     
-    def __init__(self, used_topics_file="_posts/used_topics.json"):
+    def __init__(self, used_topics_file="_data/used_topics.json"):
         self.base_url = "https://news.google.com/rss/search"
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
