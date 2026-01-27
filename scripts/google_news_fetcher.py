@@ -2,6 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import json
+import os
 from datetime import datetime, timedelta
 from article_generator import client, TEXT_MODEL
 import time
@@ -11,11 +13,83 @@ import random
 class GoogleNewsFetcher:
     """Fetch and process trending news about Cristiano Ronaldo"""
     
-    def __init__(self):
+    def __init__(self, used_topics_file="_posts/used_topics.json"):
         self.base_url = "https://news.google.com/rss/search"
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
+        self.used_topics_file = used_topics_file
+        self.used_topics = self._load_used_topics()
+    
+    def _load_used_topics(self):
+        """Load previously used topics from JSON file"""
+        if os.path.exists(self.used_topics_file):
+            try:
+                with open(self.used_topics_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    # Clean old entries (older than 30 days)
+                    cutoff_date = (datetime.now() - timedelta(days=30)).isoformat()
+                    data = {k: v for k, v in data.items() if v.get('date', '') > cutoff_date}
+                    print(f"📋 Loaded {len(data)} previously used topics")
+                    return data
+            except Exception as e:
+                print(f"⚠️ Error loading used topics: {e}")
+                return {}
+        return {}
+    
+    def _save_used_topics(self):
+        """Save used topics to JSON file"""
+        try:
+            # Ensure directory exists
+            os.makedirs(os.path.dirname(self.used_topics_file) or '.', exist_ok=True)
+            
+            with open(self.used_topics_file, 'w', encoding='utf-8') as f:
+                json.dump(self.used_topics, f, indent=2, ensure_ascii=False)
+            print(f"💾 Saved used topics list ({len(self.used_topics)} topics)")
+        except Exception as e:
+            print(f"⚠️ Error saving used topics: {e}")
+    
+    def _is_topic_used(self, title):
+        """Check if topic has been used recently"""
+        # Normalize title for comparison
+        normalized = title.lower().strip()
+        
+        # Check exact match
+        if normalized in self.used_topics:
+            return True
+        
+        # Check for similar titles (>80% similarity)
+        for used_title in self.used_topics.keys():
+            similarity = self._calculate_similarity(normalized, used_title.lower())
+            if similarity > 0.8:
+                print(f"⚠️ Topic too similar to already used: {used_title[:60]}...")
+                return True
+        
+        return False
+    
+    def _calculate_similarity(self, str1, str2):
+        """Calculate similarity ratio between two strings"""
+        # Simple word-based similarity
+        words1 = set(str1.split())
+        words2 = set(str2.split())
+        
+        if not words1 or not words2:
+            return 0.0
+        
+        intersection = words1.intersection(words2)
+        union = words1.union(words2)
+        
+        return len(intersection) / len(union) if union else 0.0
+    
+    def _mark_topic_used(self, title, permalink):
+        """Mark topic as used"""
+        normalized = title.lower().strip()
+        self.used_topics[normalized] = {
+            'title': title,
+            'permalink': permalink,
+            'date': datetime.now().isoformat()
+        }
+        self._save_used_topics()
     
     def fetch_trending_topics(self, max_results=10):
         """
@@ -69,6 +143,11 @@ class GoogleNewsFetcher:
                         description = item.find('description').text if item.find('description') else ""
                         
                         if title and link:
+                            # Skip if already used
+                            if self._is_topic_used(title):
+                                print(f"⏭️ Skipping already used: {title[:60]}...")
+                                continue
+                            
                             # Check if already in list (avoid duplicates)
                             if not any(news['title'] == title for news in all_news):
                                 all_news.append({
@@ -94,7 +173,7 @@ class GoogleNewsFetcher:
         # Sort by recency (most recent first)
         all_news = sorted(all_news, key=lambda x: x['pub_date'] or '', reverse=True)
         
-        print(f"✅ Total unique news items fetched: {len(all_news)}")
+        print(f"✅ Total unique NEW news items fetched: {len(all_news)}")
         
         return all_news[:max_results]
     
@@ -289,11 +368,11 @@ Return ONLY these 6 lines, nothing else.
         print("🔥 FETCHING TRENDING CRISTIANO RONALDO TOPIC")
         print("=" * 60)
         
-        # Step 1: Fetch news
-        news_items = self.fetch_trending_topics(max_results=15)
+        # Step 1: Fetch news (get more to account for already-used topics)
+        news_items = self.fetch_trending_topics(max_results=20)
         
         if not news_items:
-            print("❌ No news items found")
+            print("❌ No NEW news items found (all may have been used already)")
             return None
         
         # Step 2: Filter suitable topics
@@ -303,23 +382,26 @@ Return ONLY these 6 lines, nothing else.
             print("❌ No suitable topics found")
             return None
         
-        # Step 3: Select the best one (first from filtered list)
-        selected_news = suitable_topics[0]
+        # Step 3: Try each suitable topic until one succeeds
+        for i, selected_news in enumerate(suitable_topics):
+            print(f"\n✅ Attempting topic {i+1}/{len(suitable_topics)}:")
+            print(f"   {selected_news['title']}")
+            print(f"   Published: {selected_news.get('pub_date', 'Unknown')}")
+            
+            # Step 4: Generate blog metadata
+            metadata = self.generate_blog_metadata_from_news(selected_news)
+            
+            if metadata:
+                # Mark topic as used
+                self._mark_topic_used(selected_news['title'], metadata['permalink'])
+                print(f"\n✅ Topic ready for blog generation!")
+                return metadata
+            else:
+                print(f"⚠️ Metadata generation failed, trying next topic...")
+                continue
         
-        print(f"\n✅ Selected trending topic:")
-        print(f"   {selected_news['title']}")
-        print(f"   Published: {selected_news.get('pub_date', 'Unknown')}")
-        
-        # Step 4: Generate blog metadata
-        metadata = self.generate_blog_metadata_from_news(selected_news)
-        
-        if not metadata:
-            print("❌ Failed to generate metadata")
-            return None
-        
-        print(f"\n✅ Topic ready for blog generation!")
-        
-        return metadata
+        print("❌ All suitable topics failed metadata generation")
+        return None
 
 
 def test_fetcher():
