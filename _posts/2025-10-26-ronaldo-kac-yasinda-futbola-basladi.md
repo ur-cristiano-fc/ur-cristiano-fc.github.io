@@ -15,17 +15,25 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
+
+
 Cristiano Ronaldo, dünyanın en tanınmış futbolcularından biri olarak tarihe geçti. Ancak pek çok futbolseverin merak ettiği bir soru var: *Ronaldo kaç yaşında futbola başladı?* Bu makale, onun çocukluk döneminden profesyonel kariyerine kadar uzanan yolculuğunu detaylı biçimde ele alıyor. 
 
-<!-- <ins class="adsbygoogle"
-     style="display:block"
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
      data-ad-client="ca-pub-2784742237479601"
-     data-ad-slot="3760872290"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="7340313511"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+</script>
+
 
 Ronaldo’nun spora başlama yaşı, azmi, karşılaştığı zorluklar ve nasıl dünyanın zirvesine ulaştığı adım adım anlatılıyor.
 
@@ -33,11 +41,39 @@ Ronaldo’nun spora başlama yaşı, azmi, karşılaştığı zorluklar ve nası
 
 ## Cristiano Ronaldo’nun Futbol Tutkusunun Başlangıcı
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Cristiano Ronaldo dos Santos Aveiro, 5 Şubat 1985 tarihinde Portekiz’in Madeira adasında dünyaya geldi. Küçük bir balıkçı kasabası olan Funchal’da büyüyen Ronaldo’nun futbol sevgisi, neredeyse yürümeyi öğrendiği yıllarda başladı. Henüz **7 yaşındayken** mahalle takımı *Andorinha*’da futbol oynamaya başladı. Bu yaş, onun profesyonel kariyerinin ilk kıvılcımıydı.
 
 Babası José Dinis Aveiro, Andorinha’da malzeme sorumlusu olarak çalışıyordu. Bu da Ronaldo’nun futbolla erken yaşta tanışmasını sağladı. Her gün sahalarda zaman geçiriyor, topa vurmak ve takım arkadaşlarıyla oynamak onun en büyük mutluluğu haline geliyordu.
 
 ## Ronaldo’nun Çocukluk Dönemi ve İlk Antrenmanları
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Ronaldo, Andorinha’daki performansıyla kısa sürede dikkat çekti. O dönemde antrenörleri onun doğal bir yeteneğe sahip olduğunu fark etti. Sadece top sürme becerisiyle değil, hırsı ve çalışma disipliniyle de yaşıtlarından ayrılıyordu. Küçük yaşına rağmen, *profesyonel bir futbolcu gibi* çalışıyordu.
 
@@ -45,15 +81,7 @@ Ronaldo, Andorinha’daki performansıyla kısa sürede dikkat çekti. O dönemd
 
 Cristiano Ronaldo, 10 yaşında *Nacional* takımına transfer oldu. Bu transfer, Madeira’da büyük yankı uyandırdı. Çünkü Ronaldo, ada dışına çıkmadan önce bile “geleceğin yıldızı” olarak anılıyordu. Nacional’de geçirdiği iki yıl boyunca inanılmaz bir performans sergiledi.
 
-<!-- <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2784742237479601"
-     data-ad-slot="3760872290"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+
 
 12 yaşına geldiğinde ise, Portekiz’in en büyük kulüplerinden biri olan *Sporting Lisbon*’un dikkatini çekti. Ailesinden uzakta, başkent Lizbon’a taşınmak onun için büyük bir adım oldu. Henüz bir çocuktu ama hayalleri büyüktü. Ailesi onun futbol tutkusuna destek verdi ve bu destek Ronaldo’nun kariyerinde belirleyici bir rol oynadı.
 
@@ -81,15 +109,7 @@ Aynı yıl içinde, Sporting Lizbon’un Manchester United’a karşı oynadığ
 
 2009 yılında Real Madrid’e rekor bir transfer ücretiyle geçti. Burada geçirdiği 9 yıl boyunca Ronaldo, dünya futbol tarihine adını altın harflerle yazdırdı. 450’den fazla gol atarak kulüp tarihinin en golcü oyuncusu oldu.
 
-<!-- <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2784742237479601"
-     data-ad-slot="3760872290"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+
 
 Bu dönemde 4 UEFA Şampiyonlar Ligi, 2 La Liga ve birçok bireysel ödül kazandı. Ancak tüm bu başarıların kökeni, 7 yaşında Madeira’da başlayan futbol sevgisiydi.
 
@@ -107,15 +127,7 @@ Her ne kadar kariyerinin son dönemine yaklaşmış olsa da, Ronaldo hâlâ prof
 
 Cristiano Ronaldo’nun başarısının ardında yalnızca yetenek değil, aynı zamanda olağanüstü bir çalışma disiplini yatıyor. O, her antrenmanı bir final maçı gibi yaşadı. Defalarca kez “Yetenek seni bir yere kadar taşır, ama çalışmak seni zirveye çıkarır” sözünü yineledi.
 
-<!-- <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2784742237479601"
-     data-ad-slot="3760872290"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+
 
 ## Ronaldo Kaç Yaşında Futbola Başladı? Sonuç
 
@@ -137,15 +149,7 @@ Profesyonel kariyerine 17 yaşında, Sporting Lizbon’da başladı.
 
 Real Madrid, Ronaldo’nun en çok gol attığı takımdır. 450 golle kulüp tarihine geçti.
 
-<!-- <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2784742237479601"
-     data-ad-slot="3760872290"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+
 
 ### Ronaldo’nun Başarı Sırrı Nedir?
 

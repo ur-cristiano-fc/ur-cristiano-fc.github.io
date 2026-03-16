@@ -15,15 +15,44 @@ item: 12x18 inches
 specialfeature: Poster
 ---
 
+
 Kylian Mbappe has officially joined the elite goal-scoring club dominated for years by Cristiano Ronaldo and Lionel Messi. 
 
 With his 60-goal milestone for Real Madrid in 2025, Mbappe becomes one of the very few modern players to match the explosive scoring seasons of football’s two greatest forwards. 
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 
 **Kylian Mbappe has joined Cristiano Ronaldo and Lionel Messi as one of the only players in modern football to score 60 goals in a calendar year. Cristiano Ronaldo achieved the milestone multiple times during his Real Madrid prime, while Lionel Messi famously reached 91 goals in 2012. Mbappe’s 2025 season puts him alongside the two legends as one of the most dominant attackers in football history.**
 
 ---
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 # Introduction  
 When Real Madrid superstar Kylian Mbappe scored his 60th goal of 2025 in a 2-2 draw against Girona, he entered a group so exclusive that only two modern players have managed to dominate it for more than a decade — **Cristiano Ronaldo** and **Lionel Messi**.  
@@ -34,6 +63,20 @@ The achievement immediately sparked global football conversations. Fans wanted t
 - Can Mbappe ever match Ronaldo’s scoring longevity?  
 
 This blog answers all these questions in depth, while providing SEO-rich, easy-to-understand analysis formatted for Google Discover.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 

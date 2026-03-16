@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 CR7's 2026 World Cup Status?
 
 There’s a big question floating around in the world of football. Everyone is wondering: **will Cristiano Ronaldo play 2026 World Cup**? This question got even bigger when the coach of the Portugal national team, Roberto Martinez, made a very bold statement. He said that he fully expects the football legend to be part of the squad.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 This claim by **Roberto Martinez** has made fans everywhere excited and curious. It means we could see one of the greatest players ever on the world stage again. Imagine **Cristiano Ronaldo 2026 World Cup** – what an amazing sight that would be! Let's dive into what this could mean for CR7, Portugal, and the history books.
 
@@ -26,11 +41,39 @@ This claim by **Roberto Martinez** has made fans everywhere excited and curious.
 
 Roberto Martinez, the coach of the **Portugal national team**, has really put his trust in Cristiano Ronaldo. He recently spoke about how important Ronaldo still is to the team. Martinez believes in his skills, his leadership, and his incredible desire to win.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 He said that Ronaldo's commitment is still very strong, like a young player. This is a big deal because coaches usually look at new, younger talent. But Martinez sees something special that keeps CR7 at the top.
 
 Martinez has worked with Ronaldo for a while now and knows what he brings to the team. He knows that Ronaldo can still score goals and inspire his teammates. This support from the coach is a huge boost for **CR7 future** in international football.
 
 ### H3: Why Martinez's Words Matter
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 When a national team coach speaks, everyone listens. Roberto Martinez isn't just a fan; he picks the players. His confidence in **Cristiano Ronaldo 2026 World Cup** plans means it’s not just a dream, but a real possibility.
 

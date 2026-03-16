@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ## Cristiano Ronaldo Subbed Off Near 1000 Goals: Did He Watch Real Madrid?
 
 Did CR7 watch Real Madrid? That’s a super interesting question, isn't it? Imagine being one of the greatest football players ever, getting taken out of a game, and then maybe settling down to watch your old team play. This is exactly what happened recently with Cristiano Ronaldo, the football superstar we all know and love.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 He was playing for Al-Nassr in the Saudi Pro League, showing off his amazing skills. Suddenly, in a match that was very important, he was *Cristiano Ronaldo subbed off*. This happened when he was incredibly close to a truly mind-blowing number: 1000 career goals.
 
@@ -26,11 +41,39 @@ You can imagine the buzz, the whispers among fans worldwide. People were not jus
 
 ### The Al-Nassr Match and That Early Exit
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 You were probably watching, or at least heard the news, when Cristiano Ronaldo left the field. It was during an exciting Al-Nassr game in the *Saudi Pro League*, a league he has helped make famous. The exact reason for the *early substitution* wasn't always clear right away, sometimes it's a small knock, sometimes it's tactical.
 
 Fans held their breath when they saw him heading off. You understand that every minute he plays is a chance for him to add to his incredible *CR7 goals* count. Being taken off the pitch meant delaying that amazing *Cristiano Ronaldo goal milestone* for just a little longer.
 
 This moment quickly became big *football news*, spreading across social media like wildfire. People wanted updates on *Al-Nassr news* and, more importantly, on the legendary CR7 himself. You might have even seen some of the *fan reactions* yourself, as everyone shared their thoughts.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### Counting Down to 1000: A Historic Milestone
 

@@ -15,9 +15,25 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
+
+
 Cristiano Ronaldo’s recent comments about Manchester United have set the football world talking again. In a candid interview, the Al Nassr forward — a club legend — said Manchester United were "not on a good path" and suggested Ruben Amorim could not perform miracles with the current squad. The remarks prompted a swift media reaction and a measured but firm response from United’s manager, Ruben Amorim.
 
 ## The Background: Ronaldo’s Critique and Why It Matters
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Cristiano Ronaldo remains one of football’s most influential voices. His critique matters because of his history with Manchester United, where he won trophies and earned iconic status. In his new interview, Ronaldo said the club "has no structure" and that Ruben Amorim could not achieve a turnaround without a major overhaul. He also emphasised that some current players might not have the mentality required for success.
 
@@ -25,11 +41,39 @@ Ronaldo’s remarks are rooted in long-standing concerns. After his explosive 20
 
 ## Ruben Amorim’s Response: Calm, Confident, and Forward-Looking
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Ruben Amorim handled the situation tactically. At his press conference ahead of Manchester United’s match against Tottenham, Amorim acknowledged the club had made mistakes in the past but insisted his focus — and the club’s — was on looking forward. He said the team had improved, praised the benefits of having more time to train and build cohesion without midweek European commitments, and stressed that the club was changing its structure and culture. Sky Sports and ESPN covered his comments extensively. citeturn0search5turn0search21
 
 Amorim avoided personal attacks. Instead, he framed his response around accountability and process: accept past mistakes, build a better foundation, and measure success through sustained improvement rather than instant fixes. That message resonated with supporters who want stability rather than sensational headlines.
 
 ## What Exactly Did Ronaldo Say? The Key Quotes
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Ronaldo’s core claims were blunt and emotive. He said Manchester United were "not on a good path" and that turning the club around would require more than a new manager — it would need systemic change. Importantly, he said Ruben Amorim was "doing his best" but could not work "miracles" with the current squad.
 

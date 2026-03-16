@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ## Cristiano Ronaldo’nun Kariyerinde Kaç Golü Var? Messi ve Diğer Efsanelerle Kıyaslama
 
 Efsanevi Cristiano Ronaldo, futbol sahalarında adını altın harflerle yazdırmış, golleriyle dünya çapında milyonlarca hayranı büyülemiş bir oyuncu. Peki, bu muhteşem kariyerde tam olarak kaç kez ağları havalandırdı? Cristiano Ronaldo’nun kariyerinde kaç golü var sorusu, futbolseverlerin en çok merak ettiği konulardan biri.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Bugün sana, bu efsanevi golcünün attığı tüm gollere yakından bakacak ve onu Lionel Messi gibi günümüzün diğer süperstarlarıyla, hatta Pele ve Maradona gibi geçmişin devleriyle kıyaslayacağız. Ronaldo'nun futbol tarihindeki yeri ve kırılmadık rekorları hakkında da konuşacağız. Hazırsan, gollerle dolu bu yolculuğa çıkalım!
 
@@ -26,11 +41,39 @@ Bugün sana, bu efsanevi golcünün attığı tüm gollere yakından bakacak ve 
 
 Cristiano Ronaldo'nun kariyerinde kaç golü var sorusunun cevabı, gerçekten dudak uçuklatıcı bir sayıya ulaşıyor. Futbol tarihinin en skorer oyuncularından biri olarak, hem kulüp hem de milli takım formasıyla binlerce kez fileleri havalandırdı. Onun golleri sadece sayıdan ibaret değil, her biri bir zaferin, bir heyecanın ve bir tarihin parçası.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Ronaldo'nun toplam gol sayısı sürekli güncellense de, resmi maçlarda attığı gol sayısı şimdiden 890'ı aşmış durumda. Bu sayı, onu futbol tarihindeki en çok gol atan erkek oyuncu yapıyor ve hala aktif bir oyuncu olduğunu düşünürsek, bu rakam artmaya devam edecek. Bu başarı, onun eşsiz yeteneğinin ve inanılmaz çalışkanlığının bir göstergesi.
 
 ### Kulüp Kariyeri Golleri: Nerede Kaç Gol Attı?
 
 Cristiano Ronaldo'nun golleri, farklı kulüplerde farklı zamanlarda atıldı ve her durak, onun efsanesine yeni bir sayfa ekledi. Her kulüpte iz bırakan bir gol makinesi oldu. Gelin, hangi kulüpte kaç gol attığına detaylıca bakalım.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 #### Sporting CP Dönemi
 

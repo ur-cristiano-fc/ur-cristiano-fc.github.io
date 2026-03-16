@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ### Milestone Watch: Chasing Football History
 
 Imagine scoring 1,000 goals in football. It's a number that seems almost impossible. Only a few players in history have ever come close to such an amazing achievement. You are about to explore if Cristiano Ronaldo can reach this incredible goal.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 You might be wondering, is it really possible for him? We are going to look closely at his amazing `ronaldo career goals tally`. We will also predict how many goals he might score in the next couple of years. The big question is whether `cristiano ronaldo 1000 goals 2026` is a realistic dream.
 
@@ -26,11 +41,39 @@ Let's dive into the numbers and see just how close he is. This is a journey to t
 
 ### The Incredible `Ronaldo Career Goals Tally` So Far
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Cristiano Ronaldo has been scoring goals for a very long time. He started his journey as a young player. Now, he is one of the oldest players still at the top level. His career is a collection of amazing moments and countless goals.
 
 You might know him from his time at big clubs. These include Manchester United, Real Madrid, and Juventus. He has won so many awards because of his goal-scoring ability. Every time he steps onto the pitch, you expect him to score.
 
 Let's look at the teams where he scored his goals. Each club played a part in building his legendary `ronaldo career goals tally`. He adapted his game in different leagues. This shows his incredible skill and dedication to football.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 He has scored goals in various competitions. This includes league games, cup matches, and the Champions League. And of course, he scores many goals for his country, Portugal. His hunger for goals never seems to end, which is incredible to witness.
 

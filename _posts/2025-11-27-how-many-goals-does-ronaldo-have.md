@@ -15,9 +15,24 @@ item: Poster
 specialfeature: Wall Decoration
 ---
 
+
 As of late 2025, **Cristiano Ronaldo has scored approximately 950–955 official career goals** combining club and international matches. This includes hundreds of club goals across five clubs plus over 140 goals for his national team, making him one of — if not the — most prolific goal-scorers in football history.
 
 ---
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Introduction
 
@@ -25,11 +40,39 @@ Whenever fans ask “**how many goals does Ronaldo have**”, they expect clear,
 
 We also provide analysis and context — because raw numbers alone don’t always tell the full story.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ---
 
 ## Latest Career Total: How Many Goals Does Ronaldo Have (2025)
 
 ### Official Career Tally
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 - Many recent sources report that by mid to late 2025, Cristiano Ronaldo has reached around **950 official career goals** (club + country). 
 - His international goals for Portugal national football team have reportedly crossed **140 goals** by September 2025.

@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 CR7 Jr's big decision is coming. Imagine following in the footsteps of one of the greatest football players ever. That's the amazing challenge facing Cristiano Ronaldo Jr., also known as CR7 Jr. We are all wondering about Cristiano Ronaldo Jr international future.
 
 It's a huge question for any young footballer, but especially for him. Will he play for the Portugal national team, just like his legendary dad? Or could he choose the Spain national team, a country where he spent many important years growing up? Let's explore this exciting puzzle together.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 
@@ -26,11 +41,39 @@ It's a huge question for any young footballer, but especially for him. Will he p
 
 Everyone is talking about who will Cristiano Ronaldo Jr play for. It’s a super interesting question because he has strong ties to both countries. His father, Cristiano Ronaldo, is famously Portuguese and a national hero. This makes the Portugal national team a very natural choice for his son.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 However, CR7 Jr also lived in Spain for a long time. This was during his dad's incredible time playing for Real Madrid. So, the Spain national team could also be an option for him. It's a real dilemma for the young star.
 
 ---
 
 ### Where Was CR7 Jr Born? The Nationality Puzzle
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Let's start with where Cristiano Ronaldo Jr nationality actually begins. He was born in the United States of America. But just being born in a country doesn't always mean you have to play for their national team. Many players have different birthplaces than their national team choice.
 

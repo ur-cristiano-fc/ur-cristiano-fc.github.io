@@ -16,9 +16,25 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
+
+
 This article provides an in-depth, updated breakdown of **Cristiano Ronaldo’s total goals** through 2025. We cover his goals by club, goals for Portugal, competition-level tallies (league, continental cups, and international tournaments), and calendar-year and season splits. 
 
 Whether you’re a fan tracking milestones or a researcher compiling stats, this guide answers the key question: **How many goals has Cristiano Ronaldo scored so far — and where did they come from?**
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 
@@ -26,11 +42,39 @@ Whether you’re a fan tracking milestones or a researcher compiling stats, this
 
 Tracking Cristiano Ronaldo’s goals is not just about numbers — it’s about measuring a career that has reshaped modern football. Goals tell the story of adaptability, longevity, and sustained excellence across leagues and eras. In 2025 Ronaldo continued to add to his tally, reinforcing his place among the game’s all-time top scorers.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ---
 
 ## Snapshot: Ronaldo’s Career Total (As of October 29, 2025)
 
 Below is the headline figure that most readers search for when they type the keyword **"cristiano ronaldo total goals":**
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 * **Career total (club + country):** *950 goals*.
 

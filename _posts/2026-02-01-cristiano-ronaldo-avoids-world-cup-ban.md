@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 cristiano-ronaldo-avoids-world-cup-ban-fifa-grants-cr7-probation.md
 
 CR7's World Cup Dream Saved!
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 You might have heard some big news about your favorite football star, Cristiano Ronaldo. There was a time when many people worried he might not play in the upcoming World Cup. But guess what? Good news has arrived for all fans of **Cristiano Ronaldo World Cup** dreams!
 
@@ -26,11 +41,39 @@ You might have heard some big news about your favorite football star, Cristiano 
 
 ## H2: The Big Scare: Why Was There Talk of a **Cristiano Ronaldo World Cup Ban**?
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Imagine your favorite player, **CR7**, suddenly facing a huge problem before the biggest football show on Earth. That's exactly what happened with **Cristiano Ronaldo World Cup** hopes. Fans all over the world were holding their breath, worried about a possible ban. It was a very tense time for everyone who loves football.
 
 This big worry came from an incident that happened way back in April. Cristiano Ronaldo was playing for his club team, Manchester United, at the time. After a game against Everton, something not-so-good happened when he was leaving the field. A young fan, who was very excited, tried to get a picture or say hello to his hero.
 
 During this moment, Cristiano Ronaldo accidentally knocked a phone out of the fan's hand. The phone fell to the ground and broke, which made the fan very upset. This action led to a lot of talk and even an investigation by the Football Association (FA) in England. They felt it was not the best way for a big star to act.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 People started wondering what would happen next for **Ronaldo latest** news. The FA looked into everything very carefully, and they decided to charge him. This charge meant he might get a punishment. One possible punishment could be a ban from playing in games, which was a very scary thought for the upcoming **Portugal World Cup** journey.
 

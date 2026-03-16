@@ -15,9 +15,24 @@ item: 100% Polyester
 specialfeature: Jersey, Shorts
 ---
 
+
 ## Vin Diesel’s Big Statement Shocks Fans
 
 Vin Diesel surprised fans with a big statement about Cristiano ronaldo. He said he personally wrote a role for Ronaldo in *Fast X Part 2*. If you love movies and football, this news is for you.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Vin Diesel called Ronaldo “a real one” during a recent interaction. This simple line created massive buzz online. You can see why fans are now excited about *Fast X Part 2*.
 
@@ -25,11 +40,39 @@ Vin Diesel called Ronaldo “a real one” during a recent interaction. This sim
 
 ## What Vin Diesel Really Said
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Vin Diesel did not hide his respect for Cristiano ronaldo. He spoke openly about Ronaldo’s personality and global impact. You can feel that this idea came from real admiration.
 
 According to Vin Diesel, the role was written with Ronaldo in mind. This makes the story more interesting for fans. You now have a reason to watch *Fast X Part 2* closely.
 
 ---
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Why Cristiano Ronaldo Fits Fast X Part 2
 

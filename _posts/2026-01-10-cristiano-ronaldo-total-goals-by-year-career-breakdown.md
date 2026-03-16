@@ -16,15 +16,44 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 We will explore his scoring records from his very first professional appearances to his latest triumphs. Prepare to be amazed by the sheer volume and consistency of his `cristiano ronaldo total goals by year`. You’ll see exactly how his `ronaldo goals per season` have stacked up across different leagues and countries.
 
 This breakdown covers his time with Sporting CP, two stints at Manchester United, his legendary run at Real Madrid, his period with Juventus, and his current adventure at Al Nassr. We also include his record-breaking international goals for Portugal. Get ready to explore the full `ronaldo stats history` of a true legend.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### Cristiano Ronaldo's Early Days at Sporting CP (2002-2003)
 
 Cristiano Ronaldo's professional journey began at Sporting CP in Portugal. He was just a teenager when he made his senior debut. This period, though brief, marked the start of his incredible `cristiano ronaldo goals timeline`.
 
 His talent was clear even at a young age, leading to his first professional goals. These early strikes hinted at the goal-scoring machine he would become. You can learn more about his time at Sporting CP on their official website [Sporting CP official website](https://www.sporting.pt/).
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Here's a look at his `cristiano ronaldo total goals by year` during his time at Sporting CP, presented as `cristiano ronaldo goals by season`:
 
@@ -33,6 +62,20 @@ Here's a look at his `cristiano ronaldo total goals by year` during his time at 
 | Season      | Club         | League | Domestic Cup | League Cup | Europe | Other | Total Goals |
 | :---------- | :----------- | :----- | :----------- | :--------- | :----- | :---- | :---------- |
 | 2002-2003   | Sporting CP  | 3      | 2            | 0          | 0      | 0     | 5           |
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 <br>
 

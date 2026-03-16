@@ -15,10 +15,26 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
+
+
 Is **Cristiano Ronaldo married yet**? This is one of the most searched questions about the football legend in 2025. Fans have long followed his incredible career, but they’re equally fascinated by his personal life — especially his relationship with **Georgina Rodríguez**, the mother of some of his children.  
 This in-depth feature explores Ronaldo’s love life, family, and whether marriage is finally on the horizon.
 
 ---
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Is Cristiano Ronaldo Married in 2025?
 As of **2025**, **Cristiano Ronaldo is not officially married**. He is in a long-term relationship with **Georgina Rodríguez**, with whom he shares several children. Although there have been engagement rumors and speculation about secret weddings, neither Ronaldo nor Georgina has confirmed a marriage.
@@ -27,6 +43,20 @@ As of **2025**, **Cristiano Ronaldo is not officially married**. He is in a long
 
 ## Cristiano Ronaldo’s Current Relationship Status
 Cristiano Ronaldo and Georgina Rodríguez have been together since **2016**, after meeting at a Gucci store in Madrid. Their relationship quickly evolved from private dates to a high-profile romance that’s been followed by millions of fans across the world.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### Quick Facts:
 - **Partner:** Georgina Rodríguez  
@@ -39,6 +69,20 @@ Cristiano Ronaldo and Georgina Rodríguez have been together since **2016**, aft
 
 ## Was Cristiano Ronaldo Married Before Georgina?
 No, **Cristiano Ronaldo has never been married before Georgina Rodríguez**. Although he’s had past relationships, none led to marriage.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### Cristiano Ronaldo’s Known Past Relationships:
 1. **Irina Shayk** – Russian supermodel (2010–2015)  

@@ -15,9 +15,25 @@ brand: Cristiano Ronaldo
 item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
+
+
 Wayne Rooney has once again made headlines after commenting on his past relationship with Cristiano Ronaldo and addressing claims that he 'hated' his former Manchester United teammate. In the same breath, Rooney’s remarks about Lionel Messi have reignited the eternal GOAT debate. 
 
 This in-depth article explores the history between Rooney and Ronaldo, the origins of the “hate” rumors, and what these new statements reveal about mutual respect, rivalry, and football legacy.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 
@@ -25,11 +41,39 @@ This in-depth article explores the history between Rooney and Ronaldo, the origi
 
 Wayne Rooney and Cristiano Ronaldo are two of the biggest names in football history — teammates turned global superstars. Their paths crossed at Manchester United in the early 2000s, forming one of the most feared attacking partnerships in football. But after years of friendship, competition, and contrasting public statements, fans have often wondered: what’s really going on between Rooney and Ronaldo?
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cristiano Ronaldo &amp; Wayne Rooney Myth is Settled… <a href="https://twitter.com/WayneRooney?ref_src=twsrc%5Etfw">@waynerooney</a> loves him! 👏🏽❤️<a href="https://twitter.com/hashtag/ronaldo?src=hash&amp;ref_src=twsrc%5Etfw">#ronaldo</a> <a href="https://twitter.com/hashtag/cr7?src=hash&amp;ref_src=twsrc%5Etfw">#cr7</a> <a href="https://twitter.com/hashtag/cristiano?src=hash&amp;ref_src=twsrc%5Etfw">#cristiano</a> <a href="https://t.co/yRISyS6F3V">pic.twitter.com/yRISyS6F3V</a></p>&mdash; Rio Ferdinand (@rioferdy5) <a href="https://twitter.com/rioferdy5/status/1970881017914458417?ref_src=twsrc%5Etfw">September 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Recently, Wayne Rooney addressed these questions directly, clarifying comments that sparked headlines about him “hating” Ronaldo. He also discussed Lionel Messi and his perspective on the GOAT (Greatest of All Time) debate, adding fuel to an already heated conversation.
 
 ---
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### The Origin of the 'Hate' Rumors
 

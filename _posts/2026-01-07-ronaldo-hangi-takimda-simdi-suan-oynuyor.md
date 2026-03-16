@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ## Ronaldo Hangi Takımda Şimdi? Şu An Oynadığı Kulüp ve Ligin Tüm Detayları
 
 Şu an dünya futbolunun en büyük yıldızlarından Cristiano Ronaldo'nun hangi takımda olduğunu merak mı ediyorsunuz? Birçok futbolsever gibi siz de bu efsanevi oyuncunun güncel durumu hakkında bilgi arıyorsunuz. Merak etmeyin, tüm detayları sizin için derledik.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Peki, **ronaldo hangi takımda şimdi**? **Şu an** oynamakta olduğu kulüp ve ligin tüm ayrıntılarını bu yazıda bulacaksınız. Gelin, Ronaldo'nun kariyerindeki bu yeni ve heyecan verici döneme yakından bakalım.
 
@@ -26,11 +41,39 @@ Peki, **ronaldo hangi takımda şimdi**? **Şu an** oynamakta olduğu kulüp ve 
 
 Cristiano Ronaldo, kariyerinin son dönemecinde Suudi Arabistan'ın köklü kulüplerinden birinde top koşturuyor. Bu transfer, dünya futbol gündemine bomba gibi düşmüştü. Şimdi detaylara inelim.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 **ronaldo şu an hangi kulüpte** diye soracak olursanız, cevabı Al Nassr FC'dir. Bu takım, Suudi Arabistan'ın başkenti Riyad'da yer alıyor. Ronaldo, Aralık 2022'de bu önemli kulübe katıldı.
 
 #### Şu Anki Kulübü: Al Nassr FC
 
 Al Nassr FC, Suudi Arabistan'ın en başarılı futbol kulüplerinden biridir. Sarı-lacivert renklere sahip olan bu kulüp, taraftar desteğiyle de biliniyor. Ronaldo'nun gelişiyle birlikte kulübün popülaritesi dünya çapında arttı.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Ronaldo, Al Nassr formasıyla sahaya çıktığından beri takımın en önemli oyuncularından biri haline geldi. O, sadece bir golcü değil, aynı zamanda takımın lideri konumunda. Takıma büyük bir deneyim ve motivasyon getirdi.
 

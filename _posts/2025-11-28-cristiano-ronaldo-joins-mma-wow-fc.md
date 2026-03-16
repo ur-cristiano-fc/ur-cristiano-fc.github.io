@@ -15,9 +15,24 @@ item: 100% Polyester
 specialfeature: Crew Neck Jersey
 ---
 
+
 Cristiano Ronaldo has joined the Spanish MMA promotion WOW FC as a shareholder alongside UFC’s Ilia Topuria.
 
 Meanwhile, the legendary footballer’s career goal tally — combining club and country — stands at approximately **950–960 goals** (as of late 2025), underscoring his unmatched legacy on the pitch while branching out into combat-sports business.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 
@@ -25,11 +40,39 @@ Meanwhile, the legendary footballer’s career goal tally — combining club and
 
 On 27 November 2025, Cristiano Ronaldo shocked the sports world — not by a goal or a transfer, but by announcing a new venture: joining WOW FC, a mixed-martial-arts (MMA) promotion owned by Ilia Topuria. For millions of fans searching “cristiano ronaldo mma”, “cristiano ronaldo mma fight”, or “cristiano ronaldo full details”, this story answered all questions: yes, Ronaldo is entering MMA — but as an investor, not a fighter. 
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 At the same time, many readers wonder — with a career full of goals and accolades — **how many goals does Ronaldo have** now, and whether a shift to MMA marks the end of his football legacy. This article covers both angles comprehensively.
 
 ---
 
 # Ronaldo and MMA: What the WOW FC Deal Means
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## 🥋 What is WOW FC and What Ronaldo’s Role Is
 

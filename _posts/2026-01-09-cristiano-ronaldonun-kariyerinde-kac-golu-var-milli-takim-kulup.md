@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ## Cristiano Ronaldo’nun Kariyerinde Kaç Golü Var? Milli Takım ve Kulüp Golleri Karşılaştırması
 
 Futbol dünyasının en büyük yıldızlarından biri olan Cristiano Ronaldo, attığı gollerle tüm zamanların en iyileri arasında yer alıyor. Onun kariyerinde kaç golü var diye merak ediyorsanız, doğru yerdesiniz. Bu yazıda, efsanevi futbolcunun kulüp ve milli takım kariyerindeki gollerini detaylı bir şekilde karşılaştıracağız.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Haydi, gelin Cristiano Ronaldo’nun gollerle dolu muhteşem kariyerine birlikte yakından bakalım. Bu **karşılaştırma** ile onun hangi platformlarda daha etkili olduğunu göreceksiniz.
 
@@ -26,11 +41,39 @@ Haydi, gelin Cristiano Ronaldo’nun gollerle dolu muhteşem kariyerine birlikte
 
 Cristiano Ronaldo dos Santos Aveiro, Portekizli profesyonel bir futbolcudur. Futbol tarihinde en çok gol atan oyunculardan biri olarak kabul edilir. O, birçok kişi tarafından tüm zamanların en iyi oyuncularından biri olarak görülür.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Ronaldo'nun kariyeri Sporting Lizbon'da başladı ve daha sonra Manchester United, Real Madrid, Juventus gibi büyük kulüplerde devam etti. Şu anda Suudi Arabistan kulübü Al Nassr'da forma giymektedir. Portekiz milli takımının da kaptanıdır.
 
 ### Kulüp Kariyerindeki Golleri: Efsanevi Bir Yolculuk
 
 Cristiano Ronaldo'nun kulüp kariyeri, Portekiz'den İngiltere'ye, İspanya'dan İtalya'ya ve şimdi de Suudi Arabistan'a uzanan uzun bir maceradır. Her durakta rekorlar kırmış ve inanılmaz gol sayılarına ulaşmıştır. Şimdi bu yolculuğa yakından göz atalım.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 #### Sporting CP Dönemi
 

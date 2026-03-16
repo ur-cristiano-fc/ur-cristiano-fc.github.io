@@ -15,16 +15,45 @@ item: 100% Cotton
 specialfeature: For kids 
 ---
 
+
 ## Kim Bu Kylian Mbappé?
 
 - Mbappé, 20 Aralık 1998 doğumlu ve şu anda Real Madrid forması giyiyor.   
 - Yaşı itibarıyla 2025 itibarıyla 26’dır.   
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Bu yazıda “mbappe kaç gol attı” sorusuna detaylı yanıt vereceğiz. Aynı zamanda Lionel Messi ve Cristiano Ronaldo ile gol sayısı karşılaştırması yapacağız.
 
 ---
 
 ## Mbappé 2024–2025 Sezonunda Kaç Gol Attı?
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Mbappé’nin 2024–2025 sezonundaki performansı, kariyeri açısından çok dikkat çekiciydi.
 
@@ -33,6 +62,20 @@ Mbappé’nin 2024–2025 sezonundaki performansı, kariyeri açısından çok d
 - Örneğin ligde (La Liga) 2024–25 sezonunda en çok gol atan oyuncu oldu.   
 
 Bu sayılar “Mbappé bu sezon kaç gol attı” sorusuna net bir yanıt sunuyor: 44 gol tüm turnuvalar bazında.  
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 

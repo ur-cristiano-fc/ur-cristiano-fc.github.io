@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 Efsanevi Cristiano Ronaldo, futbol sahalarının gelmiş geçmiş en büyük golcülerinden biridir. Onun her maçta, her turnuvada attığı goller, milyonlarca taraftarı heyecanlandırıyor. Peki, siz de merak ediyor musunuz, **cristiano ronaldo’nun kariyerinde kaç golü var**? Gelin bu muhteşem kariyerin gollerini birlikte inceleyelim.
 
 Bu yazıda, Ronaldo'nun sayısız golünü mercek altına alacak, onu ezeli rakibi Messi ve futbol tarihinin diğer efsaneleriyle kıyaslayacağız. Onun gol rekorlarının ve futbol tarihindeki yerinin ne kadar büyük olduğunu göreceksiniz. Kendinizi gollerin büyülü dünyasına hazırlayın.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Cristiano Ronaldo'nun Golleri: Sayısız Rekorun Başlangıcı
 
@@ -26,11 +41,39 @@ Cristiano Ronaldo, kariyeri boyunca sayısız gol atarak futbol tarihine adını
 
 ### Kulüp Kariyerindeki Golleri
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Ronaldo'nun kulüp kariyeri, farklı ülkelerdeki dev kulüplerde zaferlerle doludur. Her bir durak, onun gol sayısını artırmasına ve rekorlar kırmasına yardımcı oldu. Onun golleri, oynadığı her takımın başarısında kilit rol oynadı. Bu goller, onu dünyanın en iyi forvetlerinden biri yaptı.
 
 #### Sporting CP Dönemi
 
 Cristiano Ronaldo, profesyonel kariyerine Portekiz'in Sporting CP takımında başladı. Genç yaşına rağmen sahada hemen fark yaratmayı başardı. Sporting formasıyla resmi maçlarda sadece 5 gol kaydetti. Ancak bu goller, onun büyük bir potansiyele sahip olduğunun ilk işaretleriydi.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 #### Manchester United (İlk Dönem)
 

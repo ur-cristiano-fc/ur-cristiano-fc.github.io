@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 CR7 out for US trip? That's the big question on everyone's mind right now. We are all wondering about the latest **Cristiano Ronaldo injury update**. Will the superstar miss the exciting **Portugal national team**'s **US tour**?
 
 This is a piece of **football news** that has really caught the world's attention. Let's dive deep into what we know about this situation. We want to understand if **CR7 hamstring** trouble means he will be staying home.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## The Worrying **Cristiano Ronaldo Injury**
 
@@ -26,11 +41,39 @@ Recently, reports started swirling about **Cristiano Ronaldo injury**. It appear
 
 You might be asking yourself, "When did this happen?" Early reports, some from places like *Diario AS*, mentioned the injury happened during a game. Ronaldo felt some discomfort and had to leave the field.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 This immediately raised alarms for his fans. People started to worry about his availability for upcoming games. Everyone knows how important he is to the **Portugal national team**.
 
 ### What Exactly is a **Hamstring Injury**?
 
 A hamstring injury happens to the muscles at the back of your thigh. These muscles are super important for running and jumping. They help you move your legs quickly.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 When you strain or pull a hamstring, it can be very painful. Doctors often grade these injuries based on how bad they are. A grade 1 is mild, but a grade 3 is a complete tear.
 

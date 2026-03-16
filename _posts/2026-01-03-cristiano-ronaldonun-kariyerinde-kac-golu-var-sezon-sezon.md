@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ## Cristiano Ronaldo'nun Kariyerinde Kaç Golü Var? Sezon Sezon Gol ve Asist Tablosu
 
 **Grafiklerle** dolu bu yazımızda, futbol dünyasının efsane ismi Cristiano Ronaldo'nun inanılmaz kariyerindeki gol ve asist sayılarını yakından inceleyeceğiz. Pek çok futbolsever, **cristiano ronaldo’nun kariyerinde kaç golü var** diye merak ediyor. Siz de bu efsanevi oyuncunun her sezonki performansını, attığı golleri ve yaptığı asistleri detaylı bir şekilde öğrenmek istiyorsanız, doğru yerdesiniz.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Bu yazıda, Cristiano Ronaldo'nun Sporting Lizbon'dan Al Nassr'a uzanan muhteşem yolculuğunu, her durakta bıraktığı izleri ve kırdığı rekorları adım adım takip edeceğiz. Onun sadece bir golcüden çok daha fazlası olduğunu, takımına nasıl katkı sağladığını da göreceksiniz. Hadi gelin, bu gol ve asist şölenine birlikte dalalım!
 
@@ -26,11 +41,39 @@ Bu yazıda, Cristiano Ronaldo'nun Sporting Lizbon'dan Al Nassr'a uzanan muhteşe
 
 Cristiano Ronaldo dos Santos Aveiro, futbol tarihine adını altın harflerle yazdıran eşsiz bir yetenek. Portekiz'in küçük Madeira adasından çıkarak dünyanın zirvesine tırmanan bu isim, sayısız başarıya imza attı. Onun kariyeri, azmin, disiplinin ve inanılmaz yeteneğin birleşimi olarak tanımlanabilir.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Sporting Lizbon'da başlayan serüveni, Manchester United'daki ilk patlamasıyla devam etti. Real Madrid'de bir gol makinesine dönüştü, Juventus'ta İtalyan futboluna damga vurdu ve ardından tekrar Manchester United'a döndü. Şimdi ise kariyerine Suudi Arabistan'da Al Nassr formasıyla devam ediyor.
 
 Her durakta, Ronaldo hem gol hem de asist katkısıyla takımlarını şampiyonluklara taşıdı. Onun sadece bireysel istatistikleri değil, liderlik vasfı ve oyun üzerindeki etkisi de her zaman dikkat çekti. Şimdi gelin, bu büyülü kariyerin rakamlarına daha yakından bakalım.
 
 ### Sporting CP Dönemi: İlk Adımlar
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Cristiano Ronaldo'nun profesyonel kariyeri, doğduğu topraklarda, Portekiz'in köklü kulübü Sporting Lizbon'da başladı. Henüz genç bir yetenekken, gösterdiği performansla tüm Avrupa'nın dikkatini çekmeyi başardı. Buradaki kısa ama etkili dönemi, onun gelecekteki büyük başarılarının sinyallerini veriyordu.
 

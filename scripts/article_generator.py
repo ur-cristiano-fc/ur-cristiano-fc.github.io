@@ -5,6 +5,20 @@ import re
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
+IN_ARTICLE_AD_CODE = """
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+"""
+
 
 def generate_article(title, focus_kw, permalink, semantic_kw, affiliate_links, hook_kw, search_kw):
     """Generate SEO-optimized blog article"""
@@ -36,10 +50,31 @@ Rules:
     # Remove any front matter that AI might have added
     content = remove_front_matter(response.text)
     
+    # Insert in-article ads
+    content = insert_ads_into_content(content)
+    
     # Add custom front matter
     article = create_custom_front_matter(title, focus_kw, permalink) + "\n\n" + content
     
     return article
+
+def insert_ads_into_content(content):
+    """Insert in-article ads after specific paragraphs"""
+    paragraphs = content.split('\n\n')
+    
+    # Standard positions for long articles: after 2nd, 5th, and 8th paragraphs
+    if len(paragraphs) >= 8:
+        paragraphs.insert(8, IN_ARTICLE_AD_CODE)
+    
+    if len(paragraphs) >= 5:
+        paragraphs.insert(5, IN_ARTICLE_AD_CODE)
+        
+    if len(paragraphs) >= 2:
+        paragraphs.insert(2, IN_ARTICLE_AD_CODE)
+    elif len(paragraphs) > 0:
+        paragraphs.append(IN_ARTICLE_AD_CODE)
+        
+    return '\n\n'.join(paragraphs)
 
 def remove_front_matter(content):
     """Remove any existing front matter from AI-generated content"""
@@ -82,15 +117,7 @@ description: "{description}"
 keywords: "{focus_kw}"
 author: ishowspeed
 image: assets/images/featured_{permalink}.webp
-afflink: https://amzn.to/43Xm4Ci
-affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
-affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
-affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
-currentprice: $19.99
-reviewnum: 294
-brand: Cristiano Ronaldo
-item: Decorations Gift
-specialfeature: Dimmable Lamp
+
 ---"""
        
     return front_matter

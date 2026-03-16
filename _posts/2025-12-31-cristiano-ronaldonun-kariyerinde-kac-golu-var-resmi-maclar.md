@@ -16,9 +16,24 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 Cristiano Ronaldo’nun Kariyerinde Kaç Golü Var? Resmi Maçlarda Toplam Gol Sayısı
 
 ## Cristiano Ronaldo: Gollerin Efsanevi Efendisi
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 İlk olarak, futbol dünyasında adını altın harflerle yazdıran efsanevi bir isim var: Cristiano Ronaldo. Onu tanıyan herkes, sahadaki hızı, gücü ve tabii ki bitmek bilmeyen golleriyle büyülendi. Peki, bu inanılmaz futbolcunun kariyerinde toplam kaç golü var?
 
@@ -26,11 +41,39 @@ Bu soru, milyonlarca futbolseverin merak ettiği ve sıkça sorduğu bir konu. B
 
 ## Ronaldo'nun Efsanevi Kariyer Yolculuğu
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Cristiano Ronaldo'nun futbol yolculuğu, Portekiz'in küçük bir adası olan Madeira'da başladı. O zamanlar kimse, bu genç çocuğun dünyanın en büyük golcülerinden biri olacağını tahmin edemezdi. Ancak onun azmi ve yeteneği, onu adım adım zirveye taşıdı.
 
 Sporting Lizbon'da başlayan kariyeri, Manchester United, Real Madrid, Juventus gibi dev kulüplerde devam etti. Son olarak Al Nassr forması giyen Ronaldo, her gittiği yerde gollerini sıralamayı başardı. Şimdi gelin, bu gol makinesinin sayılarına birlikte bakalım.
 
 ### Sporting CP Dönemi: İlk Adımlar ve Goller
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Cristiano Ronaldo, profesyonel kariyerine Portekiz'in köklü kulübü Sporting Lizbon'da başladı. O dönemde genç yaşına rağmen dikkat çeken yeteneğiyle hemen fark edildi. Henüz bir genç olmasına rağmen, attığı gollerle geleceğin yıldızı olacağının sinyallerini verdi.
 

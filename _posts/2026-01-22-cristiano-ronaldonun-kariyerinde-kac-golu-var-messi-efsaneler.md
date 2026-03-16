@@ -16,10 +16,25 @@ item: Decorations Gift
 specialfeature: Dimmable Lamp
 ---
 
+
 ```markdown
 ## Cristiano Ronaldo'nun Kariyerinde Kaç Golü Var? Messi ve Diğer Efsanelerle Kıyaslama
 
 Efsanevi bir futbolcunun gollerini merak ediyor musunuz? Cristiano Ronaldo, futbol tarihinin en büyük golcülerinden biridir. Onun kariyerinde attığı gol sayısı, tüm dünyadaki futbolseverler tarafından yakından takip edilir. Peki, **cristiano ronaldo’nun kariyerinde kaç golü var** ve bu sayılar onu diğer efsanelerden nasıl ayırıyor?
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Bugün seninle bu inanılmaz gol rekorunu detaylı bir şekilde inceleyeceğiz. Ronaldo'nun kariyerine ve gol istatistiklerine daha yakından bakacağız. Ayrıca onu Lionel Messi ve Pele gibi diğer büyük isimlerle karşılaştıracağız. Bu heyecan verici yolculukta bize katılmaya hazır mısın?
 
@@ -27,11 +42,39 @@ Bugün seninle bu inanılmaz gol rekorunu detaylı bir şekilde inceleyeceğiz. 
 
 **Cristiano Ronaldo’nun kariyerinde kaç golü var** sorusunun cevabı sürekli değişir. Çünkü o hala aktif olarak futbol oynamaya devam ediyor. Ancak, genel olarak kabul edilen resmi maçlardaki gol sayısı oldukça etkileyicidir. Bu goller hem kulüp takımlarında hem de milli takım formasıyla kaydedilmiştir.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Ronaldo, Sporting Lizbon, Manchester United, Real Madrid, Juventus ve Al Nassr gibi büyük kulüplerde forma giydi. Her gittiği takımda gollerini atmayı başardı. Portekiz Milli Takımı ile de sayısız gole imza attı. Onun golleri sadece sayıdan ibaret değil, çoğu zaman kritik anlarda takımlarına zafer getirdi.
 
 #### Kulüp Kariyeri Golleri: Nereden Nereye?
 
 Cristiano Ronaldo'nun kulüp kariyeri, onun genç yaşta Sporting Lizbon'da başlamasıyla şekillendi. İlk gollerini bu Portekiz kulübünde attı. Daha sonra Manchester United'a transfer olarak tüm dünyanın tanıdığı bir süperstar oldu. İngiltere'de geçirdiği ilk dönemde gol krallığı yaşadı.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2784742237479601"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2784742237479601"
+     data-ad-slot="7340313511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 Real Madrid'e geçişi, onun gol sayısını katlamasının en büyük adımıydı. Madrid'de adeta bir gol makinesine dönüştü. La Liga ve Şampiyonlar Ligi'nde birçok rekor kırdı. İspanya'dan sonra İtalya'nın dev kulübü Juventus'a gitti. Orada da gollerine devam etti ve takımına katkı sağladı.
 
