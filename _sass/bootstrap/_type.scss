@@ -177,11 +177,28 @@ mark,
   left: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   .google-ads-right-sidebar,
   .google-ads-right-sidebar {
     display: none;
+  }
+}
+
+@media (max-width: 1600px) {
+
+  .google-ads-right-sidebar,
+  .google-ads-right-sidebar {
+    max-width: 150px;
+    min-width: 150px;
+  }
+
+  .google-ads-right-sidebar {
+    right: 5px;
+  }
+
+  .google-ads-left-sidebar {
+    left: 5px;
   }
 }
 
@@ -191,6 +208,5 @@ mark,
   .google-ads-right-sidebar {
     max-width: 450px;
     min-width: 450px;
-
   }
 }
