@@ -108,12 +108,12 @@ def create_custom_front_matter(title, focus_kw, permalink):
     
     # Generate description (you can make this dynamic)
     description = generate_description(title, focus_kw)
-    
+    escaped_description = description.replace('"', '\\"')
     # Create front matter - NO LEADING SPACES!
     front_matter = f"""---
 layout: post
 title: "{escaped_title}"
-description: "{description}"
+description: "{escaped_description}"
 keywords: "{focus_kw}"
 author: ishowspeed
 image: assets/images/featured_{permalink}.webp

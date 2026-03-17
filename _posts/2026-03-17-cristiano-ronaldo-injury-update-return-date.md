@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "CR7 Return Date: Al-Nassr Shares Cristiano Ronaldo Injury News"
-description: "1+1 is what you are solving.
-Let's start by looking at the first number.
-The first number is "1".
-Now let's look at the second number.
-The second number is "..."
+description: "1+1 is what you are solving. Let's start by looking at the first number. The first number is '1'. Now let's look at the second number. The second number is ..."
 keywords: "Cristiano Ronaldo injury"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-injury-update-return-date.webp
