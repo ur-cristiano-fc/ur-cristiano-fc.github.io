@@ -2,6 +2,10 @@
 from google import genai
 from config import TEXT_MODEL, GEMINI_API_KEY
 import re
+import json
+import os
+
+AFFILIATE_PRODS_PATH = "_data/affiliateProds.json"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -53,8 +57,11 @@ Rules:
     # Insert in-article ads
     content = insert_ads_into_content(content)
     
+    # Select a relevant affiliate product
+    product = select_affiliate_product(title, focus_kw)
+    
     # Add custom front matter
-    article = create_custom_front_matter(title, focus_kw, permalink) + "\n\n" + content
+    article = create_custom_front_matter(title, focus_kw, permalink, product) + "\n\n" + content
     
     return article
 
@@ -101,7 +108,7 @@ def remove_front_matter(content):
     return '\n'.join(clean_lines).strip()
 
 
-def create_custom_front_matter(title, focus_kw, permalink):
+def create_custom_front_matter(title, focus_kw, permalink, product=None):
     """Create properly formatted Jekyll front matter"""
     # Escape quotes in title
     escaped_title = title.replace('"', '\\"')
@@ -109,6 +116,18 @@ def create_custom_front_matter(title, focus_kw, permalink):
     # Generate description (you can make this dynamic)
     description = generate_description(title, focus_kw)
     escaped_description = description.replace('"', '\\"')
+    
+    # Extract product details if available
+    afflink = product.get('afflink', '') if product else ""
+    affimage = product.get('affimage', '') if product else ""
+    affname = product.get('affname', '') if product else ""
+    affdesc = product.get('affdesc', '') if product else ""
+    currentprice = product.get('currentprice', '') if product else ""
+    reviewnum = product.get('reviewnum', '') if product else ""
+    brand = product.get('brand', '') if product else ""
+    item = product.get('item', '') if product else ""
+    specialfeature = product.get('specialfeature', '') if product else ""
+
     # Create front matter - NO LEADING SPACES!
     front_matter = f"""---
 layout: post
@@ -117,10 +136,85 @@ description: "{escaped_description}"
 keywords: "{focus_kw}"
 author: ishowspeed
 image: assets/images/featured_{permalink}.webp
-
+afflink: "{afflink}"
+affimage: "{affimage}"
+affname: "{affname}"
+affdesc: "{affdesc}"
+currentprice: "{currentprice}"
+reviewnum: {reviewnum if reviewnum else '""'}
+brand: "{brand}"
+item: "{item}"
+specialfeature: "{specialfeature}"
 ---"""
        
     return front_matter
+
+def select_affiliate_product(title, focus_kw):
+    """Select the most relevant affiliate product from _data/affiliateProds.json"""
+    try:
+        # Load products
+        if not os.path.exists(AFFILIATE_PRODS_PATH):
+            # Fallback if the path is relative to the script's directory
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            data_path = os.path.join(os.path.dirname(script_dir), AFFILIATE_PRODS_PATH)
+            if not os.path.exists(data_path):
+                print(f"⚠️ Affiliate products file not found: {AFFILIATE_PRODS_PATH}")
+                return None
+            AFFILIATE_DATA_PATH = data_path
+        else:
+            AFFILIATE_DATA_PATH = AFFILIATE_PRODS_PATH
+
+        with open(AFFILIATE_DATA_PATH, 'r') as f:
+            products = json.load(f)
+        
+        if not products:
+            return None
+
+        # Prepare a slim version of products for Gemini to Choose from
+        product_list = []
+        for i, p in enumerate(products):
+            product_list.append({
+                "index": i,
+                "name": p.get("affname", ""),
+                "desc": p.get("affdesc", ""),
+                "item": p.get("item", "")
+            })
+
+        prompt = f"""
+I have a blog post titled: "{title}"
+Focus Keyword: "{focus_kw}"
+
+Please select the most relevant product from this list for this article:
+{json.dumps(product_list, indent=2)}
+
+Return ONLY the index number of the best product. If none are relevant, return "none".
+"""
+        print("🔍 Selecting relevant affiliate product...")
+        response = client.models.generate_content(
+            model=TEXT_MODEL,
+            contents=prompt
+        )
+        
+        result = response.text.strip().lower()
+        if "none" in result:
+            print("ℹ️ No relevant affiliate product found.")
+            return None
+        
+        # Try to find a numeric index
+        match = re.search(r'\d+', result)
+        if match:
+            idx = int(match.group())
+            if 0 <= idx < len(products):
+                selected = products[idx]
+                print(f"✅ Selected product: {selected.get('affname')}")
+                return selected
+        
+        print("⚠️ Failed to parse product selection index.")
+        return None
+
+    except Exception as e:
+        print(f"❌ Error selecting affiliate product: {e}")
+        return None
 
 def generate_description(title, focus_kw):
     """Generate SEO-optimized meta description (160 characters)"""
