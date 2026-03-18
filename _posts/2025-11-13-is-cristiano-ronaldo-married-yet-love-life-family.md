@@ -5,15 +5,15 @@ description: "Is Cristiano Ronaldo married? Discover the truth about Ronaldo’s
 category: "RonaldoRealMadrid"
 author: ishowspeed
 image: assets/images/featured_is-cristiano-ronaldo-married-yet-love-life-family.webp
-afflink: https://amzn.to/43Xm4Ci
-affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
-affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
-affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
-currentprice: $19.99
-reviewnum: 294
-brand: Cristiano Ronaldo
-item: Decorations Gift
-specialfeature: Dimmable Lamp
+afflink: "https://amzn.to/4bvIgGB"
+affimage: "assets/images/affiliate/Boy-soccer-jersey-kids-children.webp"
+affname: "Boy's soccer jersey kids children's sportswear youth football uniforms with socks and #7 necklaces"
+affdesc: "The soccer uniforms are made of polyester. Breathable, Sweat-absorbing, Elastic, Durable.Suitable for boys and girls."
+currentprice: "$29.99"
+reviewnum: 506
+brand: "Cristiano Ronaldo"
+item: "100% Polyester"
+specialfeature: "Jersey, Shorts, Socks, necklaces"
 ---
 
 

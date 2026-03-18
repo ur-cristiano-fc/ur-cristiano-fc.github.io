@@ -6,15 +6,7 @@ keywords: ["cristiano ronaldo diet", "ronaldo nutrition", "ronaldo meal plan", "
 category: "CristianoDiet"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-diet-plan.webp
-afflink: https://amzn.to/44rhKLG
-affimage: assets/images/affiliate/Ronaldo-The-Ageless-Machine.webp
-affname: "Ronaldo: The Ageless Machine"
-affdesc: "Discover the secrets behind Cristiano Ronaldo’s ageless body and elite performance."
-currentprice: $9.0
-reviewnum: 94
-brand: Cristiano Ronaldo
-item: Book
-specialfeature: Best Seller
+
 ---
 
 

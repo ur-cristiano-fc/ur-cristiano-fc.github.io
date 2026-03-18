@@ -4,15 +4,15 @@ title: "Cristiano Ronaldo & Georgina Rodríguez’s Long‑Awaited Wedding Date:
 description: "Cristiano Ronaldo wedding latest updates – confirmed Madeira venue, expected wedding date after the 2026 World Cup, engagement ring price, guest list rumours, photos and videos, all explained in simple language. Read the full story now."
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-wedding-date-madeira.webp
-afflink: https://amzn.to/43Xm4Ci
-affimage: assets/images/affiliate/Siuuuu-Celebration-Soccer-Night-Light-3D-Illusion.webp
-affname: "Siuuuu Celebration Soccer Night Light 3D Illusion"
-affdesc: "The soccer desk lamp is made of high-quality acrylic and ABS materials, LED light is stable and eye-friendly"
-currentprice: $19.99
-reviewnum: 294
-brand: Cristiano Ronaldo
-item: Decorations Gift
-specialfeature: Dimmable Lamp
+afflink: "https://amzn.to/4bvIgGB"
+affimage: "assets/images/affiliate/Boy-soccer-jersey-kids-children.webp"
+affname: "Boy's soccer jersey kids children's sportswear youth football uniforms with socks and #7 necklaces"
+affdesc: "The soccer uniforms are made of polyester. Breathable, Sweat-absorbing, Elastic, Durable.Suitable for boys and girls."
+currentprice: "$29.99"
+reviewnum: 506
+brand: "Cristiano Ronaldo"
+item: "100% Polyester"
+specialfeature: "Jersey, Shorts, Socks, necklaces"
 ---
 
 
