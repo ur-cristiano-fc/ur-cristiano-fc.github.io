@@ -174,8 +174,8 @@ def generate_image_freepik(prompt, output_path):
         results = api_handler.search_images(query, num_images=6)
         all_image_results.extend(results)
     
-    if len(all_image_results) < 2:
-        raise Exception(f"❌ Not enough images found. Only got {len(all_image_results)} images from Google. Need at least 2.")
+    if len(all_image_results) < 1:
+        raise Exception(f"❌ Not enough images found. Only got {len(all_image_results)} images from Google. Need at least 1.")
     
     print(f"✅ Found {len(all_image_results)} total images from all searches")
     
@@ -214,8 +214,8 @@ def generate_image_freepik(prompt, output_path):
         if len(images) >= num_images:
             break
     
-    if len(images) < 2:
-        raise Exception(f"❌ Failed to download enough images. Only downloaded {len(images)}. Need at least 2.")
+    if len(images) < 1:
+        raise Exception(f"❌ Failed to download enough images. Only downloaded {len(images)}. Need at least 1.")
     
     print(f"✅ Successfully downloaded {len(images)} images")
     
@@ -247,7 +247,9 @@ def generate_image_freepik(prompt, output_path):
 def select_optimal_layout(num_images):
     """Select best layout based on number of images"""
     
-    if num_images >= 4:
+    if num_images <= 1:
+        return 'single'
+    elif num_images >= 4:
         # For 4+ images, randomly choose between grid layouts
         return random.choice(['grid_2x2', 'hero_with_strip'])
     elif num_images == 3:
@@ -356,6 +358,10 @@ def create_collage_layout(images, layout, title):
             img_idx = min(i + 1, len(images) - 1)
             img = resize_and_crop(images[img_idx], strip_w, strip_h)
             canvas.paste(img, (x, y))
+    elif layout == 'single':
+        # Single full-bleed image
+        img = resize_and_crop(images[0], width, height)
+        canvas.paste(img, (0, 0))
     
     # Optional: Add text overlay with title (currently commented out)
     # canvas = add_text_overlay(canvas, title, width, height)
