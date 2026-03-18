@@ -20,15 +20,17 @@ except Exception:
 
 from config import AFFILIATE_DATA_FILE, AFFILIATE_IMAGES_DIR
 
-USER_AGENT = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/122.0.0.0 Safari/537.36"
-)
+USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+]
 
-HEADERS = {
-    "User-Agent": USER_AGENT,
+BASE_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "DNT": "1",
+    "Upgrade-Insecure-Requests": "1",
 }
 
 AFFILIATE_TAG = "learner53-20"
@@ -81,10 +83,35 @@ def pick_search_query(title, focus_kw, content):
     return f"Cristiano Ronaldo {title}"
 
 
-def amazon_search(query):
+def _session_with_headers():
+    session = requests.Session()
+    session.headers.update(BASE_HEADERS)
+    session.headers["User-Agent"] = USER_AGENTS[int(time.time()) % len(USER_AGENTS)]
+    return session
+
+
+def _get_with_retry(session, url, max_attempts=4):
+    delay = 1.5
+    last_exc = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            resp = session.get(url, timeout=30)
+            if resp.status_code in (429, 503):
+                raise requests.HTTPError(f"{resp.status_code} for url: {url}", response=resp)
+            resp.raise_for_status()
+            return resp
+        except Exception as exc:
+            last_exc = exc
+            if attempt == max_attempts:
+                break
+            time.sleep(delay)
+            delay *= 2
+    raise last_exc
+
+
+def amazon_search(query, session):
     url = f"https://www.amazon.com/s?k={quote_plus(query)}"
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
+    resp = _get_with_retry(session, url)
     return resp.text
 
 
@@ -125,9 +152,8 @@ def pick_best_result(html, query):
     }
 
 
-def fetch_product_page(url):
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
+def fetch_product_page(url, session):
+    resp = _get_with_retry(session, url)
     return resp.text
 
 
@@ -241,12 +267,11 @@ def add_affiliate_tag(url):
     return urlunparse(parsed._replace(query=query))
 
 
-def download_image(image_url, filename_base):
+def download_image(image_url, filename_base, session):
     if not image_url:
         return None
     os.makedirs(AFFILIATE_IMAGES_DIR, exist_ok=True)
-    resp = requests.get(image_url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
+    resp = _get_with_retry(session, image_url)
     ext = "webp"
     out_path = os.path.join(AFFILIATE_IMAGES_DIR, f"{filename_base}.{ext}")
 
@@ -272,24 +297,30 @@ def generate_affiliate_product_for_post(post_path, title, focus_kw, permalink, c
         print(f"ℹ️ Affiliate data already exists for {slug}, skipping")
         return None
 
+    session = _session_with_headers()
+    try:
+        _get_with_retry(session, "https://www.amazon.com/")
+    except Exception:
+        pass
+
     query = pick_search_query(title, focus_kw, content)
     print(f"🔎 Amazon search query: {query}")
 
-    search_html = amazon_search(query)
+    search_html = amazon_search(query, session)
     best = pick_best_result(search_html, query)
     if not best:
         print("⚠️ No Amazon results found")
         return None
 
     time.sleep(1.5)
-    product_html = fetch_product_page(best["url"])
+    product_html = fetch_product_page(best["url"], session)
     product_data = extract_product_data(product_html)
 
     product_title = product_data.get("title") or best["title"]
     short_name = shorten_product_name(product_title) or product_title
 
     filename_base = slugify(short_name)
-    image_path = download_image(product_data.get("image_url"), filename_base)
+    image_path = download_image(product_data.get("image_url"), filename_base, session)
 
     afflink = add_affiliate_tag(best["url"])
 
