@@ -304,13 +304,8 @@ post_class: post-template
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        {% assign aff = site.data.affiliate_products[page.slug] %}
-        {% if aff %}
+        {% if page.afflink %}
         <!-- Affiliate Card -->
-        <h2 class="related-affiliate-product">Check Cristiano Ronaldo Brand Products</h2>
-        {% include affiliate-card.html aff=aff %}
-        {% elsif page.afflink %}
-        <!-- Affiliate Card (legacy front-matter fallback) -->
         <h2 class="related-affiliate-product">Check Cristiano Ronaldo Brand Products</h2>
         {% include affiliate-card.html %}
         {% endif %}

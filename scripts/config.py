@@ -5,8 +5,6 @@ import os
 KEYWORDS_FILE = "keywords.txt"
 POSTS_DIR = "_posts"
 IMAGES_DIR = "assets/images"
-AFFILIATE_IMAGES_DIR = "assets/images/affiliate"
-AFFILIATE_DATA_FILE = "_data/affiliate_products.json"
 
 # Site settings
 SITE_DOMAIN = "https://ur-cristiano-fc.github.io"
@@ -38,4 +36,3 @@ GOOGLE_SEARCH_ENGINE_ID = os.environ.get("GOOGLE_SEARCH_ENGINE_ID")
 # Create directories
 os.makedirs(POSTS_DIR, exist_ok=True)
 os.makedirs(IMAGES_DIR, exist_ok=True)
-os.makedirs(AFFILIATE_IMAGES_DIR, exist_ok=True)

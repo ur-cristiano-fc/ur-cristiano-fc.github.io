@@ -8,7 +8,6 @@ from article_generator import generate_article, generate_description
 from image_generator import generate_image_freepik
 from webpushr_notifier import send_blog_post_notification
 from google_news_fetcher import GoogleNewsFetcher
-from affiliate_product_generator import generate_affiliate_product_for_post
 
 
 def main():
@@ -121,21 +120,6 @@ def main():
             with open(post_path, "w", encoding="utf-8") as f:
                 f.write(article)
             print(f"✅ Post saved: {post_path}")
-
-            # Step 3b: Generate affiliate product data (non-blocking)
-            print(f"\n{'=' * 60}")
-            print("Step 3b: Generating Affiliate Product")
-            print("=" * 60)
-            try:
-                generate_affiliate_product_for_post(
-                    post_path=post_path,
-                    title=title,
-                    focus_kw=focus_kw,
-                    permalink=permalink,
-                    content=article,
-                )
-            except Exception as aff_error:
-                print(f"⚠️ Affiliate product automation failed (non-critical): {aff_error}")
             
             post_url = f"{SITE_DOMAIN}/{permalink}"
             
