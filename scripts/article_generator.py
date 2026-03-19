@@ -149,6 +149,56 @@ specialfeature: "{specialfeature}"
        
     return front_matter
 
+def _tokenize(text):
+    return re.findall(r"[a-z0-9]+", (text or "").lower())
+
+def _fallback_select_product(products, title, focus_kw):
+    """Fallback selection using simple keyword overlap + review count."""
+    stopwords = {
+        "the", "and", "or", "of", "for", "to", "a", "an", "in", "on", "with",
+        "is", "are", "was", "were", "be", "by", "from", "at", "as", "it",
+        "this", "that", "these", "those", "your", "you", "their", "his", "her",
+        "about", "into", "over", "after", "before", "more", "most", "best",
+        "guide", "update", "news", "latest"
+    }
+
+    query_tokens = [t for t in _tokenize(f"{title} {focus_kw}") if t not in stopwords]
+    if not query_tokens:
+        query_tokens = _tokenize(f"{title} {focus_kw}")
+
+    best = None
+    best_score = -1
+
+    for p in products:
+        product_text = " ".join([
+            str(p.get("affname", "")),
+            str(p.get("affdesc", "")),
+            str(p.get("brand", "")),
+            str(p.get("item", "")),
+            str(p.get("specialfeature", "")),
+        ])
+        product_tokens = set(_tokenize(product_text))
+        score = sum(1 for t in query_tokens if t in product_tokens)
+        reviewnum = p.get("reviewnum") or 0
+
+        if score > best_score:
+            best = p
+            best_score = score
+            best_reviewnum = reviewnum
+        elif score == best_score and best is not None:
+            if reviewnum > best_reviewnum:
+                best = p
+                best_reviewnum = reviewnum
+
+    if best_score > 0:
+        print(f"✅ Selected product by keyword match (score={best_score}): {best.get('affname')}")
+        return best
+
+    # No keyword overlap: pick highest review count to avoid empty card
+    best = max(products, key=lambda p: p.get("reviewnum") or 0)
+    print(f"✅ Selected fallback product by reviews: {best.get('affname')}")
+    return best
+
 def select_affiliate_product(title, focus_kw):
     """Select the most relevant affiliate product from _data/affiliateProds.json"""
     try:
@@ -196,11 +246,8 @@ Return ONLY the index number of the best product. If none are relevant, return "
         )
         
         result = response.text.strip().lower()
-        if "none" in result:
-            print("ℹ️ No relevant affiliate product found.")
-            return None
-        
-        # Try to find a numeric index
+
+        # Try to find a numeric index first (model sometimes returns "none" + index)
         match = re.search(r'\d+', result)
         if match:
             idx = int(match.group())
@@ -208,12 +255,23 @@ Return ONLY the index number of the best product. If none are relevant, return "
                 selected = products[idx]
                 print(f"✅ Selected product: {selected.get('affname')}")
                 return selected
-        
-        print("⚠️ Failed to parse product selection index.")
-        return None
+        if "none" in result:
+            print("ℹ️ Model returned 'none' for affiliate product. Using fallback selection.")
+            return _fallback_select_product(products, title, focus_kw)
+
+        print("⚠️ Failed to parse product selection index. Using fallback selection.")
+        return _fallback_select_product(products, title, focus_kw)
 
     except Exception as e:
         print(f"❌ Error selecting affiliate product: {e}")
+        # Final safety fallback
+        try:
+            with open(AFFILIATE_PRODS_PATH, 'r') as f:
+                products = json.load(f)
+            if products:
+                return _fallback_select_product(products, title, focus_kw)
+        except Exception:
+            pass
         return None
 
 def generate_description(title, focus_kw):
