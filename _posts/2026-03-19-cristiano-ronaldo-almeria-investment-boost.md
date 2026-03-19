@@ -5,15 +5,15 @@ description: "Discover how Cristiano Ronaldo Almeria investment sparked a remark
 keywords: "Cristiano Ronaldo Almeria investment"
 author: ishowspeed
 image: assets/images/featured_cristiano-ronaldo-almeria-investment-boost.webp
-afflink: ""
-affimage: ""
-affname: ""
-affdesc: ""
-currentprice: ""
-reviewnum: ""
-brand: ""
-item: ""
-specialfeature: ""
+afflink: "https://amzn.to/4bvIgGB"
+affimage: "assets/images/affiliate/Boy-soccer-jersey-kids-children.webp"
+affname: "Boy's soccer jersey kids children's sportswear youth football uniforms with socks and #7 necklaces"
+affdesc: "The soccer uniforms are made of polyester. Breathable, Sweat-absorbing, Elastic, Durable.Suitable for boys and girls."
+currentprice: "$29.99"
+reviewnum: 506
+brand: "Cristiano Ronaldo"
+item: "100% Polyester"
+specialfeature: "Jersey, Shorts, Socks, necklaces"
 ---
 
 CR7's Golden Touch for Almeria
